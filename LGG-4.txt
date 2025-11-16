@@ -1,0 +1,601 @@
+Microsoft Windows [version 10.0.22000.1574]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Admin>cd nod-pro
+
+C:\Users\Admin\nod-pro>node server.js
+
+🚀 PRECISE HTTPS Proxy server running on https://localhost:3443
+🎮 Game URL: https://localhost:3443/games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+
+🔧 CRITICAL CANVAS FIXES APPLIED:
+✅ Exact Unity file paths matching original site
+✅ Direct WebGL context preservation
+✅ Canvas tainting prevention system
+✅ Cross-origin attribute injection
+✅ Real-time canvas monitoring
+🔀 HTTP redirect server running on http://localhost:3000
+[HTTPS REQUEST] GET /games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+(node:25008) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+🌐 Proxying to planbetbj.com: /games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+✅ Proxied planbetbj.com: /games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1 - Status: 200
+[HTTPS REQUEST] GET /.well-known/appspecific/com.chrome.devtools.json
+🌐 Proxying to planbetbj.com: /.well-known/appspecific/com.chrome.devtools.json
+[HTTPS REQUEST] GET /games-frame/service-api/frontend/cdn-config?whence=55
+🌐 Proxying to planbetbj.com: /games-frame/service-api/frontend/cdn-config?whence=55
+[HTTPS REQUEST] GET /favicon.ico
+🌐 Proxying to planbetbj.com: /favicon.ico
+✅ Proxied planbetbj.com: /.well-known/appspecific/com.chrome.devtools.json - Status: 301
+[HTTPS REQUEST] GET /fr/.well-known/appspecific/com.chrome.devtools.json
+🌐 Proxying to planbetbj.com: /fr/.well-known/appspecific/com.chrome.devtools.json
+✅ Proxied planbetbj.com: /games-frame/service-api/frontend/cdn-config?whence=55 - Status: 200
+✅ Proxied planbetbj.com: /favicon.ico - Status: 302
+[HTTPS REQUEST] GET /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png
+🌐 Proxying to planbetbj.com: /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png
+✅ Proxied planbetbj.com: /fr/.well-known/appspecific/com.chrome.devtools.json - Status: 404
+[HTTPS REQUEST] GET /games-frame/static/main.0d7a0a669fcb.js
+🌐 Proxying to planbetbj.com: /games-frame/static/main.0d7a0a669fcb.js
+✅ Proxied planbetbj.com: /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/main.0d7a0a669fcb.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/626187.626187.36187c9bdf78.css
+🌐 Proxying to planbetbj.com: /games-frame/static/626187.626187.36187c9bdf78.css
+[HTTPS REQUEST] GET /games-frame/static/90301927.90301927.77d96f504ddf.css
+🌐 Proxying to planbetbj.com: /games-frame/static/90301927.90301927.77d96f504ddf.css
+[HTTPS REQUEST] GET /games-frame/static/77424332.77424332.b1cb9f1d782e.css
+🌐 Proxying to planbetbj.com: /games-frame/static/77424332.77424332.b1cb9f1d782e.css
+[HTTPS REQUEST] GET /games-frame/static/56174419.56174419.5fbb356f4d40.css
+🌐 Proxying to planbetbj.com: /games-frame/static/56174419.56174419.5fbb356f4d40.css
+[HTTPS REQUEST] GET /games-frame/static/69513894.69513894.ec60b381161a.css
+🌐 Proxying to planbetbj.com: /games-frame/static/69513894.69513894.ec60b381161a.css
+[HTTPS REQUEST] GET /games-frame/static/63000008.63000008.5c06568dc4f6.css
+🌐 Proxying to planbetbj.com: /games-frame/static/63000008.63000008.5c06568dc4f6.css
+✅ Proxied planbetbj.com: /games-frame/static/90301927.90301927.77d96f504ddf.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/77424332.77424332.b1cb9f1d782e.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/63000008.63000008.5c06568dc4f6.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/56174419.56174419.5fbb356f4d40.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/69513894.69513894.ec60b381161a.css - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.450ac1b7867b.css
+🌐 Proxying to planbetbj.com: /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.450ac1b7867b.css
+[HTTPS REQUEST] GET /games-frame/static/22878246.22878246.4c46a6284d3f.js
+🌐 Proxying to planbetbj.com: /games-frame/static/22878246.22878246.4c46a6284d3f.js
+[HTTPS REQUEST] GET /games-frame/static/13930271.13930271.c9282d663ee3.js
+🌐 Proxying to planbetbj.com: /games-frame/static/13930271.13930271.c9282d663ee3.js
+[HTTPS REQUEST] GET /games-frame/static/5693519.5693519.5f2e6e7cab2e.js
+🌐 Proxying to planbetbj.com: /games-frame/static/5693519.5693519.5f2e6e7cab2e.js
+[HTTPS REQUEST] GET /games-frame/static/46637997.46637997.89a798fc1b19.js
+🌐 Proxying to planbetbj.com: /games-frame/static/46637997.46637997.89a798fc1b19.js
+✅ Proxied planbetbj.com: /games-frame/static/626187.626187.36187c9bdf78.css - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/85383299.85383299.5c40460bc033.js
+🌐 Proxying to planbetbj.com: /games-frame/static/85383299.85383299.5c40460bc033.js
+✅ Proxied planbetbj.com: /games-frame/static/22878246.22878246.4c46a6284d3f.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.450ac1b7867b.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/5693519.5693519.5f2e6e7cab2e.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/46637997.46637997.89a798fc1b19.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/13930271.13930271.c9282d663ee3.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/14687768.14687768.ceeffc82bbe4.js
+🌐 Proxying to planbetbj.com: /games-frame/static/14687768.14687768.ceeffc82bbe4.js
+[HTTPS REQUEST] GET /games-frame/static/25261146.25261146.51dfcceddf87.js
+🌐 Proxying to planbetbj.com: /games-frame/static/25261146.25261146.51dfcceddf87.js
+[HTTPS REQUEST] GET /games-frame/static/13991975.13991975.074067047673.js
+🌐 Proxying to planbetbj.com: /games-frame/static/13991975.13991975.074067047673.js
+[HTTPS REQUEST] GET /games-frame/static/64759318.64759318.de419128370c.js
+🌐 Proxying to planbetbj.com: /games-frame/static/64759318.64759318.de419128370c.js
+✅ Proxied planbetbj.com: /games-frame/static/85383299.85383299.5c40460bc033.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/60873823.60873823.6a3e85e77422.js
+🌐 Proxying to planbetbj.com: /games-frame/static/60873823.60873823.6a3e85e77422.js
+[HTTPS REQUEST] GET /games-frame/static/99712821.99712821.a6b9a6bb2d77.js
+🌐 Proxying to planbetbj.com: /games-frame/static/99712821.99712821.a6b9a6bb2d77.js
+✅ Proxied planbetbj.com: /games-frame/static/25261146.25261146.51dfcceddf87.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/13991975.13991975.074067047673.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/14687768.14687768.ceeffc82bbe4.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/64759318.64759318.de419128370c.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/60873823.60873823.6a3e85e77422.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/41416153.41416153.6dff636b35fc.js
+🌐 Proxying to planbetbj.com: /games-frame/static/41416153.41416153.6dff636b35fc.js
+[HTTPS REQUEST] GET /games-frame/static/2938193.2938193.15e41274e642.js
+🌐 Proxying to planbetbj.com: /games-frame/static/2938193.2938193.15e41274e642.js
+[HTTPS REQUEST] GET /games-frame/static/99117323.99117323.ec99f651791e.js
+🌐 Proxying to planbetbj.com: /games-frame/static/99117323.99117323.ec99f651791e.js
+[HTTPS REQUEST] GET /games-frame/static/40268409.40268409.81df612ca6b6.js
+🌐 Proxying to planbetbj.com: /games-frame/static/40268409.40268409.81df612ca6b6.js
+✅ Proxied planbetbj.com: /games-frame/static/99712821.99712821.a6b9a6bb2d77.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/49983189.49983189.371093068d3a.js
+🌐 Proxying to planbetbj.com: /games-frame/static/49983189.49983189.371093068d3a.js
+[HTTPS REQUEST] GET /games-frame/static/43770292.43770292.431db249db58.js
+🌐 Proxying to planbetbj.com: /games-frame/static/43770292.43770292.431db249db58.js
+✅ Proxied planbetbj.com: /games-frame/static/41416153.41416153.6dff636b35fc.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/2938193.2938193.15e41274e642.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/99117323.99117323.ec99f651791e.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/40268409.40268409.81df612ca6b6.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/85357574.85357574.fc3a6f575ab3.js
+🌐 Proxying to planbetbj.com: /games-frame/static/85357574.85357574.fc3a6f575ab3.js
+[HTTPS REQUEST] GET /games-frame/static/85724943.85724943.37b34ef3fb7a.js
+🌐 Proxying to planbetbj.com: /games-frame/static/85724943.85724943.37b34ef3fb7a.js
+[HTTPS REQUEST] GET /games-frame/static/3594813.3594813.0a5ba55c6b53.js
+🌐 Proxying to planbetbj.com: /games-frame/static/3594813.3594813.0a5ba55c6b53.js
+[HTTPS REQUEST] GET /games-frame/static/86427637.86427637.0291680224a5.js
+🌐 Proxying to planbetbj.com: /games-frame/static/86427637.86427637.0291680224a5.js
+✅ Proxied planbetbj.com: /games-frame/static/43770292.43770292.431db249db58.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/49983189.49983189.371093068d3a.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/34583652.34583652.9b4aced23b99.js
+🌐 Proxying to planbetbj.com: /games-frame/static/34583652.34583652.9b4aced23b99.js
+[HTTPS REQUEST] GET /games-frame/static/20191420.20191420.44f9704e274e.js
+🌐 Proxying to planbetbj.com: /games-frame/static/20191420.20191420.44f9704e274e.js
+✅ Proxied planbetbj.com: /games-frame/static/85357574.85357574.fc3a6f575ab3.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/3594813.3594813.0a5ba55c6b53.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/86427637.86427637.0291680224a5.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/85724943.85724943.37b34ef3fb7a.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/34583652.34583652.9b4aced23b99.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/93955524.93955524.946c596c4d3b.js
+🌐 Proxying to planbetbj.com: /games-frame/static/93955524.93955524.946c596c4d3b.js
+✅ Proxied planbetbj.com: /games-frame/static/20191420.20191420.44f9704e274e.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/6558634.6558634.c34cff3ca9ad.js
+🌐 Proxying to planbetbj.com: /games-frame/static/6558634.6558634.c34cff3ca9ad.js
+[HTTPS REQUEST] GET /games-frame/static/53989946.53989946.dd0567cc0b6b.js
+🌐 Proxying to planbetbj.com: /games-frame/static/53989946.53989946.dd0567cc0b6b.js
+[HTTPS REQUEST] GET /games-frame/static/22857420.22857420.a53ab967909c.js
+🌐 Proxying to planbetbj.com: /games-frame/static/22857420.22857420.a53ab967909c.js
+[HTTPS REQUEST] GET /games-frame/static/40018987.40018987.c1e6152d9249.js
+🌐 Proxying to planbetbj.com: /games-frame/static/40018987.40018987.c1e6152d9249.js
+[HTTPS REQUEST] GET /games-frame/static/79833750.79833750.6104f738b928.js
+🌐 Proxying to planbetbj.com: /games-frame/static/79833750.79833750.6104f738b928.js
+✅ Proxied planbetbj.com: /games-frame/static/93955524.93955524.946c596c4d3b.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/53989946.53989946.dd0567cc0b6b.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/22857420.22857420.a53ab967909c.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/6558634.6558634.c34cff3ca9ad.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/40018987.40018987.c1e6152d9249.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/79833750.79833750.6104f738b928.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/61757761.61757761.a7c2c488a173.js
+🌐 Proxying to planbetbj.com: /games-frame/static/61757761.61757761.a7c2c488a173.js
+[HTTPS REQUEST] GET /games-frame/static/18003459.18003459.9c4ea51dc4fd.js
+🌐 Proxying to planbetbj.com: /games-frame/static/18003459.18003459.9c4ea51dc4fd.js
+[HTTPS REQUEST] GET /games-frame/static/10613201.10613201.6f399e7aa04b.js
+🌐 Proxying to planbetbj.com: /games-frame/static/10613201.10613201.6f399e7aa04b.js
+[HTTPS REQUEST] GET /games-frame/static/80190837.80190837.d1e2f17b1cc6.js
+🌐 Proxying to planbetbj.com: /games-frame/static/80190837.80190837.d1e2f17b1cc6.js
+[HTTPS REQUEST] GET /games-frame/static/76125570.76125570.0861de14452a.js
+🌐 Proxying to planbetbj.com: /games-frame/static/76125570.76125570.0861de14452a.js
+[HTTPS REQUEST] GET /games-frame/static/68012030.68012030.3ba0d7d438a5.js
+🌐 Proxying to planbetbj.com: /games-frame/static/68012030.68012030.3ba0d7d438a5.js
+✅ Proxied planbetbj.com: /games-frame/static/61757761.61757761.a7c2c488a173.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/18003459.18003459.9c4ea51dc4fd.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/10613201.10613201.6f399e7aa04b.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/80190837.80190837.d1e2f17b1cc6.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/19345150.19345150.e2351964a85f.js
+🌐 Proxying to planbetbj.com: /games-frame/static/19345150.19345150.e2351964a85f.js
+✅ Proxied planbetbj.com: /games-frame/static/76125570.76125570.0861de14452a.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/83808813.83808813.7d065f0333d8.js
+🌐 Proxying to planbetbj.com: /games-frame/static/83808813.83808813.7d065f0333d8.js
+✅ Proxied planbetbj.com: /games-frame/static/68012030.68012030.3ba0d7d438a5.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/65164574.65164574.951adaa7756a.js
+🌐 Proxying to planbetbj.com: /games-frame/static/65164574.65164574.951adaa7756a.js
+[HTTPS REQUEST] GET /games-frame/static/98816949.98816949.a0c856a8b0f9.js
+🌐 Proxying to planbetbj.com: /games-frame/static/98816949.98816949.a0c856a8b0f9.js
+[HTTPS REQUEST] GET /games-frame/static/16127496.16127496.fb479b6e15cf.js
+🌐 Proxying to planbetbj.com: /games-frame/static/16127496.16127496.fb479b6e15cf.js
+✅ Proxied planbetbj.com: /games-frame/static/19345150.19345150.e2351964a85f.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/46680541.46680541.c7dfc7147579.js
+🌐 Proxying to planbetbj.com: /games-frame/static/46680541.46680541.c7dfc7147579.js
+✅ Proxied planbetbj.com: /games-frame/static/83808813.83808813.7d065f0333d8.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/65164574.65164574.951adaa7756a.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/98816949.98816949.a0c856a8b0f9.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/47257778.47257778.8d74a4029dcf.js
+🌐 Proxying to planbetbj.com: /games-frame/static/47257778.47257778.8d74a4029dcf.js
+✅ Proxied planbetbj.com: /games-frame/static/16127496.16127496.fb479b6e15cf.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/35877627.35877627.268a23188f46.js
+🌐 Proxying to planbetbj.com: /games-frame/static/35877627.35877627.268a23188f46.js
+[HTTPS REQUEST] GET /games-frame/static/25111092.25111092.424632d774a1.js
+🌐 Proxying to planbetbj.com: /games-frame/static/25111092.25111092.424632d774a1.js
+[HTTPS REQUEST] GET /games-frame/static/38306811.38306811.97b267d8aef5.js
+🌐 Proxying to planbetbj.com: /games-frame/static/38306811.38306811.97b267d8aef5.js
+✅ Proxied planbetbj.com: /games-frame/static/46680541.46680541.c7dfc7147579.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/49793499.49793499.f1a53a606192.js
+🌐 Proxying to planbetbj.com: /games-frame/static/49793499.49793499.f1a53a606192.js
+[HTTPS REQUEST] GET /games-frame/static/54352046.54352046.07f7dbd5b8ed.js
+🌐 Proxying to planbetbj.com: /games-frame/static/54352046.54352046.07f7dbd5b8ed.js
+✅ Proxied planbetbj.com: /games-frame/static/47257778.47257778.8d74a4029dcf.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/35877627.35877627.268a23188f46.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/38306811.38306811.97b267d8aef5.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/25111092.25111092.424632d774a1.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/49793499.49793499.f1a53a606192.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/8837242.8837242.9c89dc4eb817.js
+🌐 Proxying to planbetbj.com: /games-frame/static/8837242.8837242.9c89dc4eb817.js
+[HTTPS REQUEST] GET /games-frame/static/28846249.28846249.940d3c968991.js
+🌐 Proxying to planbetbj.com: /games-frame/static/28846249.28846249.940d3c968991.js
+[HTTPS REQUEST] GET /games-frame/static/26670778.26670778.7f0b89e3b1f6.js
+🌐 Proxying to planbetbj.com: /games-frame/static/26670778.26670778.7f0b89e3b1f6.js
+[HTTPS REQUEST] GET /games-frame/static/99653244.99653244.fb1fbb75d9e0.js
+🌐 Proxying to planbetbj.com: /games-frame/static/99653244.99653244.fb1fbb75d9e0.js
+✅ Proxied planbetbj.com: /games-frame/static/54352046.54352046.07f7dbd5b8ed.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/56446861.56446861.a8cde0797458.js
+🌐 Proxying to planbetbj.com: /games-frame/static/56446861.56446861.a8cde0797458.js
+[HTTPS REQUEST] GET /games-frame/static/91686671.91686671.a06be6e3fa90.js
+🌐 Proxying to planbetbj.com: /games-frame/static/91686671.91686671.a06be6e3fa90.js
+✅ Proxied planbetbj.com: /games-frame/static/8837242.8837242.9c89dc4eb817.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/26670778.26670778.7f0b89e3b1f6.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/28846249.28846249.940d3c968991.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/99653244.99653244.fb1fbb75d9e0.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/56446861.56446861.a8cde0797458.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/626187.626187.0f6b73ab3740.js
+🌐 Proxying to planbetbj.com: /games-frame/static/626187.626187.0f6b73ab3740.js
+[HTTPS REQUEST] GET /games-frame/static/56558015.56558015.8cbb5147a4fc.js
+🌐 Proxying to planbetbj.com: /games-frame/static/56558015.56558015.8cbb5147a4fc.js
+[HTTPS REQUEST] GET /games-frame/static/98589310.98589310.d25719992ae0.js
+🌐 Proxying to planbetbj.com: /games-frame/static/98589310.98589310.d25719992ae0.js
+[HTTPS REQUEST] GET /games-frame/static/56174419.56174419.329cc96fe817.js
+🌐 Proxying to planbetbj.com: /games-frame/static/56174419.56174419.329cc96fe817.js
+✅ Proxied planbetbj.com: /games-frame/static/91686671.91686671.a06be6e3fa90.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/97775718.97775718.d8bfe38fee61.js
+🌐 Proxying to planbetbj.com: /games-frame/static/97775718.97775718.d8bfe38fee61.js
+[HTTPS REQUEST] GET /games-frame/static/95258750.95258750.085e947f94b6.js
+🌐 Proxying to planbetbj.com: /games-frame/static/95258750.95258750.085e947f94b6.js
+✅ Proxied planbetbj.com: /games-frame/static/56558015.56558015.8cbb5147a4fc.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/98589310.98589310.d25719992ae0.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/56174419.56174419.329cc96fe817.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/626187.626187.0f6b73ab3740.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/97775718.97775718.d8bfe38fee61.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/6464379.6464379.ed0ad8cb6b28.js
+🌐 Proxying to planbetbj.com: /games-frame/static/6464379.6464379.ed0ad8cb6b28.js
+[HTTPS REQUEST] GET /games-frame/static/12616011.12616011.a85f4351c10c.js
+🌐 Proxying to planbetbj.com: /games-frame/static/12616011.12616011.a85f4351c10c.js
+[HTTPS REQUEST] GET /games-frame/static/77424332.77424332.578a3b5b5c3e.js
+🌐 Proxying to planbetbj.com: /games-frame/static/77424332.77424332.578a3b5b5c3e.js
+✅ Proxied planbetbj.com: /games-frame/static/95258750.95258750.085e947f94b6.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/37967677.37967677.fe8e618c23f4.js
+🌐 Proxying to planbetbj.com: /games-frame/static/37967677.37967677.fe8e618c23f4.js
+[HTTPS REQUEST] GET /games-frame/static/27877217.27877217.f5f69710e3b6.js
+🌐 Proxying to planbetbj.com: /games-frame/static/27877217.27877217.f5f69710e3b6.js
+[HTTPS REQUEST] GET /games-frame/static/66835474.66835474.298c2cd45f76.js
+🌐 Proxying to planbetbj.com: /games-frame/static/66835474.66835474.298c2cd45f76.js
+✅ Proxied planbetbj.com: /games-frame/static/12616011.12616011.a85f4351c10c.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/6464379.6464379.ed0ad8cb6b28.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/77424332.77424332.578a3b5b5c3e.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/37967677.37967677.fe8e618c23f4.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/27877217.27877217.f5f69710e3b6.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/48997207.48997207.f2b353697d6a.js
+🌐 Proxying to planbetbj.com: /games-frame/static/48997207.48997207.f2b353697d6a.js
+[HTTPS REQUEST] GET /games-frame/static/90301927.90301927.251a4024140f.js
+🌐 Proxying to planbetbj.com: /games-frame/static/90301927.90301927.251a4024140f.js
+✅ Proxied planbetbj.com: /games-frame/static/66835474.66835474.298c2cd45f76.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/26776795.26776795.a938f15e7b22.js
+🌐 Proxying to planbetbj.com: /games-frame/static/26776795.26776795.a938f15e7b22.js
+[HTTPS REQUEST] GET /games-frame/static/30498263.30498263.cc50094165ce.js
+🌐 Proxying to planbetbj.com: /games-frame/static/30498263.30498263.cc50094165ce.js
+[HTTPS REQUEST] GET /games-frame/static/12217213.12217213.89107f4cea12.js
+🌐 Proxying to planbetbj.com: /games-frame/static/12217213.12217213.89107f4cea12.js
+[HTTPS REQUEST] GET /games-frame/static/24973154.24973154.a7a6c61202f4.js
+🌐 Proxying to planbetbj.com: /games-frame/static/24973154.24973154.a7a6c61202f4.js
+✅ Proxied planbetbj.com: /games-frame/static/90301927.90301927.251a4024140f.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/48997207.48997207.f2b353697d6a.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/12217213.12217213.89107f4cea12.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/26776795.26776795.a938f15e7b22.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/69513894.69513894.b81fd63b8086.js
+🌐 Proxying to planbetbj.com: /games-frame/static/69513894.69513894.b81fd63b8086.js
+[HTTPS REQUEST] GET /games-frame/static/82418736.82418736.446262d6b61a.js
+🌐 Proxying to planbetbj.com: /games-frame/static/82418736.82418736.446262d6b61a.js
+✅ Proxied planbetbj.com: /games-frame/static/30498263.30498263.cc50094165ce.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/24973154.24973154.a7a6c61202f4.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/26085516.26085516.3f37609df982.js
+🌐 Proxying to planbetbj.com: /games-frame/static/26085516.26085516.3f37609df982.js
+[HTTPS REQUEST] GET /games-frame/static/63000008.63000008.df73a9b87a2c.js
+🌐 Proxying to planbetbj.com: /games-frame/static/63000008.63000008.df73a9b87a2c.js
+[HTTPS REQUEST] GET /games-frame/static/53895257.53895257.878500267003.js
+🌐 Proxying to planbetbj.com: /games-frame/static/53895257.53895257.878500267003.js
+[HTTPS REQUEST] GET /games-frame/static/31307001.31307001.a1dc9fa354f3.js
+🌐 Proxying to planbetbj.com: /games-frame/static/31307001.31307001.a1dc9fa354f3.js
+✅ Proxied planbetbj.com: /games-frame/static/82418736.82418736.446262d6b61a.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/69513894.69513894.b81fd63b8086.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/26085516.26085516.3f37609df982.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/63000008.63000008.df73a9b87a2c.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/96240075.96240075.39f51ded1a16.js
+🌐 Proxying to planbetbj.com: /games-frame/static/96240075.96240075.39f51ded1a16.js
+✅ Proxied planbetbj.com: /games-frame/static/53895257.53895257.878500267003.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/31307001.31307001.a1dc9fa354f3.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/35017703.35017703.599bd783d137.js
+🌐 Proxying to planbetbj.com: /games-frame/static/35017703.35017703.599bd783d137.js
+[HTTPS REQUEST] GET /games-frame/static/61169397.61169397.f480aa3c557d.js
+🌐 Proxying to planbetbj.com: /games-frame/static/61169397.61169397.f480aa3c557d.js
+[HTTPS REQUEST] GET /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.ccdc7b05f23e.js
+🌐 Proxying to planbetbj.com: /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.ccdc7b05f23e.js
+✅ Proxied planbetbj.com: /games-frame/static/96240075.96240075.39f51ded1a16.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/35017703.35017703.599bd783d137.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/61169397.61169397.f480aa3c557d.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.ccdc7b05f23e.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/project?whence=55
+🌐 Proxying to planbetbj.com: /games-frame/project?whence=55
+✅ Proxied planbetbj.com: /games-frame/project?whence=55 - Status: 200
+[HTTPS REQUEST] GET /games-frame/translations/version
+🌐 Proxying to planbetbj.com: /games-frame/translations/version
+[HTTPS REQUEST] GET /games-frame/static/Themes.Planbet-Default-index-ts.6495828.a48f14dbdabd.css
+🌐 Proxying to planbetbj.com: /games-frame/static/Themes.Planbet-Default-index-ts.6495828.a48f14dbdabd.css
+[HTTPS REQUEST] GET /games-frame/service-api/games-preview/GetGamesActions?language=en&whence=55
+🌐 Proxying to planbetbj.com: /games-frame/service-api/games-preview/GetGamesActions?language=en&whence=55
+[HTTPS REQUEST] GET /games-frame/service-api/maintenance-mode
+🌐 Proxying to planbetbj.com: /games-frame/service-api/maintenance-mode
+[HTTPS REQUEST] GET /games-frame/static/sprite.95be757093b7.svg
+🌐 Proxying to planbetbj.com: /games-frame/static/sprite.95be757093b7.svg
+[HTTPS REQUEST] GET /games-frame/static/Themes.Planbet-Default-index-ts.6495828.d45c3a64d7d4.js
+🌐 Proxying to planbetbj.com: /games-frame/static/Themes.Planbet-Default-index-ts.6495828.d45c3a64d7d4.js
+✅ Proxied planbetbj.com: /games-frame/translations/version - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Themes.Planbet-Default-index-ts.6495828.a48f14dbdabd.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Themes.Planbet-Default-index-ts.6495828.d45c3a64d7d4.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/service-api/games-preview/GetGamesActions?language=en&whence=55 - Status: 200
+[HTTPS REQUEST] GET /games-frame/translations/en/bonuses.json
+🌐 Proxying to planbetbj.com: /games-frame/translations/en/bonuses.json
+✅ Proxied planbetbj.com: /games-frame/static/sprite.95be757093b7.svg - Status: 200
+✅ Proxied planbetbj.com: /games-frame/service-api/maintenance-mode - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/Roboto-normal-400.dde3c1b8eb08.woff2
+🌐 Proxying to planbetbj.com: /games-frame/static/Roboto-normal-400.dde3c1b8eb08.woff2
+[HTTPS REQUEST] GET /games-frame/translations/en/common.json
+🌐 Proxying to planbetbj.com: /games-frame/translations/en/common.json
+[HTTPS REQUEST] GET /games-frame/translations/en/rulesCommon.json
+🌐 Proxying to planbetbj.com: /games-frame/translations/en/rulesCommon.json
+[HTTPS REQUEST] GET /games-frame/translations/en/offers.json
+🌐 Proxying to planbetbj.com: /games-frame/translations/en/offers.json
+✅ Proxied planbetbj.com: /games-frame/translations/en/bonuses.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/translations/en/rulesCommon.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/translations/en/common.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/translations/en/offers.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Roboto-normal-400.dde3c1b8eb08.woff2 - Status: 200
+[HTTPS REQUEST] GET /games-frame/service-api/games-feed/authorization/MinMax/ByCurrency?language=en&whence=55&CI=27&GI=62&ref=387
+🌐 Proxying to planbetbj.com: /games-frame/service-api/games-feed/authorization/MinMax/ByCurrency?language=en&whence=55&CI=27&GI=62&ref=387
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/remoteEntry.js?v=ba413413e298297b
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/remoteEntry.js?v=ba413413e298297b
+[HTTPS REQUEST] GET /games-frame/static/ui-components-assets0.23203172.ee23ed4fbdcf.js
+🌐 Proxying to planbetbj.com: /games-frame/static/ui-components-assets0.23203172.ee23ed4fbdcf.js
+✅ Proxied planbetbj.com: /games-frame/static/ui-components-assets0.23203172.ee23ed4fbdcf.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/service-api/games-feed/authorization/MinMax/ByCurrency?language=en&whence=55&CI=27&GI=62&ref=387 - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/remoteEntry.js?v=ba413413e298297b - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/84017483.84017483.a8743eba4c79.css
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/84017483.84017483.a8743eba4c79.css
+[HTTPS REQUEST] GET /games-frame/service-api/games-preview/GetStartGameInfo?language=en&whence=55&gameId=62
+🌐 Proxying to planbetbj.com: /games-frame/service-api/games-preview/GetStartGameInfo?language=en&whence=55&gameId=62
+[HTTPS REQUEST] GET /games-frame/static/icons-sprite.63f518a2e03b.svg
+🌐 Proxying to planbetbj.com: /games-frame/static/icons-sprite.63f518a2e03b.svg
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/38757413.38757413.7628bc69939e.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/38757413.38757413.7628bc69939e.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/63390544.63390544.f58f4d6a8a15.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/63390544.63390544.f58f4d6a8a15.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/25133570.25133570.e4a7c6ba7519.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/25133570.25133570.e4a7c6ba7519.js
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/84017483.84017483.a8743eba4c79.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/service-api/games-preview/GetStartGameInfo?language=en&whence=55&gameId=62 - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/icons-sprite.63f518a2e03b.svg - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/63390544.63390544.f58f4d6a8a15.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/38757413.38757413.7628bc69939e.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/25133570.25133570.e4a7c6ba7519.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/64073094.64073094.dbb29290d780.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/64073094.64073094.dbb29290d780.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/76396570.76396570.8d0f8db10fa5.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/76396570.76396570.8d0f8db10fa5.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/12767160.12767160.52a09b410d97.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/12767160.12767160.52a09b410d97.js
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/64073094.64073094.dbb29290d780.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/12767160.12767160.52a09b410d97.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/76396570.76396570.8d0f8db10fa5.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/67425324.67425324.1dfc2de07307.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/67425324.67425324.1dfc2de07307.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/63925496.63925496.b05e9dbac0a1.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/63925496.63925496.b05e9dbac0a1.js
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/67425324.67425324.1dfc2de07307.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/63925496.63925496.b05e9dbac0a1.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/42561440.42561440.44180dd6c08e.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/42561440.42561440.44180dd6c08e.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/84017483.84017483.0bf5bc10fd4d.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/84017483.84017483.0bf5bc10fd4d.js
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/42561440.42561440.44180dd6c08e.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/84017483.84017483.0bf5bc10fd4d.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/switch.11e203988673.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/switch.11e203988673.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/switch.11e203988673.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/jackpot.Desktop.66501589.46e018937a5d.css
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot.Desktop.66501589.46e018937a5d.css
+[HTTPS REQUEST] GET /games-frame/static/bonuses.desktop.99082190.7a50ff6ec65f.css
+🌐 Proxying to planbetbj.com: /games-frame/static/bonuses.desktop.99082190.7a50ff6ec65f.css
+[HTTPS REQUEST] GET /games-frame/static/breadcrumbs.67847015.636cf85007b8.css
+🌐 Proxying to planbetbj.com: /games-frame/static/breadcrumbs.67847015.636cf85007b8.css
+[HTTPS REQUEST] GET /games-frame/translations/en/thimbles.json
+🌐 Proxying to planbetbj.com: /games-frame/translations/en/thimbles.json
+[HTTPS REQUEST] GET /games-frame/static/jackpot.Desktop.66501589.80c50f6baafc.js
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot.Desktop.66501589.80c50f6baafc.js
+[HTTPS REQUEST] GET /games-frame/static/20770255.20770255.fd425c579635.js
+🌐 Proxying to planbetbj.com: /games-frame/static/20770255.20770255.fd425c579635.js
+✅ Proxied planbetbj.com: /games-frame/static/jackpot.Desktop.66501589.46e018937a5d.css - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/bonuses.desktop.99082190.88ace9cc7370.js
+🌐 Proxying to planbetbj.com: /games-frame/static/bonuses.desktop.99082190.88ace9cc7370.js
+✅ Proxied planbetbj.com: /games-frame/static/breadcrumbs.67847015.636cf85007b8.css - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot.Desktop.66501589.80c50f6baafc.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/translations/en/thimbles.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/20770255.20770255.fd425c579635.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/bonuses.desktop.99082190.7a50ff6ec65f.css - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+🌐 Proxying to planbetbj.com: /games-frame/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+[HTTPS REQUEST] GET /games-frame/static/Montserrat-normal-400.04369fb900cf.woff2
+🌐 Proxying to planbetbj.com: /games-frame/static/Montserrat-normal-400.04369fb900cf.woff2
+[HTTPS REQUEST] GET /games-frame/translations/en/jackpot.json
+🌐 Proxying to planbetbj.com: /games-frame/translations/en/jackpot.json
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-bet-sprite.fd2413067048.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-bet-sprite.fd2413067048.png
+[HTTPS REQUEST] GET /games-frame/service-api/games-thimbles/GetCoeffs?language=en&whence=55
+🌐 Proxying to planbetbj.com: /games-frame/service-api/games-thimbles/GetCoeffs?language=en&whence=55
+✅ Proxied planbetbj.com: /games-frame/static/bonuses.desktop.99082190.88ace9cc7370.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/breadcrumbs.67847015.c532f6b834e0.js
+🌐 Proxying to planbetbj.com: /games-frame/static/breadcrumbs.67847015.c532f6b834e0.js
+✅ Proxied planbetbj.com: /games-frame/translations/en/jackpot.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/service-api/games-thimbles/GetCoeffs?language=en&whence=55 - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-bet-sprite.fd2413067048.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Montserrat-normal-400.04369fb900cf.woff2 - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2 - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/Montserrat-normal-700.a3a7227c9456.woff2
+🌐 Proxying to planbetbj.com: /games-frame/static/Montserrat-normal-700.a3a7227c9456.woff2
+[HTTPS REQUEST] GET /games-frame/static/jackpot-body-glare.d38fa855d38c.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-body-glare.d38fa855d38c.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-body-scoreboard.58338ef435b5.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-body-scoreboard.58338ef435b5.png
+✅ Proxied planbetbj.com: /games-frame/static/breadcrumbs.67847015.c532f6b834e0.js - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/jackpot-body-sprite-numbers.61f5db0127f1.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-body-sprite-numbers.61f5db0127f1.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-coin.af42cd4ee3d0.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-coin.af42cd4ee3d0.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-footer-currency-bg.32f03c69ab51.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-footer-currency-bg.32f03c69ab51.png
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-body-glare.d38fa855d38c.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-body-scoreboard.58338ef435b5.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Montserrat-normal-700.a3a7227c9456.woff2 - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/jackpot-header-bg.1b89dcf9335b.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-header-bg.1b89dcf9335b.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-header-sprite-flashlights.4083a7540f11.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-header-sprite-flashlights.4083a7540f11.png
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-body-sprite-numbers.61f5db0127f1.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-coin.af42cd4ee3d0.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-footer-currency-bg.32f03c69ab51.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/jackpot-header-sprite-glares.e7aec5574b84.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-header-sprite-glares.e7aec5574b84.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-rules-bg.d72817b7f5d9.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-rules-bg.d72817b7f5d9.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-rules-glare-right.b354668a63a7.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-rules-glare-right.b354668a63a7.png
+[HTTPS REQUEST] GET /games-frame/static/jackpot-rules-glare-top.1ea1d6ca3c25.png
+🌐 Proxying to planbetbj.com: /games-frame/static/jackpot-rules-glare-top.1ea1d6ca3c25.png
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-header-bg.1b89dcf9335b.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-header-sprite-flashlights.4083a7540f11.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-ui-wrap.27241acbd4f5.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-ui-wrap.27241acbd4f5.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-ui-sprite.2fbbc250c58e.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-ui-sprite.2fbbc250c58e.png
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-header-sprite-glares.e7aec5574b84.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-rules-glare-right.b354668a63a7.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-rules-glare-top.1ea1d6ca3c25.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/jackpot-rules-bg.d72817b7f5d9.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-second-sprite.387222dc573f.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-second-sprite.387222dc573f.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-play-sprite.3153eaaeb5f4.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-play-sprite.3153eaaeb5f4.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-play-wrap.3513b15c8aab.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-play-wrap.3513b15c8aab.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-ui-wrap.27241acbd4f5.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-ui-sprite.2fbbc250c58e.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/Roboto-normal-700.095ae76c9e18.woff2
+🌐 Proxying to planbetbj.com: /games-frame/static/Roboto-normal-700.095ae76c9e18.woff2
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/ThimblesCommonManifest.60389435.2443f90300bc.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/ThimblesCommonManifest.60389435.2443f90300bc.js
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/ThimblesDesktopManifest.26376474.d245bf2d296c.js
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/ThimblesDesktopManifest.26376474.d245bf2d296c.js
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-second-sprite.387222dc573f.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-play-sprite.3153eaaeb5f4.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-play-wrap.3513b15c8aab.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/bonuses-icons.e8e7fca8a317.svg
+🌐 Proxying to planbetbj.com: /games-frame/static/bonuses-icons.e8e7fca8a317.svg
+[HTTPS REQUEST] GET /games-frame/static/emptyBonusesStars.fa2c119b5b5f.png
+🌐 Proxying to planbetbj.com: /games-frame/static/emptyBonusesStars.fa2c119b5b5f.png
+[HTTPS REQUEST] GET /games-frame/static/icoFreeSpin.1e4c886481fa.png
+🌐 Proxying to planbetbj.com: /games-frame/static/icoFreeSpin.1e4c886481fa.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/ThimblesCommonManifest.60389435.2443f90300bc.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/ThimblesDesktopManifest.26376474.d245bf2d296c.js - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/Roboto-normal-700.095ae76c9e18.woff2 - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+✅ Proxied planbetbj.com: /games-frame/static/bonuses-icons.e8e7fca8a317.svg - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+✅ Proxied planbetbj.com: /games-frame/static/emptyBonusesStars.fa2c119b5b5f.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/icoFreeSpin.1e4c886481fa.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/luckyWheelActivityImg.aec6bcecdce8.png
+🌐 Proxying to planbetbj.com: /games-frame/static/luckyWheelActivityImg.aec6bcecdce8.png
+[HTTPS REQUEST] GET /games-frame/static/sidebarModalGiftGreen.71b7090a20dd.png
+🌐 Proxying to planbetbj.com: /games-frame/static/sidebarModalGiftGreen.71b7090a20dd.png
+[HTTPS REQUEST] GET /games-frame/static/sidebarModalGiftRed.cd62b26189cc.png
+🌐 Proxying to planbetbj.com: /games-frame/static/sidebarModalGiftRed.cd62b26189cc.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/btn-choice-sprite.76b500c1956c.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/btn-choice-sprite.76b500c1956c.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/common.manifest.6fc7d90bc807.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/luckyWheelActivityImg.aec6bcecdce8.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/desktop.scene.e3cce6dd654a.json
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/desktop.scene.e3cce6dd654a.json
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+✅ Proxied planbetbj.com: /games-frame/static/sidebarModalGiftGreen.71b7090a20dd.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/static/sidebarModalGiftRed.cd62b26189cc.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/btn-choice-sprite.76b500c1956c.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/[name]-0.a266ef635e4e.json
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/[name]-0.a266ef635e4e.json
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/background.fbddba313eee.skel
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/background.fbddba313eee.skel
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/info.91a1d4b91d47.skel
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/info.91a1d4b91d47.skel
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/desktop.scene.e3cce6dd654a.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/[name]-0.a266ef635e4e.json - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/light.39aac51cb980.skel
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/light.39aac51cb980.skel
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/info.91a1d4b91d47.skel - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/background.fbddba313eee.skel - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/thimbles.09788070dbcf.skel
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/thimbles.09788070dbcf.skel
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/background_viewport.0c40c2a8de66.jpg
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/background_viewport.0c40c2a8de66.jpg
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/blur.021940547f59.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/blur.021940547f59.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/light.39aac51cb980.skel - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/popup.d7ca3cb5013a.skel - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/thimbles.09788070dbcf.skel - Status: 200
+[HTTPS REQUEST] GET /games-frame/static/icons-sprite.63f518a2e03b.svg
+🌐 Proxying to planbetbj.com: /games-frame/static/icons-sprite.63f518a2e03b.svg
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/info@1x.77a25c67c281.atlas
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/info@1x.77a25c67c281.atlas
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/[name]-0.28fc5f880dba.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/[name]-0.28fc5f880dba.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/background_viewport.0c40c2a8de66.jpg - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/blur.021940547f59.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/background@1x.bc665481762d.atlas
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/background@1x.bc665481762d.atlas
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/light@1x.00782da15807.atlas
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/light@1x.00782da15807.atlas
+✅ Proxied planbetbj.com: /games-frame/static/icons-sprite.63f518a2e03b.svg - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/popup@1x.a3fbeaea7d75.atlas
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/popup@1x.a3fbeaea7d75.atlas
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/info@1x.77a25c67c281.atlas - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/[name]-0.28fc5f880dba.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/background@1x.bc665481762d.atlas - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/thimbles@1x.997e4c4e44c3.atlas
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/thimbles@1x.997e4c4e44c3.atlas
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/animation_vfx01-0.e167dbb26880.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/animation_vfx01-0.e167dbb26880.png
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/info@1x.6f5628d3be7f.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/info@1x.6f5628d3be7f.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/light@1x.00782da15807.atlas - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/background@1x.a165bd1d7c97.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/background@1x.a165bd1d7c97.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/popup@1x.a3fbeaea7d75.atlas - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/thimbles@1x.997e4c4e44c3.atlas - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/info@1x.6f5628d3be7f.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/animation_vfx01-0.e167dbb26880.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/thimbles@1x.c45e078fb143.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/thimbles@1x.c45e078fb143.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/background@1x.a165bd1d7c97.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/popup@1x.d74efed8a036.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/popup@1x.d74efed8a036.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/thimbles@1x.c45e078fb143.png - Status: 200
+[HTTPS REQUEST] GET /games-frame/mfs/game-thimbles/light@1x.d49180f00842.png
+🌐 Proxying to planbetbj.com: /games-frame/mfs/game-thimbles/light@1x.d49180f00842.png
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/popup@1x.d74efed8a036.png - Status: 200
+✅ Proxied planbetbj.com: /games-frame/mfs/game-thimbles/light@1x.d49180f00842.png - Status: 200
+[HTTPS REQUEST] POST /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+🌐 Proxying to planbetbj.com: /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+✅ Proxied planbetbj.com: /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - Status: 200
