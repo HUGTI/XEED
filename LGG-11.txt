@@ -1,0 +1,680 @@
+Microsoft Windows [version 10.0.22000.1574]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Admin>cd nod-pro
+
+C:\Users\Admin\nod-pro>node canvas-forensics.js
+[HPM] Proxy created: /  -> https://planbetbj.com
+
+🔬 FORENSIC ANALYSIS SERVER RUNNING
+📊 Diagnostic URL: https://localhost:3443/canvas-forensics
+🔍 Comparison Test: https://localhost:3443/comparison-test
+🎮 Game URL: https://localhost:3443/games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+
+🎯 DIAGNOSTIC INSTRUCTIONS:
+1. Open: https://localhost:3443/canvas-forensics
+2. Copy ALL results from browser console
+3. Compare with: https://localhost:3443/comparison-test
+4. Share the detailed forensic results
+🔀 HTTP redirect: http://localhost:3000
+
+🔍 [2025-11-19T20:04:26.999Z] REQUEST ANALYSIS:
+   URL: /.well-known/appspecific/com.chrome.devtools.json
+   Method: GET
+   Referer:
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "no-cors",
+  "sec-fetch-dest": "empty",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "fr-FR,fr;q=0.9"
+}
+(node:23700) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+🌐 Proxying: /.well-known/appspecific/com.chrome.devtools.json
+
+🔍 [2025-11-19T20:04:27.115Z] REQUEST ANALYSIS:
+   URL: /favicon.ico
+   Method: GET
+   Referer: https://localhost:3443/canvas-forensics
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "no-cors",
+  "sec-fetch-dest": "image",
+  "referer": "https://localhost:3443/canvas-forensics",
+  "accept-encoding": "gzip, deflate, br, zstd"
+}
+🌐 Proxying: /favicon.ico
+✅ Response: /favicon.ico - Status: 302
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:04:34 GMT",
+  "content-type": "text/plain; charset=utf-8",
+  "content-length": "101",
+  "connection": "close",
+  "location": "/genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png",
+  "server-timing": "dt_total;dur=0.014, total;dur=3;desc=\"Nuxt Server Time\", wf-uht;dur=0.007",
+  "set-cookie": [
+    "platform_type=desktop; Path=/; Expires=Sat, 22 Nov 2025 20:04:34 GMT; Secure; SameSite=None; Partitioned",
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly",
+    "auid=sv0O5mkeItKJLw5gAx6aAg==; path=/; secure; httponly; samesite=lax"
+  ],
+  "vary": "Accept",
+  "x-dt": "1329",
+  "x-frame-options": "SAMEORIGIN",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:04:34.631Z] REQUEST ANALYSIS:
+   URL: /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png
+   Method: GET
+   Referer: https://localhost:3443/canvas-forensics
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "no-cors",
+  "sec-fetch-dest": "image",
+  "referer": "https://localhost:3443/canvas-forensics",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKJLw5gAx6aAg=="
+}
+🌐 Proxying: /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png
+✅ Response: /.well-known/appspecific/com.chrome.devtools.json - Status: 301
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:04:34 GMT",
+  "transfer-encoding": "chunked",
+  "connection": "close",
+  "location": "/fr/.well-known/appspecific/com.chrome.devtools.json",
+  "reason-v3": "empty_lang",
+  "server-timing": "dt_total;dur=0.012, total;dur=117;desc=\"Nuxt Server Time\", wf-uht;dur=0.120",
+  "set-cookie": [
+    "platform_type=desktop; Path=/; Expires=Sat, 22 Nov 2025 20:04:34 GMT; Secure; SameSite=None; Partitioned",
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly",
+    "auid=sv0O5mkeItKjPw4zAx21Ag==; path=/; secure; httponly; samesite=lax"
+  ],
+  "x-dt": "1329",
+  "x-frame-options": "SAMEORIGIN",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:04:34.849Z] REQUEST ANALYSIS:
+   URL: /fr/.well-known/appspecific/com.chrome.devtools.json
+   Method: GET
+   Referer:
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "no-cors",
+  "sec-fetch-dest": "empty",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "fr-FR,fr;q=0.9",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag=="
+}
+🌐 Proxying: /fr/.well-known/appspecific/com.chrome.devtools.json
+✅ Response: /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:04:35 GMT",
+  "content-type": "image/png",
+  "content-length": "3050",
+  "connection": "close",
+  "last-modified": "Tue, 20 Aug 2024 11:18:17 GMT",
+  "etag": "\"690392c03571a3c3c704e351b6262ca7\"",
+  "expires": "Wed, 19 Nov 2025 21:04:35 GMT",
+  "cache-control": "max-age=3600",
+  "x-time-ng": "0.000",
+  "accept-ranges": "bytes",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+  "server-timing": "wf-uht;dur=0.001"
+}
+✅ Response: /fr/.well-known/appspecific/com.chrome.devtools.json - Status: 404
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:04:35 GMT",
+  "content-type": "application/json",
+  "content-length": "2",
+  "connection": "close",
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "expires": "0",
+  "pragma": "no-cache",
+  "server-timing": "dt_total;dur=0.007, total;dur=6;desc=\"Nuxt Server Time\"",
+  "set-cookie": [
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly"
+  ],
+  "x-dt": "1329",
+  "x-frame-options": "SAMEORIGIN",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:05:30.240Z] REQUEST ANALYSIS:
+   URL: /comparison-test
+   Method: GET
+   Referer:
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "none",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-user": "?1",
+  "sec-fetch-dest": "document",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag=="
+}
+🌐 Proxying: /comparison-test
+✅ Response: /comparison-test - Status: 301
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:32 GMT",
+  "transfer-encoding": "chunked",
+  "connection": "close",
+  "location": "/fr/comparison-test",
+  "reason-v3": "empty_lang",
+  "server-timing": "dt_total;dur=0.004, total;dur=2;desc=\"Nuxt Server Time\", wf-uht;dur=0.005",
+  "set-cookie": [
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly"
+  ],
+  "x-dt": "1329",
+  "x-frame-options": "SAMEORIGIN",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:05:33.246Z] REQUEST ANALYSIS:
+   URL: /fr/comparison-test
+   Method: GET
+   Referer:
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "none",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-user": "?1",
+  "sec-fetch-dest": "document",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag=="
+}
+🌐 Proxying: /fr/comparison-test
+✅ Response: /fr/comparison-test - Status: 404
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:34 GMT",
+  "content-type": "text/html; charset=utf-8",
+  "transfer-encoding": "chunked",
+  "connection": "close",
+  "vary": "Accept-Encoding",
+  "server-timing": "dt_total;dur=0.003, total;dur=532;desc=\"Nuxt Server Time\"",
+  "set-cookie": [
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly",
+    "lng=fr; Path=/",
+    "cookies_agree_type=3; Path=/",
+    "tzo=1; Path=/",
+    "is12h=0; Path=/"
+  ],
+  "x-dt": "1329",
+  "x-frame-options": "SAMEORIGIN",
+  "content-encoding": "br",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:05:35.983Z] REQUEST ANALYSIS:
+   URL: /main-static/5c89911e/check-ob.js
+   Method: GET
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "*/*",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "no-cors",
+  "sec-fetch-dest": "script",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0"
+}
+🌐 Proxying: /main-static/5c89911e/check-ob.js
+✅ Response: /main-static/5c89911e/check-ob.js - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:36 GMT",
+  "content-type": "text/javascript; charset=utf-8",
+  "content-length": "219",
+  "connection": "close",
+  "last-modified": "Wed, 19 Nov 2025 07:37:34 GMT",
+  "etag": "\"c065700c9c8c493403359e1f2baa10d9\"",
+  "x-amz-meta-mtime": "1763537854.36533121",
+  "expires": "Thu, 20 Nov 2025 20:05:36 GMT",
+  "cache-control": "max-age=86400",
+  "x-time-ng": "0.000",
+  "accept-ranges": "bytes",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+  "server-timing": "wf-uht;dur=0.050"
+}
+
+🔍 [2025-11-19T20:05:45.732Z] REQUEST ANALYSIS:
+   URL: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/ab.json
+   Method: POST
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin: https://localhost:3443
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "content-length": "19",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "x-lang": "fr",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "content-type": "application/json",
+  "x-uuid": "bfdd090d-eac3-4cbb-a256-98678e379baf",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "*/*",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "origin": "https://localhost:3443",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0"
+}
+🌐 Proxying: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/ab.json
+
+🔍 [2025-11-19T20:05:45.745Z] REQUEST ANALYSIS:
+   URL: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/metadata.json
+   Method: GET
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "x-lang": "fr",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "content-type": "application/json",
+  "x-uuid": "bfdd090d-eac3-4cbb-a256-98678e379baf",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "*/*",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0"
+}
+🌐 Proxying: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/metadata.json
+
+🔍 [2025-11-19T20:05:45.765Z] REQUEST ANALYSIS:
+   URL: /pwa-sw.js
+   Method: GET
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "accept": "*/*",
+  "service-worker": "script",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "same-origin",
+  "sec-fetch-dest": "serviceworker",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0"
+}
+🌐 Proxying: /pwa-sw.js
+✅ Response: /pwa-sw.js - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:48 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "content-length": "673",
+  "connection": "close",
+  "accept-ranges": "bytes",
+  "cache-control": "public, max-age=0",
+  "etag": "W/\"2a1-19a9af72318\"",
+  "last-modified": "Wed, 19 Nov 2025 07:14:39 GMT",
+  "server-timing": "dt_total;dur=0.003, total;dur=0;desc=\"Nuxt Server Time\", wf-uht;dur=0.004",
+  "set-cookie": [
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly"
+  ],
+  "x-dt": "1329",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+✅ Response: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/ab.json - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:48 GMT",
+  "content-type": "application/json",
+  "content-length": "2",
+  "connection": "close",
+  "server-timing": "dt_total;dur=0.137, wf-uht;dur=0.003",
+  "x-dt": "1329",
+  "x-time-ng": "0.000",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:05:48.503Z] REQUEST ANALYSIS:
+   URL: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+   Method: POST
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin: https://localhost:3443
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "content-length": "47",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "x-lang": "fr",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "content-type": "application/json",
+  "x-uuid": "bfdd090d-eac3-4cbb-a256-98678e379baf",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "*/*",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "origin": "https://localhost:3443",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0"
+}
+🌐 Proxying: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+
+🔍 [2025-11-19T20:05:48.518Z] REQUEST ANALYSIS:
+   URL: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+   Method: POST
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin: https://localhost:3443
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "content-length": "97",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "x-lang": "fr",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "content-type": "application/json",
+  "x-uuid": "bfdd090d-eac3-4cbb-a256-98678e379baf",
+  "sec-ch-ua-mobile": "?0",
+  "accept": "*/*",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "origin": "https://localhost:3443",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0"
+}
+🌐 Proxying: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+
+🔍 [2025-11-19T20:05:49.913Z] REQUEST ANALYSIS:
+   URL: /domain/domain-sw.js
+   Method: GET
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "accept": "*/*",
+  "service-worker": "script",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "same-origin",
+  "sec-fetch-dest": "serviceworker",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0; window_width=1920"
+}
+🌐 Proxying: /domain/domain-sw.js
+
+🔍 [2025-11-19T20:05:49.937Z] REQUEST ANALYSIS:
+   URL: /seo-module-api/api/public/v1/analytics-counters?project[id]=1329&domain[host]=localhost
+   Method: GET
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin:
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-requested-with": "XMLHttpRequest",
+  "x-app-n": "v3-nuxt2",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept": "application/json, text/plain, */*",
+  "content-type": "application/json",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0; window_width=1920"
+}
+🌐 Proxying: /seo-module-api/api/public/v1/analytics-counters?project[id]=1329&domain[host]=localhost
+
+🔍 [2025-11-19T20:05:49.971Z] REQUEST ANALYSIS:
+   URL: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+   Method: POST
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin: https://localhost:3443
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "content-length": "90",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-lang": "fr",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept": "*/*",
+  "content-type": "application/json",
+  "x-uuid": "bfdd090d-eac3-4cbb-a256-98678e379baf",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "origin": "https://localhost:3443",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0; window_width=1063"
+}
+🌐 Proxying: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+✅ Response: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/metadata.json - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:51 GMT",
+  "content-type": "application/json",
+  "content-length": "42",
+  "connection": "close",
+  "server-timing": "dt_total;dur=0.086, wf-uht;dur=0.002",
+  "x-dt": "1329",
+  "x-time-ng": "0.000",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+
+🔍 [2025-11-19T20:05:53.065Z] REQUEST ANALYSIS:
+   URL: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+   Method: POST
+   Referer: https://localhost:3443/fr/comparison-test
+   Origin: https://localhost:3443
+   Headers: {
+  "host": "localhost:3443",
+  "connection": "keep-alive",
+  "content-length": "70",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "sec-ch-ua": "\"Chromium\";v=\"142\", \"Brave\";v=\"142\", \"Not_A Brand\";v=\"99\"",
+  "sec-ch-ua-mobile": "?0",
+  "x-lang": "fr",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+  "accept": "*/*",
+  "content-type": "application/json",
+  "x-uuid": "bfdd090d-eac3-4cbb-a256-98678e379baf",
+  "sec-gpc": "1",
+  "accept-language": "fr-FR,fr;q=0.8",
+  "origin": "https://localhost:3443",
+  "sec-fetch-site": "same-origin",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-dest": "empty",
+  "referer": "https://localhost:3443/fr/comparison-test",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "cookie": "platform_type=desktop; gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; auid=sv0O5mkeItKjPw4zAx21Ag==; lng=fr; cookies_agree_type=3; tzo=1; is12h=0; window_width=1063"
+}
+🌐 Proxying: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json
+✅ Response: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:51 GMT",
+  "content-type": "application/json",
+  "content-length": "23",
+  "connection": "close",
+  "server-timing": "dt_total;dur=0.079, wf-uht;dur=0.003",
+  "x-dt": "1329",
+  "x-time-ng": "0.001",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+✅ Response: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:51 GMT",
+  "content-type": "application/json",
+  "content-length": "23",
+  "connection": "close",
+  "server-timing": "dt_total;dur=0.111, wf-uht;dur=0.002",
+  "x-dt": "1329",
+  "x-time-ng": "0.001",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+✅ Response: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:53 GMT",
+  "content-type": "application/json",
+  "content-length": "23",
+  "connection": "close",
+  "server-timing": "dt_total;dur=0.108, wf-uht;dur=0.001",
+  "x-dt": "1329",
+  "x-time-ng": "0.000",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+✅ Response: /domain/domain-sw.js - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:54 GMT",
+  "content-type": "application/javascript; charset=UTF-8",
+  "transfer-encoding": "chunked",
+  "connection": "close",
+  "vary": "Accept-Encoding",
+  "cache-control": "public, max-age=0",
+  "etag": "W/\"8f9-19a9af72318\"",
+  "last-modified": "Wed, 19 Nov 2025 07:14:39 GMT",
+  "server-timing": "dt_total;dur=0.002, total;dur=0;desc=\"Nuxt Server Time\", wf-uht;dur=0.003",
+  "set-cookie": [
+    "gw-mm=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Secure; SameSite=None; Partitioned",
+    "gw-blk=eyJkYXRhIjp7ImlkIjoyMjIxLCJkaXNwbGF5VHlwZUlkIjoyLCJ0ZW1wbGF0ZVR5cGVJZCI6MCwidGVtcGxhdGVJZCI6MH0sImJyZWFkY3J1bWJzIjpbMSwxMiwxNCwxNSw4ODUsMjMyMiwxNiwyNTA5LDQ5NSw4MTIsOTg1LDgxMywxNywxOCwyMTg2LDIzNjgsMjMwMCwyMzc2LDg0NiwyMjY3LDIyOTEsMjMwMywyMzc1LDgxMCw5NDQsMjIxMSwyNDA5LDI0OTUsMjUxOSwxMDkwLDEwOTMsMjE5MSwyNTAwLDEwMDIsMjI0MiwyMzAxLDI0NjEsMjQ2NCwyNDY1LDI0NjIsMjQ2NiwyMjU2LDIyNTEsMjI4NywyNDMyLDI0NzgsMjM0NSw0ODQsMzk1LDIzMjgsMjQwMiwyMzMyLDQ3NCw0NzYsMTAwNiwyMzk0LDI1MTgsMjM2NiwyNTIwLDI0MDMsMjMxMSwyNTE2LDgwOSw5MTIsODA2LDI1MjEsMjUxNSw3ODYsNzY4LDc3NSw3NjcsNzY2LDc1MSwyNDI0LDEwMzksMjMyNywyNDIyLDI0NjgsOTA3LDk4NCwxMTA2LDI0MDgsMjMwNywyMTU1LDIzNzIsMTExOSwyMjk2LDIzNTQsMjM0MCw5NjgsMjIyOSwyMzkyLDI0MzEsMjQxMywyNDM0LDEwOTYsMjM1MSw3NTksMjIyOCwyMjE0LDg0Myw4NDIsMjM1Miw3NTYsNzQ3LDc0OCw1NDgsMjM1MywyNDI1LDI0MjYsMjQ3MywyNDkyLDc4NywyNDQ2LDIxNjMsODM5LDc4MywyNDc3LDUyNSwyNTEzLDI0ODAsMjQzOSwyNDQwLDI1MDcsNTI0LDEwNzUsMjQxNiwxMDc0LDU0OSw5NDMsNTEyLDExMTcsMTEwMSwxMDczLDIzMTAsMjM5NywyNDYzLDI0NTIsMjM3OCwyMzg4LDIzODksMjM5NiwyNDA3LDI0MTAsMjQxMiwyNDE4LDI0MjAsMjQ3NSwyNDI4LDI0MzUsMjQ2NywyNDUxLDI0MjMsMjM2OSwxMDc4LDI0MzcsMTEwMCwyNDM2LDI1MTEsMjQyOSwyNTE0LDEwMTksNTE1LDUyMiw3NjksNDc1LDU0NSw4MTUsODE3LDI0NTYsMjUwMSwyNTA4LDQ3Nyw0OTgsOTQyLDIzMjAsMjI4OSwyMjgwLDEwODYsOTc4LDEwODQsOTg2LDIxOTcsOTkzLDk3Nyw1MzAsMjI0Myw5ODEsOTg3LDIxODIsMjI5NSwyMTU2LDIxNTcsMTA5Miw4MDQsMjIzOSwyMjIxXX0=; Path=/; HttpOnly"
+  ],
+  "x-dt": "1329",
+  "content-encoding": "gzip",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+✅ Response: /seo-module-api/api/public/v1/analytics-counters?project[id]=1329&domain[host]=localhost - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:54 GMT",
+  "content-type": "application/json",
+  "content-length": "47",
+  "connection": "close",
+  "content-encoding": "br",
+  "cache-control": "max-age=1200, must-revalidate, public, s-maxage=1800, stale-if-error=86400, stale-while-revalidate=300",
+  "x-content-digest": "enbe764d901489a2533949e0498974b08d",
+  "age": "0",
+  "x-request-id": "bf38807872debacfb1d602bb671bdb65",
+  "x-request-guid": "bf38807872debacfb1d602bb671bdb65",
+  "server-timing": "p;dur=7.7381134033203, wf-uht;dur=0.010",
+  "x-time-ng": "0.009",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
+✅ Response: /fatman-api/a6f69e4388362d761ee5bb073edb23ae3d9341fb/event.json - Status: 200
+🔧 Response Headers: {
+  "server": "nginx",
+  "date": "Wed, 19 Nov 2025 20:05:54 GMT",
+  "content-type": "application/json",
+  "content-length": "23",
+  "connection": "close",
+  "server-timing": "dt_total;dur=0.009, wf-uht;dur=0.002",
+  "x-dt": "1329",
+  "x-time-ng": "0.000",
+  "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+}
