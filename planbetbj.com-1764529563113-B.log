@@ -1,0 +1,513 @@
+63925496.63925496.b05e9dbac0a1.js:1 PixiJS Deprecation Warning: renderer.plugins.interaction has been deprecated, use renderer.eventsDeprecated since v7.0.0
+63925496.63925496.b05e9dbac0a1.js:1 [Assets] Asset id https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json was not found in the Cache
+value @ 63925496.63925496.b05e9dbac0a1.js:1
+value @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+g @ 76396570.76396570.8d0f8db10fa5.js:1
+a @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+c.value @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+g @ 76396570.76396570.8d0f8db10fa5.js:1
+a @ 76396570.76396570.8d0f8db10fa5.js:1
+Promise.then
+g @ 76396570.76396570.8d0f8db10fa5.js:1
+a @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+c.value @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+F @ 63925496.63925496.b05e9dbac0a1.js:1
+a @ 63925496.63925496.b05e9dbac0a1.js:1
+Promise.then
+F @ 63925496.63925496.b05e9dbac0a1.js:1
+a @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+o @ 63925496.63925496.b05e9dbac0a1.js:1
+z.value @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+initApp @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+dt @ 67826302.67826302.8f8a7a6aa504.js:1
+a @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+mounted @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+Zo.t.__weh.t.__weh @ 13930271.13930271.c9282d663ee3.js:1
+Dn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+V.c.scheduler @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+Ue @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+mountComponents @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+loadResources @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+registerGame @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+beforeMount @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+Zo.t.__weh.t.__weh @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+T @ 13930271.13930271.c9282d663ee3.js:1
+x @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+runIfDirty @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+Us.a.scheduler @ 13930271.13930271.c9282d663ee3.js:1
+d.scheduler @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+notify @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+set value @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+Promise.then
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+n @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+or @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+Zo.t.__weh.t.__weh @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+X @ 13930271.13930271.c9282d663ee3.js:1
+mount @ 13930271.13930271.c9282d663ee3.js:1
+t.mount @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+lr @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+lr @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+lr @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+t @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ main.f91006b3f796.js:1
+Promise.then
+58031907 @ main.f91006b3f796.js:1
+D @ main.f91006b3f796.js:1
+(anonymous) @ main.f91006b3f796.js:1
+(anonymous) @ main.f91006b3f796.js:1
+63925496.63925496.b05e9dbac0a1.js:1 [Assets] Asset id https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json was not found in the Cache
+value @ 63925496.63925496.b05e9dbac0a1.js:1
+value @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+g @ 76396570.76396570.8d0f8db10fa5.js:1
+a @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+c.value @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+g @ 76396570.76396570.8d0f8db10fa5.js:1
+a @ 76396570.76396570.8d0f8db10fa5.js:1
+Promise.then
+g @ 76396570.76396570.8d0f8db10fa5.js:1
+a @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 76396570.76396570.8d0f8db10fa5.js:1
+c.value @ 76396570.76396570.8d0f8db10fa5.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+F @ 63925496.63925496.b05e9dbac0a1.js:1
+a @ 63925496.63925496.b05e9dbac0a1.js:1
+Promise.then
+F @ 63925496.63925496.b05e9dbac0a1.js:1
+a @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 63925496.63925496.b05e9dbac0a1.js:1
+o @ 63925496.63925496.b05e9dbac0a1.js:1
+z.value @ 63925496.63925496.b05e9dbac0a1.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+initApp @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+dt @ 67826302.67826302.8f8a7a6aa504.js:1
+a @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 67826302.67826302.8f8a7a6aa504.js:1
+mounted @ 67826302.67826302.8f8a7a6aa504.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+Zo.t.__weh.t.__weh @ 13930271.13930271.c9282d663ee3.js:1
+Dn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+V.c.scheduler @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+Ue @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+mountComponents @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+loadResources @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+registerGame @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Ge @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+beforeMount @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+Zo.t.__weh.t.__weh @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+T @ 13930271.13930271.c9282d663ee3.js:1
+x @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+runIfDirty @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+Us.a.scheduler @ 13930271.13930271.c9282d663ee3.js:1
+d.scheduler @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+notify @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+set value @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+Promise.then
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+n @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+or @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+Zo.t.__weh.t.__weh @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+X @ 13930271.13930271.c9282d663ee3.js:1
+mount @ 13930271.13930271.c9282d663ee3.js:1
+t.mount @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+lr @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+lr @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+Promise.then
+lr @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+t @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.441fc1e73af5.js:1
+(anonymous) @ main.f91006b3f796.js:1
+Promise.then
+58031907 @ main.f91006b3f796.js:1
+D @ main.f91006b3f796.js:1
+(anonymous) @ main.f91006b3f796.js:1
+(anonymous) @ main.f91006b3f796.js:1
+63925496.63925496.b05e9dbac0a1.js:1 PixiJS Deprecation Warning: utils.rgb2hex is deprecated, use Color#toNumber insteadDeprecated since v7.2.0
+Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer. Please type ‘allow pasting’ below and press Enter to allow pasting.
+allow pasting
+// Run this in browser console on the ORIGINAL working game
+(function() {
+  console.log('🎯 Starting Unity file capture...');
+  
+  const filesToCapture = [
+    'Thimbles.loader.js',
+    'Thimbles.framework.js',
+    'Thimbles.wasm',
+    'Thimbles.data'
+  ];
+  
+  let capturedCount = 0;
+  
+  filesToCapture.forEach(filename => {
+    const url = `https://planbetbj.com/web-v3/mfs/game-thimbles/unity/${filename}`;
+    
+    console.log(`📥 Fetching: ${filename}`);
+    
+    fetch(url, {
+      method: 'GET',
+      credentials: 'include',
+      headers: {
+        'Accept': '*/*',
+        'Cache-Control': 'no-cache'
+      }
+    })
+    .then(response => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.blob();
+    })
+    .then(blob => {
+      // Convert blob to object URL and download
+      const objectUrl = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = objectUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(objectUrl);
+      
+      capturedCount++;
+      console.log(`✅ Captured: ${filename} (${blob.size} bytes)`);
+      
+      if (capturedCount === filesToCapture.length) {
+        console.log('🎉 All files captured successfully!');
+      }
+    })
+    .catch(error => {
+      console.log(`❌ Failed to capture ${filename}:`, error.message);
+    });
+  });
+})();
+VM1247:3 🎯 Starting Unity file capture...
+VM1247:17 📥 Fetching: Thimbles.loader.js
+VM1247:17 📥 Fetching: Thimbles.framework.js
+VM1247:17 📥 Fetching: Thimbles.wasm
+VM1247:17 📥 Fetching: Thimbles.data
+undefined
+VM1247:19  GET https://planbetbj.com/fr/web-v3/mfs/game-thimbles/unity/thimbles.loader.js 404 (Not Found)
+(anonymous) @ VM1247:19
+(anonymous) @ VM1247:14
+(anonymous) @ VM1247:53
+VM1247:50 ❌ Failed to capture Thimbles.loader.js: HTTP 404
+VM1247:19  GET https://planbetbj.com/fr/web-v3/mfs/game-thimbles/unity/thimbles.framework.js 404 (Not Found)
+(anonymous) @ VM1247:19
+(anonymous) @ VM1247:14
+(anonymous) @ VM1247:53
+VM1247:50 ❌ Failed to capture Thimbles.framework.js: HTTP 404
+VM1247:19  GET https://planbetbj.com/fr/web-v3/mfs/game-thimbles/unity/thimbles.wasm 404 (Not Found)
+(anonymous) @ VM1247:19
+(anonymous) @ VM1247:14
+(anonymous) @ VM1247:53
+VM1247:50 ❌ Failed to capture Thimbles.wasm: HTTP 404
+VM1247:19  GET https://planbetbj.com/fr/web-v3/mfs/game-thimbles/unity/thimbles.data 404 (Not Found)
+(anonymous) @ VM1247:19
+(anonymous) @ VM1247:14
+(anonymous) @ VM1247:53
+VM1247:50 ❌ Failed to capture Thimbles.data: HTTP 404
