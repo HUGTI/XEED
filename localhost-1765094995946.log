@@ -1,0 +1,408 @@
+VM9571:10 Console was cleared
+VM9571:11 🔍 WEBGL ANIMATION SOURCE ANALYZER
+VM9571:12 Determines if animation is: Video | Sprite Sheet | Shader | 3D Models | Particle System
+VM9571:733 🔍 ANALYZER READY!
+VM9571:734 Type: window.__analyzer.analyze() to begin analysis
+undefined
+VM9571:738 🔄 Auto-starting analysis in 1 second...
+VM9571:30 🚀 Starting comprehensive animation source analysis...
+VM9571:44 ✅ Canvas: 849x919
+VM9571:61 🔧 Analyzing WebGL state...
+VM9571:83 ✅ Active textures: 8
+VM9571:90 ✅ Rendering to: Default Framebuffer
+VM9571:105 🔄 Analyzing frame pattern...
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: <URL>
+VM9571:137 📊 Frame Analysis: 1 unique / 60 total
+VM9571:174 🏗️ Detecting game engine...
+VM9571:203 ⚡ WebAssembly detected
+VM9571:207 ⚠️ No known engine detected
+VM9571:235 🎨 Analyzing rendering method...
+(()=>{const c=document.querySelector('canvas');if(!c)return;const gl=c.getContext('webgl2')||c.getContext('webgl');if(!gl)return;const ext=gl.getExtension('WEBGL_video_texture');console.log(ext?'🎥 VIDEO TEXTURE DETECTED':'❌ Not a video texture');if(ext){const v=document.querySelector('video');console.log(v?`📺 Video element: ${v.src||'no src'}`:'No video element found')}})()
+VM9575:1 ❌ Not a video texture
+undefined
+ ❓ Rendering method: Unknown / Complex
+ 💾 Inspecting memory usage...
+ 📊 Memory: 281MB / 2144MB
+ ⚠️ High memory usage - Likely complex 3D assets
+ ⚡ WebAssembly Memory detected
+ 📡 Analyzing network traffic patterns...
+ 📦 Animation resources: 45 detected
+    • JSON Data: version.json
+    • JSON Data: bonuses.json
+    • JSON Data: common.json
+    • JSON Data: rulesCommon.json
+    • JSON Data: offers.json
+    • PNG Image: arrow-sprite.fcc08a58ab65.png
+    • PNG Image: rules-wrap.5e35b2e3bc5d.png
+    • PNG Image: switch.11e203988673.png
+    • JSON Data: thimbles.json
+    • PNG Image: btn-ui-sprite.2fbbc250c58e.png
+    • PNG Image: btn-ui-wrap.27241acbd4f5.png
+    • PNG Image: btn-second-sprite.387222dc573f.png
+    • PNG Image: btn-bet-sprite.fd2413067048.png
+    • PNG Image: btn-play-sprite.3153eaaeb5f4.png
+    • PNG Image: btn-play-wrap.3513b15c8aab.png
+    • JSON Data: jackpot.json
+    • PNG Image: jackpot-body-glare.d38fa855d38c.png
+    • PNG Image: jackpot-body-scoreboard.58338ef435b5.png
+    • PNG Image: jackpot-body-sprite-numbers.61f5db0127f1.png
+VM9571:483    • PNG Image: jackpot-coin.af42cd4ee3d0.png
+VM9571:483    • PNG Image: jackpot-footer-currency-bg.32f03c69ab51.png
+VM9571:483    • PNG Image: jackpot-header-bg.1b89dcf9335b.png
+VM9571:483    • PNG Image: jackpot-header-sprite-flashlights.4083a7540f11.png
+VM9571:483    • PNG Image: jackpot-header-sprite-glares.e7aec5574b84.png
+VM9571:483    • PNG Image: jackpot-rules-bg.d72817b7f5d9.png
+VM9571:483    • PNG Image: jackpot-rules-glare-right.b354668a63a7.png
+VM9571:483    • PNG Image: jackpot-rules-glare-top.1ea1d6ca3c25.png
+VM9571:483    • PNG Image: emptyBonusesStars.fa2c119b5b5f.png
+VM9571:483    • PNG Image: icoFreeSpin.1e4c886481fa.png
+VM9571:483    • PNG Image: luckyWheelActivityImg.aec6bcecdce8.png
+VM9571:483    • PNG Image: sidebarModalGiftGreen.71b7090a20dd.png
+VM9571:483    • PNG Image: sidebarModalGiftRed.cd62b26189cc.png
+VM9571:483    • JSON Data: common.manifest.6fc7d90bc807.json
+VM9571:483    • JSON Data: desktop.manifest.65c4b08b0376.json
+VM9571:483    • JSON Data: desktop.scene.e3cce6dd654a.json
+VM9571:483    • JSON Data: mobile.scene.c5a1ea6c9350.json
+VM9571:483    • JSON Data: [name]-0.a266ef635e4e.json
+VM9571:483    • JSON Data: animation_vfx01-0.4463ae61c144.json
+VM9571:483    • Texture Atlas: background@1x.bc665481762d.atlas
+VM9571:483    • Texture Atlas: info@1x.77a25c67c281.atlas
+VM9571:483    • Texture Atlas: light@1x.00782da15807.atlas
+VM9571:483    • Texture Atlas: popup@1x.a3fbeaea7d75.atlas
+VM9571:483    • Texture Atlas: thimbles@1x.997e4c4e44c3.atlas
+VM9571:483    • PNG Image: btn-choice-sprite.76b500c1956c.png
+VM9571:483    • JSON Data: event.json
+VM9571:494 🗜️ Detecting compression...
+VM9571:509 ✅ WEBGL_compressed_texture_s3tc compression supported
+VM9571:519 
+============================================================
+VM9571:520 📋 ANIMATION SOURCE ANALYSIS REPORT
+VM9571:521 ============================================================
+VM9571:523 🎯 SOURCE TYPE:
+VM9571:524   Static Image / Loading Screen
+VM9571:526 🎨 RENDERING METHOD:
+VM9571:527   Mixed / Unknown
+VM9571:529 🏗️ ENGINE:
+VM9571:530   Custom / Unknown
+VM9571:532 🖼️ FRAME PATTERN:
+VM9571:533   STATIC_IMAGE
+VM9571:539 📦 DETECTED ASSETS:
+VM9571:541   • Large 3D Models
+VM9571:541   • WebAssembly Module
+VM9571:541   • JSON Data
+VM9571:541   • PNG Image
+VM9571:541   • Texture Atlas
+VM9571:546 🔧 TECHNICAL DETAILS:
+VM9571:547   Canvas: 849x919
+VM9571:548   WebGL: WebGL2RenderingContext
+VM9571:549   Compression: S3TC
+VM9571:551 
+💡 ANALYSIS SUMMARY:
+VM9571:580   This appears to be a LOADING/ATTRACTION SCREEN.
+VM9571:581   Purpose: Keep user engaged while game loads
+VM9571:554 
+🎮 RECOMMENDED CAPTURE METHOD:
+VM9571:610   Use: window.__analyzer.autoCapture()
+VM9571:611   Method: Automatic detection and capture
+VM9571:557 ============================================================
+(()=>{const e={Unity:window.unityInstance,Three:window.THREE,Pixi:window.PIXI,Phaser:window.Phaser,PlayCanvas:window.pc,Babylon:window.BABYLON};const found=Object.entries(e).find(([_,v])=>v);console.log(found?`🏗️ Engine: ${found[0]}`:'⚠️ Unknown engine');if(window.WebAssembly)console.log('⚡ WebAssembly present')})()
+VM9579:1 ⚠️ Unknown engine
+VM9579:1 ⚡ WebAssembly present
+undefined
+(()=>{const c=document.querySelector('canvas');if(!c)return;let hashes=new Set();for(let i=0;i<10;i++)setTimeout(()=>{const f=document.createElement('canvas');f.width=c.width;f.height=c.height;const ctx=f.getContext('2d');try{ctx.drawImage(c,0,0);const p=ctx.getImageData(0,0,1,1).data;hashes.add(`${p[0]},${p[1]},${p[2]}`)}catch(e){}},i*200);setTimeout(()=>{console.log(hashes.size<3?'🔄 LOOPING ANIMATION':hashes.size>8?'🎮 UNIQUE FRAMES':'🌀 MIXED');console.log(`Unique frames: ${hashes.size}/10`)},2500)})()
+undefined
+VM9583:1 🔄 LOOPING ANIMATION
+VM9583:1 Unique frames: 1/10
+// Paste the main script above
+// OR run this quick version:
+window.__analyzer.analyze();
+VM9571:30 🚀 Starting comprehensive animation source analysis...
+VM9571:44 ✅ Canvas: 849x919
+VM9571:61 🔧 Analyzing WebGL state...
+VM9571:83 ✅ Active textures: 8
+VM9571:90 ✅ Rendering to: Default Framebuffer
+VM9571:105 🔄 Analyzing frame pattern...
+Promise {<pending>}
+VM9571:137 📊 Frame Analysis: 1 unique / 60 total
+VM9571:174 🏗️ Detecting game engine...
+VM9571:203 ⚡ WebAssembly detected
+VM9571:207 ⚠️ No known engine detected
+VM9571:235 🎨 Analyzing rendering method...
+VM9571:277 ❓ Rendering method: Unknown / Complex
+VM9571:443 💾 Inspecting memory usage...
+VM9571:447 📊 Memory: 281MB / 2144MB
+VM9571:450 ⚠️ High memory usage - Likely complex 3D assets
+VM9571:457 ⚡ WebAssembly Memory detected
+ 📡 Analyzing network traffic patterns...
+ 📦 Animation resources: 45 detected
+    • JSON Data: version.json
+    • JSON Data: bonuses.json
+    • JSON Data: common.json
+    • JSON Data: rulesCommon.json
+    • JSON Data: offers.json
+    • PNG Image: arrow-sprite.fcc08a58ab65.png
+    • PNG Image: rules-wrap.5e35b2e3bc5d.png
+    • PNG Image: switch.11e203988673.png
+    • JSON Data: thimbles.json
+    • PNG Image: btn-ui-sprite.2fbbc250c58e.png
+    • PNG Image: btn-ui-wrap.27241acbd4f5.png
+    • PNG Image: btn-second-sprite.387222dc573f.png
+    • PNG Image: btn-bet-sprite.fd2413067048.png
+    • PNG Image: btn-play-sprite.3153eaaeb5f4.png
+    • PNG Image: btn-play-wrap.3513b15c8aab.png
+    • JSON Data: jackpot.json
+    • PNG Image: jackpot-body-glare.d38fa855d38c.png
+    • PNG Image: jackpot-body-scoreboard.58338ef435b5.png
+    • PNG Image: jackpot-body-sprite-numbers.61f5db0127f1.png
+    • PNG Image: jackpot-coin.af42cd4ee3d0.png
+    • PNG Image: jackpot-footer-currency-bg.32f03c69ab51.png
+VM9571:483    • PNG Image: jackpot-header-bg.1b89dcf9335b.png
+VM9571:483    • PNG Image: jackpot-header-sprite-flashlights.4083a7540f11.png
+VM9571:483    • PNG Image: jackpot-header-sprite-glares.e7aec5574b84.png
+VM9571:483    • PNG Image: jackpot-rules-bg.d72817b7f5d9.png
+VM9571:483    • PNG Image: jackpot-rules-glare-right.b354668a63a7.png
+VM9571:483    • PNG Image: jackpot-rules-glare-top.1ea1d6ca3c25.png
+VM9571:483    • PNG Image: emptyBonusesStars.fa2c119b5b5f.png
+VM9571:483    • PNG Image: icoFreeSpin.1e4c886481fa.png
+VM9571:483    • PNG Image: luckyWheelActivityImg.aec6bcecdce8.png
+VM9571:483    • PNG Image: sidebarModalGiftGreen.71b7090a20dd.png
+VM9571:483    • PNG Image: sidebarModalGiftRed.cd62b26189cc.png
+VM9571:483    • JSON Data: common.manifest.6fc7d90bc807.json
+VM9571:483    • JSON Data: desktop.manifest.65c4b08b0376.json
+VM9571:483    • JSON Data: desktop.scene.e3cce6dd654a.json
+VM9571:483    • JSON Data: mobile.scene.c5a1ea6c9350.json
+VM9571:483    • JSON Data: [name]-0.a266ef635e4e.json
+VM9571:483    • JSON Data: animation_vfx01-0.4463ae61c144.json
+VM9571:483    • Texture Atlas: background@1x.bc665481762d.atlas
+VM9571:483    • Texture Atlas: info@1x.77a25c67c281.atlas
+VM9571:483    • Texture Atlas: light@1x.00782da15807.atlas
+VM9571:483    • Texture Atlas: popup@1x.a3fbeaea7d75.atlas
+VM9571:483    • Texture Atlas: thimbles@1x.997e4c4e44c3.atlas
+VM9571:483    • PNG Image: btn-choice-sprite.76b500c1956c.png
+VM9571:483    • JSON Data: event.json
+VM9571:494 🗜️ Detecting compression...
+VM9571:509 ✅ WEBGL_compressed_texture_s3tc compression supported
+VM9571:519 
+============================================================
+VM9571:520 📋 ANIMATION SOURCE ANALYSIS REPORT
+VM9571:521 ============================================================
+VM9571:523 🎯 SOURCE TYPE:
+VM9571:524   Static Image / Loading Screen
+VM9571:526 🎨 RENDERING METHOD:
+VM9571:527   Mixed / Unknown
+VM9571:529 🏗️ ENGINE:
+VM9571:530   Custom / Unknown
+VM9571:532 🖼️ FRAME PATTERN:
+VM9571:533   STATIC_IMAGE
+VM9571:539 📦 DETECTED ASSETS:
+VM9571:541   • Large 3D Models
+VM9571:541   • WebAssembly Module
+VM9571:541   • JSON Data
+VM9571:541   • PNG Image
+VM9571:541   • Texture Atlas
+VM9571:541   • Large 3D Models
+VM9571:541   • WebAssembly Module
+VM9571:546 🔧 TECHNICAL DETAILS:
+VM9571:547   Canvas: 849x919
+VM9571:548   WebGL: WebGL2RenderingContext
+VM9571:549   Compression: S3TC
+VM9571:551 
+💡 ANALYSIS SUMMARY:
+VM9571:580   This appears to be a LOADING/ATTRACTION SCREEN.
+VM9571:581   Purpose: Keep user engaged while game loads
+VM9571:554 
+🎮 RECOMMENDED CAPTURE METHOD:
+VM9571:610   Use: window.__analyzer.autoCapture()
+VM9571:611   Method: Automatic detection and capture
+VM9571:557 ============================================================
+// Extract video frames
+(()=>{
+    const video = document.querySelector('video');
+    if (!video) return;
+    
+    const canvas = document.createElement('canvas');
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    const ctx = canvas.getContext('2d');
+    
+    // Capture current frame
+    ctx.drawImage(video, 0, 0);
+    const link = document.createElement('a');
+    link.href = canvas.toDataURL();
+    link.download = 'video-frame.png';
+    link.click();
+})();
+undefined
+// Capture and arrange frames
+window.__analyzer.extractSpriteSheet();
+VM9571:726 Sprite sheet extraction not implemented
+undefined
+// Start game, then record
+window.__analyzer.recordGameplay();
+VM9571:727 Gameplay recording not implemented
+undefined
+// Check if using large 3D assets
+if (performance.memory.usedJSHeapSize > 200 * 1024 * 1024) {
+    console.log('⚠️ Large 3D assets detected');
+}
+VM9603:3 ⚠️ Large 3D assets detected
+undefined
+// Check loaded assets
+performance.getEntriesByType('resource')
+    .filter(r => r.name.includes('.png') || r.name.includes('.mp4'))
+    .forEach(r => console.log(r.name));
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/switch.11e203988673.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-ui-sprite.2fbbc250c58e.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-ui-wrap.27241acbd4f5.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-second-sprite.387222dc573f.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-bet-sprite.fd2413067048.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-play-sprite.3153eaaeb5f4.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-play-wrap.3513b15c8aab.png
+VM9607:4 https://localhost/games-frame/static/jackpot-body-glare.d38fa855d38c.png
+VM9607:4 https://localhost/games-frame/static/jackpot-body-scoreboard.58338ef435b5.png
+VM9607:4 https://localhost/games-frame/static/jackpot-body-sprite-numbers.61f5db0127f1.png
+VM9607:4 https://localhost/games-frame/static/jackpot-coin.af42cd4ee3d0.png
+VM9607:4 https://localhost/games-frame/static/jackpot-footer-currency-bg.32f03c69ab51.png
+VM9607:4 https://localhost/games-frame/static/jackpot-header-bg.1b89dcf9335b.png
+VM9607:4 https://localhost/games-frame/static/jackpot-header-sprite-flashlights.4083a7540f11.png
+VM9607:4 https://localhost/games-frame/static/jackpot-header-sprite-glares.e7aec5574b84.png
+VM9607:4 https://localhost/games-frame/static/jackpot-rules-bg.d72817b7f5d9.png
+VM9607:4 https://localhost/games-frame/static/jackpot-rules-glare-right.b354668a63a7.png
+VM9607:4 https://localhost/games-frame/static/jackpot-rules-glare-top.1ea1d6ca3c25.png
+VM9607:4 https://localhost/games-frame/static/emptyBonusesStars.fa2c119b5b5f.png
+VM9607:4 https://localhost/games-frame/static/icoFreeSpin.1e4c886481fa.png
+VM9607:4 https://localhost/games-frame/static/luckyWheelActivityImg.aec6bcecdce8.png
+VM9607:4 https://localhost/games-frame/static/sidebarModalGiftGreen.71b7090a20dd.png
+VM9607:4 https://localhost/games-frame/static/sidebarModalGiftRed.cd62b26189cc.png
+VM9607:4 https://localhost/games-frame/mfs/game-thimbles/btn-choice-sprite.76b500c1956c.png
+undefined
+// Check active textures and buffers
+const gl = canvas.getContext('webgl2');
+console.log('Textures:', gl.getParameter(gl.MAX_TEXTURE_IMAGE_UNITS));
+console.log('FBO:', gl.getParameter(gl.FRAMEBUFFER_BINDING));
+VM9611:2 Uncaught ReferenceError: canvas is not defined
+    at <anonymous>:2:12
+(anonymous) @ VM9611:2
