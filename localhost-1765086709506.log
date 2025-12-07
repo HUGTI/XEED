@@ -1,0 +1,314 @@
+VM7992:9 Console was cleared
+VM7992:10 🎬 WebGL Animation Capture Tool
+VM7992:11 For capturing animated WebGL content that appears black when exported
+VM7992:35 ✅ Initialized: {canvas: '258x908', context: 'webgl2', animations: 'Detected'}
+VM7992:506 🎮 WebGL Capture Tool Ready!
+VM7992:507 Available commands:
+VM7992:508 • window.__webglCapture.capture() - Capture single frame
+VM7992:509 • window.__webglCapture.captureRetry(5) - Capture with retries
+VM7992:510 • window.__webglCapture.createMirror() - Create live mirror canvas
+VM7992:511 • window.__webglCapture.startRecording(5000, 30) - Record animation
+VM7992:512 • window.__webglCapture.diagnose() - Diagnose black export issue
+VM7992:513 
+VM7992:514 💡 Tip: Run window.__webglCapture.captureRetry(5) for best results
+undefined
+VM7992:518 🔄 Auto-capturing test frame in 2 seconds...
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+capture @ VM7992:483
+(anonymous) @ VM7992:520
+setTimeout
+(anonymous) @ VM7992:519
+setTimeout
+(anonymous) @ VM7992:517
+(anonymous) @ VM7992:528
+window.__webglCapture.capture()
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+capture @ VM7992:483
+(anonymous) @ VM7996:1
+null
+window.__webglCapture.captureRetry(5)
+VM7992:449 🔄 Capturing with 5 retries...
+VM7992:452 Attempt 1/5...
+VM7992:452 Attempt 2/5...
+VM7992:452 Attempt 3/5...
+VM7992:452 Attempt 4/5...
+VM7992:452 Attempt 5/5...
+null
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+(anonymous) @ VM7992:456
+setTimeout
+captureWithRetry @ VM7992:455
+captureRetry @ VM7992:484
+(anonymous) @ VM8000:1
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+(anonymous) @ VM7992:456
+setTimeout
+captureWithRetry @ VM7992:455
+captureRetry @ VM7992:484
+(anonymous) @ VM8000:1
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+(anonymous) @ VM7992:456
+setTimeout
+captureWithRetry @ VM7992:455
+captureRetry @ VM7992:484
+(anonymous) @ VM8000:1
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+(anonymous) @ VM7992:456
+setTimeout
+captureWithRetry @ VM7992:455
+captureRetry @ VM7992:484
+(anonymous) @ VM8000:1
+VM7992:250 📸 Attempting to capture frame...
+VM7992:262 Trying WebGL readPixels...
+VM7992:276 ⚠️ WebGL readPixels produced black image, trying next method...
+VM7992:262 Trying Framebuffer copy...
+VM7992:276 ⚠️ Framebuffer copy produced black image, trying next method...
+VM7992:287 ❌ All capture methods failed
+captureSingleFrame @ VM7992:287
+(anonymous) @ VM7992:456
+setTimeout
+captureWithRetry @ VM7992:455
+captureRetry @ VM7992:484
+(anonymous) @ VM8000:1
+VM7992:469 ❌ All capture attempts failed
+(anonymous) @ VM7992:469
+setTimeout
+captureWithRetry @ VM7992:455
+captureRetry @ VM7992:484
+(anonymous) @ VM8000:1
+window.__webglCapture.createMirror()
+VM7992:244 ✅ Live mirror created - Click on it to capture frames
+<canvas width=​"258" height=​"908" style=​"position:​ fixed;​ top:​ 20px;​ right:​ 20px;​ border:​ 3px solid rgb(0, 255, 0)​;​ z-index:​ 10000;​ background:​ white;​ box-shadow:​ rgba(0, 0, 0, 0.5)​ 0px 0px 20px;​">​…​</canvas>​
+window.__webglCapture.startRecording(5000, 30)
+VM7992:294 🎥 Starting recording: 5000ms at 30fps
+VM7992:316 📹 Captured frame 1
+VM7992:323 ⏺️ Recording started - frames will be captured
+undefined
+VM7992:316 📹 Captured frame 2
+VM7992:316 📹 Captured frame 3
+VM7992:316 📹 Captured frame 4
+VM7992:316 📹 Captured frame 5
+VM7992:316 📹 Captured frame 6
+VM7992:316 📹 Captured frame 7
+VM7992:316 📹 Captured frame 8
+VM7992:316 📹 Captured frame 9
+VM7992:316 📹 Captured frame 10
+VM7992:316 📹 Captured frame 11
+VM7992:316 📹 Captured frame 12
+VM7992:316 📹 Captured frame 13
+VM7992:316 📹 Captured frame 14
+VM7992:316 📹 Captured frame 15
+VM7992:316 📹 Captured frame 16
+VM7992:316 📹 Captured frame 17
+VM7992:316 📹 Captured frame 18
+VM7992:316 📹 Captured frame 19
+VM7992:316 📹 Captured frame 20
+VM7992:316 📹 Captured frame 21
+VM7992:316 📹 Captured frame 22
+VM7992:316 📹 Captured frame 23
+VM7992:316 📹 Captured frame 24
+VM7992:316 📹 Captured frame 25
+VM7992:316 📹 Captured frame 26
+VM7992:316 📹 Captured frame 27
+VM7992:316 📹 Captured frame 28
+VM7992:316 📹 Captured frame 29
+VM7992:316 📹 Captured frame 30
+VM7992:316 📹 Captured frame 31
+VM7992:316 📹 Captured frame 32
+VM7992:316 📹 Captured frame 33
+VM7992:316 📹 Captured frame 34
+VM7992:316 📹 Captured frame 35
+VM7992:316 📹 Captured frame 36
+VM7992:316 📹 Captured frame 37
+VM7992:316 📹 Captured frame 38
+VM7992:316 📹 Captured frame 39
+VM7992:316 📹 Captured frame 40
+VM7992:316 📹 Captured frame 41
+VM7992:316 📹 Captured frame 42
+VM7992:316 📹 Captured frame 43
+VM7992:316 📹 Captured frame 44
+VM7992:316 📹 Captured frame 45
+VM7992:316 📹 Captured frame 46
+VM7992:316 📹 Captured frame 47
+VM7992:316 📹 Captured frame 48
+VM7992:316 📹 Captured frame 49
+VM7992:316 📹 Captured frame 50
+VM7992:316 📹 Captured frame 51
+VM7992:316 📹 Captured frame 52
+VM7992:316 📹 Captured frame 53
+VM7992:316 📹 Captured frame 54
+VM7992:316 📹 Captured frame 55
+VM7992:316 📹 Captured frame 56
+VM7992:316 📹 Captured frame 57
+VM7992:316 📹 Captured frame 58
+VM7992:316 📹 Captured frame 59
+VM7992:316 📹 Captured frame 60
+VM7992:316 📹 Captured frame 61
+VM7992:316 📹 Captured frame 62
+VM7992:316 📹 Captured frame 63
+VM7992:316 📹 Captured frame 64
+VM7992:316 📹 Captured frame 65
+VM7992:316 📹 Captured frame 66
+VM7992:316 📹 Captured frame 67
+VM7992:316 📹 Captured frame 68
+VM7992:316 📹 Captured frame 69
+VM7992:316 📹 Captured frame 70
+VM7992:316 📹 Captured frame 71
+VM7992:316 📹 Captured frame 72
+VM7992:316 📹 Captured frame 73
+VM7992:316 📹 Captured frame 74
+VM7992:316 📹 Captured frame 75
+VM7992:316 📹 Captured frame 76
+VM7992:316 📹 Captured frame 77
+VM7992:316 📹 Captured frame 78
+VM7992:316 📹 Captured frame 79
+VM7992:316 📹 Captured frame 80
+VM7992:316 📹 Captured frame 81
+VM7992:316 📹 Captured frame 82
+VM7992:316 📹 Captured frame 83
+VM7992:316 📹 Captured frame 84
+VM7992:316 📹 Captured frame 85
+VM7992:316 📹 Captured frame 86
+VM7992:316 📹 Captured frame 87
+VM7992:316 📹 Captured frame 88
+VM7992:316 📹 Captured frame 89
+VM7992:316 📹 Captured frame 90
+VM7992:316 📹 Captured frame 91
+VM7992:316 📹 Captured frame 92
+VM7992:316 📹 Captured frame 93
+VM7992:316 📹 Captured frame 94
+VM7992:316 📹 Captured frame 95
+VM7992:316 📹 Captured frame 96
+VM7992:316 📹 Captured frame 97
+VM7992:316 📹 Captured frame 98
+VM7992:316 📹 Captured frame 99
+VM7992:316 📹 Captured frame 100
+VM7992:316 📹 Captured frame 101
+VM7992:316 📹 Captured frame 102
+VM7992:316 📹 Captured frame 103
+VM7992:316 📹 Captured frame 104
+VM7992:316 📹 Captured frame 105
+VM7992:316 📹 Captured frame 106
+VM7992:316 📹 Captured frame 107
+VM7992:316 📹 Captured frame 108
+VM7992:316 📹 Captured frame 109
+VM7992:316 📹 Captured frame 110
+VM7992:316 📹 Captured frame 111
+VM7992:328 ⏹️ Recording stopped: 111 frames captured
+VM7992:337 💾 Exporting animation...
+VM7992:391 ❌ Export failed: Cannot read properties of null (reading 'document')
+exportCanvas @ VM7992:391
+exportAnimation @ VM7992:359
+stopRecording @ VM7992:331
+captureFrame @ VM7992:304
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+setTimeout
+captureFrame @ VM7992:319
+VM7992:360 ⚠️ JSZip not loaded - exported only first frame
+window.__webglCapture.diagnose()
+VM7992:398 🔍 Diagnosing black export issue...
+VM7992:405 WebGL State:
+VM7992:406 - preserveDrawingBuffer: false
+VM7992:407 - Drawing buffer: 258 x 908
+VM7992:411 - Current FBO: null
+VM7992:417 - Current pixel (0,0): 0 0 0 255
+VM7992:420 ⚠️ Current pixel is black - content might be in different FBO
+undefined
+VM7992:439 - toDataURL pixel: 0 0 0
