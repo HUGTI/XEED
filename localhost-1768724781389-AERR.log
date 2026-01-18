@@ -1,0 +1,173 @@
+VM1494:4 Console was cleared
+VM1494:5 🎮 ADVANCED WebGL Canvas Monitor 🎮
+VM1494:6 Detected Offscreen Rendering - Deploying Advanced Analysis
+VM1494:494 
+🚀 Initializing Advanced WebGL Monitor...
+VM1494:413 
+🔬 Running Quick Diagnostics...
+VM1494:429 📊 Default Framebuffer: DEFAULT (null)
+VM1494:432 
+📍 Pixel Read Test (different coordinates):
+VM1494:445    Top-Left (10,10): [0,0,0,255]
+VM1494:445    Top-Right (578,10): [0,0,0,255]
+VM1494:445    Center (294,459.5): [0,0,0,255]
+VM1494:445    Bottom-Left (10,909): [0,0,0,255]
+VM1494:445    Bottom-Right (578,909): [0,0,0,255]
+VM1494:452 
+🎯 Renderbuffer Check:
+VM1494:456    Renderbuffer created and bound: true
+VM1494:461 
+⚙️ WebGL State Check:
+VM1494:462    Drawing Buffer Size: 588x919
+VM1494:463 WebGL: INVALID_ENUM: getParameter: invalid parameter name
+runQuickDiagnostics @ VM1494:463
+(anonymous) @ VM1494:497
+(anonymous) @ VM1494:534
+VM1494:463    Alpha: null
+VM1494:464 WebGL: INVALID_ENUM: getParameter: invalid parameter name
+runQuickDiagnostics @ VM1494:464
+(anonymous) @ VM1494:497
+(anonymous) @ VM1494:534
+VM1494:464    Depth: null
+VM1494:465 WebGL: INVALID_ENUM: getParameter: invalid parameter name
+runQuickDiagnostics @ VM1494:465
+(anonymous) @ VM1494:497
+(anonymous) @ VM1494:534
+VM1494:465    Stencil: null
+VM1494:468 
+🔍 Testing FBO Creation:
+VM1494:479    Test FBO Status: COMPLETE
+VM1494:486    Test FBO created and deleted successfully
+VM1494:530 
+✅ Script loaded. Available commands:
+VM1494:531    window.WebGLMonitor - Monitor class
+VM1494:532    window.runQuickDiagnostics() - Run diagnostics
+undefined
+VM1494:501 
+==================================================
+VM1494:502 🎮 STARTING ADVANCED MONITORING
+VM1494:503 ==================================================
+VM1494:40 ✅ Canvas Found: 588×919
+VM1494:48 🎯 WebGL Context Initialized
+VM1494:56 
+🔍 WebGL State Analysis:
+VM1494:61    Default Framebuffer: YES
+VM1494:65    Viewport: [0,0,588,919]
+VM1494:69    Texture Units: 16
+VM1494:73    Extensions: 32
+VM1494:112 
+🔧 Patching WebGL Methods...
+VM1494:508 
+⏱️  Monitoring for 8 seconds...
+VM1494:219 WebGL: INVALID_ENUM: texImage2D: invalid format
+gl.texImage2D @ VM1494:219
+value @ 83168834.83168834.7f11064b1e5f.js:1
+(anonymous) @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+requestAnimationFrame
+_tick @ 83168834.83168834.7f11064b1e5f.js:1
+83168834.83168834.7f11064b1e5f.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM1494:512 
+📊 Generating analysis report...
+VM1494:308 
+==================================================
+VM1494:309 📊 ADVANCED MONITORING REPORT
+VM1494:310 ==================================================
+VM1494:312 ⏱️  Duration: 8.01s
+VM1494:313 📈 Frames Processed: 0
+VM1494:314 🖌️  Draw Calls: 0 (0.0/sec)
+VM1494:315 🎯 FBO Bindings: 0
+VM1494:316 📦 Texture Operations: 0
+VM1494:322 
+🔍 Framebuffer Analysis:
+VM1494:323    Custom FBO Bindings: 0
+VM1494:324    Default FBO Bindings: 0
+VM1494:325    FBO Usage Ratio: NaN%
+VM1494:328 
+🎨 Draw Call Analysis:
+VM1494:340 
+🔄 FBO Switching Pattern:
+VM1494:363 
+📸 Attempting Canvas Snapshots...
+VM1494:406 ✅ All WebGL methods restored
+VM1494:517 
+💾 Data available at: window.__webglAnalysis
+VM1494:518 📥 Export command: copy(JSON.stringify(window.__webglAnalysis, null, 2))
+VM1494:370    Snapshot 1: Frame 0, FBO: DEFAULT
+VM1494:370    Snapshot 2: Frame 0, FBO: DEFAULT
+VM1494:370    Snapshot 3: Frame 0, FBO: DEFAULT
+VM1494:370    Snapshot 4: Frame 0, FBO: DEFAULT
+VM1494:370    Snapshot 5: Frame 0, FBO: DEFAULT
