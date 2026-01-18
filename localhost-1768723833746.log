@@ -1,0 +1,233 @@
+VM490:4 Console was cleared
+VM490:5 🎮 Game Canvas Analysis Suite 🎮
+VM490:6 Monitoring WebGL2 Canvas for Game Analysis
+VM490:602 
+⚡ GameCanvasMonitor Initialized!
+VM490:603 Available Commands:
+VM490:604   GameCanvasMonitor.start()     - Start comprehensive monitoring
+VM490:605   GameCanvasMonitor.stop()      - Stop monitoring
+VM490:606   GameCanvasMonitor.getData()   - Get captured data
+VM490:607   GameCanvasMonitor.analyzeRegion(x, y, w, h) - Analyze specific region
+VM490:608 
+⏱️ Auto-starting in 3 seconds...
+undefined
+VM490:612 🚀 Auto-starting monitoring...
+VM490:417 🚀 Starting Comprehensive Game Monitoring...
+VM490:55 🎯 Primary Canvas Selected:
+VM490:56   Dimensions: 588 × 919
+VM490:57   Class: thimbles__canvas
+VM490:58   ID: none
+VM490:74 🖥️ WebGL Context Information:
+VM490:75   Version: WebGL 2.0 (OpenGL ES 3.0 Chromium)
+VM490:76   Shader Version: WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)
+VM490:77   Renderer: WebKit WebGL
+VM490:78   Vendor: WebKit
+VM490:79   Max Texture Size: 16384
+VM490:80   Max Viewport: Int32Array(2) [32767, 32767, buffer: ArrayBuffer(8), byteLength: 8, byteOffset: 0, length: 2, Symbol(Symbol.toStringTag): 'Int32Array']
+VM490:84   Extensions: 32
+VM490:86   Sample Extensions: EXT_clip_control, EXT_color_buffer_float, EXT_color_buffer_half_float, EXT_conservative_depth, EXT_depth_clamp, EXT_disjoint_timer_query_webgl2, EXT_float_blend, EXT_polygon_offset_clamp, EXT_render_snorm, EXT_texture_compression_bptc
+VM490:173 🔧 Patching WebGL Methods...
+VM490:206   ✓ Patched: drawArrays
+VM490:206   ✓ Patched: drawElements
+VM490:206   ✓ Patched: drawArraysInstanced
+VM490:206   ✓ Patched: drawElementsInstanced
+VM490:206   ✓ Patched: drawRangeElements
+VM490:436 📸 Starting Frame Capture...
+VM490:438   Initial frame captured with 3 regions
+VM490:489 
+📱 Monitoring Status:
+VM490:490   Duration: 10 seconds
+VM490:491   Frame Interval: 100 ms
+VM490:492   Target Frames: 30
+VM490:493   Regions: top-left, center, bottom-right
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+[.WebGL-0xad401268d00] GL_INVALID_FRAMEBUFFER_OPERATION: glReadPixelsRobustANGLE: Framebuffer is incomplete: No attachments and default size is zero.
+VM490:449   Frame 1/30 captured
+VM490:449   Frame 2/30 captured
+VM490:199 📊 Draw Calls: 50 (drawElements)
+VM490:449   Frame 3/30 captured
+VM490:449   Frame 4/30 captured
+VM490:449   Frame 5/30 captured
+VM490:454 📊 Progress: 17% (93 draw calls)
+VM490:199 📊 Draw Calls: 100 (drawElements)
+VM490:449   Frame 6/30 captured
+VM490:449   Frame 7/30 captured
+VM490:199 📊 Draw Calls: 150 (drawElements)
+VM490:449   Frame 8/30 captured
+VM490:449   Frame 9/30 captured
+VM490:449   Frame 10/30 captured
+VM490:454 📊 Progress: 33% (186 draw calls)
+VM490:199 📊 Draw Calls: 200 (drawElements)
+VM490:449   Frame 11/30 captured
+VM490:449   Frame 12/30 captured
+VM490:449   Frame 13/30 captured
+VM490:199 📊 Draw Calls: 250 (drawElements)
+VM490:449   Frame 14/30 captured
+VM490:449   Frame 15/30 captured
+VM490:454 📊 Progress: 50% (276 draw calls)
+VM490:449   Frame 16/30 captured
+VM490:199 📊 Draw Calls: 300 (drawElements)
+VM490:449   Frame 17/30 captured
+VM490:449   Frame 18/30 captured
+VM490:449   Frame 19/30 captured
+VM490:199 📊 Draw Calls: 350 (drawElements)
+VM490:449   Frame 20/30 captured
+VM490:454 📊 Progress: 67% (366 draw calls)
+VM490:449   Frame 21/30 captured
+VM490:449   Frame 22/30 captured
+VM490:199 📊 Draw Calls: 400 (drawElements)
+VM490:449   Frame 23/30 captured
+VM490:449   Frame 24/30 captured
+VM490:199 📊 Draw Calls: 450 (drawElements)
+VM490:449   Frame 25/30 captured
+VM490:454 📊 Progress: 83% (456 draw calls)
+VM490:449   Frame 26/30 captured
+VM490:449   Frame 27/30 captured
+VM490:199 📊 Draw Calls: 500 (drawElements)
+VM490:449   Frame 28/30 captured
+VM490:449   Frame 29/30 captured
+VM490:199 📊 Draw Calls: 550 (drawElements)
+VM490:199 📊 Draw Calls: 600 (drawElements)
+VM490:199 📊 Draw Calls: 650 (drawElements)
+VM490:199 📊 Draw Calls: 700 (drawElements)
+VM490:199 📊 Draw Calls: 750 (drawElements)
+VM490:199 📊 Draw Calls: 800 (drawElements)
+VM490:199 📊 Draw Calls: 850 (drawElements)
+VM490:199 📊 Draw Calls: 900 (drawElements)
+VM490:199 📊 Draw Calls: 950 (drawElements)
+VM490:199 📊 Draw Calls: 1000 (drawElements)
+VM490:199 📊 Draw Calls: 1050 (drawElements)
+VM490:199 📊 Draw Calls: 1100 (drawElements)
+VM490:199 📊 Draw Calls: 1150 (drawElements)
+VM490:199 📊 Draw Calls: 1200 (drawElements)
+VM490:199 📊 Draw Calls: 1250 (drawElements)
+VM490:199 📊 Draw Calls: 1300 (drawElements)
+VM490:199 📊 Draw Calls: 1350 (drawElements)
+VM490:199 📊 Draw Calls: 1400 (drawElements)
+VM490:199 📊 Draw Calls: 1450 (drawElements)
+VM490:199 📊 Draw Calls: 1500 (drawElements)
+VM490:199 📊 Draw Calls: 1550 (drawElements)
+VM490:199 📊 Draw Calls: 1600 (drawElements)
+VM490:199 📊 Draw Calls: 1650 (drawElements)
+VM490:199 📊 Draw Calls: 1700 (drawElements)
+VM490:199 📊 Draw Calls: 1750 (drawElements)
+VM490:199 📊 Draw Calls: 1800 (drawElements)
+VM490:199 📊 Draw Calls: 1850 (drawElements)
+VM490:199 📊 Draw Calls: 1900 (drawElements)
+VM490:199 📊 Draw Calls: 1950 (drawElements)
+VM490:199 📊 Draw Calls: 2000 (drawElements)
+VM490:199 📊 Draw Calls: 2050 (drawElements)
+VM490:199 📊 Draw Calls: 2100 (drawElements)
+VM490:199 📊 Draw Calls: 2150 (drawElements)
+VM490:199 📊 Draw Calls: 2200 (drawElements)
+VM490:462 ⏹️ Monitoring Complete!
+VM490:226 🔧 WebGL Methods Restored
+VM490:351 
+📊 ===== ANALYSIS REPORT =====
+VM490:352 ⏱️ Monitoring Duration: 13.05 seconds
+VM490:353 📸 Frames Captured: 31
+VM490:354 🖌️ Draw Calls Recorded: 2243
+VM490:355 🎮 Game State Changes: 0
+VM490:360 📈 Draw Call Frequency: 171.9 calls/sec
+VM490:368 🖌️ Draw Call Breakdown:
+VM490:371   drawElements: 2243 (100.0%)
+VM490:376 📍 Region Activity Analysis:
+VM490:387   top-left: 0 significant changes
+VM490:387   center: 0 significant changes
+VM490:387   bottom-right: 0 significant changes
+VM490:542 
+💾 Data Export Available:
+VM490:543   Copy: JSON.stringify(window.__gameAnalysisData, null, 2)
+VM490:544   Or use the download link below:
+VM490:563 <a href=​"data:​application/​json;​charset=utf-8,%7B%0A%20%20%22summary%22%3A%20%7B%0A%20%20%20%20%22duration%22%3A%2013.047%2C%0A%20%20%20%20%22totalFrames%22%3A%2031%2C%0A%20%20%20%20%22totalDrawCalls%22%3A%202243%2C%0A%20%20%20%20%22gameStateChanges%22%3A%200%0A%20%20%7D%2C%0A%20%20%22frames%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%200%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723727307%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22center%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%201%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723727424%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22center%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%202%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723727524%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22center%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%203%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723727618%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%2…0%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%2028%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723730121%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22center%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%2029%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723730221%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22center%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22number%22%3A%2030%2C%0A%20%20%20%20%20%20%22timestamp%22%3A%201768723737326%2C%0A%20%20%20%20%20%20%22regions%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22top-left%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22center%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20%22bottom-right%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%22averageColor%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22r%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22g%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22b%22%3A%200%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22a%22%3A%200%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%5D%2C%0A%20%20%22gameStates%22%3A%20%5B%5D%2C%0A%20%20%22drawCallStats%22%3A%20%7B%0A%20%20%20%20%22drawElements%22%3A%202243%0A%20%20%7D%0A%7D" download=​"game-analysis-1768723737333.json" style=​"display:​ inline-block;​ background:​ rgb(76, 175, 80)​;​ color:​ white;​ padding:​ 10px 15px;​ border-radius:​ 5px;​ text-decoration:​ none;​ font-family:​ monospace;​ margin:​ 10px 0px;​ cursor:​ pointer;​">​📥 Download Analysis Data​</a>​
