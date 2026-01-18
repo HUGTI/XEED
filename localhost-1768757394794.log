@@ -1,0 +1,74 @@
+VM741:8 Console was cleared
+VM741:9 🎮 Thimbles Game Overlay Injected
+VM741:231 Initializing Thimbles Game Overlay...
+VM741:104 ✅ Overlay created and injected into page.
+VM741:270 ✅ Overlay system ready. Use window.thimblesOverlay to control.
+VM741:271    - thimblesOverlay.getPosition() - Check current ball position
+VM741:272    - thimblesOverlay.checkNow() - Force a state check
+undefined
+// This function tells you which cup currently hides the ball.
+function checkBallPosition() {
+  const spine = window.__thimblesSpine;
+  const slots = spine.skeleton.slots;
+  const ballSlots = ['ball', 'ball2', 'ball3'];
+  
+  console.log("🔍 Checking current ball position...");
+  ballSlots.forEach(slotName => {
+    const slot = slots.find(s => s.data.name === slotName);
+    const attachment = slot.getAttachment();
+    console.log(`   Slot "${slotName}": Attachment = "${attachment ? attachment.name : 'None'}"`);
+    // If an attachment is present, that's the cup with the ball!
+  });
+}
+checkBallPosition();
+VM746:4 Uncaught TypeError: Cannot read properties of undefined (reading 'skeleton')
+    at checkBallPosition (<anonymous>:4:23)
+    at <anonymous>:15:1
+checkBallPosition @ VM746:4
+(anonymous) @ VM746:15
+// This function tells you which cup currently hides the ball.
+function checkBallPosition() {
+  const spine = window.__thimblesSpine;
+  const slots = spine.skeleton.slots;
+  const ballSlots = ['ball', 'ball2', 'ball3'];
+  
+  console.log("🔍 Checking current ball position...");
+  ballSlots.forEach(slotName => {
+    const slot = slots.find(s => s.data.name === slotName);
+    const attachment = slot.getAttachment();
+    console.log(`   Slot "${slotName}": Attachment = "${attachment ? attachment.name : 'None'}"`);
+    // If an attachment is present, that's the cup with the ball!
+  });
+}
+checkBallPosition();
+VM750:4 Uncaught TypeError: Cannot read properties of undefined (reading 'skeleton')
+    at checkBallPosition (<anonymous>:4:23)
+    at <anonymous>:15:1
+checkBallPosition @ VM750:4
+(anonymous) @ VM750:15
+// See recent animation history
+console.log("Animation history:", window.thimblesOverlay.getHistory());
+VM754:2 Animation history: []length: 0[[Prototype]]: Array(0)
+undefined
+// 1. Log full current state
+console.log("=== GAME STATE SNAPSHOT ===");
+checkBallPosition();
+console.log("Active Animations:", window.__thimblesSpine.state.tracks.map(t => t.animation ? t.animation.name : 'None'));
+
+// 2. Test animation control
+setTimeout(() => {
+  console.log("\n=== TEST: Lifting all cups sequentially ===");
+  window.__thimblesSpine.state.setAnimation(0, 'l/up', false);
+}, 1000);
+setTimeout(() => {
+  window.__thimblesSpine.state.setAnimation(0, 'mid/up', false);
+}, 2000);
+setTimeout(() => {
+  window.__thimblesSpine.state.setAnimation(0, 'r/up', false);
+}, 3000);
+VM758:2 === GAME STATE SNAPSHOT ===
+VM750:4 Uncaught TypeError: Cannot read properties of undefined (reading 'skeleton')
+    at checkBallPosition (<anonymous>:4:23)
+    at <anonymous>:3:1
+checkBallPosition @ VM750:4
+(anonymous) @ VM758:3
