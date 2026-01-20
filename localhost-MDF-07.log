@@ -1,0 +1,795 @@
+62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3  GET https://gamscdn.com/web-v3/version.json net::ERR_CERT_COMMON_NAME_INVALID
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+onSuccess @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+o.onload @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+XMLHttpRequest.send
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+83168834.83168834.7f11064b1e5f.js:1 PixiJS Deprecation Warning: renderer.plugins.interaction has been deprecated, use renderer.eventsDeprecated since v7.0.0
+window.__gameInstance = t;
+console.log("✅ GAME INSTANCE CAPTURED!", window.__gameInstance);
+VM939:2 ✅ GAME INSTANCE CAPTURED! e {_events: o, _eventsCount: 0, preferredTextureResolution: 1, app: e, device: e, …}
+undefined
+83168834.83168834.7f11064b1e5f.js:1 [Assets] Asset id https://localhost:3443/games-frame/mfs/game-thimbles/common.manifest.627294f00d70.json was not found in the Cache
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+g @ 67107808.67107808.d882e062f7a5.js:1
+a @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+c.value @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+g @ 67107808.67107808.d882e062f7a5.js:1
+a @ 67107808.67107808.d882e062f7a5.js:1
+Promise.then
+g @ 67107808.67107808.d882e062f7a5.js:1
+a @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+c.value @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+F @ 63925496.63925496.d107be7e3b37.js:1
+a @ 63925496.63925496.d107be7e3b37.js:1
+Promise.then
+F @ 63925496.63925496.d107be7e3b37.js:1
+a @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+o @ 63925496.63925496.d107be7e3b37.js:1
+value @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+initApp @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+dt @ 67826302.67826302.6c5ee57c4b64.js:1
+a @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+mounted @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+Dn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+Ue @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+mountComponents @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+loadResources @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+registerGame @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+beforeMount @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+T @ 13930271.13930271.c9282d663ee3.js:1
+x @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+runIfDirty @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+notify @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+set value @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+Promise.then
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ir @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+X @ 13930271.13930271.c9282d663ee3.js:1
+mount @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+fr @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+fr @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+fr @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+t @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ main.efbdb3f00ef7.js:1
+Promise.then
+58031907 @ main.efbdb3f00ef7.js:1
+D @ main.efbdb3f00ef7.js:1
+(anonymous) @ main.efbdb3f00ef7.js:1
+(anonymous) @ main.efbdb3f00ef7.js:1
+PendingScript
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+u @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+onFailure @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+u @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+s.onerror @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+XMLHttpRequest.send
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+onSuccess @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+o.onload @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+XMLHttpRequest.send
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+83168834.83168834.7f11064b1e5f.js:1 [Assets] Asset id https://localhost:3443/games-frame/mfs/game-thimbles/desktop.manifest.7f988f59001c.json was not found in the Cache
+value @ 83168834.83168834.7f11064b1e5f.js:1
+value @ 83168834.83168834.7f11064b1e5f.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+g @ 67107808.67107808.d882e062f7a5.js:1
+a @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+c.value @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+g @ 67107808.67107808.d882e062f7a5.js:1
+a @ 67107808.67107808.d882e062f7a5.js:1
+Promise.then
+g @ 67107808.67107808.d882e062f7a5.js:1
+a @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 67107808.67107808.d882e062f7a5.js:1
+c.value @ 67107808.67107808.d882e062f7a5.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+F @ 63925496.63925496.d107be7e3b37.js:1
+a @ 63925496.63925496.d107be7e3b37.js:1
+Promise.then
+F @ 63925496.63925496.d107be7e3b37.js:1
+a @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 63925496.63925496.d107be7e3b37.js:1
+o @ 63925496.63925496.d107be7e3b37.js:1
+value @ 63925496.63925496.d107be7e3b37.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+initApp @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+dt @ 67826302.67826302.6c5ee57c4b64.js:1
+a @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 67826302.67826302.6c5ee57c4b64.js:1
+mounted @ 67826302.67826302.6c5ee57c4b64.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+Dn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+Ue @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+set @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+mountComponents @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+loadResources @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+registerGame @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ke @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+beforeMount @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+P @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+R @ 13930271.13930271.c9282d663ee3.js:1
+T @ 13930271.13930271.c9282d663ee3.js:1
+x @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+runIfDirty @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Un @ 13930271.13930271.c9282d663ee3.js:1
+Promise.then
+In @ 13930271.13930271.c9282d663ee3.js:1
+Fn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+me @ 13930271.13930271.c9282d663ee3.js:1
+notify @ 13930271.13930271.c9282d663ee3.js:1
+trigger @ 13930271.13930271.c9282d663ee3.js:1
+set value @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+Promise.then
+Ie @ 8549619.8549619.caea39983e85.js:1
+a @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ 8549619.8549619.caea39983e85.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+ir @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+bn @ 13930271.13930271.c9282d663ee3.js:1
+Sn @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+D @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+l @ 13930271.13930271.c9282d663ee3.js:1
+run @ 13930271.13930271.c9282d663ee3.js:1
+V @ 13930271.13930271.c9282d663ee3.js:1
+L @ 13930271.13930271.c9282d663ee3.js:1
+I @ 13930271.13930271.c9282d663ee3.js:1
+_ @ 13930271.13930271.c9282d663ee3.js:1
+X @ 13930271.13930271.c9282d663ee3.js:1
+mount @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ 13930271.13930271.c9282d663ee3.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+fr @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+fr @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+Promise.then
+fr @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+a @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+t @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ apps_host-b2c-web-v3.bootstrap.98130127.cdc4b019fb39.js:1
+(anonymous) @ main.efbdb3f00ef7.js:1
+Promise.then
+58031907 @ main.efbdb3f00ef7.js:1
+D @ main.efbdb3f00ef7.js:1
+(anonymous) @ main.efbdb3f00ef7.js:1
+(anonymous) @ main.efbdb3f00ef7.js:1
+PendingScript
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+u @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+onFailure @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+u @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+s.onerror @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+XMLHttpRequest.send
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+onSuccess @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+o.onload @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+XMLHttpRequest.send
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+(anonymous) @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC84YjUwMmQxNmJmZGRjOTEwNjM0NWI4YzExODQ5YzY0M2UxN2Q3YTNmN2EyMzA4M2FmZTM3ZDM1OWZkZGFiZmJhIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njg4ODAxNzIsImV4cCI6MTc2ODg5NDU3MiwiaWF0IjoxNzY4ODgwMTcyfQ.bXD5vCuIuOGuMEKw6CiUODQs-kPRBC3FhqFnZKkytf8IGH5CeyIMdCh9-Grlv1BS8xPUA4LRq_EHQLAEicvCnA&tzo=1:3
+83168834.83168834.7f11064b1e5f.js:1 PixiJS Deprecation Warning: utils.rgb2hex is deprecated, use Color#toNumber insteadDeprecated since v7.2.0
+// 1. Verify the core PixiJS structure
+const game = window.__gameInstance;
+console.log("Game App reference:", game.app); // The actual PIXI.Application might be here
+console.log("Has stage?", !!game.stage);
+console.log("Has renderer?", !!game.renderer);
+
+// 2. If game.app is the PIXI.Application, use that
+if (game.app && game.app.stage) {
+    console.log("✅ Found PIXI.Application inside game instance!");
+    window.__pixiApp = game.app;
+    console.log("Stage children count:", game.app.stage.children.length);
+}
+
+// 3. Explore the game object's own methods and events
+console.log("Object keys:", Object.keys(game).filter(k => typeof game[k] === 'function'));
+VM952:3 Game App reference: e {stage: e, renderer: e, _ticker: t, stop: ƒ, start: ƒ, …}
+VM952:4 Has stage? false
+VM952:5 Has renderer? false
+VM952:9 ✅ Found PIXI.Application inside game instance!
+VM952:11 Stage children count: 1
+VM952:15 Object keys: []
+undefined
+// Confirm that the object we captured is indeed the game engine
+const game = window.__gameInstance;
+console.log("Game object type:", game.constructor.name);
+console.log("Core property check:", {
+    hasApp: !!game.app,
+    hasStage: !!game.stage,
+    hasDevice: !!game.device
+});
+VM956:3 Game object type: e
+VM956:4 Core property check: {hasApp: true, hasStage: false, hasDevice: true}
+undefined
+// Key step: Attempt to access the internal PixiJS Application object
+if (game.app) {
+    const pixiApp = game.app;
+    console.log("🎉 Found the internal PixiJS Application instance!", pixiApp);
+    console.log("Number of children in the Scene (Stage):", pixiApp.stage.children.length);
+    // Also save this core reference for later use
+    window.__pixiAppCore = pixiApp;
+}
+VM960:4 🎉 Found the internal PixiJS Application instance! e {stage: e, renderer: e, _ticker: t, stop: ƒ, start: ƒ, …}
+VM960:5 Number of children in the Scene (Stage): 1
+e {stage: e, renderer: e, _ticker: t, stop: ƒ, start: ƒ, …}
+// See what methods are available on this game object (may contain game logic)
+console.log("List of methods on the game object:",
+    Object.keys(game).filter(key => typeof game[key] === 'function')
+);
+VM964:2 List of methods on the game object: []
+undefined
+// See what the internal structure of this game instance actually is
+console.dir(window.__gameInstance);
+// Focus on checking for core PixiJS properties like 'app', 'stage', 'renderer'
+console.log("Internal Pixi Application:", window.__gameInstance.app);
+VM970:2 e
+VM970:4 Internal Pixi Application: e {stage: e, renderer: e, _ticker: t, stop: ƒ, start: ƒ, …}
+undefined
+if (window.__gameInstance && window.__gameInstance.app) {
+  const pixiApp = window.__gameInstance.app;
+  console.log("🎮 Successfully linked to the PixiJS Application! Number of children in the scene:", pixiApp.stage.children.length);
+  // Start exploring the objects in the scene (cups, ball, etc.)
+  pixiApp.stage.children.forEach((child, i) => {
+    console.log(`Child object ${i}:`, child.constructor.name, child.name);
+  });
+} else {
+  console.log("❌ Could not find the PixiJS Application within the game instance; we need to examine the object structure.");
+}
+VM974:3 🎮 Successfully linked to the PixiJS Application! Number of children in the scene: 1
+VM974:6 Child object 0: e game
+undefined
+// 1. First, let's safely get a reference to the main "game" container
+const pixiApp = window.__gameInstance.app;
+const mainGameContainer = pixiApp.stage.children[0]; // This is the "e game" object
+
+console.log("🔍 Inspecting Main 'game' Container:", mainGameContainer);
+console.log("   - Type:", mainGameContainer.constructor.name);
+console.log("   - Name:", mainGameContainer.name);
+console.log("   - Number of Children Inside:", mainGameContainer.children ? mainGameContainer.children.length : 0);
+
+// 2. If it has children, let's see what they are
+if (mainGameContainer.children && mainGameContainer.children.length > 0) {
+  console.log("\n📦 Contents of the 'game' container:");
+  mainGameContainer.children.forEach((child, index) => {
+    console.log(`   [${index}]`, child.constructor.name, child.name ? `"${child.name}"` : '(unnamed)', `(Visible: ${child.visible})`);
+    // For critical objects, log their position
+    if (child.x !== undefined || child.y !== undefined) {
+      console.log(`        Position: x=${child.x}, y=${child.y}`);
+    }
+  });
+} else {
+  console.log("The 'game' container is currently empty. The game visuals might be added later or nested deeper.");
+}
+
+// 3. Let's also save this main container for easy future access
+window.__mainGameContainer = mainGameContainer;
+console.log("\n💾 Saved main container as: window.__mainGameContainer");
+VM978:5 🔍 Inspecting Main 'game' Container: e {_events: o, _eventsCount: 1, tempDisplayObjectParent: null, transform: t, alpha: 1, …}
+VM978:6    - Type: e
+VM978:7    - Name: game
+VM978:8    - Number of Children Inside: 7
+VM978:12 
+📦 Contents of the 'game' container:
+VM978:14    [0] e "background_sprite" (Visible: true)
+VM978:17         Position: x=960, y=480
+VM978:14    [1] e "background_spine" (Visible: true)
+VM978:17         Position: x=978, y=460
+VM978:14    [2] e "underlay_container" (Visible: true)
+VM978:17         Position: x=960, y=465
+VM978:14    [3] e "blur_sprite" (Visible: true)
+VM978:17         Position: x=1000, y=446
+VM978:14    [4] e "logo_sprite" (Visible: true)
+VM978:17         Position: x=140, y=85
+VM978:14    [5] e "popup_container" (Visible: false)
+VM978:17         Position: x=960, y=275
+VM978:14    [6] e "info_container" (Visible: true)
+VM978:17         Position: x=960, y=65
+VM978:26 
+💾 Saved main container as: window.__mainGameContainer
+undefined
+// 1. Access the underlay container we saved
+const underlay = window.__mainGameContainer.getChildByName("underlay_container");
+
+if (underlay) {
+  console.log("🔎 Drilling into 'underlay_container':", underlay);
+  console.log("   Children Count:", underlay.children.length);
+
+  console.log("\n📦 Contents of underlay (expected: cups, ball, tables):");
+  underlay.children.forEach((child, index) => {
+    console.log(`   [${index}]`, child.constructor.name, child.name ? `"${child.name}"` : '(unnamed)');
+    // Log detailed properties for objects that look like game pieces
+    if (child.name && (child.name.includes('cup') || child.name.includes('ball') || child.name.includes('table'))) {
+      console.log(`       Pos: (${child.x}, ${child.y}) | Visible: ${child.visible} | Alpha: ${child.alpha}`);
+    }
+  });
+
+  // Save for easy access
+  window.__underlayContainer = underlay;
+  console.log("\n💾 Saved as: window.__underlayContainer");
+
+} else {
+  console.log("❌ Could not find 'underlay_container'. Let's check children again.");
+  console.log(window.__mainGameContainer.children.map(c => c.name));
+}
+VM982:5 🔎 Drilling into 'underlay_container': e {_events: o, _eventsCount: 1, tempDisplayObjectParent: null, transform: t, alpha: 1, …}
+VM982:6    Children Count: 3
+VM982:8 
+📦 Contents of underlay (expected: cups, ball, tables):
+VM982:10    [0] e "light_spine"
+VM982:10    [1] e "thimbles_spine"
+VM982:10    [2] e "smoke_animation"
+VM982:19 
+💾 Saved as: window.__underlayContainer
+undefined
+// Example: Toggle the visibility of a child (if you find one named "logo_sprite")
+const logo = window.__mainGameContainer.getChildByName("logo_sprite");
+if (logo) {
+  logo.visible = !logo.visible; // This will make it disappear/reappear
+  console.log("Toggled logo visibility to:", logo.visible);
+}
+VM986:5 Toggled logo visibility to: false
+undefined
+// 1. Access the main Spine object
+const thimblesSpine = window.__underlayContainer.getChildByName("thimbles_spine");
+
+if (thimblesSpine && thimblesSpine.skeleton) {
+  console.log("✅ Found Spine object:", thimblesSpine);
+  
+  // 2. Inspect its skeleton and slots
+  const skeleton = thimblesSpine.skeleton;
+  console.log("\n🔬 Spine Skeleton Data:");
+  console.log("   - Bones Count:", skeleton.bones.length);
+  console.log("   - Slots Count:", skeleton.slots.length);
+  
+  // 3. List all Slots (these hold the visible attachments like 'cup', 'ball')
+  console.log("\n📋 List of Slots (potential cup/ball attachments):");
+  skeleton.slots.forEach((slot, index) => {
+    const attachment = slot.getAttachment();
+    console.log(`   [${index}] Slot: "${slot.data.name}" | Current Attachment: "${attachment ? attachment.name : 'None'}"`);
+  });
+  
+  // 4. Check what animations are available
+  if (thimblesSpine.state && thimblesSpine.state.data) {
+    const animations = thimblesSpine.state.data.skeletonData.animations;
+    console.log("\n🎬 Available Animations:");
+    animations.forEach(anim => console.log(`   - "${anim.name}" (Duration: ${anim.duration}s)`));
+  }
+  
+  // Save for easy access
+  window.__thimblesSpine = thimblesSpine;
+  console.log("\n💾 Saved as: window.__thimblesSpine");
+  
+} else {
+  console.log("❌ 'thimbles_spine' object not found or is not a valid Spine instance.");
+}
+ ✅ Found Spine object: e {_events: o, _eventsCount: 0, tempDisplayObjectParent: null, transform: t, alpha: 1, …}
+ 
+🔬 Spine Skeleton Data:
+    - Bones Count: 20
+    - Slots Count: 24
+ 
+📋 List of Slots (potential cup/ball attachments):
+    [0] Slot: "schadow" | Current Attachment: "schadow"
+    [1] Slot: "schadow3" | Current Attachment: "schadow"
+    [2] Slot: "schadow2" | Current Attachment: "schadow"
+    [3] Slot: "ball" | Current Attachment: "None"
+    [4] Slot: "ball2" | Current Attachment: "None"
+    [5] Slot: "ball3" | Current Attachment: "None"
+    [6] Slot: "projectile2" | Current Attachment: "projectile"
+VM990:17    [7] Slot: "1_blur" | Current Attachment: "1_blur"
+VM990:17    [8] Slot: "1_blur4" | Current Attachment: "1_blur"
+VM990:17    [9] Slot: "1_blur2" | Current Attachment: "1_blur"
+VM990:17    [10] Slot: "1_blur5" | Current Attachment: "1_blur"
+VM990:17    [11] Slot: "1_blur3" | Current Attachment: "1_blur"
+VM990:17    [12] Slot: "1_blur6" | Current Attachment: "1_blur"
+VM990:17    [13] Slot: "thimble" | Current Attachment: "thimble"
+VM990:17    [14] Slot: "thimble4" | Current Attachment: "None"
+VM990:17    [15] Slot: "thimble2" | Current Attachment: "thimble"
+VM990:17    [16] Slot: "thimble5" | Current Attachment: "None"
+VM990:17    [17] Slot: "thimble3" | Current Attachment: "thimble"
+VM990:17    [18] Slot: "thimble6" | Current Attachment: "thimble"
+VM990:17    [19] Slot: "projectile" | Current Attachment: "projectile"
+VM990:17    [20] Slot: "arrow" | Current Attachment: "arrow"
+VM990:17    [21] Slot: "arrow2" | Current Attachment: "arrow"
+VM990:17    [22] Slot: "arrow3" | Current Attachment: "arrow"
+VM990:17    [23] Slot: "blurr" | Current Attachment: "blurr"
+VM990:23 
+🎬 Available Animations:
+VM990:24    - "arrow" (Duration: 1.6666667461395264s)
+VM990:24    - "jumble" (Duration: 1.5666667222976685s)
+VM990:24    - "l/ball" (Duration: 0s)
+VM990:24    - "l/down" (Duration: 0.3333333432674408s)
+VM990:24    - "l/hover" (Duration: 0.5s)
+VM990:24    - "l/idle_close" (Duration: 0s)
+VM990:24    - "l/idle_open" (Duration: 0.3333333432674408s)
+VM990:24    - "l/up" (Duration: 0.3333333432674408s)
+VM990:24    - "mid/ball" (Duration: 0s)
+VM990:24    - "mid/down" (Duration: 0.3333333432674408s)
+VM990:24    - "mid/hover" (Duration: 0.5s)
+VM990:24    - "mid/idle_close" (Duration: 0s)
+VM990:24    - "mid/idle_open" (Duration: 0.3333333432674408s)
+VM990:24    - "mid/up" (Duration: 0.3333333432674408s)
+VM990:24    - "r/ball" (Duration: 0s)
+VM990:24    - "r/down" (Duration: 0.3333333432674408s)
+VM990:24    - "r/hover" (Duration: 0.5s)
+VM990:24    - "r/idle_close" (Duration: 0s)
+VM990:24    - "r/idle_open" (Duration: 0.3333333432674408s)
+VM990:24    - "r/up" (Duration: 0.3333333432674408s)
+VM990:29 
+💾 Saved as: window.__thimblesSpine
+undefined
+// Example: Play a specific animation
+window.__thimblesSpine.state.setAnimation(0, 'animation_name_here', false);
+83168834.83168834.7f11064b1e5f.js:1 Uncaught Error: Animation not found: animation_name_here
+    at t.value (83168834.83168834.7f11064b1e5f.js:1:702923)
+    at <anonymous>:2:30
+value @ 83168834.83168834.7f11064b1e5f.js:1
+(anonymous) @ VM994:2
+// This function tells you which cup currently hides the ball.
+function checkBallPosition() {
+  const spine = window.__thimblesSpine;
+  const slots = spine.skeleton.slots;
+  const ballSlots = ['ball', 'ball2', 'ball3'];
+  
+  console.log("🔍 Checking current ball position...");
+  ballSlots.forEach(slotName => {
+    const slot = slots.find(s => s.data.name === slotName);
+    const attachment = slot.getAttachment();
+    console.log(`   Slot "${slotName}": Attachment = "${attachment ? attachment.name : 'None'}"`);
+    // If an attachment is present, that's the cup with the ball!
+  });
+}
+checkBallPosition();
+VM998:7 🔍 Checking current ball position...
+VM998:11    Slot "ball": Attachment = "None"
+VM998:11    Slot "ball2": Attachment = "None"
+VM998:11    Slot "ball3": Attachment = "None"
+undefined
+// Play the "lift up" animation for the left thimble
+window.__thimblesSpine.state.setAnimation(0, 'l/up', false);
+console.log("Playing animation: 'l/up'");
+// Try others: 'mid/ball', 'r/down', 'jumble'
+VM1002:3 Playing animation: 'l/up'
+undefined
+// Hook into the Spine animation state to see what the game triggers
+const originalSetAnimation = window.__thimblesSpine.state.setAnimation;
+window.__thimblesSpine.state.setAnimation = function(trackIndex, animationName, loop) {
+  console.log(`🎬 GAME LOGIC: Playing animation "${animationName}" (loop: ${loop})`);
+  // This will log EVERY animation the game plays (shuffles, reveals, etc.)
+  return originalSetAnimation.call(this, trackIndex, animationName, loop);
+};
+console.log("✅ Animation state monitor active.");
+VM1006:8 ✅ Animation state monitor active.
+undefined
+// 1. Log full current state
+console.log("=== GAME STATE SNAPSHOT ===");
+checkBallPosition();
+console.log("Active Animations:", window.__thimblesSpine.state.tracks.map(t => t.animation ? t.animation.name : 'None'));
+
+// 2. Test animation control
+setTimeout(() => {
+  console.log("\n=== TEST: Lifting all cups sequentially ===");
+  window.__thimblesSpine.state.setAnimation(0, 'l/up', false);
+}, 1000);
+setTimeout(() => {
+  window.__thimblesSpine.state.setAnimation(0, 'mid/up', false);
+}, 2000);
+setTimeout(() => {
+  window.__thimblesSpine.state.setAnimation(0, 'r/up', false);
+}, 3000);
+VM1010:2 === GAME STATE SNAPSHOT ===
+VM998:7 🔍 Checking current ball position...
+VM998:11    Slot "ball": Attachment = "None"
+VM998:11    Slot "ball2": Attachment = "None"
+VM998:11    Slot "ball3": Attachment = "None"
+VM1010:4 Active Animations: ['l/up']
+151
+VM1010:8 
+=== TEST: Lifting all cups sequentially ===
+VM1006:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1006:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1006:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
