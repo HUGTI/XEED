@@ -1,0 +1,592 @@
+VM1931:9 Console was cleared
+VM1931:10 🎮 THIMBLES TRACKER v3.2 - PIXI Container Detection
+VM1931:1317 🎮 Starting Thimbles Game Tracker v3.2 - PIXI Container Detection
+undefined
+VM1931:1128 🚀 Initialization attempt 1/5
+VM1931:1075 ✅ Enhanced overlay created
+VM1931:54 🔍 Checking for MDF object...
+VM1931:57 ✅ MDF object already exists
+VM1931:756 🚀 Executing required initialization commands...
+VM1931:761    1. if (typeof MDF !== 'undefined' && MDF.GameSpine) { window.__thimblesSpine = MDF....
+VM1696:81 🔄 MDF.GameSpine.getSpine() called
+VM1931:765 ✅ Successfully created window.__thimblesSpine
+VM1931:761    2. if (MDF && MDF.GameState) { MDF.GameState.setItem('gameConfig', {speed: 1, diffi...
+VM1696:94 📝 MDF.GameState.setItem(gameConfig, {"speed":1,"difficulty":"normal"})
+VM1931:761    3. if (MDF && MDF.GameState) { MDF.GameState.setItem('gameMode', 'classic'); }...
+VM1696:94 📝 MDF.GameState.setItem(gameMode, "classic")
+VM1931:761    4. if (MDF && MDF.GameState) { MDF.GameState.setItem('roundNumber', 1); }...
+VM1696:94 📝 MDF.GameState.setItem(roundNumber, 1)
+VM1931:761    5. if (window.game && typeof window.game.initialize === 'function') { window.game.i...
+VM1931:761    6. if (window.setupGame && typeof window.setupGame === 'function') { window.setupGa...
+VM1931:772 📊 Commands executed: 6/6
+VM1931:801 🎯 Initializing Spine monitoring...
+VM1931:863 ✅ Animation hook installed
+VM1931:991 ✅ Started continuous monitoring
+VM1931:830 ✅ Spine monitoring initialized
+VM1931:1145 ✅ PIXI container tracker fully initialized
+VM1931:1312 ✅ PIXI container control API available at window.thimblesOverlay
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:782 🔧 Triggering game events...
+VM1931:787    Dispatched: game:ready
+VM1931:787    Dispatched: game:init
+VM1931:787    Dispatched: spine:loaded
+VM1931:787    Dispatched: MDF:ready
+VM1931:787    Dispatched: load
+VM1931:787    Dispatched: initialize
+VM1931:847 🎬 [00:43:02] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:43:02] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:43:02] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:43:02] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1931:847 🎬 [00:43:02] Animation: "r/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1696:613 🎬 [00:43:02] Animation: "r/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1931:847 🎬 [00:43:02] Animation: "r/up" | Loop: false
+VM1696:613 🎬 [00:43:02] Animation: "r/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'ball'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'ball'}
+VM1931:847 🎬 [00:43:03] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:43:03] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:43:03] Animation: "r/idle_open" | Loop: false
+VM1696:613 🎬 [00:43:03] Animation: "r/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1931:847 🎬 [00:43:03] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:43:03] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1931:847 🎬 [00:43:03] Animation: "r/down" | Loop: false
+VM1696:613 🎬 [00:43:03] Animation: "r/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1931:847 🎬 [00:43:03] Animation: "jumble" | Loop: false
+VM1931:890 🔀 SHUFFLE STARTED
+VM1696:613 🎬 [00:43:03] Animation: "jumble" | Loop: false
+VM1696:656 🔀 SHUFFLE STARTED
+VM1683:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1696:752 🎱 Visual Detection: Ball at right
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:43:05] Animation: "arrow" | Loop: true
+VM1931:901 🎯 SELECTION PHASE - ACTIVATING PIXI CONTAINER SCAN
+VM1696:613 🎬 [00:43:05] Animation: "arrow" | Loop: true
+VM1696:667 🎯 SELECTION PHASE - ACTIVATING ADVANCED SCAN
+VM1683:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1931:906 🚀 RUNNING PIXI CONTAINER SCAN
+VM1931:148 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1931:428    Scanning window objects...
+VM1931:207 🎯 TARGETED PIXI GAME CONTAINER SCAN...
+VM1931:212    ❌ Main PIXI app "App" not found
+VM1931:219    ✅ Found alternative PIXI app: __pixiApp
+VM1931:231    ✅ Found main PIXI app
+VM1931:245    ✅ Found "game" container at index 0 with 7 children
+VM1931:256    🔍 Deep scanning game container...
+VM1931:295       Found cup: thimbles_spine
+VM1931:281    ❌ No ball position found in game container
+VM1931:554    Scanning for game controllers...
+VM1931:638    Scanning Pixi.js containers (old method)...
+VM1931:196 ❌ Memory scan completed in 38ms - No ball position found
+VM1931:921 ❌ PIXI CONTAINER DETECTION FAILED
+VM1696:672 🚀 RUNNING POST-SHUFFLE MEMORY SCAN
+VM1696:146 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1696:196    Scanning window objects...
+VM1696:322    Scanning for game controllers...
+VM1696:404    Scanning Pixi.js containers...
+VM1696:492    Analyzing shuffle pattern for prediction...
+VM1696:179 🎱 PATTERN PREDICTION: left
+VM1696:677 ✅ POST-SHUFFLE DETECTION SUCCESS: Ball at left
+VM1931:847 🎬 [00:43:44] Animation: "l/hover" | Loop: false
+VM1696:613 🎬 [00:43:44] Animation: "l/hover" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/hover" (loop: false)
+VM1931:847 🎬 [00:43:45] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:43:45] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:43:45] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:43:45] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:43:45] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:43:45] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:43:49] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:43:49] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:43:59] Animation: "mid/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1696:613 🎬 [00:43:59] Animation: "mid/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM1931:847 🎬 [00:43:59] Animation: "mid/up" | Loop: false
+VM1696:613 🎬 [00:43:59] Animation: "mid/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1931:847 🎬 [00:43:59] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:43:59] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:43:59] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:43:59] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'ball', ball3: 'None'}
+VM1696:752 🎱 Visual Detection: Ball at middle
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'ball', ball3: 'None'}
+VM1931:986 🎱 Visual Detection: Ball at middle
+VM1931:847 🎬 [00:43:59] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:43:59] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:43:59] Animation: "mid/idle_open" | Loop: false
+VM1696:613 🎬 [00:43:59] Animation: "mid/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:00] Animation: "mid/down" | Loop: false
+VM1696:613 🎬 [00:44:00] Animation: "mid/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1931:847 🎬 [00:44:00] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:44:00] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1931:847 🎬 [00:44:00] Animation: "jumble" | Loop: false
+VM1931:890 🔀 SHUFFLE STARTED
+VM1696:613 🎬 [00:44:00] Animation: "jumble" | Loop: false
+VM1696:656 🔀 SHUFFLE STARTED
+VM1683:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1696:752 🎱 Visual Detection: Ball at middle
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:02] Animation: "arrow" | Loop: true
+VM1931:901 🎯 SELECTION PHASE - ACTIVATING PIXI CONTAINER SCAN
+VM1696:613 🎬 [00:44:02] Animation: "arrow" | Loop: true
+VM1696:667 🎯 SELECTION PHASE - ACTIVATING ADVANCED SCAN
+VM1683:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1931:906 🚀 RUNNING PIXI CONTAINER SCAN
+VM1931:148 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1931:428    Scanning window objects...
+VM1931:207 🎯 TARGETED PIXI GAME CONTAINER SCAN...
+VM1931:212    ❌ Main PIXI app "App" not found
+VM1931:219    ✅ Found alternative PIXI app: __pixiApp
+VM1931:231    ✅ Found main PIXI app
+VM1931:245    ✅ Found "game" container at index 0 with 7 children
+VM1931:256    🔍 Deep scanning game container...
+VM1931:295       Found cup: thimbles_spine
+VM1931:281    ❌ No ball position found in game container
+VM1931:554    Scanning for game controllers...
+VM1931:638    Scanning Pixi.js containers (old method)...
+VM1931:726    Analyzing shuffle pattern for prediction...
+VM1931:189 🎱 PATTERN PREDICTION: left
+VM1931:911 ✅ PIXI CONTAINER DETECTION SUCCESS: Ball at left
+VM1696:672 🚀 RUNNING POST-SHUFFLE MEMORY SCAN
+VM1696:146 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1696:196    Scanning window objects...
+VM1696:322    Scanning for game controllers...
+VM1696:404    Scanning Pixi.js containers...
+VM1696:492    Analyzing shuffle pattern for prediction...
+VM1696:179 🎱 PATTERN PREDICTION: left
+VM1696:677 ✅ POST-SHUFFLE DETECTION SUCCESS: Ball at left
+VM1931:847 🎬 [00:44:13] Animation: "l/hover" | Loop: false
+VM1696:613 🎬 [00:44:13] Animation: "l/hover" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/hover" (loop: false)
+VM1931:847 🎬 [00:44:14] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:44:14] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:44:14] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:44:14] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:15] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:15] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:18] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:44:18] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:23] Animation: "mid/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1696:613 🎬 [00:44:23] Animation: "mid/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM1931:847 🎬 [00:44:23] Animation: "mid/up" | Loop: false
+VM1696:613 🎬 [00:44:23] Animation: "mid/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1931:847 🎬 [00:44:23] Animation: "r/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1696:613 🎬 [00:44:23] Animation: "r/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1931:847 🎬 [00:44:23] Animation: "r/up" | Loop: false
+VM1696:613 🎬 [00:44:23] Animation: "r/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'ball', ball3: 'ball'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'ball', ball3: 'ball'}
+VM1931:847 🎬 [00:44:24] Animation: "mid/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:24] Animation: "mid/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:24] Animation: "r/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:24] Animation: "r/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:24] Animation: "mid/down" | Loop: false
+VM1696:613 🎬 [00:44:24] Animation: "mid/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1931:847 🎬 [00:44:24] Animation: "r/down" | Loop: false
+VM1696:613 🎬 [00:44:24] Animation: "r/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1931:847 🎬 [00:44:24] Animation: "jumble" | Loop: false
+VM1931:890 🔀 SHUFFLE STARTED
+VM1696:613 🎬 [00:44:24] Animation: "jumble" | Loop: false
+VM1696:656 🔀 SHUFFLE STARTED
+VM1683:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:26] Animation: "arrow" | Loop: true
+VM1931:901 🎯 SELECTION PHASE - ACTIVATING PIXI CONTAINER SCAN
+VM1696:613 🎬 [00:44:26] Animation: "arrow" | Loop: true
+VM1696:667 🎯 SELECTION PHASE - ACTIVATING ADVANCED SCAN
+VM1683:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1931:906 🚀 RUNNING PIXI CONTAINER SCAN
+VM1931:148 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1931:428    Scanning window objects...
+VM1931:207 🎯 TARGETED PIXI GAME CONTAINER SCAN...
+VM1931:212    ❌ Main PIXI app "App" not found
+VM1931:219    ✅ Found alternative PIXI app: __pixiApp
+VM1931:231    ✅ Found main PIXI app
+VM1931:245    ✅ Found "game" container at index 0 with 7 children
+VM1931:256    🔍 Deep scanning game container...
+VM1931:295       Found cup: thimbles_spine
+VM1931:281    ❌ No ball position found in game container
+VM1931:554    Scanning for game controllers...
+VM1931:638    Scanning Pixi.js containers (old method)...
+VM1931:726    Analyzing shuffle pattern for prediction...
+VM1931:189 🎱 PATTERN PREDICTION: right
+VM1931:911 ✅ PIXI CONTAINER DETECTION SUCCESS: Ball at right
+VM1696:672 🚀 RUNNING POST-SHUFFLE MEMORY SCAN
+VM1696:146 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1696:196    Scanning window objects...
+VM1696:322    Scanning for game controllers...
+VM1696:404    Scanning Pixi.js containers...
+VM1696:492    Analyzing shuffle pattern for prediction...
+VM1696:179 🎱 PATTERN PREDICTION: right
+VM1696:677 ✅ POST-SHUFFLE DETECTION SUCCESS: Ball at right
+VM1931:847 🎬 [00:44:29] Animation: "r/hover" | Loop: false
+VM1696:613 🎬 [00:44:29] Animation: "r/hover" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/hover" (loop: false)
+VM1931:847 🎬 [00:44:30] Animation: "r/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1696:613 🎬 [00:44:30] Animation: "r/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1931:847 🎬 [00:44:30] Animation: "r/up" | Loop: false
+VM1696:613 🎬 [00:44:30] Animation: "r/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'ball'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'ball'}
+VM1931:847 🎬 [00:44:30] Animation: "r/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:30] Animation: "r/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:34] Animation: "r/down" | Loop: false
+VM1696:613 🎬 [00:44:34] Animation: "r/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:41] Animation: "r/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1696:613 🎬 [00:44:41] Animation: "r/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1931:847 🎬 [00:44:41] Animation: "r/up" | Loop: false
+VM1696:613 🎬 [00:44:41] Animation: "r/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1931:847 🎬 [00:44:41] Animation: "mid/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1696:613 🎬 [00:44:41] Animation: "mid/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM1931:847 🎬 [00:44:41] Animation: "mid/up" | Loop: false
+VM1696:613 🎬 [00:44:41] Animation: "mid/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'ball', ball3: 'ball'}
+VM1696:752 🎱 Visual Detection: Ball at right
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'ball', ball3: 'ball'}
+VM1931:986 🎱 Visual Detection: Ball at right
+VM1931:847 🎬 [00:44:41] Animation: "mid/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:41] Animation: "mid/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:41] Animation: "r/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:41] Animation: "r/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1931:847 🎬 [00:44:42] Animation: "r/down" | Loop: false
+VM1696:613 🎬 [00:44:42] Animation: "r/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1931:847 🎬 [00:44:42] Animation: "mid/down" | Loop: false
+VM1696:613 🎬 [00:44:42] Animation: "mid/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1931:847 🎬 [00:44:42] Animation: "jumble" | Loop: false
+VM1931:890 🔀 SHUFFLE STARTED
+VM1696:613 🎬 [00:44:42] Animation: "jumble" | Loop: false
+VM1696:656 🔀 SHUFFLE STARTED
+VM1683:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:44] Animation: "arrow" | Loop: true
+VM1931:901 🎯 SELECTION PHASE - ACTIVATING PIXI CONTAINER SCAN
+VM1696:613 🎬 [00:44:44] Animation: "arrow" | Loop: true
+VM1696:667 🎯 SELECTION PHASE - ACTIVATING ADVANCED SCAN
+VM1683:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1931:906 🚀 RUNNING PIXI CONTAINER SCAN
+VM1931:148 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1931:428    Scanning window objects...
+VM1931:207 🎯 TARGETED PIXI GAME CONTAINER SCAN...
+VM1931:212    ❌ Main PIXI app "App" not found
+VM1931:219    ✅ Found alternative PIXI app: __pixiApp
+VM1931:231    ✅ Found main PIXI app
+VM1931:245    ✅ Found "game" container at index 0 with 7 children
+VM1931:256    🔍 Deep scanning game container...
+VM1931:295       Found cup: thimbles_spine
+VM1931:281    ❌ No ball position found in game container
+VM1931:554    Scanning for game controllers...
+VM1931:638    Scanning Pixi.js containers (old method)...
+VM1931:726    Analyzing shuffle pattern for prediction...
+VM1931:189 🎱 PATTERN PREDICTION: left
+VM1931:911 ✅ PIXI CONTAINER DETECTION SUCCESS: Ball at left
+VM1696:672 🚀 RUNNING POST-SHUFFLE MEMORY SCAN
+VM1696:146 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1696:196    Scanning window objects...
+VM1696:322    Scanning for game controllers...
+VM1696:404    Scanning Pixi.js containers...
+VM1696:492    Analyzing shuffle pattern for prediction...
+VM1696:179 🎱 PATTERN PREDICTION: left
+VM1696:677 ✅ POST-SHUFFLE DETECTION SUCCESS: Ball at left
+VM1931:847 🎬 [00:44:55] Animation: "l/hover" | Loop: false
+VM1696:613 🎬 [00:44:55] Animation: "l/hover" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/hover" (loop: false)
+VM1931:847 🎬 [00:44:56] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:44:56] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:44:56] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:44:56] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:44:56] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:44:56] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:45:00] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:45:00] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:45:05] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:45:05] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:45:05] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:45:05] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1931:847 🎬 [00:45:05] Animation: "mid/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1696:613 🎬 [00:45:05] Animation: "mid/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under middle cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM1931:847 🎬 [00:45:05] Animation: "mid/up" | Loop: false
+VM1696:613 🎬 [00:45:05] Animation: "mid/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'ball', ball3: 'None'}
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'ball', ball3: 'None'}
+VM1931:847 🎬 [00:45:05] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:45:05] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:45:05] Animation: "mid/idle_open" | Loop: false
+VM1696:613 🎬 [00:45:05] Animation: "mid/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1931:847 🎬 [00:45:05] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:45:05] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1931:847 🎬 [00:45:05] Animation: "mid/down" | Loop: false
+VM1696:613 🎬 [00:45:05] Animation: "mid/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1931:847 🎬 [00:45:06] Animation: "jumble" | Loop: false
+VM1931:890 🔀 SHUFFLE STARTED
+VM1696:613 🎬 [00:45:06] Animation: "jumble" | Loop: false
+VM1696:656 🔀 SHUFFLE STARTED
+VM1683:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:45:07] Animation: "arrow" | Loop: true
+VM1931:901 🎯 SELECTION PHASE - ACTIVATING PIXI CONTAINER SCAN
+VM1696:613 🎬 [00:45:07] Animation: "arrow" | Loop: true
+VM1696:667 🎯 SELECTION PHASE - ACTIVATING ADVANCED SCAN
+VM1683:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1931:906 🚀 RUNNING PIXI CONTAINER SCAN
+VM1931:148 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1931:428    Scanning window objects...
+VM1931:207 🎯 TARGETED PIXI GAME CONTAINER SCAN...
+VM1931:212    ❌ Main PIXI app "App" not found
+VM1931:219    ✅ Found alternative PIXI app: __pixiApp
+VM1931:231    ✅ Found main PIXI app
+VM1931:245    ✅ Found "game" container at index 0 with 7 children
+VM1931:256    🔍 Deep scanning game container...
+VM1931:295       Found cup: thimbles_spine
+VM1931:281    ❌ No ball position found in game container
+VM1931:554    Scanning for game controllers...
+VM1931:638    Scanning Pixi.js containers (old method)...
+VM1931:726    Analyzing shuffle pattern for prediction...
+VM1931:189 🎱 PATTERN PREDICTION: left
+VM1931:911 ✅ PIXI CONTAINER DETECTION SUCCESS: Ball at left
+VM1696:672 🚀 RUNNING POST-SHUFFLE MEMORY SCAN
+VM1696:146 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1696:196    Scanning window objects...
+VM1696:322    Scanning for game controllers...
+VM1696:404    Scanning Pixi.js containers...
+VM1696:492    Analyzing shuffle pattern for prediction...
+VM1696:179 🎱 PATTERN PREDICTION: left
+VM1696:677 ✅ POST-SHUFFLE DETECTION SUCCESS: Ball at left
+VM1931:847 🎬 [00:45:10] Animation: "l/hover" | Loop: false
+VM1696:613 🎬 [00:45:10] Animation: "l/hover" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/hover" (loop: false)
+VM1931:847 🎬 [00:45:11] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:45:11] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:45:11] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:45:11] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:45:11] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:45:11] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:45:15] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:45:15] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:45:18] Animation: "r/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1696:613 🎬 [00:45:18] Animation: "r/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under right cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1931:847 🎬 [00:45:18] Animation: "r/up" | Loop: false
+VM1696:613 🎬 [00:45:18] Animation: "r/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1931:847 🎬 [00:45:18] Animation: "l/ball" | Loop: true
+VM1931:876 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1696:613 🎬 [00:45:18] Animation: "l/ball" | Loop: true
+VM1696:642 🎉 BALL REVEAL DETECTED! Ball is under left cup
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1931:847 🎬 [00:45:18] Animation: "l/up" | Loop: false
+VM1696:613 🎬 [00:45:18] Animation: "l/up" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'ball'}
+VM1696:752 🎱 Visual Detection: Ball at right
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'ball', ball2: 'None', ball3: 'ball'}
+VM1931:986 🎱 Visual Detection: Ball at right
+VM1931:847 🎬 [00:45:19] Animation: "l/idle_open" | Loop: false
+VM1696:613 🎬 [00:45:19] Animation: "l/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1931:847 🎬 [00:45:19] Animation: "r/idle_open" | Loop: false
+VM1696:613 🎬 [00:45:19] Animation: "r/idle_open" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1931:847 🎬 [00:45:19] Animation: "r/down" | Loop: false
+VM1696:613 🎬 [00:45:19] Animation: "r/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1931:847 🎬 [00:45:19] Animation: "l/down" | Loop: false
+VM1696:613 🎬 [00:45:19] Animation: "l/down" | Loop: false
+VM1683:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1931:847 🎬 [00:45:19] Animation: "jumble" | Loop: false
+VM1931:890 🔀 SHUFFLE STARTED
+VM1696:613 🎬 [00:45:19] Animation: "jumble" | Loop: false
+VM1696:656 🔀 SHUFFLE STARTED
+VM1683:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1696:729 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:963 🔄 Ball Slot State Changed: {ball: 'None', ball2: 'None', ball3: 'None'}
+VM1931:847 🎬 [00:45:21] Animation: "arrow" | Loop: true
+VM1931:901 🎯 SELECTION PHASE - ACTIVATING PIXI CONTAINER SCAN
+VM1696:613 🎬 [00:45:21] Animation: "arrow" | Loop: true
+VM1696:667 🎯 SELECTION PHASE - ACTIVATING ADVANCED SCAN
+VM1683:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1931:906 🚀 RUNNING PIXI CONTAINER SCAN
+VM1931:148 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1931:428    Scanning window objects...
+VM1931:207 🎯 TARGETED PIXI GAME CONTAINER SCAN...
+VM1931:212    ❌ Main PIXI app "App" not found
+VM1931:219    ✅ Found alternative PIXI app: __pixiApp
+VM1931:231    ✅ Found main PIXI app
+VM1931:245    ✅ Found "game" container at index 0 with 7 children
+VM1931:256    🔍 Deep scanning game container...
+VM1931:295       Found cup: thimbles_spine
+VM1931:281    ❌ No ball position found in game container
+VM1931:554    Scanning for game controllers...
+VM1931:638    Scanning Pixi.js containers (old method)...
+VM1931:726    Analyzing shuffle pattern for prediction...
+VM1931:189 🎱 PATTERN PREDICTION: right
+VM1931:911 ✅ PIXI CONTAINER DETECTION SUCCESS: Ball at right
+VM1696:672 🚀 RUNNING POST-SHUFFLE MEMORY SCAN
+VM1696:146 🔍 ADVANCED MEMORY SCAN ACTIVATED...
+VM1696:196    Scanning window objects...
+VM1696:322    Scanning for game controllers...
+VM1696:404    Scanning Pixi.js containers...
+VM1696:492    Analyzing shuffle pattern for prediction...
+VM1696:179 🎱 PATTERN PREDICTION: right
+VM1696:677 ✅ POST-SHUFFLE DETECTION SUCCESS: Ball at right
+// Run this DURING "arrow" phase:
+(function() {
+    console.log('🔍 QUICK GAME STRUCTURE CHECK');
+    
+    // 1. Check App exists
+    if (!window.App) {
+        console.log('❌ window.App not found');
+        return;
+    }
+    
+    console.log('✅ Found window.App');
+    
+    // 2. Check stage children
+    const stage = window.App.stage;
+    if (!stage || !stage.children) {
+        console.log('❌ No stage children');
+        return;
+    }
+    
+    console.log(`📊 Stage has ${stage.children.length} children:`);
+    stage.children.forEach((child, i) => {
+        console.log(`  [${i}] "${child.name}" (${child.constructor.name}) - ${child.children ? child.children.length : 0} children`);
+    });
+    
+    // 3. Find "game" container and list its structure
+    const gameContainer = stage.children.find(c => c.name === 'game');
+    if (gameContainer) {
+        console.log(`\n🎮 GAME CONTAINER STRUCTURE:`);
+        console.log(`   Type: ${gameContainer.constructor.name}`);
+        console.log(`   Children: ${gameContainer.children ? gameContainer.children.length : 0}`);
+        
+        if (gameContainer.children) {
+            gameContainer.children.forEach((child, i) => {
+                console.log(`   [${i}] "${child.name}" (${child.constructor.name})`);
+                // List grandchildren if they exist
+                if (child.children && child.children.length > 0) {
+                    child.children.forEach((grandchild, j) => {
+                        console.log(`       ↳ [${j}] "${grandchild.name}" (${grandchild.constructor.name})`);
+                    });
+                }
+            });
+        }
+    } else {
+        console.log('❌ No "game" container found');
+    }
+})();
+VM1963:3 🔍 QUICK GAME STRUCTURE CHECK
+VM1963:7 ❌ window.App not found
+undefined
