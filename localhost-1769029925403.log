@@ -1,0 +1,348 @@
+VM777:9 Console was cleared
+VM777:10 🎮 THIMBLES TRACKER v3.6 - Targeted State Extraction
+VM777:11 🚀 DIRECT GAME STATE ACCESS ENABLED
+VM777:624 🎮 Starting Thimbles Game Tracker v3.6 - Targeted State Extraction
+VM777:625 💡 Direct property access to window.__gameInstance
+undefined
+VM777:509 🚀 Initializing targeted state tracker...
+VM777:498 ✅ Enhanced tracker API available at window.thimblesTracker
+VM777:499 💡 Available commands:
+VM777:500    - thimblesTracker.getState() - Get current ball positions
+VM777:501    - thimblesTracker.inspectGameInstance() - Detailed instance inspection
+VM777:502    - thimblesTracker.checkProperties() - Check key properties
+VM777:503    - thimblesTracker.monitorState(500) - Monitor state changes every 500ms
+VM777:504    - thimblesTracker.execute("window.__gameInstance.ballPos") - Direct access
+VM777:520 ✅ Game instance captured: e
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM770:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+63925496.63925496.0e7e6ef6c607.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM770:4 🎬 GAME LOGIC: Playing animation "l/hover" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/hover" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM770:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+thimblesTracker.getState()
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+{ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+thimblesTracker.checkProperties()
+[{…}]0: {property: 'arraysOfLength3', value: Array(0), count: 0}length: 1[[Prototype]]: Array(0)
+thimblesTracker.execute("window.__gameInstance.ballPos")
+VM777:410 💻 Executing: window.__gameInstance.ballPos
+VM777:412 ✅ Result: undefined
+{success: true, result: undefined}
+thimblesTracker.execute("window.__gameInstance.cupStates")
+VM777:410 💻 Executing: window.__gameInstance.cupStates
+VM777:412 ✅ Result: undefined
+{success: true, result: undefined}
+const monitor = thimblesTracker.monitorState(500) // Updates every 500ms
+VM777:381 🔍 Starting state monitoring every 500ms
+undefined
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:388 🔄 STATE CHANGED: {time: '22:11:35', from: 'none', to: Array(0), positions: Array(0), sources: Array(0)}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+thimblesTracker.inspectGameInstance()
+{totalProperties: 15, ballProperties: {…}, cupProperties: {…}, stateProperties: {…}, arraysOfLength3: Array(0), …}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+VM777:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM777:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM777:62 ✅ Game instance available: e
+VM777:143 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+ 🎯 DIRECT STATE EXTRACTION ACTIVATED
+ ✅ Game instance available: e
+ 🔍 Deep scanning for ball arrays...
+ 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
