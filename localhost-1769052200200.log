@@ -1,0 +1,77 @@
+VM1299:9 Console was cleared
+VM1299:10 🎮 THIMBLES TRACKER v3.8 - Shuffle Pattern Analyzer
+VM1299:11 🔀 TRACKING BALLS THROUGH SHUFFLES
+VM1299:553 🎮 Starting Thimbles Tracker v3.8 - Shuffle Pattern Analyzer
+VM1299:544 ✅ Pattern Tracker API available at window.thimblesTracker
+VM1299:545 💡 Key Commands:
+VM1299:546    - thimblesTracker.captureNow()
+VM1299:547    - thimblesTracker.getCurrentState()
+VM1299:548    - thimblesTracker.analyzeHistory()
+undefined
+VM1299:45 🎯 Hooking into game animations...
+VM1299:573 ⚠️ Could not hook animations directly - using fallback monitoring
+VM1299:585 🔍 Tracker ready - waiting for game events...
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+83168834.83168834.e35648a7d122.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/hover" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+thimblesTracker.captureNow() // Force immediate capture
+VM1299:520 📸 Manual capture triggered
+null
+thimblesTracker.analyzeHistory() // See all captured states
+VM1299:526 📊 History Analysis:
+VM1299:527 - Total states: 0
+VM1299:528 - Successful captures: 0
+VM1299:529 - Last 5 animations: []
+undefined
+thimblesTracker.getPrediction() // Get current prediction
+null
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/hover" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/hover" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM1292:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
