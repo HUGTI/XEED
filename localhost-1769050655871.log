@@ -1,0 +1,116 @@
+VM487:9 Console was cleared
+VM487:10 🎮 THIMBLES TRACKER v3.6 - Targeted State Extraction
+VM487:11 🚀 DIRECT GAME STATE ACCESS ENABLED
+VM487:624 🎮 Starting Thimbles Game Tracker v3.6 - Targeted State Extraction
+VM487:625 💡 Direct property access to window.__gameInstance
+undefined
+VM487:509 🚀 Initializing targeted state tracker...
+VM487:498 ✅ Enhanced tracker API available at window.thimblesTracker
+VM487:499 💡 Available commands:
+VM487:500    - thimblesTracker.getState() - Get current ball positions
+VM487:501    - thimblesTracker.inspectGameInstance() - Detailed instance inspection
+VM487:502    - thimblesTracker.checkProperties() - Check key properties
+VM487:503    - thimblesTracker.monitorState(500) - Monitor state changes every 500ms
+VM487:504    - thimblesTracker.execute("window.__gameInstance.ballPos") - Direct access
+VM487:520 ✅ Game instance captured: e
+VM487:54 🎯 DIRECT STATE EXTRACTION ACTIVATED
+VM487:62 ✅ Game instance available: e
+VM487:143 🔍 Deep scanning for ball arrays...
+VM487:161 📋 Extraction Results: {ballPositions: Array(0), indices: Array(0), sources: Array(0), confidence: 'high', rawValues: {…}}
+VM480:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+67107808.67107808.fa4ac14d33b3.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/hover" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/hover" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/hover" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "l/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+thimblesTracker.inspectGameInstance()
+{totalProperties: 15, ballProperties: {…}, cupProperties: {…}, stateProperties: {…}, arraysOfLength3: Array(0), …}
+thimblesTracker.execute("Object.getOwnPropertyNames(Object.getPrototypeOf(window.__gameInstance))")
+VM487:410 💻 Executing: Object.getOwnPropertyNames(Object.getPrototypeOf(window.__gameInstance))
+VM487:412 ✅ Result: (18) ['constructor', 'onGameReady', 'onPlaceBet', 'openThimble', 'onWin', 'onLose', 'onBonusHalfBetLose', 'onSelectError', 'onGameStop', 'onGameStart', 'onInfoChange', 'startGame', 'update', 'createSceneFromConfigs', 'configureSceneParser', 'resize', 'destroy', 'getManifestMap']
+{success: true, result: Array(18)}
+thimblesTracker.execute("Object.keys(window.__gameInstance).filter(k => typeof window.__gameInstance[k] === 'object' && window.__gameInstance[k] !== null)")
+VM487:410 💻 Executing: Object.keys(window.__gameInstance).filter(k => typeof window.__gameInstance[k] === 'object' && window.__gameInstance[k] !== null)
+VM487:412 ✅ Result: (12) ['_events', 'app', 'device', 'loader', 'sceneParser', 'audioManager', 'spineStorage', 'resultPopup', 'background', 'thimbles', 'light', 'info']
+{success: true, result: Array(12)}
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/ball" (loop: true)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/up" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/idle_open" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "mid/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "r/down" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "jumble" (loop: false)
+VM480:4 🎬 GAME LOGIC: Playing animation "arrow" (loop: true)
+thimblesTracker.inspectGameInstance()
+{totalProperties: 15, ballProperties: {…}, cupProperties: {…}, stateProperties: {…}, arraysOfLength3: Array(0), …}
+thimblesTracker.execute("Object.getOwnPropertyNames(Object.getPrototypeOf(window.__gameInstance))")
+VM487:410 💻 Executing: Object.getOwnPropertyNames(Object.getPrototypeOf(window.__gameInstance))
+VM487:412 ✅ Result: (18) ['constructor', 'onGameReady', 'onPlaceBet', 'openThimble', 'onWin', 'onLose', 'onBonusHalfBetLose', 'onSelectError', 'onGameStop', 'onGameStart', 'onInfoChange', 'startGame', 'update', 'createSceneFromConfigs', 'configureSceneParser', 'resize', 'destroy', 'getManifestMap']
+{success: true, result: Array(18)}
+thimblesTracker.execute("Object.keys(window.__gameInstance).filter(k => typeof window.__gameInstance[k] === 'object' && window.__gameInstance[k] !== null)")
+VM487:410 💻 Executing: Object.keys(window.__gameInstance).filter(k => typeof window.__gameInstance[k] === 'object' && window.__gameInstance[k] !== null)
+VM487:412 ✅ Result: (12) ['_events', 'app', 'device', 'loader', 'sceneParser', 'audioManager', 'spineStorage', 'resultPopup', 'background', 'thimbles', 'light', 'info']
+{success: true, result: Array(12)}
