@@ -1,0 +1,58 @@
+VM590:2 💥 CRITICAL DEBUG - ARROW PHASE
+VM590:3 ===============================
+VM590:7 ✅ Game instance and thimbles object found
+VM590:12 📊 interactiveSlots has 3 elements:
+VM590:19 
+🔍 Slot 0 (left):
+VM590:22   Type: t
+VM590:23   Properties:
+VM590:29     darkColor: null
+VM590:29     attachment: e {name: 'thimble', id: 14, bones: null, vertices: Array(8), worldVerticesLength: 8, …}
+VM590:29     attachmentState: 29863
+VM590:29     sequenceIndex: -1
+VM590:29     deform: []
+VM590:29     data: t {index: 13, color: t, darkColor: null, attachmentName: 'thimble', blendMode: 0, …}
+VM590:29     bone: t {matrix: t, parent: t, children: Array(1), x: 239.47964477539062, y: 77.16440819702201, …}
+VM590:29     color: t {r: 1, g: 1, b: 1, a: 1}
+VM590:29     blendMode: 0
+VM590:29     meshes: {14: e, 15: e}
+VM590:29     currentMesh: e {_events: n, _eventsCount: 1, tempDisplayObjectParent: null, transform: t, alpha: 1, …}
+VM590:29     currentMeshId: 14
+VM590:29     currentMeshName: thimble
+VM590:19 
+🔍 Slot 1 (middle):
+VM590:22   Type: t
+VM590:23   Properties:
+VM590:29     darkColor: null
+VM590:29     attachment: e {name: 'thimble', id: 16, bones: null, vertices: Array(8), worldVerticesLength: 8, …}
+VM590:29     attachmentState: 29863
+VM590:29     sequenceIndex: -1
+VM590:29     deform: []
+VM590:29     data: t {index: 15, color: t, darkColor: null, attachmentName: 'thimble', blendMode: 0, …}
+VM590:29     bone: t {matrix: t, parent: t, children: Array(1), x: 14.451026916503906, y: 77.16440819702201, …}
+VM590:29     color: t {r: 1, g: 1, b: 1, a: 1}
+VM590:29     blendMode: 0
+VM590:29     meshes: {16: e, 17: e}
+VM590:29     currentMesh: e {_events: n, _eventsCount: 1, tempDisplayObjectParent: null, transform: t, alpha: 1, …}
+VM590:29     currentMeshId: 16
+VM590:29     currentMeshName: thimble
+VM590:19 
+🔍 Slot 2 (right):
+VM590:22   Type: t
+VM590:23   Properties:
+VM590:29     darkColor: null
+VM590:29     attachment: e {name: 'thimble', id: 18, bones: null, vertices: Array(8), worldVerticesLength: 8, …}
+VM590:29     attachmentState: 29863
+VM590:29     sequenceIndex: -1
+VM590:29     deform: []
+VM590:29     data: t {index: 17, color: t, darkColor: null, attachmentName: 'thimble', blendMode: 0, …}
+VM590:29     bone: t {matrix: t, parent: t, children: Array(1), x: -215.54791259765625, y: 77.16439293823295, …}
+VM590:29     color: t {r: 1, g: 1, b: 1, a: 1}
+VM590:29     blendMode: 0
+VM590:29     meshes: {18: e, 19: e}
+VM590:29     currentMesh: e {_events: n, _eventsCount: 1, tempDisplayObjectParent: null, transform: t, alpha: 1, …}
+VM590:29     currentMeshId: 18
+VM590:29     currentMeshName: thimble
+VM590:49 
+🎮 Checking thimbles.game object:
+undefined
