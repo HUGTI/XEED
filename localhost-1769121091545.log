@@ -1,0 +1,30 @@
+VM291:2 🔍 INSPECTING CAPTURED GAME INSTANCE:
+VM291:3 window.__gameInstance: e {_events: n, _eventsCount: 1, preferredTextureResolution: 1, app: e, device: e, …}
+VM291:4 Type: e
+VM291:5 Keys: (15) ['_events', '_eventsCount', 'preferredTextureResolution', 'app', 'device', 'loader', 'sceneParser', 'audioManager', 'isGameReady', 'spineStorage', 'resultPopup', 'background', 'thimbles', 'light', 'info']
+VM291:8 
+🎯 SEARCHING FOR BALL POSITION:
+VM291:16 ✅ Found: _eventsCount = 1
+VM291:16 ✅ Found: preferredTextureResolution = 1
+VM291:22 
+📊 CHECKING FOR ARRAYS:
+VM291:32 
+📞 CHECKING METHODS:
+VM291:45 
+📋 FULL INSPECTION:
+VM291:50 _events: n {onSelectThimble: o}
+VM291:50 _eventsCount: 1
+VM291:50 preferredTextureResolution: 1
+VM291:50 app: e {stage: e, renderer: e, _ticker: t, stop: ƒ, start: ƒ, …}
+VM291:50 device: e {_events: n, _eventsCount: 0, _currentDevice: 'desktop', _currentValueLandscape: false, view: body.app-stage.notranslate.webp-support.app-stage--2375.app-stage--v3}
+VM291:50 loader: e {_events: n, _eventsCount: 0, deployUrl: 'https://localhost:3443/games-frame/mfs/game-thimbles/', publicPath: 'https://localhost:3443/games-frame/mfs/game-thimbles/', resources: Map(51), …}
+VM291:50 sceneParser: t {_handlers: Map(7), _fonts: Map(1), controls: Map(2)}
+VM291:50 audioManager: e {sounds: Map(0), _mute: false, isGlobalPauseState: false, _locked: true, pauseSounds: Array(0), …}
+VM291:50 isGameReady: true
+VM291:50 spineStorage: t {storage: Array(5), filterCallback: ƒ, updateCallback: ƒ}
+VM291:50 resultPopup: t {container: e, spine: e, label: e}
+VM291:50 background: t {device: e, spine: e}
+VM291:50 thimbles: t {interactiveSlots: Array(3), meshListeners: Array(3), isArrowsPlay: false, game: e, spine: e, …}
+VM291:50 light: t {isStop: true, isAnimInProgress: false, device: e, spine: e}
+VM291:50 info: t {game: e, spine: e}
+undefined
