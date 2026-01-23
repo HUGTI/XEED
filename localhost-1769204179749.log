@@ -1,0 +1,79 @@
+// Target the interactive slots
+const slots = window.__gameInstance.thimbles.interactiveSlots;
+
+// 1. First, let's see the starting state
+console.log("=== STARTING STATE (Before Mix) ===");
+slots.forEach((slot, idx) => {
+    console.log(`Slot ${idx}: attachmentState = ${slot.attachmentState}`);
+});
+
+// 2. Try to find and intercept the function that updates the game/mixing logic.
+// Look for methods on the main game instance or its components.
+const game = window.__gameInstance;
+
+// Common method names in such games
+const potentialMethodNames = [];
+for (let key in game) {
+    if (typeof game[key] === 'function') {
+        // Look for methods that might trigger updates, mixes, or rounds
+        if (key.match(/start|mix|shuffle|update|round|finish/i)) {
+            potentialMethodNames.push(key);
+        }
+    }
+}
+console.log("Potential methods to hook:", potentialMethodNames);
+
+// 3. Create a "watcher" function to call after mixing
+function captureFinalBallPositions() {
+    console.log("=== FINAL BALL POSITIONS (After Mix) ===");
+    const ballPositions = [];
+    
+    slots.forEach((slot, idx) => {
+        // The ball is under the cup where attachmentState equals the "ball" state code.
+        // You need to discover this target code by watching it change.
+        console.log(`Cup ${idx}: attachmentState = ${slot.attachmentState}`);
+        // Example: If you discover state 757 means "with ball"
+        if (slot.attachmentState === 757) { // <-- Replace 757 with the correct code
+            ballPositions.push(idx);
+        }
+    });
+    
+    console.log(`🎯 Balls are under cups at indices: [${ballPositions.join(', ')}]`);
+    window.__lastBallPosition = ballPositions; // Save it globally
+    return ballPositions;
+}
+
+// 4. (Advanced) If you find the mixing function, hook it directly.
+// Example if you find a method called 'startRound':
+if (game.startRound) {
+    const originalStartRound = game.startRound;
+    game.startRound = function(...args) {
+        console.log("🎬 Round started. Capturing state before...");
+        const result = originalStartRound.apply(this, args);
+        // Use a timeout to capture state after animations might have finished
+        setTimeout(captureFinalBallPositions, 2000); // Adjust delay as needed
+        return result;
+    };
+    console.log("✅ Hooked 'startRound' method.");
+}
+
+// Make the capture function globally available to call manually
+window.captureBalls = captureFinalBallPositions;
+VM331:5 === STARTING STATE (Before Mix) ===
+VM331:7 Slot 0: attachmentState = 723
+VM331:7 Slot 1: attachmentState = 723
+VM331:7 Slot 2: attachmentState = 723
+VM331:24 Potential methods to hook: []
+ƒ captureFinalBallPositions() {
+    console.log("=== FINAL BALL POSITIONS (After Mix) ===");
+    const ballPositions = [];
+    
+    slots.forEach((slot, idx) => {
+        // The ball is under the cup w…
+window.captureBalls()
+VM331:28 === FINAL BALL POSITIONS (After Mix) ===
+VM331:34 Cup 0: attachmentState = 723
+VM331:34 Cup 1: attachmentState = 723
+VM331:34 Cup 2: attachmentState = 723
+VM331:41 🎯 Balls are under cups at indices: []
+[]
