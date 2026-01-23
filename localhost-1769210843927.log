@@ -1,0 +1,711 @@
+// FINAL BALL DETECTION SCRIPT
+window.detectBallsFinal = function() {
+    console.log("=== FINAL BALL DETECTOR STARTED ===");
+    const game = window.__gameInstance;
+    let resultFound = false;
+
+    // Monitor the skeleton in real-time during the mix
+    const checkInterval = setInterval(() => {
+        const spine = game.thimbles.spine;
+        if (spine && spine.skeleton) {
+            const ballSlots = [];
+
+            // Scan all skeleton slots for ball attachments
+            spine.skeleton.slots.forEach((slot, index) => {
+                if (slot.attachment && /ball/i.test(slot.attachment.name)) {
+                    ballSlots.push({ slotIndex: index, ballName: slot.attachment.name });
+                }
+            });
+
+            // If we find balls, log them and stop checking
+            if (ballSlots.length > 0 && !resultFound) {
+                resultFound = true;
+                clearInterval(checkInterval);
+                
+                console.log(`🎯 BALLS DETECTED DURING MIX: Found ${ballSlots.length} ball(s).`);
+                console.log("Ball locations (skeleton slot indices):", ballSlots);
+
+                // Optional: Try to map slot indices to cup numbers (0, 1, 2)
+                // This mapping requires the specific game logic. For now, the presence and number of balls is the key.
+                if (ballSlots.length === 1) {
+                    console.log("🏆 MODE: One-Ball. One cup contains a ball.");
+                } else if (ballSlots.length === 2) {
+                    console.log("🏆 MODE: Two-Ball. Two cups contain a ball each.");
+                }
+                
+                // Save the result globally for later use
+                window.__lastDetectedBalls = ballSlots;
+            }
+        }
+    }, 100); // Check every 100ms
+
+    // Stop monitoring after 10 seconds to avoid infinite loops
+    setTimeout(() => {
+        if (!resultFound) {
+            clearInterval(checkInterval);
+            console.log("Detection stopped. No balls found - ensure you triggered a mix.");
+        }
+    }, 10000);
+};
+
+console.log("✅ Script loaded. Run `detectBallsFinal()` and then START A GAME MIX.");
+VM1297:51 ✅ Script loaded. Run `detectBallsFinal()` and then START A GAME MIX.
+undefined
+detectBallsFinal()
+VM1297:3 === FINAL BALL DETECTOR STARTED ===
+undefined
+VM1297:46 Detection stopped. No balls found - ensure you triggered a mix.
+VM869:8 Cup 0: attachmentState changed from 158455 to 183858
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183858
+VM869:8 Cup 1: attachmentState changed from 158455 to 183858
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183858
+VM869:8 Cup 2: attachmentState changed from 158455 to 183858
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183858
+VM869:8 Cup 0: attachmentState changed from 183858 to 183860
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183860
+VM869:8 Cup 1: attachmentState changed from 183858 to 183860
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183860
+VM869:8 Cup 2: attachmentState changed from 183858 to 183860
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183860
+VM869:8 Cup 0: attachmentState changed from 183860 to 183862
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183862
+VM869:8 Cup 1: attachmentState changed from 183860 to 183862
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183862
+VM869:8 Cup 2: attachmentState changed from 183860 to 183862
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183862
+VM869:8 Cup 0: attachmentState changed from 183862 to 183864
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183864
+VM869:8 Cup 1: attachmentState changed from 183862 to 183864
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183864
+VM869:8 Cup 2: attachmentState changed from 183862 to 183864
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183864
+VM869:8 Cup 0: attachmentState changed from 183864 to 183866
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183866
+VM869:8 Cup 1: attachmentState changed from 183864 to 183866
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183866
+VM869:8 Cup 2: attachmentState changed from 183864 to 183866
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183866
+VM869:8 Cup 0: attachmentState changed from 183866 to 183868
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183868
+VM869:8 Cup 1: attachmentState changed from 183866 to 183868
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183868
+VM869:8 Cup 2: attachmentState changed from 183866 to 183868
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183868
+VM869:8 Cup 0: attachmentState changed from 183868 to 183870
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183870
+VM869:8 Cup 1: attachmentState changed from 183868 to 183870
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183870
+VM869:8 Cup 2: attachmentState changed from 183868 to 183870
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183870
+VM869:8 Cup 0: attachmentState changed from 183870 to 183872
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183872
+VM869:8 Cup 1: attachmentState changed from 183870 to 183872
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183872
+VM869:8 Cup 2: attachmentState changed from 183870 to 183872
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183872
+VM869:8 Cup 0: attachmentState changed from 183872 to 183874
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183874
+VM869:8 Cup 1: attachmentState changed from 183872 to 183874
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183874
+VM869:8 Cup 2: attachmentState changed from 183872 to 183874
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183874
+VM869:8 Cup 0: attachmentState changed from 183874 to 183876
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183876
+VM869:8 Cup 1: attachmentState changed from 183874 to 183876
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183876
+VM869:8 Cup 2: attachmentState changed from 183874 to 183876
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183876
+ Cup 0: attachmentState changed from 183876 to 183878
+ 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183878
+ Cup 1: attachmentState changed from 183876 to 183878
+ 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183878
+ Cup 2: attachmentState changed from 183876 to 183878
+ 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183878
+ Cup 0: attachmentState changed from 183878 to 183880
+ 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183880
+ Cup 1: attachmentState changed from 183878 to 183880
+ 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183880
+ Cup 2: attachmentState changed from 183878 to 183880
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183880
+VM869:8 Cup 0: attachmentState changed from 183880 to 183882
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183882
+VM869:8 Cup 1: attachmentState changed from 183880 to 183882
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183882
+VM869:8 Cup 2: attachmentState changed from 183880 to 183882
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183882
+VM869:8 Cup 0: attachmentState changed from 183882 to 183884
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183884
+VM869:8 Cup 1: attachmentState changed from 183882 to 183884
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183884
+VM869:8 Cup 2: attachmentState changed from 183882 to 183884
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183884
+VM869:8 Cup 0: attachmentState changed from 183884 to 183886
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183886
+VM869:8 Cup 1: attachmentState changed from 183884 to 183886
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183886
+VM869:8 Cup 2: attachmentState changed from 183884 to 183886
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183886
+VM869:8 Cup 0: attachmentState changed from 183886 to 183888
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183888
+VM869:8 Cup 1: attachmentState changed from 183886 to 183888
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183888
+VM869:8 Cup 2: attachmentState changed from 183886 to 183888
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183888
+VM869:8 Cup 0: attachmentState changed from 183888 to 183890
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183890
+VM869:8 Cup 1: attachmentState changed from 183888 to 183890
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183890
+VM869:8 Cup 2: attachmentState changed from 183888 to 183890
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183890
+VM869:8 Cup 0: attachmentState changed from 183890 to 183892
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183892
+VM869:8 Cup 1: attachmentState changed from 183890 to 183892
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183892
+VM869:8 Cup 2: attachmentState changed from 183890 to 183892
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183892
+VM869:8 Cup 0: attachmentState changed from 183892 to 183894
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183894
+VM869:8 Cup 1: attachmentState changed from 183892 to 183894
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183894
+VM869:8 Cup 2: attachmentState changed from 183892 to 183894
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183894
+VM869:8 Cup 0: attachmentState changed from 183894 to 183896
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183896
+VM869:8 Cup 1: attachmentState changed from 183894 to 183896
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183896
+VM869:8 Cup 2: attachmentState changed from 183894 to 183896
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183896
+VM869:8 Cup 0: attachmentState changed from 183896 to 183898
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183898
+VM869:8 Cup 1: attachmentState changed from 183896 to 183898
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183898
+VM869:8 Cup 2: attachmentState changed from 183896 to 183898
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183898
+VM869:8 Cup 0: attachmentState changed from 183898 to 183900
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183900
+VM869:8 Cup 1: attachmentState changed from 183898 to 183900
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183900
+VM869:8 Cup 2: attachmentState changed from 183898 to 183900
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183900
+VM869:8 Cup 0: attachmentState changed from 183900 to 183902
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183902
+VM869:8 Cup 1: attachmentState changed from 183900 to 183902
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183902
+VM869:8 Cup 2: attachmentState changed from 183900 to 183902
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183902
+VM869:8 Cup 0: attachmentState changed from 183902 to 183904
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183904
+VM869:8 Cup 1: attachmentState changed from 183902 to 183904
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183904
+VM869:8 Cup 2: attachmentState changed from 183902 to 183904
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183904
+VM869:8 Cup 0: attachmentState changed from 183904 to 183906
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183906
+VM869:8 Cup 1: attachmentState changed from 183904 to 183906
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183906
+VM869:8 Cup 2: attachmentState changed from 183904 to 183906
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183906
+VM869:8 Cup 0: attachmentState changed from 183906 to 183908
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183908
+VM869:8 Cup 1: attachmentState changed from 183906 to 183908
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183908
+VM869:8 Cup 2: attachmentState changed from 183906 to 183908
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183908
+VM869:8 Cup 0: attachmentState changed from 183908 to 183910
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183910
+VM869:8 Cup 1: attachmentState changed from 183908 to 183910
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183910
+VM869:8 Cup 2: attachmentState changed from 183908 to 183910
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183910
+VM869:8 Cup 0: attachmentState changed from 183910 to 183912
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183912
+VM869:8 Cup 1: attachmentState changed from 183910 to 183912
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183912
+VM869:8 Cup 2: attachmentState changed from 183910 to 183912
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183912
+VM869:8 Cup 0: attachmentState changed from 183912 to 183914
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183914
+VM869:8 Cup 1: attachmentState changed from 183912 to 183914
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183914
+VM869:8 Cup 2: attachmentState changed from 183912 to 183914
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183914
+VM869:8 Cup 0: attachmentState changed from 183914 to 183916
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183916
+VM869:8 Cup 1: attachmentState changed from 183914 to 183916
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183916
+VM869:8 Cup 2: attachmentState changed from 183914 to 183916
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183916
+VM869:8 Cup 0: attachmentState changed from 183916 to 183918
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183918
+VM869:8 Cup 1: attachmentState changed from 183916 to 183918
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183918
+VM869:8 Cup 2: attachmentState changed from 183916 to 183918
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183918
+VM869:8 Cup 0: attachmentState changed from 183918 to 183920
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183920
+VM869:8 Cup 1: attachmentState changed from 183918 to 183920
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183920
+VM869:8 Cup 2: attachmentState changed from 183918 to 183920
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183920
+VM869:8 Cup 0: attachmentState changed from 183920 to 183922
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183922
+VM869:8 Cup 1: attachmentState changed from 183920 to 183922
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183922
+VM869:8 Cup 2: attachmentState changed from 183920 to 183922
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183922
+VM869:8 Cup 0: attachmentState changed from 183922 to 183924
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183924
+VM869:8 Cup 1: attachmentState changed from 183922 to 183924
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183924
+VM869:8 Cup 2: attachmentState changed from 183922 to 183924
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183924
+VM869:8 Cup 0: attachmentState changed from 183924 to 183926
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183926
+VM869:8 Cup 1: attachmentState changed from 183924 to 183926
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183926
+VM869:8 Cup 2: attachmentState changed from 183924 to 183926
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183926
+VM869:8 Cup 0: attachmentState changed from 183926 to 183928
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183928
+VM869:8 Cup 1: attachmentState changed from 183926 to 183928
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183928
+VM869:8 Cup 2: attachmentState changed from 183926 to 183928
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183928
+ Cup 0: attachmentState changed from 183928 to 183930
+ 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183930
+ Cup 1: attachmentState changed from 183928 to 183930
+ 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183930
+ Cup 2: attachmentState changed from 183928 to 183930
+ 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183930
+VM869:8 Cup 0: attachmentState changed from 183930 to 183932
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183932
+VM869:8 Cup 1: attachmentState changed from 183930 to 183932
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183932
+VM869:8 Cup 2: attachmentState changed from 183930 to 183932
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183932
+VM869:8 Cup 0: attachmentState changed from 183932 to 183934
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183934
+VM869:8 Cup 1: attachmentState changed from 183932 to 183934
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183934
+VM869:8 Cup 2: attachmentState changed from 183932 to 183934
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183934
+VM869:8 Cup 0: attachmentState changed from 183934 to 183936
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183936
+VM869:8 Cup 1: attachmentState changed from 183934 to 183936
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183936
+VM869:8 Cup 2: attachmentState changed from 183934 to 183936
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183936
+VM869:8 Cup 0: attachmentState changed from 183936 to 183938
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183938
+VM869:8 Cup 1: attachmentState changed from 183936 to 183938
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183938
+VM869:8 Cup 2: attachmentState changed from 183936 to 183938
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183938
+VM869:8 Cup 0: attachmentState changed from 183938 to 183940
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183940
+VM869:8 Cup 1: attachmentState changed from 183938 to 183940
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183940
+VM869:8 Cup 2: attachmentState changed from 183938 to 183940
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183940
+VM869:8 Cup 0: attachmentState changed from 183940 to 183942
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183942
+VM869:8 Cup 1: attachmentState changed from 183940 to 183942
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183942
+VM869:8 Cup 2: attachmentState changed from 183940 to 183942
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183942
+VM869:8 Cup 0: attachmentState changed from 183942 to 183944
+ 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183944
+ Cup 1: attachmentState changed from 183942 to 183944
+ 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183944
+ Cup 2: attachmentState changed from 183942 to 183944
+ 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183944
+ Cup 0: attachmentState changed from 183944 to 183946
+ 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183946
+ Cup 1: attachmentState changed from 183944 to 183946
+ 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183946
+ Cup 2: attachmentState changed from 183944 to 183946
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183946
+VM869:8 Cup 0: attachmentState changed from 183946 to 183948
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183948
+VM869:8 Cup 1: attachmentState changed from 183946 to 183948
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183948
+VM869:8 Cup 2: attachmentState changed from 183946 to 183948
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183948
+VM869:8 Cup 0: attachmentState changed from 183948 to 183950
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183950
+VM869:8 Cup 1: attachmentState changed from 183948 to 183950
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183950
+VM869:8 Cup 2: attachmentState changed from 183948 to 183950
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183950
+VM869:8 Cup 0: attachmentState changed from 183950 to 183952
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183952
+VM869:8 Cup 1: attachmentState changed from 183950 to 183952
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183952
+VM869:8 Cup 2: attachmentState changed from 183950 to 183952
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183952
+VM869:8 Cup 0: attachmentState changed from 183952 to 183954
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183954
+VM869:8 Cup 1: attachmentState changed from 183952 to 183954
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183954
+VM869:8 Cup 2: attachmentState changed from 183952 to 183954
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183954
+VM869:8 Cup 0: attachmentState changed from 183954 to 183956
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183956
+VM869:8 Cup 1: attachmentState changed from 183954 to 183956
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183956
+VM869:8 Cup 2: attachmentState changed from 183954 to 183956
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183956
+VM869:8 Cup 0: attachmentState changed from 183956 to 183958
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183958
+VM869:8 Cup 1: attachmentState changed from 183956 to 183958
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183958
+VM869:8 Cup 2: attachmentState changed from 183956 to 183958
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183958
+VM869:8 Cup 0: attachmentState changed from 183958 to 183960
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183960
+VM869:8 Cup 1: attachmentState changed from 183958 to 183960
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183960
+VM869:8 Cup 2: attachmentState changed from 183958 to 183960
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183960
+VM869:8 Cup 0: attachmentState changed from 183960 to 183962
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183962
+VM869:8 Cup 1: attachmentState changed from 183960 to 183962
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183962
+VM869:8 Cup 2: attachmentState changed from 183960 to 183962
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183962
+VM869:8 Cup 0: attachmentState changed from 183962 to 183964
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183964
+VM869:8 Cup 1: attachmentState changed from 183962 to 183964
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183964
+VM869:8 Cup 2: attachmentState changed from 183962 to 183964
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183964
+VM869:8 Cup 0: attachmentState changed from 183964 to 183966
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183966
+VM869:8 Cup 1: attachmentState changed from 183964 to 183966
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183966
+VM869:8 Cup 2: attachmentState changed from 183964 to 183966
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183966
+VM869:8 Cup 0: attachmentState changed from 183966 to 183968
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183968
+VM869:8 Cup 1: attachmentState changed from 183966 to 183968
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183968
+VM869:8 Cup 2: attachmentState changed from 183966 to 183968
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183968
+VM869:8 Cup 0: attachmentState changed from 183968 to 183970
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183970
+VM869:8 Cup 1: attachmentState changed from 183968 to 183970
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183970
+VM869:8 Cup 2: attachmentState changed from 183968 to 183970
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183970
+VM869:8 Cup 0: attachmentState changed from 183970 to 183972
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183972
+VM869:8 Cup 1: attachmentState changed from 183970 to 183972
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183972
+VM869:8 Cup 2: attachmentState changed from 183970 to 183972
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183972
+VM869:8 Cup 0: attachmentState changed from 183972 to 183974
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183974
+VM869:8 Cup 1: attachmentState changed from 183972 to 183974
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183974
+VM869:8 Cup 2: attachmentState changed from 183972 to 183974
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183974
+VM869:8 Cup 0: attachmentState changed from 183974 to 183976
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183976
+VM869:8 Cup 1: attachmentState changed from 183974 to 183976
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183976
+VM869:8 Cup 2: attachmentState changed from 183974 to 183976
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183976
+VM869:8 Cup 0: attachmentState changed from 183976 to 183978
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183978
+VM869:8 Cup 1: attachmentState changed from 183976 to 183978
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183978
+VM869:8 Cup 2: attachmentState changed from 183976 to 183978
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183978
+VM869:8 Cup 0: attachmentState changed from 183978 to 183980
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183980
+VM869:8 Cup 1: attachmentState changed from 183978 to 183980
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183980
+VM869:8 Cup 2: attachmentState changed from 183978 to 183980
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183980
+VM869:8 Cup 0: attachmentState changed from 183980 to 183982
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183982
+VM869:8 Cup 1: attachmentState changed from 183980 to 183982
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183982
+VM869:8 Cup 2: attachmentState changed from 183980 to 183982
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183982
+VM869:8 Cup 0: attachmentState changed from 183982 to 183984
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183984
+VM869:8 Cup 1: attachmentState changed from 183982 to 183984
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183984
+VM869:8 Cup 2: attachmentState changed from 183982 to 183984
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183984
+VM869:8 Cup 0: attachmentState changed from 183984 to 183986
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183986
+VM869:8 Cup 1: attachmentState changed from 183984 to 183986
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183986
+VM869:8 Cup 2: attachmentState changed from 183984 to 183986
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183986
+VM869:8 Cup 0: attachmentState changed from 183986 to 183988
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183988
+VM869:8 Cup 1: attachmentState changed from 183986 to 183988
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183988
+VM869:8 Cup 2: attachmentState changed from 183986 to 183988
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183988
+VM869:8 Cup 0: attachmentState changed from 183988 to 183990
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183990
+VM869:8 Cup 1: attachmentState changed from 183988 to 183990
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183990
+VM869:8 Cup 2: attachmentState changed from 183988 to 183990
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183990
+VM869:8 Cup 0: attachmentState changed from 183990 to 183992
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183992
+VM869:8 Cup 1: attachmentState changed from 183990 to 183992
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183992
+VM869:8 Cup 2: attachmentState changed from 183990 to 183992
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183992
+VM869:8 Cup 0: attachmentState changed from 183992 to 183994
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183994
+VM869:8 Cup 1: attachmentState changed from 183992 to 183994
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183994
+VM869:8 Cup 2: attachmentState changed from 183992 to 183994
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183994
+VM869:8 Cup 0: attachmentState changed from 183994 to 183996
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183996
+VM869:8 Cup 1: attachmentState changed from 183994 to 183996
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183996
+VM869:8 Cup 2: attachmentState changed from 183994 to 183996
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183996
+VM869:8 Cup 0: attachmentState changed from 183996 to 183998
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 183998
+VM869:8 Cup 1: attachmentState changed from 183996 to 183998
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 183998
+VM869:8 Cup 2: attachmentState changed from 183996 to 183998
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 183998
+VM869:8 Cup 0: attachmentState changed from 183998 to 184000
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184000
+VM869:8 Cup 1: attachmentState changed from 183998 to 184000
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184000
+VM869:8 Cup 2: attachmentState changed from 183998 to 184000
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184000
+VM869:8 Cup 0: attachmentState changed from 184000 to 184002
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184002
+VM869:8 Cup 1: attachmentState changed from 184000 to 184002
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184002
+VM869:8 Cup 2: attachmentState changed from 184000 to 184002
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184002
+VM869:8 Cup 0: attachmentState changed from 184002 to 184004
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184004
+VM869:8 Cup 1: attachmentState changed from 184002 to 184004
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184004
+VM869:8 Cup 2: attachmentState changed from 184002 to 184004
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184004
+VM869:8 Cup 0: attachmentState changed from 184004 to 184006
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184006
+VM869:8 Cup 1: attachmentState changed from 184004 to 184006
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184006
+VM869:8 Cup 2: attachmentState changed from 184004 to 184006
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184006
+VM869:8 Cup 0: attachmentState changed from 184006 to 184008
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184008
+VM869:8 Cup 1: attachmentState changed from 184006 to 184008
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184008
+VM869:8 Cup 2: attachmentState changed from 184006 to 184008
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184008
+VM869:8 Cup 0: attachmentState changed from 184008 to 184010
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184010
+VM869:8 Cup 1: attachmentState changed from 184008 to 184010
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184010
+VM869:8 Cup 2: attachmentState changed from 184008 to 184010
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184010
+VM869:8 Cup 0: attachmentState changed from 184010 to 184012
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184012
+VM869:8 Cup 1: attachmentState changed from 184010 to 184012
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184012
+VM869:8 Cup 2: attachmentState changed from 184010 to 184012
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184012
+VM869:8 Cup 0: attachmentState changed from 184012 to 184014
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184014
+VM869:8 Cup 1: attachmentState changed from 184012 to 184014
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184014
+VM869:8 Cup 2: attachmentState changed from 184012 to 184014
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184014
+VM869:8 Cup 0: attachmentState changed from 184014 to 184016
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184016
+VM869:8 Cup 1: attachmentState changed from 184014 to 184016
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184016
+VM869:8 Cup 2: attachmentState changed from 184014 to 184016
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184016
+VM869:8 Cup 0: attachmentState changed from 184016 to 184018
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184018
+VM869:8 Cup 1: attachmentState changed from 184016 to 184018
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184018
+VM869:8 Cup 2: attachmentState changed from 184016 to 184018
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184018
+VM869:8 Cup 0: attachmentState changed from 184018 to 184020
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184020
+VM869:8 Cup 1: attachmentState changed from 184018 to 184020
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184020
+VM869:8 Cup 2: attachmentState changed from 184018 to 184020
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184020
+VM869:8 Cup 0: attachmentState changed from 184020 to 184022
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184022
+VM869:8 Cup 1: attachmentState changed from 184020 to 184022
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184022
+VM869:8 Cup 2: attachmentState changed from 184020 to 184022
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184022
+VM869:8 Cup 0: attachmentState changed from 184022 to 184024
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184024
+VM869:8 Cup 1: attachmentState changed from 184022 to 184024
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184024
+VM869:8 Cup 2: attachmentState changed from 184022 to 184024
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184024
+VM869:8 Cup 0: attachmentState changed from 184024 to 184026
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184026
+VM869:8 Cup 1: attachmentState changed from 184024 to 184026
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184026
+VM869:8 Cup 2: attachmentState changed from 184024 to 184026
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184026
+VM869:8 Cup 0: attachmentState changed from 184026 to 184028
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184028
+VM869:8 Cup 1: attachmentState changed from 184026 to 184028
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184028
+VM869:8 Cup 2: attachmentState changed from 184026 to 184028
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184028
+VM869:8 Cup 0: attachmentState changed from 184028 to 184030
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184030
+VM869:8 Cup 1: attachmentState changed from 184028 to 184030
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184030
+VM869:8 Cup 2: attachmentState changed from 184028 to 184030
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184030
+VM869:8 Cup 0: attachmentState changed from 184030 to 184032
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184032
+VM869:8 Cup 1: attachmentState changed from 184030 to 184032
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184032
+VM869:8 Cup 2: attachmentState changed from 184030 to 184032
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184032
+VM869:8 Cup 0: attachmentState changed from 184032 to 184034
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184034
+VM869:8 Cup 1: attachmentState changed from 184032 to 184034
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184034
+VM869:8 Cup 2: attachmentState changed from 184032 to 184034
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184034
+VM869:8 Cup 0: attachmentState changed from 184034 to 184036
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184036
+VM869:8 Cup 1: attachmentState changed from 184034 to 184036
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184036
+VM869:8 Cup 2: attachmentState changed from 184034 to 184036
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184036
+VM869:8 Cup 0: attachmentState changed from 184036 to 184038
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184038
+VM869:8 Cup 1: attachmentState changed from 184036 to 184038
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184038
+VM869:8 Cup 2: attachmentState changed from 184036 to 184038
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184038
+VM869:8 Cup 0: attachmentState changed from 184038 to 184040
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184040
+VM869:8 Cup 1: attachmentState changed from 184038 to 184040
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184040
+VM869:8 Cup 2: attachmentState changed from 184038 to 184040
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184040
+VM869:8 Cup 0: attachmentState changed from 184040 to 184042
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184042
+VM869:8 Cup 1: attachmentState changed from 184040 to 184042
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184042
+VM869:8 Cup 2: attachmentState changed from 184040 to 184042
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184042
+VM869:8 Cup 0: attachmentState changed from 184042 to 184043
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184043
+VM869:8 Cup 1: attachmentState changed from 184042 to 184043
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184043
+VM869:8 Cup 2: attachmentState changed from 184042 to 184043
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184043
+VM869:8 Cup 0: attachmentState changed from 184043 to 184045
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184045
+VM869:8 Cup 1: attachmentState changed from 184043 to 184045
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184045
+VM869:8 Cup 2: attachmentState changed from 184043 to 184045
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184045
+VM869:8 Cup 0: attachmentState changed from 184045 to 184047
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184047
+VM869:8 Cup 1: attachmentState changed from 184045 to 184047
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184047
+VM869:8 Cup 2: attachmentState changed from 184045 to 184047
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184047
+VM869:8 Cup 0: attachmentState changed from 184047 to 184049
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184049
+VM869:8 Cup 1: attachmentState changed from 184047 to 184049
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184049
+VM869:8 Cup 2: attachmentState changed from 184047 to 184049
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184049
+VM869:8 Cup 0: attachmentState changed from 184049 to 184051
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184051
+VM869:8 Cup 1: attachmentState changed from 184049 to 184051
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184051
+VM869:8 Cup 2: attachmentState changed from 184049 to 184051
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184051
+VM869:8 Cup 0: attachmentState changed from 184051 to 184053
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184053
+VM869:8 Cup 1: attachmentState changed from 184051 to 184053
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184053
+VM869:8 Cup 2: attachmentState changed from 184051 to 184053
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184053
+VM869:8 Cup 0: attachmentState changed from 184053 to 184055
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184055
+VM869:8 Cup 1: attachmentState changed from 184053 to 184055
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184055
+VM869:8 Cup 2: attachmentState changed from 184053 to 184055
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184055
+VM869:8 Cup 0: attachmentState changed from 184055 to 184057
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184057
+VM869:8 Cup 1: attachmentState changed from 184055 to 184057
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184057
+VM869:8 Cup 2: attachmentState changed from 184055 to 184057
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184057
+VM869:8 Cup 0: attachmentState changed from 184057 to 184059
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184059
+VM869:8 Cup 1: attachmentState changed from 184057 to 184059
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184059
+VM869:8 Cup 2: attachmentState changed from 184057 to 184059
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184059
+VM869:8 Cup 0: attachmentState changed from 184059 to 184061
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184061
+VM869:8 Cup 1: attachmentState changed from 184059 to 184061
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184061
+VM869:8 Cup 2: attachmentState changed from 184059 to 184061
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184061
+VM869:8 Cup 0: attachmentState changed from 184061 to 184063
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184063
+VM869:8 Cup 1: attachmentState changed from 184061 to 184063
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184063
+VM869:8 Cup 2: attachmentState changed from 184061 to 184063
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184063
+VM869:8 Cup 0: attachmentState changed from 184063 to 184065
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184065
+VM869:8 Cup 1: attachmentState changed from 184063 to 184065
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184065
+VM869:8 Cup 2: attachmentState changed from 184063 to 184065
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184065
+VM869:8 Cup 0: attachmentState changed from 184065 to 184067
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184067
+VM869:8 Cup 1: attachmentState changed from 184065 to 184067
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184067
+VM869:8 Cup 2: attachmentState changed from 184065 to 184067
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184067
+VM869:8 Cup 0: attachmentState changed from 184067 to 184069
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184069
+VM869:8 Cup 1: attachmentState changed from 184067 to 184069
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184069
+VM869:8 Cup 2: attachmentState changed from 184067 to 184069
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184069
+VM869:8 Cup 0: attachmentState changed from 184069 to 184071
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184071
+VM869:8 Cup 1: attachmentState changed from 184069 to 184071
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184071
+VM869:8 Cup 2: attachmentState changed from 184069 to 184071
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184071
+VM869:8 Cup 0: attachmentState changed from 184071 to 184073
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 0! State code: 184073
+VM869:8 Cup 1: attachmentState changed from 184071 to 184073
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 1! State code: 184073
+VM869:8 Cup 2: attachmentState changed from 184071 to 184073
+VM869:13 🎯 POSSIBLE BALL DETECTED in Cup 2! State code: 184073
