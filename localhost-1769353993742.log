@@ -1,0 +1,61 @@
+searchForBallState();
+VM574:39 Possible ball state objects:
+[]length: 0[[Prototype]]: Array(0)
+
+
+
+findChoiceFunctions();
+VM578:25 Found candidate functions:
+VM578:27 game.app.renderer.gl.checkFramebufferStatus
+VM578:27 game.device.view.firstElementChild.checkVisibility
+VM578:27 game.device.view.firstElementChild.querySelector
+VM578:27 game.device.view.firstElementChild.querySelectorAll
+VM578:27 game.device.view.firstElementChild.webkitMatchesSelector
+VM578:27 game.device.view.lastElementChild.checkVisibility
+VM578:27 game.device.view.lastElementChild.querySelector
+VM578:27 game.device.view.lastElementChild.querySelectorAll
+VM578:27 game.device.view.lastElementChild.webkitMatchesSelector
+VM578:27 game.device.view.previousElementSibling.checkVisibility
+VM578:27 game.device.view.previousElementSibling.querySelector
+VM578:27 game.device.view.previousElementSibling.querySelectorAll
+VM578:27 game.device.view.previousElementSibling.webkitMatchesSelector
+VM578:27 game.device.view.checkVisibility
+VM578:27 game.device.view.querySelector
+VM578:27 game.device.view.querySelectorAll
+VM578:27 game.device.view.webkitMatchesSelector
+VM578:27 game.device.view.ownerDocument.getSelection
+VM578:27 game.device.view.ownerDocument.querySelector
+VM578:27 game.device.view.ownerDocument.querySelectorAll
+VM578:27 game.device.view.parentNode.checkVisibility
+VM578:27 game.device.view.parentNode.querySelector
+VM578:27 game.device.view.parentNode.querySelectorAll
+VM578:27 game.device.view.parentNode.webkitMatchesSelector
+VM578:27 game.device.view.parentElement.checkVisibility
+VM578:27 game.device.view.parentElement.querySelector
+VM578:27 game.device.view.parentElement.querySelectorAll
+VM578:27 game.device.view.parentElement.webkitMatchesSelector
+VM578:27 game.device.view.firstChild.checkVisibility
+VM578:27 game.device.view.firstChild.querySelector
+VM578:27 game.device.view.firstChild.querySelectorAll
+VM578:27 game.device.view.firstChild.webkitMatchesSelector
+VM578:27 game.device.view.lastChild.checkVisibility
+VM578:27 game.device.view.lastChild.querySelector
+VM578:27 game.device.view.lastChild.querySelectorAll
+VM578:27 game.device.view.lastChild.webkitMatchesSelector
+VM578:27 game.device.view.previousSibling.checkVisibility
+VM578:27 game.device.view.previousSibling.querySelector
+VM578:27 game.device.view.previousSibling.querySelectorAll
+VM578:27 game.device.view.previousSibling.webkitMatchesSelector
+VM578:27 game.resultPopup.label.canvas.checkVisibility
+VM578:27 game.resultPopup.label.canvas.querySelector
+VM578:27 game.resultPopup.label.canvas.querySelectorAll
+VM578:27 game.resultPopup.label.canvas.webkitMatchesSelector
+VM578:27 game.background.device.view.checkVisibility
+VM578:27 game.background.device.view.querySelector
+VM578:27 game.background.device.view.querySelectorAll
+VM578:27 game.background.device.view.webkitMatchesSelector
+VM578:27 game.light.device.view.checkVisibility
+VM578:27 game.light.device.view.querySelector
+VM578:27 game.light.device.view.querySelectorAll
+VM578:27 game.light.device.view.webkitMatchesSelector
+(52) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
