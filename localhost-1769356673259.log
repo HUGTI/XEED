@@ -1,0 +1,34 @@
+// Start collector
+window.collector = new GameDataCollector();
+
+console.log("📋 Available commands:");
+console.log("  collector.recordChoice(cupIndex) - record which cup you chose");
+console.log("  collector.recordResult(true/false) - record win/lose");
+console.log("  collector.getData() - get all collected data");
+VM365:9 📊 Game Data Collector Started
+VM365:132 📋 Available commands:
+VM365:133   collector.recordChoice(cupIndex) - record which cup you chose
+VM365:134   collector.recordResult(true/false) - record win/lose
+VM365:135   collector.getData() - get all collected data
+undefined
+VM365:53 🎲 Round 1 started
+VM365:54   Balls on bones: ball2, ball3
+
+
+VM365:53 🎲 Round 1 started
+VM365:54   Balls on bones: ball, ball3
+collector.recordChoice(1); // If you chose middle
+collector.recordResult(true); // If you won, or false if lost
+VM365:61 ✓ Recorded choice: Cup 1
+VM365:71 ✅ Round 1 completed: WIN
+VM365:72   Chose: Cup 1
+VM365:73   Balls during mixing: ball, ball3
+VM365:81 
+📈 PATTERN ANALYSIS
+VM365:82 Total rounds: 1
+VM365:96 Results by ball bone combination:
+VM365:101   ball-ball3: 1W 0L (100% win rate)
+VM365:113 
+Win rates by chosen cup:
+VM365:119   Cup 1: 1W 0L (100% win rate)
+undefined
