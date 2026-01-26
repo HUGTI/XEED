@@ -1,0 +1,78 @@
+// Install the automatic solver
+window.autoSolver = new AutomaticSolver();
+
+console.log(`
+===========================================
+🎮 AUTOMATIC THIMBLERIG SOLVER v2.0
+===========================================
+✅ FEATURES:
+• Auto-detects cup selections
+• Tracks round history
+• Deduces winning cups when you lose
+• Shows statistics
+
+📋 HOW TO USE:
+1. Play rounds normally
+2. After each round ends, run:
+   
+   // If you WON:
+   autoSolver.recordResult(true)
+   
+   // If you LOST:
+   autoSolver.recordResult(false)
+   
+3. To see history: autoSolver.showHistory()
+
+🔧 Available commands:
+• autoSolver.recordResult(true/false)
+• autoSolver.showHistory()
+• autoSolver.getCheatSheet()
+===========================================
+`);
+VM279:9 ✅ Automatic Solver v2.0 Installed
+VM279:142 
+===========================================
+🎮 AUTOMATIC THIMBLERIG SOLVER v2.0
+===========================================
+✅ FEATURES:
+• Auto-detects cup selections
+• Tracks round history
+• Deduces winning cups when you lose
+• Shows statistics
+
+📋 HOW TO USE:
+1. Play rounds normally
+2. After each round ends, run:
+   
+   // If you WON:
+   autoSolver.recordResult(true)
+   
+   // If you LOST:
+   autoSolver.recordResult(false)
+   
+3. To see history: autoSolver.showHistory()
+
+🔧 Available commands:
+• autoSolver.recordResult(true/false)
+• autoSolver.showHistory()
+• autoSolver.getCheatSheet()
+===========================================
+
+undefined
+
+VM279:43 🎯 Cup 2 selected (LEFT)
+VM279:54 🎲 Round 1 started
+// If you see "WIN" in the game:
+autoSolver.recordResult(true);
+VM279:68 
+🏆 ROUND 1 RESULT:
+VM279:69    Choice: LEFT (Cup 2)
+VM279:70    Result: WIN
+VM279:102 
+📊 ALL ROUNDS HISTORY:
+VM279:110    Round 1: LEFT → WIN
+VM279:122 
+📈 STATISTICS: 1 wins, 0 losses
+VM279:123    Win rate: 100.0%
+VM279:124    Expected (random): 66.7% in 2-ball mode
+undefined
