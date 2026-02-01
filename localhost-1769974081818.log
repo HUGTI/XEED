@@ -1,0 +1,117 @@
+// DELAYED GHOST PROBE - Uses next AN to avoid conflict
+
+VM357:4 ⏳ Installing Delayed Ghost Probe...
+VM357:162 ✅ Delayed Ghost Probe active.
+VM357:163 💡 Play normally. After you select a cup, wait ~500ms for the probe results.
+undefined
+VM357:35 🎲 Captured game config: {WH: 55, LG: 'fr', GT: 62, UI: 1535355583, GFI: 2}
+63390544.63390544.ac26b24ac3d0.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM357:41 🎭 Intercepted player MakeAction request
+VM357:58 📦 Player action response: {SB: 2, CF: 1.45, SW: 290, AB: 1825.5, RS: {…}, …}AB: 1825.5AI: 1535355583AN: 2BS: 200CF: 1.45RS: {FC: Array(2), GM: {…}}SB: 2SW: 290[[Prototype]]: Object
+VM357:64 ⏰ Next AN from server: 2. Will probe in 500ms...
+VM357:96 🔍 Sending delayed probe with AN=2: {WH: 55, LG: 'fr', GT: 62, UI: 1535355583, AN: 2, …}AN: 2GFI: 2GT: 62LG: "fr"ST: 1UI: 1535355583WH: 55[[Prototype]]: Object
+VM357:98  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55 401 (Unauthorized)
+sendProbeRequest @ VM357:98
+(anonymous) @ VM357:68
+setTimeout
+onload @ VM357:67
+XMLHttpRequest.send
+XMLHttpRequest.send @ VM357:81
+(anonymous) @ 14687768.14687768.ceeffc82bbe4.js:1
+xhr @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 47257778.47257778.6d95ff136b80.js:1
+ft @ 14687768.14687768.ceeffc82bbe4.js:1
+Promise.then
+_request @ 14687768.14687768.ceeffc82bbe4.js:1
+request @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+Promise.then
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+makeRequest @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+makePostRequest @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+bt @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+a @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+onSelectThimble @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+u.emit @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+VM357:119 ❌ Probe failed: SyntaxError: Failed to execute 'json' on 'Response': Unexpected end of JSON input
+    at <anonymous>:103:36
+(anonymous) @ VM357:119
+Promise.catch
+sendProbeRequest @ VM357:119
+(anonymous) @ VM357:68
+setTimeout
+onload @ VM357:67
+XMLHttpRequest.send
+XMLHttpRequest.send @ VM357:81
+(anonymous) @ 14687768.14687768.ceeffc82bbe4.js:1
+xhr @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 47257778.47257778.6d95ff136b80.js:1
+ft @ 14687768.14687768.ceeffc82bbe4.js:1
+Promise.then
+_request @ 14687768.14687768.ceeffc82bbe4.js:1
+request @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+Promise.then
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+makeRequest @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+makePostRequest @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+bt @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+a @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+onSelectThimble @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+u.emit @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
