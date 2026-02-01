@@ -1,0 +1,263 @@
+methods: {
+                    initApp: function() {
+                        var e = this;
+                        return new Promise(function(n) {
+                            (t = ft({
+                                platform: e.isMobileView ? c.DEFAULT_DEVICES.MOBILE : c.DEFAULT_DEVICES.DESKTOP,
+                                view: e.$refs.canvas,
+                                backgroundColor: "060320"
+                            })).loadGame(),
+                            t.on("onSelectThimble", e.onSelectThimble),
+                            t.once("onStartGame", function() {
+                                u.AppPreloader.setCustomStageReady("readyGameStage"),
+                                (0,
+                                u.makeAdditionalAssetsReady)(),
+                                n()
+                            })
+                        }
+                        )
+                    },
+                    onPlayClick: function() {
+                        var e = this;
+                        return dt(mt().m(function n() {
+                            var r;
+                            return mt().w(function(n) {
+                                for (; ; )
+                                    switch (n.n) {
+                                    case 0:
+                                        e.startGame(),
+                                        null === (r = t) || void 0 === r || r.onGameStart();
+                                    case 1:
+                                        return n.a(2)
+                                    }
+                            }, n)
+                        }))()
+                    },
+                    placeBet: function() {
+                        var t = this;
+                        return dt(mt().m(function e() {
+                            var n;
+                            return mt().w(function(e) {
+                                for (; ; )
+                                    switch (e.p = e.n) {
+                                    case 0:
+                                        return e.p = 0,
+                                        t.isPlayingInfo = !0,
+                                        e.n = 1,
+                                        t.makeBetRequest("MakeBet", {
+                                            GFI: t.ballsCount,
+                                            BS: t.getCurrBet
+                                        });
+                                    case 1:
+                                        return n = e.v,
+                                        t.updateBalanceFromGame(),
+                                        e.n = 2,
+                                        t.parseGame(n);
+                                    case 2:
+                                        e.n = 4;
+                                        break;
+                                    case 3:
+                                        e.p = 3,
+                                        e.v,
+                                        t.isPlayingInfo = !1;
+                                    case 4:
+                                        return e.a(2)
+                                    }
+                            }, e, null, [[0, 3]])
+                        }))()
+                    },
+                    onSelectThimble: function(e) {
+                        var n = this;
+                        return dt(mt().m(function r() {
+                            var o, i;
+                            return mt().w(function(r) {
+                                for (; ; )
+                                    switch (r.p = r.n) {
+                                    case 0:
+                                        return n.selectedThimbleId = e,
+                                        r.p = 1,
+                                        r.n = 2,
+                                        n.makePostRequest("MakeAction", {
+                                            AN: n.actionNumber,
+                                            ST: n.selectedThimbleId + 1
+                                        }, {
+                                            customOptions: {
+                                                action: "select"
+                                            }
+                                        });
+                                    case 2:
+                                        return o = r.v,
+                                        r.n = 3,
+                                        n.parseGame(o);
+                                    case 3:
+                                        r.n = 5;
+                                        break;
+                                    case 4:
+                                        return r.p = 4,
+                                        r.v,
+                                        r.n = 5,
+                                        null === (i = t) || void 0 === i ? void 0 : i.onSelectError(n.selectedThimbleId);
+                                    case 5:
+                                        return r.a(2)
+                                    }
+                            }, r, null, [[1, 4]])
+                        }))()
+                    },
+                    parsePrevGame: function(e) {
+                        var n = this;
+                        return dt(mt().m(function r() {
+                            var o;
+                            return mt().w(function(r) {
+                                for (; ; )
+                                    switch (r.n) {
+                                    case 0:
+                                        return e.AN && (n.actionNumber = e.AN,
+                                        n.setBlockGame(!0),
+                                        n.unfinishedGameAccountHandler(null, e)),
+                                        null === (o = t) || void 0 === o || o.onGameStart(),
+                                        r.n = 1,
+                                        n.parseGame(e);
+                                    case 1:
+                                        return r.a(2)
+                                    }
+                            }, r)
+                        }))()
+                    },
+                    parseGame: function(e) {
+                        var n = this;
+                        return dt(mt().m(function r() {
+                            var o, i, a, s, c, u, l, f, p, m, h, b, d, y, v, g, w, k, S, O;
+                            return mt().w(function(r) {
+                                for (; ; )
+                                    switch (r.n) {
+                                    case 0:
+                                        if (c = e.RS,
+                                        u = e.AN,
+                                        l = e.SB,
+                                        f = e.SW,
+                                        p = e.CF,
+                                        m = e.BS,
+                                        h = null === (o = c.GM) || void 0 === o ? void 0 : o.TRC,
+                                        n.ballsCount = c.GFI || (null === (i = c.GM) || void 0 === i ? void 0 : i.GFI) || 0,
+                                        n.actionNumber = u,
+                                        l !== pt.ACTIVE) {
+                                            r.n = 2;
+                                            break
+                                        }
+                                        return n.insertSingleBet(m),
+                                        d = n.getRandomThimblesIds(),
+                                        r.n = 1,
+                                        null === (b = t) || void 0 === b ? void 0 : b.onPlaceBet(d);
+                                    case 1:
+                                        return n.isPlayingInfo = !1,
+                                        r.a(2);
+                                    case 2:
+                                        if (h) {
+                                            r.n = 3;
+                                            break
+                                        }
+                                        return r.a(2);
+                                    case 3:
+                                        return y = n.createWinText(f),
+                                        v = f > 0 && !!p,
+                                        r.n = 4,
+                                        null === (a = t) || void 0 === a ? void 0 : a.openThimble(n.selectedThimbleId, v);
+                                    case 4:
+                                        if (n.setDefaultResult(f, !1),
+                                        !v) {
+                                            r.n = 6;
+                                            break
+                                        }
+                                        return w = 1 === n.ballsCount,
+                                        r.n = 5,
+                                        null === (g = t) || void 0 === g ? void 0 : g.onWin(n.selectedThimbleId, w, y);
+                                    case 5:
+                                    case 7:
+                                        r.n = 9;
+                                        break;
+                                    case 6:
+                                        if (k = n.filterOtherThimblesIds(h),
+                                        n.toggleLoseMessage(),
+                                        !n.bonusRevertHalfBetIsActive) {
+                                            r.n = 8;
+                                            break
+                                        }
+                                        return r.n = 7,
+                                        null === (S = t) || void 0 === S ? void 0 : S.onBonusHalfBetLose(n.selectedThimbleId, k, y);
+                                    case 8:
+                                        return r.n = 9,
+                                        null === (O = t) || void 0 === O ? void 0 : O.onLose(n.selectedThimbleId, k);
+                                    case 9:
+                                        return null === (s = t) || void 0 === s || s.onGameStop(),
+                                        r.n = 10,
+                                        n.endGameCallback();
+                                    case 10:
+                                        return r.a(2)
+                                    }
+                            }, r)
+                        }))()
+                    },
+                    filterOtherThimblesIds: function(t) {
+                        var e = this;
+                        return t.reduce(function(t, n, r) {
+                            return 0 !== n && r !== e.selectedThimbleId && t.push(r),
+                            t
+                        }, [])
+                    },
+                    createWinText: function(t) {
+                        return "".concat(this.$t("common.youWin2"), " \n ").concat(this.getWinSumWithCurrency(t))
+                    },
+                    getWinSumWithCurrency: function(t) {
+                        return this.isRtl ? "".concat(this.prevGameCurrency, " ").concat(t) : "".concat(t, " ").concat(this.prevGameCurrency)
+                    },
+                    getRandomThimblesIds: function() {
+                        return (0,
+                        o.sampleSize)([0, 1, 2], this.ballsCount)
+                    },
+                    setCountBalls: function(t) {
+                        this.gameStarted || (this.ballsCount = t + 1)
+                    },
+                    toggleLoseMessage: function() {
+                        var t = this;
+                        this.isLoseMessageAvailable = !0,
+                        (0,
+                        a.A)(3e3).then(function() {
+                            t.isLoseMessageAvailable = !1
+                        })
+                    },
+                    toggleSound: function() {
+                        this.isSoundOn = !this.isSoundOn
+                    },
+                    onResize: function() {
+                        var e;
+                        null === (e = t) || void 0 === e || e.resize()
+                    },
+                    getCoefText: function(t) {
+                        return "x" + t
+                    },
+                    showGameRulesPopup: function() {
+                        var t = this;
+                        return dt(mt().m(function e() {
+                            var r;
+                            return mt().w(function(e) {
+                                for (; ; )
+                                    switch (e.n) {
+                                    case 0:
+                                        return e.n = 1,
+                                        n.e(25082678).then(n.bind(n, 13774561));
+                                    case 1:
+                                        r = e.v,
+                                        t.defaultOpenModal(r, "ProxyRules");
+                                    case 2:
+                                        return e.a(2)
+                                    }
+                            }, e)
+                        }))()
+                    },
+                    fetchGameCoefs: function() {
+                        return this.makeGetRequest("GetCoeffs")
+                    },
+                    fetchActiveGame: function() {
+                        return this.makeGetRequest("GetActiveGame")
+                    }
+                }
