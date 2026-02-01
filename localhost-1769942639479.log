@@ -1,0 +1,486 @@
+// STATE MONITORING
+VM284:8 📊 Starting state monitoring...
+VM284:101 ✅ State monitoring active. Mix the cups and watch for changes.
+undefined
+
+
+// DEEP EXPLORATION
+VM349:11 🔍 Starting deep exploration...
+VM349:81 🎯 Searching for ball position data...
+VM349:86 
+📊 Results from game:
+VM349:88   game.app.stage.tempDisplayObjectParent.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.app.stage.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.app.containers.2.transform.position: t {_x: 960, _y: 465, scope: t, cb: ƒ}
+VM349:88   game.app.containers.3.transform.position: t {_x: 960, _y: 275, scope: t, cb: ƒ}
+VM349:88   game.app.containers.4.transform.position: t {_x: 960, _y: 65, scope: t, cb: ƒ}
+VM349:88   game.spineStorage.storage.0.transform.position: t {_x: 978, _y: 460, scope: t, cb: ƒ}
+VM349:88   game.spineStorage.storage.0.spineData.slots: (86) [t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.0.skeleton.slots: (86) [t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.0.slotContainers: (86) [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e]
+VM349:88   game.spineStorage.storage.1.transform.position: t {_x: 20, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.spineStorage.storage.1.spineData.slots: (9) [t, t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.1.skeleton.slots: (9) [t, t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.1.slotContainers: (9) [e, e, e, e, e, e, e, e, e]
+VM349:88   game.spineStorage.storage.2.transform.position: t {_x: 20, _y: -10, scope: t, cb: ƒ}
+VM349:88   game.spineStorage.storage.2.spineData.slots: (24) [t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.2.skeleton.slots: (24) [t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.2.slotContainers: (24) [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e]
+VM349:88   game.spineStorage.storage.3.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.spineStorage.storage.3.spineData.slots: (8) [t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.3.skeleton.slots: (8) [t, t, t, t, t, t, t, t]
+VM349:88   game.spineStorage.storage.3.slotContainers: (8) [e, e, e, e, e, e, e, e]
+VM349:88   game.spineStorage.storage.4.transform.position: t {_x: -225, _y: 35, scope: t, cb: ƒ}
+VM349:88   game.spineStorage.storage.4.spineData.slots: (2) [t, t]
+VM349:88   game.spineStorage.storage.4.skeleton.slots: (2) [t, t]
+VM349:88   game.spineStorage.storage.4.slotContainers: (2) [e, e]
+VM349:88   game.resultPopup.label.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.resultPopup.label.parent.transform.position: t {_x: 5.170697830382387, _y: -7.818265464068617, scope: t, cb: ƒ}
+VM349:88   game.thimbles.interactiveSlots: (3) [t, t, t]
+VM349:88   game.thimbles.smokeAnimation.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:86 
+📊 Results from game.thimbles:
+VM349:88   game.thimbles.interactiveSlots: (3) [t, t, t]
+VM349:88   game.thimbles.interactiveSlots.0.bone.skeleton.slots: (24) [t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t]
+VM349:88   game.thimbles.game.app.stage.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.game.spineStorage.storage.0.slotContainers: (86) [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e]
+VM349:88   game.thimbles.game.spineStorage.storage.1.slotContainers: (9) [e, e, e, e, e, e, e, e, e]
+VM349:88   game.thimbles.game.spineStorage.storage.2.slotContainers: (24) [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e]
+VM349:88   game.thimbles.game.spineStorage.storage.3.slotContainers: (8) [e, e, e, e, e, e, e, e]
+VM349:88   game.thimbles.game.spineStorage.storage.4.slotContainers: (2) [e, e]
+VM349:88   game.thimbles.game.resultPopup.label.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.smokeAnimation.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:86 
+📊 Results from game.thimbles.interactiveSlots:
+VM349:88   game.thimbles.interactiveSlots.0.bone.parent.skeleton.slots: (24) [t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t, t]
+VM349:88   game.thimbles.interactiveSlots.0.meshes.14.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.interactiveSlots.0.meshes.15.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.interactiveSlots.1.meshes.16.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.interactiveSlots.1.meshes.17.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.interactiveSlots.2.meshes.18.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:88   game.thimbles.interactiveSlots.2.meshes.19.transform.position: t {_x: 0, _y: 0, scope: t, cb: ƒ}
+VM349:94 
+🔍 Checking for game state data...
+VM349:105 
+✅ Exploration complete.
+undefined
+
+
+// CUP INSPECTION
+VM352:8 🥤 Inspecting cup objects...
+VM352:16 Found 3 cups
+VM352:19 
+=== CUP 0 ===
+VM352:22 Basic properties:
+VM352:23   data.name: thimble
+VM352:24   attachmentState: 3083
+VM352:25   bone: t {matrix: t, parent: t, children: Array(1), x: 239.47964477539062, y: 76.53729398198892, …}
+VM352:28 
+Searching for ball indicators:
+VM352:19 
+=== CUP 1 ===
+VM352:22 Basic properties:
+VM352:23   data.name: thimble2
+VM352:24   attachmentState: 3083
+VM352:25   bone: t {matrix: t, parent: t, children: Array(1), x: 14.451026916503906, y: 76.53729398198892, …}
+VM352:28 
+Searching for ball indicators:
+VM352:19 
+=== CUP 2 ===
+VM352:22 Basic properties:
+VM352:23   data.name: thimble3
+VM352:24   attachmentState: 3083
+VM352:25   bone: t {matrix: t, parent: t, children: Array(1), x: -215.54791259765625, y: 76.53727872319986, …}
+VM352:28 
+Searching for ball indicators:
+VM352:66 
+✅ Cup inspection complete.
+undefined
+
+
+// GAME LOGIC ANALYSIS
+VM355:8 🧠 Analyzing game logic...
+VM355:58 🔍 Searching for ball placement functions...
+VM355:62 
+🎯 Found potential ball placement functions:
+VM355:64 
+game.app.stage.tempDisplayObjectParent.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.app.stage.children.0.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.app.stage.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.app.renderer.gl.canvas.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.app.renderer.gl.canvas.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.app.renderer.gl.canvas.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.app.renderer.gl.canvas.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.app.renderer.gl.generateMipmap:
+VM355:65   Function name: generateMipmap
+VM355:66   Function toString(): function generateMipmap() { [native code] }...
+VM355:64 
+game.app.containers.2.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.app.containers.3.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.app.containers.4.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.device.view.classList.replace:
+VM355:65   Function name: replace
+VM355:66   Function toString(): function replace() { [native code] }...
+VM355:64 
+game.device.view.attributes.0.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.attributes.0.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.attributes.1.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.attributes.1.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.part.replace:
+VM355:65   Function name: replace
+VM355:66   Function toString(): function replace() { [native code] }...
+VM355:64 
+game.device.view.children.0.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.children.0.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.children.0.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.children.0.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.children.1.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.children.1.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.children.1.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.children.1.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.children.2.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.children.2.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.children.2.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.children.2.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.classList.replace:
+VM355:65   Function name: replace
+VM355:66   Function toString(): function replace() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.part.replace:
+VM355:65   Function name: replace
+VM355:66   Function toString(): function replace() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.firstElementChild.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.firstElementChild.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.firstElementChild.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.firstElementChild.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.lastElementChild.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.lastElementChild.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.lastElementChild.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.lastElementChild.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.ownerDocument.caretPositionFromPoint:
+VM355:65   Function name: caretPositionFromPoint
+VM355:66   Function toString(): function caretPositionFromPoint() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.ownerDocument.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.ownerDocument.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.ownerDocument.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.parentNode.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.parentNode.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.parentNode.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.parentNode.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.previousElementSibling.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.device.view.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.device.view.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.device.view.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.device.view.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.spineStorage.storage.0.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.spineStorage.storage.1.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.spineStorage.storage.2.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.spineStorage.storage.3.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.spineStorage.storage.4.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.resultPopup.label.parent.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.resultPopup.label.canvas.classList.replace:
+VM355:65   Function name: replace
+VM355:66   Function toString(): function replace() { [native code] }...
+VM355:64 
+game.resultPopup.label.canvas.part.replace:
+VM355:65   Function name: replace
+VM355:66   Function toString(): function replace() { [native code] }...
+VM355:64 
+game.resultPopup.label.canvas.replaceChildren:
+VM355:65   Function name: replaceChildren
+VM355:66   Function toString(): function replaceChildren() { [native code] }...
+VM355:64 
+game.resultPopup.label.canvas.replaceWith:
+VM355:65   Function name: replaceWith
+VM355:66   Function toString(): function replaceWith() { [native code] }...
+VM355:64 
+game.resultPopup.label.canvas.compareDocumentPosition:
+VM355:65   Function name: compareDocumentPosition
+VM355:66   Function toString(): function compareDocumentPosition() { [native code] }...
+VM355:64 
+game.resultPopup.label.canvas.replaceChild:
+VM355:65   Function name: replaceChild
+VM355:66   Function toString(): function replaceChild() { [native code] }...
+VM355:64 
+game.resultPopup.label.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.thimbles.interactiveSlots.0.currentMesh.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.thimbles.interactiveSlots.1.currentMesh.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.thimbles.interactiveSlots.2.currentMesh.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:64 
+game.thimbles.smokeAnimation.getGlobalPosition:
+VM355:65   Function name: getGlobalPosition
+VM355:66   Function toString(): function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:new n.bR,e=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return this.parent?this.parent.toGlobal(this.position,t,e):(t...
+VM355:73 
+🔍 Searching for round initialization...
+VM355:112 
+🎯 Found initialization functions:
+VM355:114   game.app.stage.tempDisplayObjectParent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.stage.tempDisplayObjectParent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.app.stage._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.stage._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.app.start (start)
+VM355:114   game.app.containers.0._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.containers.0._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.app.containers.1._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.containers.1._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.app.containers.2._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.containers.2._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.app.containers.3._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.containers.3._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.app.containers.4._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.app.containers.4._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.device.view.ownerDocument.startViewTransition (startViewTransition)
+VM355:114   game.spineStorage.storage.0._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.spineStorage.storage.0._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.spineStorage.storage.1._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.spineStorage.storage.1._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.spineStorage.storage.2._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.spineStorage.storage.2._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.spineStorage.storage.3._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.spineStorage.storage.3._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.spineStorage.storage.4._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.spineStorage.storage.4._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.resultPopup.container.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.resultPopup.container.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.resultPopup.container._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.resultPopup.container._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.resultPopup.spine.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.resultPopup.spine.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.resultPopup.spine._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.resultPopup.spine._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.resultPopup.label.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.resultPopup.label.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.resultPopup.label._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.resultPopup.label._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.background.spine.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.background.spine.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.background.spine._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.background.spine._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.thimbles.game.app.start (start)
+VM355:114   game.thimbles.spine.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.thimbles.spine.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.thimbles.spine._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.thimbles.spine._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.thimbles.smokeAnimation.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.thimbles.smokeAnimation.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.thimbles.smokeAnimation._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.thimbles.smokeAnimation._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.light.spine.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.light.spine.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.light.spine._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.light.spine._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.info.game.app.start (start)
+VM355:114   game.info.spine.parent._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.info.spine.parent._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:114   game.info.spine._initCachedDisplayObject (_initCachedDisplayObject)
+VM355:114   game.info.spine._initCachedDisplayObjectCanvas (_initCachedDisplayObjectCanvas)
+VM355:118 
+✅ Game logic analysis complete.
+undefined
+
+
+// BALL POSITION INTERCEPTOR
+VM358:8 🎯 Attempting to intercept ball positions...
+VM358:21 🎯 Found startGame function, hooking...
+VM358:131 ✅ Ball position interceptor active.
+undefined
+
+
+// PRE-SELECTION THIMBLERIG SOLVER
+VM369:11 🎯 Installing pre-selection solver...
+VM369:333 ✅ Pre-selection solver installed!
+VM369:334 💡 Mix the cups, then click "Find Balls" or wait for automatic detection.
+undefined
+VM369:39 🔍 Searching for ball positions...
+VM369:141 Uncaught TypeError: cup.attachmentState.includes is not a function
+    at <anonymous>:141:60
+    at Array.forEach (<anonymous>)
+    at checkCupObjects (<anonymous>:135:14)
+    at findBallPositions (<anonymous>:52:30)
+    at HTMLButtonElement.onclick (62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC83YWM4YTRjNjk4N2QxZWM4MWNmZTNkOWMyZjA0YTUxYWE1MGMzNjExMTY3YzFmNzU1Y2YwZGI1ZTcxM2UyZmFiIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njk5MzUyOTgsImV4cCI6MTc2OTk0OTY5OCwiaWF0IjoxNzY5OTM1Mjk4fQ.uxpitUxZsO71MdaUTjqCmF1fIbQ8dAqHrZdXo0G19UORpDcdbZKLIAdrT_tRmIdMR2rqQin0sk8wX_JJzNNUHA&tzo=1:1:8)
+(anonymous) @ VM369:141
+checkCupObjects @ VM369:135
+findBallPositions @ VM369:52
+onclick @ 62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC83YWM4YTRjNjk4N2QxZWM4MWNmZTNkOWMyZjA0YTUxYWE1MGMzNjExMTY3YzFmNzU1Y2YwZGI1ZTcxM2UyZmFiIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3Njk5MzUyOTgsImV4cCI6MTc2OTk0OTY5OCwiaWF0IjoxNzY5OTM1Mjk4fQ.uxpitUxZsO71MdaUTjqCmF1fIbQ8dAqHrZdXo0G19UORpDcdbZKLIAdrT_tRmIdMR2rqQin0sk8wX_JJzNNUHA&tzo=1:1
+
