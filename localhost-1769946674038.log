@@ -1,0 +1,115 @@
+// CAPTURE ALL EVENT NAMES
+VM280:11 🎯 Capturing ALL game events...
+VM280:12 🎮 Play a full round normally. All event names will be logged.
+VM280:36 📋 Existing event listeners: ['onSelectThimble']
+VM280:39 ✅ Event capture active. Play a full round to see all events.
+undefined
+VM280:21 📢 NEW EVENT: "onSelectThimble"
+VM280:28 🎮 Event fired: "onSelectThimble" with args: [1]
+
+
+// DIRECT STATE MONITORING WITH TIMELINE
+VM352:17 🎯 Starting continuous attachmentState monitor...
+VM352:93 ✅ Continuous monitor active.
+VM352:94 💡 Play a round normally. The script will log state changes.
+VM352:95 💡 Use stopMonitoring() to end monitoring and see history.
+{stop: ƒ, history: ƒ}
+VM352:41 ⏱️ T+9904ms: (3) [7218, 7218, 7218]
+VM352:41 ⏱️ T+10002ms: (3) [7230, 7230, 7230]
+VM352:41 ⏱️ T+10103ms: (3) [7240, 7240, 7240]
+VM352:41 ⏱️ T+10202ms: (3) [7254, 7254, 7254]
+VM352:41 ⏱️ T+10304ms: (3) [7264, 7264, 7264]
+VM352:41 ⏱️ T+10413ms: (3) [7278, 7278, 7278]
+VM352:41 ⏱️ T+10506ms: (3) [7290, 7290, 7290]
+VM352:41 ⏱️ T+10614ms: (3) [7302, 7302, 7302]
+VM352:41 ⏱️ T+10708ms: (3) [7312, 7312, 7312]
+VM352:41 ⏱️ T+10816ms: (3) [7328, 7328, 7328]
+VM352:41 ⏱️ T+10907ms: (3) [7336, 7336, 7336]
+VM352:41 ⏱️ T+11015ms: (3) [7352, 7352, 7352]
+VM352:41 ⏱️ T+11107ms: (3) [7362, 7362, 7362]
+VM352:41 ⏱️ T+11201ms: (3) [7374, 7374, 7374]
+VM352:41 ⏱️ T+11308ms: (3) [7386, 7386, 7386]
+VM352:41 ⏱️ T+11402ms: (3) [7398, 7398, 7398]
+VM352:41 ⏱️ T+11510ms: (3) [7409, 7409, 7409]
+VM352:41 ⏱️ T+11602ms: (3) [7421, 7421, 7421]
+VM352:41 ⏱️ T+11709ms: (3) [7433, 7433, 7433]
+VM352:41 ⏱️ T+11802ms: (3) [7437, 7437, 7437]
+VM352:65 🎯 SELECTION: Cup 1 chosen
+VM352:66 📊 Final state before selection: (3) [7437, 7437, 7437]
+VM352:67 📈 Full state history: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+VM352:79 📢 Event: "onSelectThimble"
+VM280:28 🎮 Event fired: "onSelectThimble" with args: [1]
+VM352:73 🛑 Monitoring stopped.
+
+
+// MANUAL STATE CHECK SCRIPT
+VM363:17 🎯 Manual state checker installed.
+VM363:18 💡 Use these commands at different times:
+VM363:19    checkState() - Check current attachmentState
+VM363:20    checkAll() - Deep check of all cup properties
+VM363:21    startRound() - Mark round start time
+VM363:22    endRound() - Mark round end and analyze
+VM363:97 ✅ Manual checker ready. Use the commands above.
+undefined
+
+checkState()
+VM363:30 📊 Current attachmentState: (3) [7437, 7437, 7437]
+VM363:31    Cup 0 (RIGHT): 7437
+VM363:32    Cup 1 (MIDDLE): 7437
+VM363:33    Cup 2 (LEFT): 7437
+(3) [7437, 7437, 7437]
+VM363:92 🔄 State changed: (3) [7437, 7437, 7437] → (3) [18799, 18799, 18799]
+
+checkState()
+VM363:30 📊 Current attachmentState: (3) [18799, 18799, 18799]
+VM363:31    Cup 0 (RIGHT): 18799
+VM363:32    Cup 1 (MIDDLE): 18799
+VM363:33    Cup 2 (LEFT): 18799
+(3) [18799, 18799, 18799]
+
+checkAll()
+VM363:39 
+=== CUP 0 DETAILS ===
+VM363:40 attachmentState: 18799
+VM363:41 data.name: thimble
+VM363:42 bone: no name
+VM363:48 attachment: e {name: 'thimble', id: 14, bones: null, vertices: Array(8), worldVerticesLength: 8, …}
+VM363:48 attachmentState: 18799
+VM363:39 
+=== CUP 1 DETAILS ===
+VM363:40 attachmentState: 18799
+VM363:41 data.name: thimble2
+VM363:42 bone: no name
+VM363:48 attachment: e {name: 'thimble', id: 16, bones: null, vertices: Array(8), worldVerticesLength: 8, …}
+VM363:48 attachmentState: 18799
+VM363:39 
+=== CUP 2 DETAILS ===
+VM363:40 attachmentState: 18799
+VM363:41 data.name: thimble3
+VM363:42 bone: no name
+VM363:48 attachment: e {name: 'thimble', id: 18, bones: null, vertices: Array(8), worldVerticesLength: 8, …}
+VM363:48 attachmentState: 18799
+undefined
+VM352:65 🎯 SELECTION: Cup 2 chosen
+VM352:66 📊 Final state before selection: (3) [18799, 18799, 18799]
+VM352:67 📈 Full state history: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+VM352:79 📢 Event: "onSelectThimble"
+VM280:28 🎮 Event fired: "onSelectThimble" with args: [2]
+VM352:73 🛑 Monitoring stopped.
+startRound()
+VM363:57 ⏱️ Round started at 12:50:00
+VM363:58 📥 Initial state: (3) [18799, 18799, 18799]
+undefined
+VM363:92 🔄 State changed: (3) [18799, 18799, 18799] → (3) [31566, 31566, 31566]
+VM363:92 🔄 State changed: (3) [31566, 31566, 31566] → (3) [31651, 31651, 31651]
+VM352:65 🎯 SELECTION: Cup 2 chosen
+VM352:66 📊 Final state before selection: (3) [31651, 31651, 31651]
+VM352:67 📈 Full state history: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+VM352:79 📢 Event: "onSelectThimble"
+VM280:28 🎮 Event fired: "onSelectThimble" with args: [2]
+VM352:73 🛑 Monitoring stopped.
+endRound()
+VM363:70 🏁 Round ended. Duration: 63632 ms
+VM363:71 📤 Final state: (3) [31651, 31651, 31651]
+VM363:72 🔄 State change: (3) [18799, 18799, 18799] → (3) [31651, 31651, 31651]
+undefined
