@@ -1,0 +1,11 @@
+ e = [{
+                key: "onClick",
+                value: function(t) {
+                    this.spine.stop({
+                        track: 0
+                    }),
+                    this.isArrowsPlay = !1,
+                    this.hoverThimble(t),
+                    this.setInteractivity(!1),
+                    this.game.emit("onSelectThimble", t)
+                }
