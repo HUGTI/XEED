@@ -1,0 +1,58 @@
+// MIMIC CLICK PROBE - Uses game's own auth channel
+VM294:4 🎭 Installing Mimic Click Probe...
+VM294:108 ✅ Mimic Click Probe active. Play a round normally.
+undefined
+63390544.63390544.ac26b24ac3d0.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM294:15 🎯 Player selected Cup 2. Scheduling mimic click...
+VM294:20 🔍 Automatically "clicking" Cup 0 (RIGHT) via game logic...
+VM294:29 Using direct emit fallback
+VM294:60 🔬 Intercepted probe request (Cup 0 selection): {WH: 55, LG: 'fr', GT: 62, UI: 1535355583, AN: 1, …}
+VM294:64 📡 Probe response status: 200
+VM294:70 🎉 PROBE SUCCESS! TRC: 0,1,1
+VM294:84  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55 429 (Too Many Requests)
+XMLHttpRequest.send @ VM294:84
+(anonymous) @ 14687768.14687768.ceeffc82bbe4.js:1
+xhr @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 47257778.47257778.6d95ff136b80.js:1
+ft @ 14687768.14687768.ceeffc82bbe4.js:1
+Promise.then
+_request @ 14687768.14687768.ceeffc82bbe4.js:1
+request @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 14687768.14687768.ceeffc82bbe4.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+Promise.then
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+makeRequest @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+Ne @ 24057316.24057316.ff8385d2bf40.js:1
+c @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ 24057316.24057316.ff8385d2bf40.js:1
+makePostRequest @ 24057316.24057316.ff8385d2bf40.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+bt @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+a @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+(anonymous) @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+onSelectThimble @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+u.emit @ 63390544.63390544.ac26b24ac3d0.js:1
+gameInstance.emit @ VM294:36
+value @ Thimbles.Desktop.23684509.503e94b72c6f.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
+value @ 63390544.63390544.ac26b24ac3d0.js:1
