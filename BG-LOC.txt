@@ -1,0 +1,3901 @@
+"use strict";
+(self.webpackChunkgame_thimbles = self.webpackChunkgame_thimbles || []).push([[23684509], {
+    58896881: (t, e) => {
+        e.A = (t, e) => {
+            const n = t.__vccOpts || t;
+            for (const [r,o] of e)
+                n[r] = o;
+            return n
+        }
+    }
+    ,
+    82142006: (t, e, n) => {
+        n.d(e, {
+            A: () => h
+        });
+        var r = n(27335873)
+          , o = ["id", "disabled"]
+          , i = {
+            key: 0,
+            width: "42",
+            height: "50",
+            viewBox: "0 0 256 306",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            class: "button-game-start__ico"
+        }
+          , a = {
+            key: 1,
+            width: "35",
+            height: "35",
+            viewBox: "0 0 236 236",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            class: "button-game-start__ico"
+        }
+          , s = {
+            key: 2,
+            class: "button-game-start__text"
+        };
+        var c = n(3713828);
+        function u(t) {
+            return u = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            u(t)
+        }
+        function l(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter(function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                })),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function f(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? l(Object(n), !0).forEach(function(e) {
+                    p(t, e, n[e])
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : l(Object(n)).forEach(function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                })
+            }
+            return t
+        }
+        function p(t, e, n) {
+            return (e = function(t) {
+                var e = function(t, e) {
+                    if ("object" != u(t) || !t)
+                        return t;
+                    var n = t[Symbol.toPrimitive];
+                    if (void 0 !== n) {
+                        var r = n.call(t, e || "default");
+                        if ("object" != u(r))
+                            return r;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(t)
+                }(t, "string");
+                return "symbol" == u(e) ? e : e + ""
+            }(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        const m = {
+            name: "ButtonGameStart",
+            props: {
+                isBetsModal: {
+                    type: Boolean,
+                    default: !1
+                },
+                isDisabled: {
+                    type: Boolean,
+                    default: null
+                },
+                hasStopState: {
+                    type: Boolean,
+                    default: !1
+                },
+                customHint: {
+                    type: String,
+                    default: null
+                },
+                defaultIco: {
+                    type: Boolean,
+                    default: !1
+                },
+                defaultText: {
+                    type: Boolean,
+                    default: !1
+                },
+                defaultStyles: {
+                    type: Boolean,
+                    default: !1
+                }
+            },
+            emits: ["startGame"],
+            computed: f(f(f({}, (0,
+            c.mapGetters)("game", ["autoGameCount"])), (0,
+            c.mapGetters)("betsButtons", ["blockedBetBtns"])), {}, {
+                buttonId: function() {
+                    return this.isBetsModal ? "modal-button-game-start" : "button-game-start"
+                },
+                isButtonDisabled: function() {
+                    return null === this.isDisabled ? this.blockedBetBtns : this.isDisabled
+                },
+                buttonHint: function() {
+                    return "" === this.customHint ? null : this.customHint ? this.customHint : this.hasStopState && this.autoGameCount ? this.$t("common.stop") : this.$t("common.placeBet")
+                },
+                buttonGameStartClasses: function() {
+                    return {
+                        "button-game-start--theme-default": this.defaultStyles,
+                        "button-game-start--is-modal": this.isBetsModal
+                    }
+                }
+            }),
+            methods: {
+                startGame: function() {
+                    this.$emit("startGame")
+                }
+            }
+        };
+        const h = (0,
+        n(58896881).A)(m, [["render", function(t, e, n, c, u, l) {
+            return (0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("button", (0,
+            r.mergeProps)({
+                id: l.buttonId,
+                onClick: e[0] || (e[0] = function(t) {
+                    return l.startGame()
+                }
+                )
+            }, {
+                title: l.buttonHint,
+                "aria-label": l.buttonHint
+            }, {
+                disabled: l.isButtonDisabled,
+                class: [l.buttonGameStartClasses, "button-game-start"],
+                type: "button",
+                ontouchstart: "",
+                "data-testid": "game-play-btn"
+            }), [!n.defaultIco || t.autoGameCount || n.isBetsModal ? (0,
+            r.createCommentVNode)("", !0) : ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("svg", i, e[1] || (e[1] = [(0,
+            r.createElementVNode)("path", {
+                fill: "#354146",
+                d: "M250.1 149a5 5 0 0 1 0 8L71.7 280.2a5 5 0 0 1-7.7-4V29.8a5 5 0 0 1 7.7-4l178.4 123Z"
+            }, null, -1)]))), n.defaultIco && n.hasStopState && t.autoGameCount && !n.isBetsModal ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("svg", a, e[2] || (e[2] = [(0,
+            r.createElementVNode)("rect", {
+                width: "236",
+                height: "236",
+                x: ".9",
+                fill: "#354146",
+                rx: "14.8"
+            }, null, -1)]))) : (0,
+            r.createCommentVNode)("", !0), n.defaultText && n.isBetsModal ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("span", s, (0,
+            r.toDisplayString)(t.$t("common.placeBet")), 1)) : (0,
+            r.createCommentVNode)("", !0), (0,
+            r.renderSlot)(t.$slots, "default")], 16, o)
+        }
+        ]])
+    }
+    ,
+    73017387: (t, e, n) => {
+        n.d(e, {
+            A: () => p
+        });
+        var r = n(27335873)
+          , o = ["title", "aria-label", "disabled"]
+          , i = {
+            key: 0,
+            width: "20",
+            height: "20",
+            viewBox: "0 0 68 68",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            class: "button-input-clear__ico"
+        };
+        var a = n(3713828);
+        function s(t) {
+            return s = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            s(t)
+        }
+        function c(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter(function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                })),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function u(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? c(Object(n), !0).forEach(function(e) {
+                    l(t, e, n[e])
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : c(Object(n)).forEach(function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                })
+            }
+            return t
+        }
+        function l(t, e, n) {
+            return (e = function(t) {
+                var e = function(t, e) {
+                    if ("object" != s(t) || !t)
+                        return t;
+                    var n = t[Symbol.toPrimitive];
+                    if (void 0 !== n) {
+                        var r = n.call(t, e || "default");
+                        if ("object" != s(r))
+                            return r;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(t)
+                }(t, "string");
+                return "symbol" == s(e) ? e : e + ""
+            }(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        const f = {
+            name: "ButtonInputClear",
+            props: {
+                isDisabled: {
+                    type: Boolean,
+                    default: null
+                },
+                defaultIco: {
+                    type: Boolean,
+                    default: !1
+                },
+                defaultStyles: {
+                    type: Boolean,
+                    default: !1
+                }
+            },
+            computed: u(u({}, (0,
+            a.mapGetters)("betsButtons", ["blockedBetBtns"])), {}, {
+                isButtonDisabled: function() {
+                    return null === this.isDisabled ? this.blockedBetBtns : this.isDisabled
+                }
+            }),
+            methods: {
+                clearInput: function() {
+                    this.$emit("clearSumBet")
+                }
+            }
+        };
+        const p = (0,
+        n(58896881).A)(f, [["render", function(t, e, n, a, s, c) {
+            return (0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("button", {
+                id: "button-input-clear",
+                onClick: e[0] || (e[0] = function(t) {
+                    return c.clearInput()
+                }
+                ),
+                title: t.$t("common.clear"),
+                "aria-label": t.$t("common.clear"),
+                disabled: c.isButtonDisabled,
+                class: (0,
+                r.normalizeClass)([{
+                    "button-input-clear--theme-default": n.defaultStyles
+                }, "button-input-clear"]),
+                type: "reset",
+                ontouchstart: "",
+                "data-testid": "game-clear-bet-btn"
+            }, [n.defaultIco ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("svg", i, e[1] || (e[1] = [(0,
+            r.createElementVNode)("path", {
+                fill: "#354146",
+                d: "M3.2 2.6a9 9 0 0 0 0 12.6l18.4 18.5-19 19.1a9 9 0 0 0 0 12.6c3.4 3.5 9 3.5 12.4 0l19-19.2 19 19.2c3.4 3.5 9 3.5 12.4 0a9 9 0 0 0 0-12.6l-19-19.1 18.4-18.5a9 9 0 0 0 0-12.6 8.7 8.7 0 0 0-12.4 0L34 21.1 15.6 2.6a8.7 8.7 0 0 0-12.4 0Z"
+            }, null, -1)]))) : (0,
+            r.createCommentVNode)("", !0), (0,
+            r.renderSlot)(t.$slots, "default", {}, void 0, !0)], 10, o)
+        }
+        ], ["__scopeId", "data-v-6e6ec4d2"]])
+    }
+    ,
+    75374840: (t, e, n) => {
+        n.d(e, {
+            A: () => c
+        });
+        var r = n(27335873)
+          , o = ["title", "aria-label"]
+          , i = {
+            key: 0,
+            width: "15",
+            height: "23",
+            viewBox: "0 0 78 118",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            class: "button-rules-open__ico"
+        };
+        var a = n(28765681);
+        const s = {
+            name: "ButtonRulesOpen",
+            props: {
+                defaultIco: {
+                    type: Boolean,
+                    default: !1
+                },
+                defaultStyles: {
+                    type: Boolean,
+                    default: !1
+                },
+                stopPropagation: {
+                    type: Boolean,
+                    default: !0
+                }
+            },
+            methods: {
+                clickOpenRulesModal: function(t) {
+                    this.stopPropagation && t.stopPropagation(),
+                    this.$emit("openRulesModal"),
+                    a.eventBus.emit("rules-button-clicked")
+                }
+            }
+        };
+        const c = (0,
+        n(58896881).A)(s, [["render", function(t, e, n, a, s, c) {
+            return (0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("button", {
+                id: "button-rules-open",
+                onClick: e[0] || (e[0] = function() {
+                    return c.clickOpenRulesModal && c.clickOpenRulesModal.apply(c, arguments)
+                }
+                ),
+                title: t.$t("common.rules"),
+                "aria-label": t.$t("common.rules"),
+                type: "button",
+                ontouchstart: "",
+                "data-testid": "game-rules-btn",
+                class: (0,
+                r.normalizeClass)([{
+                    "button-rules-open--theme-default": n.defaultStyles
+                }, "button-rules-open"])
+            }, [n.defaultIco ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("svg", i, e[1] || (e[1] = [(0,
+            r.createElementVNode)("path", {
+                fill: "#354146",
+                d: "M40.8 95.6h-5.3c-3.8 0-6.8 3.2-6.8 7.3v7.8c0 4 3 7.3 6.8 7.3h5.3c3.7 0 6.8-3.3 6.8-7.3V103c0-4-3-7.3-6.8-7.3ZM3.2 34.7 13 36c3.2.4 6.1-1.5 7.2-4.7 1.5-4 3.4-7 6-9.4 3.5-3.2 8-4.8 13.3-4.8 5.5 0 10 1.6 13.2 4.6 3.3 3.1 4.9 6.9 4.9 11.2 0 3.1-1 6-2.8 8.6a93.4 93.4 0 0 1-11 10.4 48.4 48.4 0 0 0-12.2 14.3 35 35 0 0 0-3 14c-.1 4.1 3 7.6 6.9 7.6H41c3.5 0 6.5-2.9 6.8-6.7.2-2.7.6-4.7 1.3-6.1 1-2.4 3.8-5.6 8.2-9.5a89 89 0 0 0 16.8-18c2.6-4.4 3.9-9 3.9-14 0-8.9-3.5-16.7-10.7-23.4A40 40 0 0 0 38.7 0 38.7 38.7 0 0 0 11 10C5 15.5 1.3 22.2 0 30c-.3 2.3 1.1 4.4 3.2 4.7Z"
+            }, null, -1)]))) : (0,
+            r.createCommentVNode)("", !0), (0,
+            r.renderSlot)(t.$slots, "default")], 10, o)
+        }
+        ]])
+    }
+    ,
+    8357416: (t, e, n) => {
+        n.d(e, {
+            A: () => c
+        });
+        var r = n(27335873)
+          , o = ["title", "aria-label"]
+          , i = {
+            key: 0,
+            width: "24",
+            height: "24",
+            viewBox: "0 0 118 118",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            class: "button-sound__ico"
+        }
+          , a = {
+            key: 1,
+            width: "24",
+            height: "24",
+            viewBox: "0 0 16 16",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            class: "button-sound__ico"
+        };
+        const s = {
+            name: "ButtonSound",
+            props: {
+                defaultIco: {
+                    type: Boolean,
+                    default: !1
+                },
+                defaultStyles: {
+                    type: Boolean,
+                    default: !1
+                },
+                isSoundMute: {
+                    type: Boolean,
+                    default: !1
+                }
+            },
+            methods: {
+                onButtonSoundClick: function() {
+                    this.$emit("buttonSoundClick")
+                }
+            }
+        };
+        const c = (0,
+        n(58896881).A)(s, [["render", function(t, e, n, s, c, u) {
+            return (0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("button", {
+                id: "button-sound",
+                onClick: e[0] || (e[0] = function(t) {
+                    return u.onButtonSoundClick()
+                }
+                ),
+                title: t.$t("common.sound"),
+                "aria-label": t.$t("common.sound"),
+                type: "button",
+                ontouchstart: "",
+                "data-testid": "game-sound-btn",
+                class: (0,
+                r.normalizeClass)([{
+                    "button-sound--theme-default": n.defaultStyles
+                }, "button-sound"])
+            }, [n.defaultIco && !n.isSoundMute ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("svg", i, e[1] || (e[1] = [(0,
+            r.createElementVNode)("path", {
+                fill: "#354146",
+                d: "M68.6.4c-1.4-.7-3-.5-4.2.5L26.1 33.7H8c-4.4 0-7.9 3.8-7.9 8.4V76c0 4.6 3.5 8.4 7.9 8.4H26L64.4 117c.7.6 1.6.9 2.5.9.5 0 1.1-.1 1.7-.4a4.2 4.2 0 0 0 2.2-3.8V4.2c0-1.6-.9-3-2.2-3.8ZM90.7 29.2a3.8 3.8 0 0 0-5.6 0 4.4 4.4 0 0 0 0 6c6 6.3 9.3 14.7 9.3 23.8 0 9-3.3 17.5-9.2 23.8a4.4 4.4 0 0 0 0 6c.7.8 1.7 1.2 2.7 1.2 1 0 2-.4 2.8-1.2A43 43 0 0 0 102.3 59a43 43 0 0 0-11.6-29.8Z"
+            }, null, -1), (0,
+            r.createElementVNode)("path", {
+                fill: "#354146",
+                d: "M101.8 17.3a3.8 3.8 0 0 0-5.6 0 4.4 4.4 0 0 0 0 6c9 9.5 14 22.2 14 35.7 0 13.5-5 26.2-14 35.7a4.5 4.5 0 0 0 0 6 3.8 3.8 0 0 0 5.6 0A60.4 60.4 0 0 0 118 59c0-15.8-5.7-30.6-16.2-41.7Z"
+            }, null, -1)]))) : (0,
+            r.createCommentVNode)("", !0), n.defaultIco && n.isSoundMute ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("svg", a, e[2] || (e[2] = [(0,
+            r.createElementVNode)("path", {
+                fill: "#354146",
+                d: "M9.6 0 9 .2 3.7 4.6H1C.5 4.6 0 5 0 5.7v4.6c0 .6.5 1.1 1.1 1.1h2.6L9 16a.5.5 0 0 0 .6 0c.2 0 .3-.3.3-.5V.6c0-.2-.1-.4-.3-.5ZM15.8 6c.3.3.3.8 0 1l-1 1 1 1.1c.3.3.3.7 0 1-.3.3-.7.3-1 0l-1-1-1 1c-.2.3-.6.3-.9 0a.7.7 0 0 1 0-1l1-1-1-1a.7.7 0 0 1 0-1c.3-.3.7-.3 1 0l1 1 1-1c.2-.3.6-.3.9 0Z"
+            }, null, -1)]))) : (0,
+            r.createCommentVNode)("", !0), (0,
+            r.renderSlot)(t.$slots, "default", {}, void 0, !0)], 10, o)
+        }
+        ], ["__scopeId", "data-v-617be980"]])
+    }
+    ,
+    79056642: (t, e, n) => {
+        n.d(e, {
+            A: () => a
+        });
+        var r = n(27335873)
+          , o = {
+            class: "info-block__text"
+        };
+        const i = {
+            name: "InfoBlock",
+            props: {
+                defaultStyles: {
+                    type: Boolean,
+                    default: !1
+                }
+            }
+        };
+        const a = (0,
+        n(58896881).A)(i, [["render", function(t, e, n, i, a, s) {
+            return (0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("div", {
+                id: "info-block",
+                class: (0,
+                r.normalizeClass)([{
+                    "info-block--theme-default": n.defaultStyles
+                }, "info-block"])
+            }, [(0,
+            r.createElementVNode)("p", o, [(0,
+            r.renderSlot)(t.$slots, "default", {}, void 0, !0)])], 2)
+        }
+        ], ["__scopeId", "data-v-5b46748c"]])
+    }
+    ,
+    22584170: (t, e, n) => {
+        n.d(e, {
+            q: () => yt
+        });
+        var r = n(27335873)
+          , o = n(23046082)
+          , i = n(85483019)
+          , a = n(84253374)
+          , s = n(25000323)
+          , c = n(71307621)
+          , u = n(89882867)
+          , l = n(55058773)
+          , f = n(92965633);
+        function p(t) {
+            return p = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            p(t)
+        }
+        function m() {
+            var t, e, n = "function" == typeof Symbol ? Symbol : {}, r = n.iterator || "@@iterator", o = n.toStringTag || "@@toStringTag";
+            function i(n, r, o, i) {
+                var c = r && r.prototype instanceof s ? r : s
+                  , u = Object.create(c.prototype);
+                return h(u, "_invoke", function(n, r, o) {
+                    var i, s, c, u = 0, l = o || [], f = !1, p = {
+                        p: 0,
+                        n: 0,
+                        v: t,
+                        a: m,
+                        f: m.bind(t, 4),
+                        d: function(e, n) {
+                            return i = e,
+                            s = 0,
+                            c = t,
+                            p.n = n,
+                            a
+                        }
+                    };
+                    function m(n, r) {
+                        for (s = n,
+                        c = r,
+                        e = 0; !f && u && !o && e < l.length; e++) {
+                            var o, i = l[e], m = p.p, h = i[2];
+                            n > 3 ? (o = h === r) && (c = i[(s = i[4]) ? 5 : (s = 3,
+                            3)],
+                            i[4] = i[5] = t) : i[0] <= m && ((o = n < 2 && m < i[1]) ? (s = 0,
+                            p.v = r,
+                            p.n = i[1]) : m < h && (o = n < 3 || i[0] > r || r > h) && (i[4] = n,
+                            i[5] = r,
+                            p.n = h,
+                            s = 0))
+                        }
+                        if (o || n > 1)
+                            return a;
+                        throw f = !0,
+                        r
+                    }
+                    return function(o, l, h) {
+                        if (u > 1)
+                            throw TypeError("Generator is already running");
+                        for (f && 1 === l && m(l, h),
+                        s = l,
+                        c = h; (e = s < 2 ? t : c) || !f; ) {
+                            i || (s ? s < 3 ? (s > 1 && (p.n = -1),
+                            m(s, c)) : p.n = c : p.v = c);
+                            try {
+                                if (u = 2,
+                                i) {
+                                    if (s || (o = "next"),
+                                    e = i[o]) {
+                                        if (!(e = e.call(i, c)))
+                                            throw TypeError("iterator result is not an object");
+                                        if (!e.done)
+                                            return e;
+                                        c = e.value,
+                                        s < 2 && (s = 0)
+                                    } else
+                                        1 === s && (e = i.return) && e.call(i),
+                                        s < 2 && (c = TypeError("The iterator does not provide a '" + o + "' method"),
+                                        s = 1);
+                                    i = t
+                                } else if ((e = (f = p.n < 0) ? c : n.call(r, p)) !== a)
+                                    break
+                            } catch (e) {
+                                i = t,
+                                s = 1,
+                                c = e
+                            } finally {
+                                u = 1
+                            }
+                        }
+                        return {
+                            value: e,
+                            done: f
+                        }
+                    }
+                }(n, o, i), !0),
+                u
+            }
+            var a = {};
+            function s() {}
+            function c() {}
+            function u() {}
+            e = Object.getPrototypeOf;
+            var l = [][r] ? e(e([][r]())) : (h(e = {}, r, function() {
+                return this
+            }),
+            e)
+              , f = u.prototype = s.prototype = Object.create(l);
+            function p(t) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(t, u) : (t.__proto__ = u,
+                h(t, o, "GeneratorFunction")),
+                t.prototype = Object.create(f),
+                t
+            }
+            return c.prototype = u,
+            h(f, "constructor", u),
+            h(u, "constructor", c),
+            c.displayName = "GeneratorFunction",
+            h(u, o, "GeneratorFunction"),
+            h(f),
+            h(f, o, "Generator"),
+            h(f, r, function() {
+                return this
+            }),
+            h(f, "toString", function() {
+                return "[object Generator]"
+            }),
+            (m = function() {
+                return {
+                    w: i,
+                    m: p
+                }
+            }
+            )()
+        }
+        function h(t, e, n, r) {
+            var o = Object.defineProperty;
+            try {
+                o({}, "", {})
+            } catch (t) {
+                o = 0
+            }
+            h = function(t, e, n, r) {
+                function i(e, n) {
+                    h(t, e, function(t) {
+                        return this._invoke(e, n, t)
+                    })
+                }
+                e ? o ? o(t, e, {
+                    value: n,
+                    enumerable: !r,
+                    configurable: !r,
+                    writable: !r
+                }) : t[e] = n : (i("next", 0),
+                i("throw", 1),
+                i("return", 2))
+            }
+            ,
+            h(t, e, n, r)
+        }
+        function b(t, e, n, r, o, i, a) {
+            try {
+                var s = t[i](a)
+                  , c = s.value
+            } catch (t) {
+                return void n(t)
+            }
+            s.done ? e(c) : Promise.resolve(c).then(r, o)
+        }
+        function d(t, e) {
+            for (var n = 0; n < e.length; n++) {
+                var r = e[n];
+                r.enumerable = r.enumerable || !1,
+                r.configurable = !0,
+                "value"in r && (r.writable = !0),
+                Object.defineProperty(t, y(r.key), r)
+            }
+        }
+        function y(t) {
+            var e = function(t, e) {
+                if ("object" != p(t) || !t)
+                    return t;
+                var n = t[Symbol.toPrimitive];
+                if (void 0 !== n) {
+                    var r = n.call(t, e || "default");
+                    if ("object" != p(r))
+                        return r;
+                    throw new TypeError("@@toPrimitive must return a primitive value.")
+                }
+                return ("string" === e ? String : Number)(t)
+            }(t, "string");
+            return "symbol" == p(e) ? e : e + ""
+        }
+        var v = function() {
+            return t = function t(e) {
+                var n = e.app;
+                !function(t, e) {
+                    if (!(t instanceof e))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                this.container = n.getControl("popup_container", "game"),
+                this.spine = n.getControl("popup_spine", "popup_container"),
+                this.label = n.getControl("popup_label", "popup_container");
+                var r = this.spine.spineData.findSlotIndex("text");
+                this.spine.slotContainers[r].addChild(this.label);
+                var o = this.spine.skeleton.findBone("text");
+                this.label.scale.set(o.matrix.a, o.matrix.d)
+            }
+            ,
+            e = [{
+                key: "show",
+                value: (r = m().m(function t(e) {
+                    return m().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return this.label.text = e,
+                                this.container.visible = !0,
+                                t.n = 1,
+                                this.spine.startPromise({
+                                    name: "in",
+                                    mixing: 0
+                                });
+                            case 1:
+                                return t.n = 2,
+                                this.spine.startPromise({
+                                    name: "idle",
+                                    mixing: 0
+                                });
+                            case 2:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                }),
+                o = function() {
+                    var t = this
+                      , e = arguments;
+                    return new Promise(function(n, o) {
+                        var i = r.apply(t, e);
+                        function a(t) {
+                            b(i, n, o, a, s, "next", t)
+                        }
+                        function s(t) {
+                            b(i, n, o, a, s, "throw", t)
+                        }
+                        a(void 0)
+                    }
+                    )
+                }
+                ,
+                function(t) {
+                    return o.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "hide",
+                value: function() {
+                    var t = this;
+                    this.spine.startPromise({
+                        name: "out",
+                        mixing: 0
+                    }).then(function() {
+                        t.container.visible = !1
+                    })
+                }
+            }],
+            e && d(t.prototype, e),
+            n && d(t, n),
+            Object.defineProperty(t, "prototype", {
+                writable: !1
+            }),
+            t;
+            var t, e, n, r, o
+        }();
+        function g(t) {
+            return g = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            g(t)
+        }
+        function w(t, e) {
+            for (var n = 0; n < e.length; n++) {
+                var r = e[n];
+                r.enumerable = r.enumerable || !1,
+                r.configurable = !0,
+                "value"in r && (r.writable = !0),
+                Object.defineProperty(t, S(r.key), r)
+            }
+        }
+        function k(t, e, n) {
+            return (e = S(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        function S(t) {
+            var e = function(t, e) {
+                if ("object" != g(t) || !t)
+                    return t;
+                var n = t[Symbol.toPrimitive];
+                if (void 0 !== n) {
+                    var r = n.call(t, e || "default");
+                    if ("object" != g(r))
+                        return r;
+                    throw new TypeError("@@toPrimitive must return a primitive value.")
+                }
+                return ("string" === e ? String : Number)(t)
+            }(t, "string");
+            return "symbol" == g(e) ? e : e + ""
+        }
+        var O = function() {
+            return t = function t(e) {
+                var n = e.device
+                  , r = e.app;
+                !function(t, e) {
+                    if (!(t instanceof e))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                k(this, "isStop", !0),
+                k(this, "isAnimInProgress", !1),
+                this.device = n,
+                this.spine = r.getControl("light_spine", "underlay_container")
+            }
+            ,
+            (e = [{
+                key: "playIdle",
+                value: function() {
+                    this.spine.start({
+                        name: "idle"
+                    }),
+                    this.device.isMobile && this.playPigeonLoopAnimation()
+                }
+            }, {
+                key: "playResult",
+                value: function(t) {
+                    var e = this;
+                    this.spine.startPromise({
+                        name: t ? "win" : "lose"
+                    }).then(function() {
+                        return e.spine.start({
+                            name: "idle"
+                        })
+                    })
+                }
+            }, {
+                key: "playPigeonLoopAnimation",
+                value: function() {
+                    var t = this
+                      , e = this.device.isLandscape ? "pigeon_idle_album" : "pigeon_idle_portrait";
+                    this.isStop = !1;
+                    var n = function() {
+                        t.isStop || t.isAnimInProgress || (t.isAnimInProgress = !0,
+                        t.spine.startPromise({
+                            name: e,
+                            track: 1
+                        }).then(function() {
+                            return (0,
+                            a.A)((0,
+                            o.random)(1e3, 2e3))
+                        }).then(function() {
+                            t.isAnimInProgress = !1,
+                            n()
+                        }))
+                    };
+                    n()
+                }
+            }, {
+                key: "stopPigeonLoopAnimation",
+                value: function() {
+                    this.isStop = !0
+                }
+            }]) && w(t.prototype, e),
+            n && w(t, n),
+            Object.defineProperty(t, "prototype", {
+                writable: !1
+            }),
+            t;
+            var t, e, n
+        }()
+          , P = function(t) {
+            return t.LEFT = "l",
+            t.MIDDLE = "mid",
+            t.RIGHT = "r",
+            t
+        }(P || {})
+          , _ = function(t) {
+            return t.LEFT = "thimble3",
+            t.MIDDLE = "thimble2",
+            t.RIGHT = "thimble",
+            t
+        }(_ || {})
+          , j = function(t) {
+            return t[t.LEFT = 0] = "LEFT",
+            t[t.MIDDLE = 1] = "MIDDLE",
+            t[t.RIGHT = 2] = "RIGHT",
+            t
+        }(j || {})
+          , B = [{
+            id: j.LEFT,
+            pos: P.LEFT,
+            slotName: _.LEFT,
+            isBallShown: !1,
+            thimbleTrackIndex: 0,
+            hoverTrackIndex: 0,
+            ballTrackIndex: 3
+        }, {
+            id: j.MIDDLE,
+            pos: P.MIDDLE,
+            slotName: _.MIDDLE,
+            isBallShown: !1,
+            thimbleTrackIndex: 1,
+            hoverTrackIndex: 1,
+            ballTrackIndex: 4
+        }, {
+            id: j.RIGHT,
+            pos: P.RIGHT,
+            slotName: _.RIGHT,
+            isBallShown: !1,
+            thimbleTrackIndex: 2,
+            hoverTrackIndex: 2,
+            ballTrackIndex: 5
+        }];
+        function T(t) {
+            return T = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            T(t)
+        }
+        function E() {
+            var t, e, n = "function" == typeof Symbol ? Symbol : {}, r = n.iterator || "@@iterator", o = n.toStringTag || "@@toStringTag";
+            function i(n, r, o, i) {
+                var c = r && r.prototype instanceof s ? r : s
+                  , u = Object.create(c.prototype);
+                return C(u, "_invoke", function(n, r, o) {
+                    var i, s, c, u = 0, l = o || [], f = !1, p = {
+                        p: 0,
+                        n: 0,
+                        v: t,
+                        a: m,
+                        f: m.bind(t, 4),
+                        d: function(e, n) {
+                            return i = e,
+                            s = 0,
+                            c = t,
+                            p.n = n,
+                            a
+                        }
+                    };
+                    function m(n, r) {
+                        for (s = n,
+                        c = r,
+                        e = 0; !f && u && !o && e < l.length; e++) {
+                            var o, i = l[e], m = p.p, h = i[2];
+                            n > 3 ? (o = h === r) && (c = i[(s = i[4]) ? 5 : (s = 3,
+                            3)],
+                            i[4] = i[5] = t) : i[0] <= m && ((o = n < 2 && m < i[1]) ? (s = 0,
+                            p.v = r,
+                            p.n = i[1]) : m < h && (o = n < 3 || i[0] > r || r > h) && (i[4] = n,
+                            i[5] = r,
+                            p.n = h,
+                            s = 0))
+                        }
+                        if (o || n > 1)
+                            return a;
+                        throw f = !0,
+                        r
+                    }
+                    return function(o, l, h) {
+                        if (u > 1)
+                            throw TypeError("Generator is already running");
+                        for (f && 1 === l && m(l, h),
+                        s = l,
+                        c = h; (e = s < 2 ? t : c) || !f; ) {
+                            i || (s ? s < 3 ? (s > 1 && (p.n = -1),
+                            m(s, c)) : p.n = c : p.v = c);
+                            try {
+                                if (u = 2,
+                                i) {
+                                    if (s || (o = "next"),
+                                    e = i[o]) {
+                                        if (!(e = e.call(i, c)))
+                                            throw TypeError("iterator result is not an object");
+                                        if (!e.done)
+                                            return e;
+                                        c = e.value,
+                                        s < 2 && (s = 0)
+                                    } else
+                                        1 === s && (e = i.return) && e.call(i),
+                                        s < 2 && (c = TypeError("The iterator does not provide a '" + o + "' method"),
+                                        s = 1);
+                                    i = t
+                                } else if ((e = (f = p.n < 0) ? c : n.call(r, p)) !== a)
+                                    break
+                            } catch (e) {
+                                i = t,
+                                s = 1,
+                                c = e
+                            } finally {
+                                u = 1
+                            }
+                        }
+                        return {
+                            value: e,
+                            done: f
+                        }
+                    }
+                }(n, o, i), !0),
+                u
+            }
+            var a = {};
+            function s() {}
+            function c() {}
+            function u() {}
+            e = Object.getPrototypeOf;
+            var l = [][r] ? e(e([][r]())) : (C(e = {}, r, function() {
+                return this
+            }),
+            e)
+              , f = u.prototype = s.prototype = Object.create(l);
+            function p(t) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(t, u) : (t.__proto__ = u,
+                C(t, o, "GeneratorFunction")),
+                t.prototype = Object.create(f),
+                t
+            }
+            return c.prototype = u,
+            C(f, "constructor", u),
+            C(u, "constructor", c),
+            c.displayName = "GeneratorFunction",
+            C(u, o, "GeneratorFunction"),
+            C(f),
+            C(f, o, "Generator"),
+            C(f, r, function() {
+                return this
+            }),
+            C(f, "toString", function() {
+                return "[object Generator]"
+            }),
+            (E = function() {
+                return {
+                    w: i,
+                    m: p
+                }
+            }
+            )()
+        }
+        function C(t, e, n, r) {
+            var o = Object.defineProperty;
+            try {
+                o({}, "", {})
+            } catch (t) {
+                o = 0
+            }
+            C = function(t, e, n, r) {
+                function i(e, n) {
+                    C(t, e, function(t) {
+                        return this._invoke(e, n, t)
+                    })
+                }
+                e ? o ? o(t, e, {
+                    value: n,
+                    enumerable: !r,
+                    configurable: !r,
+                    writable: !r
+                }) : t[e] = n : (i("next", 0),
+                i("throw", 1),
+                i("return", 2))
+            }
+            ,
+            C(t, e, n, r)
+        }
+        function I(t, e, n, r, o, i, a) {
+            try {
+                var s = t[i](a)
+                  , c = s.value
+            } catch (t) {
+                return void n(t)
+            }
+            s.done ? e(c) : Promise.resolve(c).then(r, o)
+        }
+        function G(t) {
+            return function() {
+                var e = this
+                  , n = arguments;
+                return new Promise(function(r, o) {
+                    var i = t.apply(e, n);
+                    function a(t) {
+                        I(i, r, o, a, s, "next", t)
+                    }
+                    function s(t) {
+                        I(i, r, o, a, s, "throw", t)
+                    }
+                    a(void 0)
+                }
+                )
+            }
+        }
+        function x(t, e) {
+            for (var n = 0; n < e.length; n++) {
+                var r = e[n];
+                r.enumerable = r.enumerable || !1,
+                r.configurable = !0,
+                "value"in r && (r.writable = !0),
+                Object.defineProperty(t, M(r.key), r)
+            }
+        }
+        function A(t, e, n) {
+            return (e = M(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        function M(t) {
+            var e = function(t, e) {
+                if ("object" != T(t) || !t)
+                    return t;
+                var n = t[Symbol.toPrimitive];
+                if (void 0 !== n) {
+                    var r = n.call(t, e || "default");
+                    if ("object" != T(r))
+                        return r;
+                    throw new TypeError("@@toPrimitive must return a primitive value.")
+                }
+                return ("string" === e ? String : Number)(t)
+            }(t, "string");
+            return "symbol" == T(e) ? e : e + ""
+        }
+        var N = function() {
+            return t = function t(e) {
+                var n = this;
+                !function(t, e) {
+                    if (!(t instanceof e))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                A(this, "interactiveSlots", []),
+                A(this, "meshListeners", []),
+                A(this, "isArrowsPlay", !1),
+                this.game = e,
+                this.spine = this.game.app.getControl("thimbles_spine", "underlay_container"),
+                this.interactiveSlots = this.spine.skeleton.slots.filter(function(t) {
+                    return t.data.name === _.LEFT || t.data.name === _.MIDDLE || t.data.name === _.RIGHT
+                }),
+                this.interactiveSlots.forEach(function(t) {
+                    var e = B.find(function(e) {
+                        return e.slotName === t.data.name
+                    });
+                    if (e) {
+                        var r = n.onClick.bind(n, e.id);
+                        n.meshListeners.push(r)
+                    }
+                }),
+                this.game.device.isMobile && this.game.device.addListener("changeOrientation", this.onChangeOrientation, this),
+                this.smokeAnimation = this.game.app.getControl("smoke_animation", "underlay_container")
+            }
+            ,
+            e = [{
+                key: "onClick",
+                value: function(t) {
+                    this.spine.stop({
+                        track: 0
+                    }),
+                    this.isArrowsPlay = !1,
+                    this.hoverThimble(t),
+                    this.setInteractivity(!1),
+                    this.game.emit("onSelectThimble", t)
+                }
+            }, {
+                key: "getThimbleById",
+                value: function(t) {
+                    return B[t]
+                }
+            }, {
+                key: "setInteractivity",
+                value: function(t) {
+                    var e = this
+                      , n = t ? "pointer" : "default";
+                    this.interactiveSlots.forEach(function(r, o) {
+                        r.currentMesh.interactive = t,
+                        r.currentMesh.cursor = n,
+                        t ? r.currentMesh.on("pointerdown", e.meshListeners[o]) : r.currentMesh.off("pointerdown", e.meshListeners[o])
+                    })
+                }
+            }, {
+                key: "shuffleThimbles",
+                value: (s = G(E().m(function t() {
+                    return E().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return this.playSmokeAnimation(),
+                                t.n = 1,
+                                this.spine.startPromise({
+                                    name: "jumble"
+                                });
+                            case 1:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function() {
+                    return s.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "playSmokeAnimation",
+                value: function() {
+                    var t = this.spine
+                      , e = this.smokeAnimation;
+                    t.state.clearListeners();
+                    var n = {
+                        event: function(t, n) {
+                            "vfx" === n.data.name && (e.visible = !0,
+                            e.gotoAndPlay(0),
+                            e.onComplete = function() {
+                                e.visible = !1
+                            }
+                            )
+                        }
+                    };
+                    t.state.addListener(n)
+                }
+            }, {
+                key: "showArrows",
+                value: function() {
+                    var t;
+                    switch (!0) {
+                    case this.game.device.isMobile && !this.game.device.isLandscape:
+                        t = "portrait_arrow";
+                        break;
+                    case this.game.device.isMobile && this.game.device.isLandscape:
+                        t = "album_arrow";
+                        break;
+                    default:
+                        t = "arrow"
+                    }
+                    this.spine.start({
+                        name: t
+                    }),
+                    this.isArrowsPlay = !0
+                }
+            }, {
+                key: "openThimble",
+                value: (a = G(E().m(function t(e, n) {
+                    var r, o, i, a;
+                    return E().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return r = this.getThimbleById(e),
+                                o = r.pos,
+                                i = r.thimbleTrackIndex,
+                                a = r.ballTrackIndex,
+                                n && this.spine.start({
+                                    name: "".concat(o, "/ball"),
+                                    track: a
+                                }),
+                                t.n = 1,
+                                this.spine.startPromise({
+                                    name: "".concat(o, "/up"),
+                                    track: i
+                                });
+                            case 1:
+                                return t.n = 2,
+                                this.spine.startPromise({
+                                    name: "".concat(o, "/idle_open"),
+                                    track: i
+                                });
+                            case 2:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t, e) {
+                    return a.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "closeThimble",
+                value: (i = G(E().m(function t(e, n) {
+                    var r, o, i, a;
+                    return E().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return r = this.getThimbleById(e),
+                                o = r.pos,
+                                i = r.thimbleTrackIndex,
+                                a = r.ballTrackIndex,
+                                t.n = 1,
+                                this.spine.startPromise({
+                                    name: "".concat(o, "/down"),
+                                    track: i
+                                });
+                            case 1:
+                                n && this.spine.stop({
+                                    track: a
+                                }),
+                                this.spine.stop({
+                                    track: i
+                                });
+                            case 2:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t, e) {
+                    return i.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "openThimbles",
+                value: (o = G(E().m(function t(e, n) {
+                    var r, o = this;
+                    return E().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return r = e.map(function() {
+                                    var t = G(E().m(function t(e) {
+                                        return E().w(function(t) {
+                                            for (; ; )
+                                                switch (t.n) {
+                                                case 0:
+                                                    return t.n = 1,
+                                                    o.openThimble(e, n);
+                                                case 1:
+                                                    return t.a(2, Promise.resolve())
+                                                }
+                                        }, t)
+                                    }));
+                                    return function(e) {
+                                        return t.apply(this, arguments)
+                                    }
+                                }()),
+                                t.n = 1,
+                                Promise.all(r);
+                            case 1:
+                                return t.a(2)
+                            }
+                    }, t)
+                })),
+                function(t, e) {
+                    return o.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "closeThimbles",
+                value: (r = G(E().m(function t(e, n) {
+                    var r, o = this;
+                    return E().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return r = e.map(function() {
+                                    var t = G(E().m(function t(e) {
+                                        return E().w(function(t) {
+                                            for (; ; )
+                                                switch (t.n) {
+                                                case 0:
+                                                    return t.n = 1,
+                                                    o.closeThimble(e, n);
+                                                case 1:
+                                                    return t.a(2, Promise.resolve())
+                                                }
+                                        }, t)
+                                    }));
+                                    return function(e) {
+                                        return t.apply(this, arguments)
+                                    }
+                                }()),
+                                t.n = 1,
+                                Promise.all(r);
+                            case 1:
+                                return t.a(2)
+                            }
+                    }, t)
+                })),
+                function(t, e) {
+                    return r.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "hoverThimble",
+                value: function(t) {
+                    var e = this.getThimbleById(t)
+                      , n = e.pos
+                      , r = e.hoverTrackIndex;
+                    this.spine.startPromise({
+                        name: "".concat(n, "/hover"),
+                        track: r
+                    })
+                }
+            }, {
+                key: "stopHoverThimble",
+                value: function(t) {
+                    var e = this.getThimbleById(t).hoverTrackIndex;
+                    this.spine.stop({
+                        track: e
+                    })
+                }
+            }, {
+                key: "changeTimeScale",
+                value: function(t) {
+                    this.spine.state.timeScale = t
+                }
+            }, {
+                key: "onChangeOrientation",
+                value: function(t) {
+                    var e = t.isPortrait;
+                    this.isArrowsPlay && (e ? this.spine.start({
+                        name: "portrait_arrow"
+                    }) : this.spine.start({
+                        name: "album_arrow"
+                    }))
+                }
+            }],
+            e && x(t.prototype, e),
+            n && x(t, n),
+            Object.defineProperty(t, "prototype", {
+                writable: !1
+            }),
+            t;
+            var t, e, n, r, o, i, a, s
+        }();
+        function D(t) {
+            return D = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            D(t)
+        }
+        function V() {
+            var t, e, n = "function" == typeof Symbol ? Symbol : {}, r = n.iterator || "@@iterator", o = n.toStringTag || "@@toStringTag";
+            function i(n, r, o, i) {
+                var c = r && r.prototype instanceof s ? r : s
+                  , u = Object.create(c.prototype);
+                return L(u, "_invoke", function(n, r, o) {
+                    var i, s, c, u = 0, l = o || [], f = !1, p = {
+                        p: 0,
+                        n: 0,
+                        v: t,
+                        a: m,
+                        f: m.bind(t, 4),
+                        d: function(e, n) {
+                            return i = e,
+                            s = 0,
+                            c = t,
+                            p.n = n,
+                            a
+                        }
+                    };
+                    function m(n, r) {
+                        for (s = n,
+                        c = r,
+                        e = 0; !f && u && !o && e < l.length; e++) {
+                            var o, i = l[e], m = p.p, h = i[2];
+                            n > 3 ? (o = h === r) && (c = i[(s = i[4]) ? 5 : (s = 3,
+                            3)],
+                            i[4] = i[5] = t) : i[0] <= m && ((o = n < 2 && m < i[1]) ? (s = 0,
+                            p.v = r,
+                            p.n = i[1]) : m < h && (o = n < 3 || i[0] > r || r > h) && (i[4] = n,
+                            i[5] = r,
+                            p.n = h,
+                            s = 0))
+                        }
+                        if (o || n > 1)
+                            return a;
+                        throw f = !0,
+                        r
+                    }
+                    return function(o, l, h) {
+                        if (u > 1)
+                            throw TypeError("Generator is already running");
+                        for (f && 1 === l && m(l, h),
+                        s = l,
+                        c = h; (e = s < 2 ? t : c) || !f; ) {
+                            i || (s ? s < 3 ? (s > 1 && (p.n = -1),
+                            m(s, c)) : p.n = c : p.v = c);
+                            try {
+                                if (u = 2,
+                                i) {
+                                    if (s || (o = "next"),
+                                    e = i[o]) {
+                                        if (!(e = e.call(i, c)))
+                                            throw TypeError("iterator result is not an object");
+                                        if (!e.done)
+                                            return e;
+                                        c = e.value,
+                                        s < 2 && (s = 0)
+                                    } else
+                                        1 === s && (e = i.return) && e.call(i),
+                                        s < 2 && (c = TypeError("The iterator does not provide a '" + o + "' method"),
+                                        s = 1);
+                                    i = t
+                                } else if ((e = (f = p.n < 0) ? c : n.call(r, p)) !== a)
+                                    break
+                            } catch (e) {
+                                i = t,
+                                s = 1,
+                                c = e
+                            } finally {
+                                u = 1
+                            }
+                        }
+                        return {
+                            value: e,
+                            done: f
+                        }
+                    }
+                }(n, o, i), !0),
+                u
+            }
+            var a = {};
+            function s() {}
+            function c() {}
+            function u() {}
+            e = Object.getPrototypeOf;
+            var l = [][r] ? e(e([][r]())) : (L(e = {}, r, function() {
+                return this
+            }),
+            e)
+              , f = u.prototype = s.prototype = Object.create(l);
+            function p(t) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(t, u) : (t.__proto__ = u,
+                L(t, o, "GeneratorFunction")),
+                t.prototype = Object.create(f),
+                t
+            }
+            return c.prototype = u,
+            L(f, "constructor", u),
+            L(u, "constructor", c),
+            c.displayName = "GeneratorFunction",
+            L(u, o, "GeneratorFunction"),
+            L(f),
+            L(f, o, "Generator"),
+            L(f, r, function() {
+                return this
+            }),
+            L(f, "toString", function() {
+                return "[object Generator]"
+            }),
+            (V = function() {
+                return {
+                    w: i,
+                    m: p
+                }
+            }
+            )()
+        }
+        function L(t, e, n, r) {
+            var o = Object.defineProperty;
+            try {
+                o({}, "", {})
+            } catch (t) {
+                o = 0
+            }
+            L = function(t, e, n, r) {
+                function i(e, n) {
+                    L(t, e, function(t) {
+                        return this._invoke(e, n, t)
+                    })
+                }
+                e ? o ? o(t, e, {
+                    value: n,
+                    enumerable: !r,
+                    configurable: !r,
+                    writable: !r
+                }) : t[e] = n : (i("next", 0),
+                i("throw", 1),
+                i("return", 2))
+            }
+            ,
+            L(t, e, n, r)
+        }
+        function R(t, e, n, r, o, i, a) {
+            try {
+                var s = t[i](a)
+                  , c = s.value
+            } catch (t) {
+                return void n(t)
+            }
+            s.done ? e(c) : Promise.resolve(c).then(r, o)
+        }
+        function F(t, e) {
+            for (var n = 0; n < e.length; n++) {
+                var r = e[n];
+                r.enumerable = r.enumerable || !1,
+                r.configurable = !0,
+                "value"in r && (r.writable = !0),
+                Object.defineProperty(t, $(r.key), r)
+            }
+        }
+        function $(t) {
+            var e = function(t, e) {
+                if ("object" != D(t) || !t)
+                    return t;
+                var n = t[Symbol.toPrimitive];
+                if (void 0 !== n) {
+                    var r = n.call(t, e || "default");
+                    if ("object" != D(r))
+                        return r;
+                    throw new TypeError("@@toPrimitive must return a primitive value.")
+                }
+                return ("string" === e ? String : Number)(t)
+            }(t, "string");
+            return "symbol" == D(e) ? e : e + ""
+        }
+        var H = function() {
+            return t = function t(e) {
+                var n = e.device
+                  , r = e.app;
+                !function(t, e) {
+                    if (!(t instanceof e))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t);
+                var o = n.isMobile ? "background_container" : "game";
+                this.device = n,
+                this.spine = r.getControl("background_spine", o),
+                this.device.isMobile && this.device.addListener("changeOrientation", this.onChangeOrientation, this)
+            }
+            ,
+            e = [{
+                key: "playIdle",
+                value: function() {
+                    this.device.isMobile && !this.device.isLandscape || this.spine.start({
+                        name: "musicians_idle",
+                        track: 1
+                    }),
+                    this.device.isMobile || (this.spine.start({
+                        name: "idle_cat",
+                        track: 2
+                    }),
+                    this.spine.start({
+                        name: "idle_bg",
+                        track: 3
+                    }))
+                }
+            }, {
+                key: "playResult",
+                value: function() {
+                    var t = this;
+                    this.device.isMobile && !this.device.isLandscape || this.spine.startPromise({
+                        name: "musicians_win",
+                        track: 1
+                    }).then(function() {
+                        return t.spine.start({
+                            name: "musicians_idle",
+                            track: 1
+                        })
+                    })
+                }
+            }, {
+                key: "playFireworks",
+                value: (r = V().m(function t() {
+                    var e, n;
+                    return V().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                n = !0,
+                                t.n = n === !this.device.isMobile ? 1 : n === this.device.isLandscape ? 2 : 3;
+                                break;
+                            case 1:
+                                return e = "win",
+                                t.a(3, 4);
+                            case 2:
+                                return e = "win_album",
+                                t.a(3, 4);
+                            case 3:
+                                e = "win_portr";
+                            case 4:
+                                return t.n = 5,
+                                this.spine.startPromise({
+                                    name: e,
+                                    track: 0
+                                });
+                            case 5:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                }),
+                o = function() {
+                    var t = this
+                      , e = arguments;
+                    return new Promise(function(n, o) {
+                        var i = r.apply(t, e);
+                        function a(t) {
+                            R(i, n, o, a, s, "next", t)
+                        }
+                        function s(t) {
+                            R(i, n, o, a, s, "throw", t)
+                        }
+                        a(void 0)
+                    }
+                    )
+                }
+                ,
+                function() {
+                    return o.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "onChangeOrientation",
+                value: function(t) {
+                    t.isPortrait ? this.spine.stop({
+                        track: 1
+                    }) : this.spine.start({
+                        name: "musicians_idle",
+                        track: 1
+                    })
+                }
+            }],
+            e && F(t.prototype, e),
+            n && F(t, n),
+            Object.defineProperty(t, "prototype", {
+                writable: !1
+            }),
+            t;
+            var t, e, n, r, o
+        }();
+        function z(t) {
+            return z = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            z(t)
+        }
+        function W(t, e) {
+            for (var n = 0; n < e.length; n++) {
+                var r = e[n];
+                r.enumerable = r.enumerable || !1,
+                r.configurable = !0,
+                "value"in r && (r.writable = !0),
+                Object.defineProperty(t, Z(r.key), r)
+            }
+        }
+        function Z(t) {
+            var e = function(t, e) {
+                if ("object" != z(t) || !t)
+                    return t;
+                var n = t[Symbol.toPrimitive];
+                if (void 0 !== n) {
+                    var r = n.call(t, e || "default");
+                    if ("object" != z(r))
+                        return r;
+                    throw new TypeError("@@toPrimitive must return a primitive value.")
+                }
+                return ("string" === e ? String : Number)(t)
+            }(t, "string");
+            return "symbol" == z(e) ? e : e + ""
+        }
+        var U = function() {
+            return t = function t(e) {
+                !function(t, e) {
+                    if (!(t instanceof e))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                this.game = e,
+                this.spine = this.game.app.getControl("info_spine", "info_container")
+            }
+            ,
+            (e = [{
+                key: "playAction",
+                value: function() {
+                    var t = this;
+                    this.spine.startPromise({
+                        name: "action"
+                    }).then(function() {
+                        return t.spine.start({
+                            name: "idle"
+                        })
+                    })
+                }
+            }]) && W(t.prototype, e),
+            n && W(t, n),
+            Object.defineProperty(t, "prototype", {
+                writable: !1
+            }),
+            t;
+            var t, e, n
+        }();
+        function q(t) {
+            return q = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            q(t)
+        }
+        function X() {
+            var t, e, n = "function" == typeof Symbol ? Symbol : {}, r = n.iterator || "@@iterator", o = n.toStringTag || "@@toStringTag";
+            function i(n, r, o, i) {
+                var c = r && r.prototype instanceof s ? r : s
+                  , u = Object.create(c.prototype);
+                return Y(u, "_invoke", function(n, r, o) {
+                    var i, s, c, u = 0, l = o || [], f = !1, p = {
+                        p: 0,
+                        n: 0,
+                        v: t,
+                        a: m,
+                        f: m.bind(t, 4),
+                        d: function(e, n) {
+                            return i = e,
+                            s = 0,
+                            c = t,
+                            p.n = n,
+                            a
+                        }
+                    };
+                    function m(n, r) {
+                        for (s = n,
+                        c = r,
+                        e = 0; !f && u && !o && e < l.length; e++) {
+                            var o, i = l[e], m = p.p, h = i[2];
+                            n > 3 ? (o = h === r) && (c = i[(s = i[4]) ? 5 : (s = 3,
+                            3)],
+                            i[4] = i[5] = t) : i[0] <= m && ((o = n < 2 && m < i[1]) ? (s = 0,
+                            p.v = r,
+                            p.n = i[1]) : m < h && (o = n < 3 || i[0] > r || r > h) && (i[4] = n,
+                            i[5] = r,
+                            p.n = h,
+                            s = 0))
+                        }
+                        if (o || n > 1)
+                            return a;
+                        throw f = !0,
+                        r
+                    }
+                    return function(o, l, h) {
+                        if (u > 1)
+                            throw TypeError("Generator is already running");
+                        for (f && 1 === l && m(l, h),
+                        s = l,
+                        c = h; (e = s < 2 ? t : c) || !f; ) {
+                            i || (s ? s < 3 ? (s > 1 && (p.n = -1),
+                            m(s, c)) : p.n = c : p.v = c);
+                            try {
+                                if (u = 2,
+                                i) {
+                                    if (s || (o = "next"),
+                                    e = i[o]) {
+                                        if (!(e = e.call(i, c)))
+                                            throw TypeError("iterator result is not an object");
+                                        if (!e.done)
+                                            return e;
+                                        c = e.value,
+                                        s < 2 && (s = 0)
+                                    } else
+                                        1 === s && (e = i.return) && e.call(i),
+                                        s < 2 && (c = TypeError("The iterator does not provide a '" + o + "' method"),
+                                        s = 1);
+                                    i = t
+                                } else if ((e = (f = p.n < 0) ? c : n.call(r, p)) !== a)
+                                    break
+                            } catch (e) {
+                                i = t,
+                                s = 1,
+                                c = e
+                            } finally {
+                                u = 1
+                            }
+                        }
+                        return {
+                            value: e,
+                            done: f
+                        }
+                    }
+                }(n, o, i), !0),
+                u
+            }
+            var a = {};
+            function s() {}
+            function c() {}
+            function u() {}
+            e = Object.getPrototypeOf;
+            var l = [][r] ? e(e([][r]())) : (Y(e = {}, r, function() {
+                return this
+            }),
+            e)
+              , f = u.prototype = s.prototype = Object.create(l);
+            function p(t) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(t, u) : (t.__proto__ = u,
+                Y(t, o, "GeneratorFunction")),
+                t.prototype = Object.create(f),
+                t
+            }
+            return c.prototype = u,
+            Y(f, "constructor", u),
+            Y(u, "constructor", c),
+            c.displayName = "GeneratorFunction",
+            Y(u, o, "GeneratorFunction"),
+            Y(f),
+            Y(f, o, "Generator"),
+            Y(f, r, function() {
+                return this
+            }),
+            Y(f, "toString", function() {
+                return "[object Generator]"
+            }),
+            (X = function() {
+                return {
+                    w: i,
+                    m: p
+                }
+            }
+            )()
+        }
+        function Y(t, e, n, r) {
+            var o = Object.defineProperty;
+            try {
+                o({}, "", {})
+            } catch (t) {
+                o = 0
+            }
+            Y = function(t, e, n, r) {
+                function i(e, n) {
+                    Y(t, e, function(t) {
+                        return this._invoke(e, n, t)
+                    })
+                }
+                e ? o ? o(t, e, {
+                    value: n,
+                    enumerable: !r,
+                    configurable: !r,
+                    writable: !r
+                }) : t[e] = n : (i("next", 0),
+                i("throw", 1),
+                i("return", 2))
+            }
+            ,
+            Y(t, e, n, r)
+        }
+        function J(t, e, n, r, o, i, a) {
+            try {
+                var s = t[i](a)
+                  , c = s.value
+            } catch (t) {
+                return void n(t)
+            }
+            s.done ? e(c) : Promise.resolve(c).then(r, o)
+        }
+        function K(t) {
+            return function() {
+                var e = this
+                  , n = arguments;
+                return new Promise(function(r, o) {
+                    var i = t.apply(e, n);
+                    function a(t) {
+                        J(i, r, o, a, s, "next", t)
+                    }
+                    function s(t) {
+                        J(i, r, o, a, s, "throw", t)
+                    }
+                    a(void 0)
+                }
+                )
+            }
+        }
+        function Q(t, e) {
+            for (var n = 0; n < e.length; n++) {
+                var r = e[n];
+                r.enumerable = r.enumerable || !1,
+                r.configurable = !0,
+                "value"in r && (r.writable = !0),
+                Object.defineProperty(t, at(r.key), r)
+            }
+        }
+        function tt(t, e, n) {
+            return e = ot(e),
+            function(t, e) {
+                if (e && ("object" == q(e) || "function" == typeof e))
+                    return e;
+                if (void 0 !== e)
+                    throw new TypeError("Derived constructors may only return object or undefined");
+                return function(t) {
+                    if (void 0 === t)
+                        throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                    return t
+                }(t)
+            }(t, et() ? Reflect.construct(e, n || [], ot(t).constructor) : e.apply(t, n))
+        }
+        function et() {
+            try {
+                var t = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {}))
+            } catch (t) {}
+            return (et = function() {
+                return !!t
+            }
+            )()
+        }
+        function nt(t, e, n, r) {
+            var o = rt(ot(1 & r ? t.prototype : t), e, n);
+            return 2 & r && "function" == typeof o ? function(t) {
+                return o.apply(n, t)
+            }
+            : o
+        }
+        function rt() {
+            return rt = "undefined" != typeof Reflect && Reflect.get ? Reflect.get.bind() : function(t, e, n) {
+                var r = function(t, e) {
+                    for (; !{}.hasOwnProperty.call(t, e) && null !== (t = ot(t)); )
+                        ;
+                    return t
+                }(t, e);
+                if (r) {
+                    var o = Object.getOwnPropertyDescriptor(r, e);
+                    return o.get ? o.get.call(arguments.length < 3 ? t : n) : o.value
+                }
+            }
+            ,
+            rt.apply(null, arguments)
+        }
+        function ot(t) {
+            return ot = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function(t) {
+                return t.__proto__ || Object.getPrototypeOf(t)
+            }
+            ,
+            ot(t)
+        }
+        function it(t, e) {
+            return it = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function(t, e) {
+                return t.__proto__ = e,
+                t
+            }
+            ,
+            it(t, e)
+        }
+        function at(t) {
+            var e = function(t, e) {
+                if ("object" != q(t) || !t)
+                    return t;
+                var n = t[Symbol.toPrimitive];
+                if (void 0 !== n) {
+                    var r = n.call(t, e || "default");
+                    if ("object" != q(r))
+                        return r;
+                    throw new TypeError("@@toPrimitive must return a primitive value.")
+                }
+                return ("string" === e ? String : Number)(t)
+            }(t, "string");
+            return "symbol" == q(e) ? e : e + ""
+        }
+        var st = function(t) {
+            function e(t) {
+                var n, r, o, i;
+                return function(t, e) {
+                    if (!(t instanceof e))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, e),
+                n = tt(this, e, [t]),
+                r = n,
+                i = !1,
+                (o = at(o = "isGameReady"))in r ? Object.defineProperty(r, o, {
+                    value: i,
+                    enumerable: !0,
+                    configurable: !0,
+                    writable: !0
+                }) : r[o] = i,
+                n.spineStorage = new f.UpdateStorage(function(t) {
+                    return !t.isDestroyed
+                }
+                ,function(t, e, n) {
+                    t.update(.001 * e)
+                }
+                ),
+                n.init(),
+                n
+            }
+            return function(t, e) {
+                if ("function" != typeof e && null !== e)
+                    throw new TypeError("Super expression must either be null or a function");
+                t.prototype = Object.create(e && e.prototype, {
+                    constructor: {
+                        value: t,
+                        writable: !0,
+                        configurable: !0
+                    }
+                }),
+                Object.defineProperty(t, "prototype", {
+                    writable: !1
+                }),
+                e && it(t, e)
+            }(e, t),
+            r = e,
+            o = [{
+                key: "onGameReady",
+                value: function() {
+                    this.isGameReady = !0,
+                    this.light.playIdle(),
+                    this.background.playIdle()
+                }
+            }, {
+                key: "onPlaceBet",
+                value: (h = K(X().m(function t(e) {
+                    return X().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return t.n = 1,
+                                this.thimbles.openThimbles(e, !0);
+                            case 1:
+                                return t.n = 2,
+                                this.thimbles.closeThimbles(e, !0);
+                            case 2:
+                                return t.n = 3,
+                                this.thimbles.shuffleThimbles();
+                            case 3:
+                                this.thimbles.showArrows(),
+                                this.thimbles.setInteractivity(!0);
+                            case 4:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t) {
+                    return h.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "openThimble",
+                value: (m = K(X().m(function t(e, n) {
+                    return X().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return this.thimbles.stopHoverThimble(e),
+                                t.n = 1,
+                                this.thimbles.openThimble(e, n);
+                            case 1:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t, e) {
+                    return m.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "onWin",
+                value: (p = K(X().m(function t(e, n, r) {
+                    return X().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return this.light.playResult(!0),
+                                this.background.playResult(),
+                                t.n = 1,
+                                Promise.all([this.resultPopup.show(r), n ? this.background.playFireworks() : Promise.resolve()]);
+                            case 1:
+                                return this.resultPopup.hide(),
+                                t.n = 2,
+                                this.thimbles.closeThimble(e, !0);
+                            case 2:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t, e, n) {
+                    return p.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "onLose",
+                value: (u = K(X().m(function t(e, n) {
+                    return X().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return this.light.playResult(!1),
+                                t.n = 1,
+                                this.thimbles.openThimbles(n, !0);
+                            case 1:
+                                return t.n = 2,
+                                (0,
+                                a.A)(350);
+                            case 2:
+                                return this.thimbles.changeTimeScale(1.25),
+                                t.n = 3,
+                                Promise.all([this.thimbles.closeThimble(e, !1), this.thimbles.closeThimbles(n, !0)]);
+                            case 3:
+                                this.thimbles.changeTimeScale(1);
+                            case 4:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t, e) {
+                    return u.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "onBonusHalfBetLose",
+                value: (c = K(X().m(function t(e, n, r) {
+                    return X().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                return this.light.playResult(!0),
+                                this.background.playResult(),
+                                t.n = 1,
+                                Promise.all([this.resultPopup.show(r), this.thimbles.openThimbles(n, !0)]);
+                            case 1:
+                                return this.resultPopup.hide(),
+                                this.thimbles.changeTimeScale(1.25),
+                                t.n = 2,
+                                Promise.all([this.thimbles.closeThimble(e, !1), this.thimbles.closeThimbles(n, !0)]);
+                            case 2:
+                                this.thimbles.changeTimeScale(1);
+                            case 3:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t, e, n) {
+                    return c.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "onSelectError",
+                value: (s = K(X().m(function t(e) {
+                    return X().w(function(t) {
+                        for (; ; )
+                            switch (t.n) {
+                            case 0:
+                                this.thimbles.stopHoverThimble(e),
+                                this.thimbles.showArrows(),
+                                this.thimbles.setInteractivity(!0);
+                            case 1:
+                                return t.a(2)
+                            }
+                    }, t, this)
+                })),
+                function(t) {
+                    return s.apply(this, arguments)
+                }
+                )
+            }, {
+                key: "onGameStop",
+                value: function() {
+                    this.device.isMobile && this.light.playPigeonLoopAnimation()
+                }
+            }, {
+                key: "onGameStart",
+                value: function() {
+                    this.device.isMobile && this.light.stopPigeonLoopAnimation()
+                }
+            }, {
+                key: "onInfoChange",
+                value: function() {
+                    this.info.playAction()
+                }
+            }, {
+                key: "startGame",
+                value: function() {
+                    this.resultPopup = new v(this),
+                    this.background = new H(this),
+                    this.thimbles = new N(this),
+                    this.light = new O(this),
+                    this.info = new U(this),
+                    nt(e, "startGame", this, 3)([]),
+                    this.onGameReady()
+                }
+            }, {
+                key: "update",
+                value: function(t, n) {
+                    nt(e, "update", this, 3)([t, n]),
+                    this.spineStorage.update(t, n)
+                }
+            }, {
+                key: "createSceneFromConfigs",
+                value: function() {
+                    var t, n = this;
+                    nt(e, "createSceneFromConfigs", this, 3)([]),
+                    (null !== (t = this.sceneParser.controls.get("spine")) && void 0 !== t ? t : []).forEach(function(t) {
+                        t.autoUpdate = !1,
+                        n.spineStorage.add(t)
+                    })
+                }
+            }, {
+                key: "configureSceneParser",
+                value: function() {
+                    var t = this;
+                    nt(e, "configureSceneParser", this, 3)([]),
+                    this.sceneParser.addHandler("adaptiveSprite", function(e, n) {
+                        (0,
+                        l.addAdaptiveSpriteFromPackData)(t.loader.resources, e, n)
+                    })
+                }
+            }, {
+                key: "resize",
+                value: function() {
+                    nt(e, "resize", this, 3)([])
+                }
+            }, {
+                key: "destroy",
+                value: function() {
+                    this.spineStorage.destroy(),
+                    nt(e, "destroy", this, 3)([])
+                }
+            }, {
+                key: "getManifestMap",
+                value: function() {
+                    return {
+                        common: function() {
+                            return n.e(60389435).then(n.t.bind(n, 87154785, 17))
+                        },
+                        desktop: function() {
+                            return n.e(26376474).then(n.t.bind(n, 684896, 17))
+                        },
+                        mobile: function() {
+                            return n.e(68451710).then(n.t.bind(n, 71368180, 17))
+                        }
+                    }
+                }
+            }],
+            o && Q(r.prototype, o),
+            i && Q(r, i),
+            Object.defineProperty(r, "prototype", {
+                writable: !1
+            }),
+            r;
+            var r, o, i, s, c, u, p, m, h
+        }(c.PixiGame);
+        function ct(t) {
+            return ct = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            ct(t)
+        }
+        function ut(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter(function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                })),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function lt(t, e, n) {
+            return (e = function(t) {
+                var e = function(t, e) {
+                    if ("object" != ct(t) || !t)
+                        return t;
+                    var n = t[Symbol.toPrimitive];
+                    if (void 0 !== n) {
+                        var r = n.call(t, e || "default");
+                        if ("object" != ct(r))
+                            return r;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(t)
+                }(t, "string");
+                return "symbol" == ct(e) ? e : e + ""
+            }(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        var ft = function(t) {
+            var e = function(t) {
+                for (var e = 1; e < arguments.length; e++) {
+                    var n = null != arguments[e] ? arguments[e] : {};
+                    e % 2 ? ut(Object(n), !0).forEach(function(e) {
+                        lt(t, e, n[e])
+                    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : ut(Object(n)).forEach(function(e) {
+                        Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                    })
+                }
+                return t
+            }({
+                resolution: Math.min(2, window.devicePixelRatio)
+            }, t);
+            return new st({
+                device: t.platform,
+                appOptions: e
+            })
+        }
+          , pt = function(t) {
+            return t[t.ACTIVE = 1] = "ACTIVE",
+            t[t.WIN = 2] = "WIN",
+            t[t.LOSE = 3] = "LOSE",
+            t
+        }({});
+        function mt() {
+            var t, e, n = "function" == typeof Symbol ? Symbol : {}, r = n.iterator || "@@iterator", o = n.toStringTag || "@@toStringTag";
+            function i(n, r, o, i) {
+                var c = r && r.prototype instanceof s ? r : s
+                  , u = Object.create(c.prototype);
+                return ht(u, "_invoke", function(n, r, o) {
+                    var i, s, c, u = 0, l = o || [], f = !1, p = {
+                        p: 0,
+                        n: 0,
+                        v: t,
+                        a: m,
+                        f: m.bind(t, 4),
+                        d: function(e, n) {
+                            return i = e,
+                            s = 0,
+                            c = t,
+                            p.n = n,
+                            a
+                        }
+                    };
+                    function m(n, r) {
+                        for (s = n,
+                        c = r,
+                        e = 0; !f && u && !o && e < l.length; e++) {
+                            var o, i = l[e], m = p.p, h = i[2];
+                            n > 3 ? (o = h === r) && (c = i[(s = i[4]) ? 5 : (s = 3,
+                            3)],
+                            i[4] = i[5] = t) : i[0] <= m && ((o = n < 2 && m < i[1]) ? (s = 0,
+                            p.v = r,
+                            p.n = i[1]) : m < h && (o = n < 3 || i[0] > r || r > h) && (i[4] = n,
+                            i[5] = r,
+                            p.n = h,
+                            s = 0))
+                        }
+                        if (o || n > 1)
+                            return a;
+                        throw f = !0,
+                        r
+                    }
+                    return function(o, l, h) {
+                        if (u > 1)
+                            throw TypeError("Generator is already running");
+                        for (f && 1 === l && m(l, h),
+                        s = l,
+                        c = h; (e = s < 2 ? t : c) || !f; ) {
+                            i || (s ? s < 3 ? (s > 1 && (p.n = -1),
+                            m(s, c)) : p.n = c : p.v = c);
+                            try {
+                                if (u = 2,
+                                i) {
+                                    if (s || (o = "next"),
+                                    e = i[o]) {
+                                        if (!(e = e.call(i, c)))
+                                            throw TypeError("iterator result is not an object");
+                                        if (!e.done)
+                                            return e;
+                                        c = e.value,
+                                        s < 2 && (s = 0)
+                                    } else
+                                        1 === s && (e = i.return) && e.call(i),
+                                        s < 2 && (c = TypeError("The iterator does not provide a '" + o + "' method"),
+                                        s = 1);
+                                    i = t
+                                } else if ((e = (f = p.n < 0) ? c : n.call(r, p)) !== a)
+                                    break
+                            } catch (e) {
+                                i = t,
+                                s = 1,
+                                c = e
+                            } finally {
+                                u = 1
+                            }
+                        }
+                        return {
+                            value: e,
+                            done: f
+                        }
+                    }
+                }(n, o, i), !0),
+                u
+            }
+            var a = {};
+            function s() {}
+            function c() {}
+            function u() {}
+            e = Object.getPrototypeOf;
+            var l = [][r] ? e(e([][r]())) : (ht(e = {}, r, function() {
+                return this
+            }),
+            e)
+              , f = u.prototype = s.prototype = Object.create(l);
+            function p(t) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(t, u) : (t.__proto__ = u,
+                ht(t, o, "GeneratorFunction")),
+                t.prototype = Object.create(f),
+                t
+            }
+            return c.prototype = u,
+            ht(f, "constructor", u),
+            ht(u, "constructor", c),
+            c.displayName = "GeneratorFunction",
+            ht(u, o, "GeneratorFunction"),
+            ht(f),
+            ht(f, o, "Generator"),
+            ht(f, r, function() {
+                return this
+            }),
+            ht(f, "toString", function() {
+                return "[object Generator]"
+            }),
+            (mt = function() {
+                return {
+                    w: i,
+                    m: p
+                }
+            }
+            )()
+        }
+        function ht(t, e, n, r) {
+            var o = Object.defineProperty;
+            try {
+                o({}, "", {})
+            } catch (t) {
+                o = 0
+            }
+            ht = function(t, e, n, r) {
+                function i(e, n) {
+                    ht(t, e, function(t) {
+                        return this._invoke(e, n, t)
+                    })
+                }
+                e ? o ? o(t, e, {
+                    value: n,
+                    enumerable: !r,
+                    configurable: !r,
+                    writable: !r
+                }) : t[e] = n : (i("next", 0),
+                i("throw", 1),
+                i("return", 2))
+            }
+            ,
+            ht(t, e, n, r)
+        }
+        function bt(t, e, n, r, o, i, a) {
+            try {
+                var s = t[i](a)
+                  , c = s.value
+            } catch (t) {
+                return void n(t)
+            }
+            s.done ? e(c) : Promise.resolve(c).then(r, o)
+        }
+        function dt(t) {
+            return function() {
+                var e = this
+                  , n = arguments;
+                return new Promise(function(r, o) {
+                    var i = t.apply(e, n);
+                    function a(t) {
+                        bt(i, r, o, a, s, "next", t)
+                    }
+                    function s(t) {
+                        bt(i, r, o, a, s, "throw", t)
+                    }
+                    a(void 0)
+                }
+                )
+            }
+        }
+        var yt = function() {
+            var t;
+            return (0,
+            r.defineComponent)({
+                mixins: [s.GameMixin],
+                data: function() {
+                    return {
+                        ballsCount: 1,
+                        actionNumber: 0,
+                        selectedThimbleId: -1,
+                        isSoundOn: !1,
+                        isLoseMessageAvailable: !1,
+                        isPlayingInfo: !1,
+                        isRtl: (0,
+                        i.isRtlLang)((0,
+                        i.getCurrentLanguage)())
+                    }
+                },
+                computed: {
+                    infoMessage: function() {
+                        return this.calculatedSumBet ? this.isPlayingInfo ? this.$t("common.playing") : this.showWin ? "".concat(this.$t("common.youWin2"), " ").concat(this.resultMsg) : this.showLose && this.isLoseMessageAvailable ? this.$t("common.defeatMsg") : this.gameStarted ? this.$t("thimbles.title2") : this.$t("common.placeBetTitle") : this.$t("common.inputBetAmount")
+                    }
+                },
+                watch: {
+                    infoMessage: function(e, n) {
+                        var r;
+                        e !== n && null !== (r = t) && void 0 !== r && r.isGameReady && t.onInfoChange()
+                    }
+                },
+                created: function() {
+                    var t = this;
+                    return dt(mt().m(function e() {
+                        return mt().w(function(e) {
+                            for (; ; )
+                                switch (e.n) {
+                                case 0:
+                                    return e.n = 1,
+                                    t.fetchAndSetGameData(t.fetchGameCoefs, t.fetchActiveGame);
+                                case 1:
+                                    return e.a(2)
+                                }
+                        }, e)
+                    }))()
+                },
+                mounted: function() {
+                    var t = this;
+                    return dt(mt().m(function e() {
+                        return mt().w(function(e) {
+                            for (; ; )
+                                switch (e.n) {
+                                case 0:
+                                    return u.AppPreloader.addNewStageToState("readyGameStage"),
+                                    window.addEventListener("resize", t.onResize),
+                                    e.n = 1,
+                                    t.initApp();
+                                case 1:
+                                    t.onResize();
+                                case 2:
+                                    return e.a(2)
+                                }
+                        }, e)
+                    }))()
+                },
+                beforeUnmount: function() {
+                    window.removeEventListener("resize", this.onResize)
+                },
+                methods: {
+                    initApp: function() {
+                        var e = this;
+                        return new Promise(function(n) {
+                            (t = ft({
+                                platform: e.isMobileView ? c.DEFAULT_DEVICES.MOBILE : c.DEFAULT_DEVICES.DESKTOP,
+                                view: e.$refs.canvas,
+                                backgroundColor: "060320"
+                            })).loadGame(),
+                            t.on("onSelectThimble", e.onSelectThimble),
+                            t.once("onStartGame", function() {
+                                u.AppPreloader.setCustomStageReady("readyGameStage"),
+                                (0,
+                                u.makeAdditionalAssetsReady)(),
+                                n()
+                            })
+                        }
+                        )
+                    },
+                    onPlayClick: function() {
+                        var e = this;
+                        return dt(mt().m(function n() {
+                            var r;
+                            return mt().w(function(n) {
+                                for (; ; )
+                                    switch (n.n) {
+                                    case 0:
+                                        e.startGame(),
+                                        null === (r = t) || void 0 === r || r.onGameStart();
+                                    case 1:
+                                        return n.a(2)
+                                    }
+                            }, n)
+                        }))()
+                    },
+                    placeBet: function() {
+                        var t = this;
+                        return dt(mt().m(function e() {
+                            var n;
+                            return mt().w(function(e) {
+                                for (; ; )
+                                    switch (e.p = e.n) {
+                                    case 0:
+                                        return e.p = 0,
+                                        t.isPlayingInfo = !0,
+                                        e.n = 1,
+                                        t.makeBetRequest("MakeBet", {
+                                            GFI: t.ballsCount,
+                                            BS: t.getCurrBet
+                                        });
+                                    case 1:
+                                        return n = e.v,
+                                        t.updateBalanceFromGame(),
+                                        e.n = 2,
+                                        t.parseGame(n);
+                                    case 2:
+                                        e.n = 4;
+                                        break;
+                                    case 3:
+                                        e.p = 3,
+                                        e.v,
+                                        t.isPlayingInfo = !1;
+                                    case 4:
+                                        return e.a(2)
+                                    }
+                            }, e, null, [[0, 3]])
+                        }))()
+                    },
+                    onSelectThimble: function(e) {
+                        var n = this;
+                        return dt(mt().m(function r() {
+                            var o, i;
+                            return mt().w(function(r) {
+                                for (; ; )
+                                    switch (r.p = r.n) {
+                                    case 0:
+                                        return n.selectedThimbleId = e,
+                                        r.p = 1,
+                                        r.n = 2,
+                                        n.makePostRequest("MakeAction", {
+                                            AN: n.actionNumber,
+                                            ST: n.selectedThimbleId + 1
+                                        }, {
+                                            customOptions: {
+                                                action: "select"
+                                            }
+                                        });
+                                    case 2:
+                                        return o = r.v,
+                                        r.n = 3,
+                                        n.parseGame(o);
+                                    case 3:
+                                        r.n = 5;
+                                        break;
+                                    case 4:
+                                        return r.p = 4,
+                                        r.v,
+                                        r.n = 5,
+                                        null === (i = t) || void 0 === i ? void 0 : i.onSelectError(n.selectedThimbleId);
+                                    case 5:
+                                        return r.a(2)
+                                    }
+                            }, r, null, [[1, 4]])
+                        }))()
+                    },
+                    parsePrevGame: function(e) {
+                        var n = this;
+                        return dt(mt().m(function r() {
+                            var o;
+                            return mt().w(function(r) {
+                                for (; ; )
+                                    switch (r.n) {
+                                    case 0:
+                                        return e.AN && (n.actionNumber = e.AN,
+                                        n.setBlockGame(!0),
+                                        n.unfinishedGameAccountHandler(null, e)),
+                                        null === (o = t) || void 0 === o || o.onGameStart(),
+                                        r.n = 1,
+                                        n.parseGame(e);
+                                    case 1:
+                                        return r.a(2)
+                                    }
+                            }, r)
+                        }))()
+                    },
+                    parseGame: function(e) {
+                        var n = this;
+                        return dt(mt().m(function r() {
+                            var o, i, a, s, c, u, l, f, p, m, h, b, d, y, v, g, w, k, S, O;
+                            return mt().w(function(r) {
+                                for (; ; )
+                                    switch (r.n) {
+                                    case 0:
+                                        if (c = e.RS,
+                                        u = e.AN,
+                                        l = e.SB,
+                                        f = e.SW,
+                                        p = e.CF,
+                                        m = e.BS,
+                                        h = null === (o = c.GM) || void 0 === o ? void 0 : o.TRC,
+                                        n.ballsCount = c.GFI || (null === (i = c.GM) || void 0 === i ? void 0 : i.GFI) || 0,
+                                        n.actionNumber = u,
+                                        l !== pt.ACTIVE) {
+                                            r.n = 2;
+                                            break
+                                        }
+                                        return n.insertSingleBet(m),
+                                        d = n.getRandomThimblesIds(),
+                                        r.n = 1,
+                                        null === (b = t) || void 0 === b ? void 0 : b.onPlaceBet(d);
+                                    case 1:
+                                        return n.isPlayingInfo = !1,
+                                        r.a(2);
+                                    case 2:
+                                        if (h) {
+                                            r.n = 3;
+                                            break
+                                        }
+                                        return r.a(2);
+                                    case 3:
+                                        return y = n.createWinText(f),
+                                        v = f > 0 && !!p,
+                                        r.n = 4,
+                                        null === (a = t) || void 0 === a ? void 0 : a.openThimble(n.selectedThimbleId, v);
+                                    case 4:
+                                        if (n.setDefaultResult(f, !1),
+                                        !v) {
+                                            r.n = 6;
+                                            break
+                                        }
+                                        return w = 1 === n.ballsCount,
+                                        r.n = 5,
+                                        null === (g = t) || void 0 === g ? void 0 : g.onWin(n.selectedThimbleId, w, y);
+                                    case 5:
+                                    case 7:
+                                        r.n = 9;
+                                        break;
+                                    case 6:
+                                        if (k = n.filterOtherThimblesIds(h),
+                                        n.toggleLoseMessage(),
+                                        !n.bonusRevertHalfBetIsActive) {
+                                            r.n = 8;
+                                            break
+                                        }
+                                        return r.n = 7,
+                                        null === (S = t) || void 0 === S ? void 0 : S.onBonusHalfBetLose(n.selectedThimbleId, k, y);
+                                    case 8:
+                                        return r.n = 9,
+                                        null === (O = t) || void 0 === O ? void 0 : O.onLose(n.selectedThimbleId, k);
+                                    case 9:
+                                        return null === (s = t) || void 0 === s || s.onGameStop(),
+                                        r.n = 10,
+                                        n.endGameCallback();
+                                    case 10:
+                                        return r.a(2)
+                                    }
+                            }, r)
+                        }))()
+                    },
+                    filterOtherThimblesIds: function(t) {
+                        var e = this;
+                        return t.reduce(function(t, n, r) {
+                            return 0 !== n && r !== e.selectedThimbleId && t.push(r),
+                            t
+                        }, [])
+                    },
+                    createWinText: function(t) {
+                        return "".concat(this.$t("common.youWin2"), " \n ").concat(this.getWinSumWithCurrency(t))
+                    },
+                    getWinSumWithCurrency: function(t) {
+                        return this.isRtl ? "".concat(this.prevGameCurrency, " ").concat(t) : "".concat(t, " ").concat(this.prevGameCurrency)
+                    },
+                    getRandomThimblesIds: function() {
+                        return (0,
+                        o.sampleSize)([0, 1, 2], this.ballsCount)
+                    },
+                    setCountBalls: function(t) {
+                        this.gameStarted || (this.ballsCount = t + 1)
+                    },
+                    toggleLoseMessage: function() {
+                        var t = this;
+                        this.isLoseMessageAvailable = !0,
+                        (0,
+                        a.A)(3e3).then(function() {
+                            t.isLoseMessageAvailable = !1
+                        })
+                    },
+                    toggleSound: function() {
+                        this.isSoundOn = !this.isSoundOn
+                    },
+                    onResize: function() {
+                        var e;
+                        null === (e = t) || void 0 === e || e.resize()
+                    },
+                    getCoefText: function(t) {
+                        return "x" + t
+                    },
+                    showGameRulesPopup: function() {
+                        var t = this;
+                        return dt(mt().m(function e() {
+                            var r;
+                            return mt().w(function(e) {
+                                for (; ; )
+                                    switch (e.n) {
+                                    case 0:
+                                        return e.n = 1,
+                                        n.e(25082678).then(n.bind(n, 13774561));
+                                    case 1:
+                                        r = e.v,
+                                        t.defaultOpenModal(r, "ProxyRules");
+                                    case 2:
+                                        return e.a(2)
+                                    }
+                            }, e)
+                        }))()
+                    },
+                    fetchGameCoefs: function() {
+                        return this.makeGetRequest("GetCoeffs")
+                    },
+                    fetchActiveGame: function() {
+                        return this.makeGetRequest("GetActiveGame")
+                    }
+                }
+            })
+        }
+    }
+    ,
+    43872156: (t, e, n) => {
+        n.r(e),
+        n.d(e, {
+            component: () => H,
+            manifests: () => z
+        });
+        var r = n(97319341);
+        const o = JSON.parse('{"images":{"rules-wrap.png":"rules-wrap.5e35b2e3bc5d.png","switch.png":"switch.11e203988673.png"}}');
+        var i = n(27335873)
+          , a = {
+            class: "thimbles"
+        }
+          , s = {
+            ref: "pixiApplicationWrapper",
+            class: "thimbles__pixi"
+        }
+          , c = {
+            ref: "canvas",
+            class: "thimbles__canvas"
+        }
+          , u = {
+            class: "thimbles__container"
+        }
+          , l = {
+            class: "thimbles-info__text"
+        }
+          , f = {
+            class: "thimbles__panel thimbles-panel"
+        }
+          , p = {
+            class: "thimbles-panel__choice thimbles-panel-choice"
+        }
+          , m = ["onClick", "disabled"]
+          , h = {
+            class: "thimbles-choice-btn__inner"
+        }
+          , b = {
+            class: "thimbles-choice-btn__text"
+        }
+          , d = {
+            class: "thimbles-choice-btn__text"
+        }
+          , y = {
+            class: "thimbles-panel__bottom"
+        }
+          , v = {
+            class: "thimbles-panel__control thimbles-panel-control"
+        }
+          , g = {
+            key: 0,
+            width: "21",
+            height: "19",
+            "aria-hidden": "true",
+            class: "thimbles-control-btn__ico"
+        }
+          , w = {
+            key: 1,
+            width: "24",
+            height: "18",
+            "aria-hidden": "true",
+            class: "thimbles-control-btn__ico"
+        }
+          , k = {
+            class: "thimbles-panel__bets thimbles-panel-bets"
+        };
+        var S = n(82862849)
+          , O = n(75374840)
+          , P = n(8357416)
+          , _ = n(82142006)
+          , j = n(79056642)
+          , B = n(22584170)
+          , T = {
+            class: "thimbles-bets"
+        }
+          , E = {
+            class: "thimbles-bets__wrap"
+        }
+          , C = {
+            key: 1,
+            class: "thimbles-bets__input"
+        }
+          , I = {
+            class: "thimbles-bets__btns"
+        }
+          , G = ["onClick", "disabled"]
+          , x = {
+            class: "thimbles-bets-btn__val"
+        };
+        var A = n(25000323)
+          , M = n(3713828);
+        function N(t) {
+            return N = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            N(t)
+        }
+        function D(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter(function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                })),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function V(t, e, n) {
+            return (e = function(t) {
+                var e = function(t, e) {
+                    if ("object" != N(t) || !t)
+                        return t;
+                    var n = t[Symbol.toPrimitive];
+                    if (void 0 !== n) {
+                        var r = n.call(t, e || "default");
+                        if ("object" != N(r))
+                            return r;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(t)
+                }(t, "string");
+                return "symbol" == N(e) ? e : e + ""
+            }(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        const L = {
+            components: {
+                ButtonInputClear: n(73017387).A
+            },
+            mixins: [A.BetButtonsMixin],
+            computed: function(t) {
+                for (var e = 1; e < arguments.length; e++) {
+                    var n = null != arguments[e] ? arguments[e] : {};
+                    e % 2 ? D(Object(n), !0).forEach(function(e) {
+                        V(t, e, n[e])
+                    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : D(Object(n)).forEach(function(e) {
+                        Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                    })
+                }
+                return t
+            }({}, (0,
+            M.mapGetters)("game", ["isShowSelect"]))
+        };
+        var R = n(58896881);
+        const F = (0,
+        R.A)(L, [["render", function(t, e, n, r, o, a) {
+            var s = (0,
+            i.resolveComponent)("UiBetInput")
+              , c = (0,
+            i.resolveComponent)("ButtonInputClear")
+              , u = (0,
+            i.resolveComponent)("SelectBonusAccount");
+            return (0,
+            i.openBlock)(),
+            (0,
+            i.createElementBlock)("div", T, [(0,
+            i.createElementVNode)("div", {
+                class: (0,
+                i.normalizeClass)([{
+                    "thimbles-bets__info--has-select": t.isShowSelect
+                }, "thimbles-bets__info"])
+            }, [(0,
+            i.createElementVNode)("div", E, [t.bonusFreeBetIsActive ? ((0,
+            i.openBlock)(),
+            (0,
+            i.createElementBlock)("div", C, " Free ")) : ((0,
+            i.openBlock)(),
+            (0,
+            i.createBlock)(s, {
+                key: 0,
+                class: "thimbles-bets__input"
+            })), (0,
+            i.createVNode)(c, {
+                onClearSumBet: e[0] || (e[0] = function(e) {
+                    return t.clearSumBet()
+                }
+                ),
+                isDisabled: t.blockedBetBtns || t.bonusFreeBetIsActive,
+                class: "thimbles-bets__button"
+            }, {
+                default: (0,
+                i.withCtx)(function() {
+                    return e[1] || (e[1] = [(0,
+                    i.createElementVNode)("svg", {
+                        width: "14",
+                        height: "14",
+                        "aria-hidden": "true",
+                        class: "thimbles-bets__ico"
+                    }, [(0,
+                    i.createElementVNode)("use", {
+                        "xlink:href": "#thimbles-clear"
+                    })], -1)])
+                }),
+                _: 1
+            }, 8, ["isDisabled"])]), (0,
+            i.createVNode)(u, {
+                class: "thimbles-bets__select"
+            })], 2), (0,
+            i.createElementVNode)("div", I, [((0,
+            i.openBlock)(!0),
+            (0,
+            i.createElementBlock)(i.Fragment, null, (0,
+            i.renderList)(t.bets, function(n, r) {
+                return (0,
+                i.openBlock)(),
+                (0,
+                i.createElementBlock)("button", {
+                    key: "bet_".concat(r),
+                    onClick: function(e) {
+                        return t.clickBet(n)
+                    },
+                    disabled: t.blockedBetBtns || t.bonusFreeBetIsActive,
+                    "data-testid": "game-quick-bet-btn",
+                    class: "thimbles-bets__btn thimbles-bets-btn"
+                }, [e[2] || (e[2] = (0,
+                i.createElementVNode)("span", {
+                    class: "thimbles-bets-btn__wrap"
+                }, null, -1)), (0,
+                i.createElementVNode)("span", x, (0,
+                i.toDisplayString)(n), 1)], 8, G)
+            }), 128))])])
+        }
+        ]])
+          , $ = (0,
+        i.defineComponent)({
+            mixins: [(0,
+            B.q)()],
+            components: {
+                InfoBlock: j.A,
+                ButtonGameStart: _.A,
+                ButtonSound: P.A,
+                ButtonRulesOpen: O.A,
+                AdaptiveContainer: S.yx,
+                BetsButtons: F
+            }
+        })
+          , H = (0,
+        R.A)($, [["render", function(t, e, n, r, o, S) {
+            var O = (0,
+            i.resolveComponent)("SvgShadowLayout")
+              , P = (0,
+            i.resolveComponent)("InfoBlock")
+              , _ = (0,
+            i.resolveComponent)("ButtonRulesOpen")
+              , j = (0,
+            i.resolveComponent)("ButtonSound")
+              , B = (0,
+            i.resolveComponent)("BetsButtons")
+              , T = (0,
+            i.resolveComponent)("ButtonGameStart")
+              , E = (0,
+            i.resolveComponent)("AdaptiveContainer");
+            return (0,
+            i.openBlock)(),
+            (0,
+            i.createElementBlock)("div", a, [(0,
+            i.createVNode)(O, {
+                svg: "icons-sprite-thimbles.svg"
+            }), (0,
+            i.createElementVNode)("div", s, [(0,
+            i.createElementVNode)("canvas", c, null, 512)], 512), (0,
+            i.createVNode)(E, {
+                ratioMap: {
+                    "0.0": {
+                        0: {
+                            sourceArea: {
+                                width: 1920,
+                                height: 893
+                            },
+                            targetArea: {
+                                x: 0,
+                                y: 0,
+                                width: 1,
+                                height: 1
+                            }
+                        }
+                    }
+                },
+                class: "thimbles__adaptive"
+            }, {
+                default: (0,
+                i.withCtx)(function() {
+                    return [(0,
+                    i.createElementVNode)("div", u, [(0,
+                    i.createVNode)(P, {
+                        class: "thimbles__info thimbles-info"
+                    }, {
+                        default: (0,
+                        i.withCtx)(function() {
+                            return [(0,
+                            i.createElementVNode)("p", l, (0,
+                            i.toDisplayString)(t.infoMessage), 1)]
+                        }),
+                        _: 1
+                    }), (0,
+                    i.createElementVNode)("div", f, [(0,
+                    i.createElementVNode)("div", p, [((0,
+                    i.openBlock)(!0),
+                    (0,
+                    i.createElementBlock)(i.Fragment, null, (0,
+                    i.renderList)(t.gameCoefs.FC, function(n, r) {
+                        return (0,
+                        i.openBlock)(),
+                        (0,
+                        i.createElementBlock)("button", {
+                            key: "coef_".concat(r),
+                            onClick: function(e) {
+                                return t.setCountBalls(r)
+                            },
+                            disabled: t.gameStarted && r + 1 !== t.ballsCount,
+                            class: (0,
+                            i.normalizeClass)([{
+                                "thimbles-choice-btn--is-active": r + 1 === t.ballsCount,
+                                "thimbles-choice-btn--is-not-active": r + 1 !== t.ballsCount
+                            }, "thimbles-panel-choice__btn thimbles-choice-btn"]),
+                            "data-testid": "game-choice-btn"
+                        }, [e[1] || (e[1] = (0,
+                        i.createElementVNode)("span", {
+                            class: "thimbles-choice-btn__wrap"
+                        }, null, -1)), (0,
+                        i.createElementVNode)("span", h, [(0,
+                        i.createElementVNode)("span", b, (0,
+                        i.toDisplayString)(t.$t("thimbles.type".concat(r))), 1), (0,
+                        i.createElementVNode)("span", d, (0,
+                        i.toDisplayString)(t.getCoefText(n)), 1)])], 10, m)
+                    }), 128))]), (0,
+                    i.createElementVNode)("div", y, [(0,
+                    i.createElementVNode)("div", v, [(0,
+                    i.createVNode)(_, {
+                        onOpenRulesModal: e[0] || (e[0] = function(e) {
+                            return t.showGameRulesPopup()
+                        }
+                        ),
+                        class: "thimbles-panel-control__btn thimbles-control-btn thimbles-control-btn--rules"
+                    }, {
+                        default: (0,
+                        i.withCtx)(function() {
+                            return e[2] || (e[2] = [(0,
+                            i.createElementVNode)("span", {
+                                class: "thimbles-control-btn__wrap"
+                            }, null, -1), (0,
+                            i.createElementVNode)("svg", {
+                                width: "15",
+                                height: "23",
+                                "aria-hidden": "true",
+                                class: "thimbles-control-btn__ico"
+                            }, [(0,
+                            i.createElementVNode)("use", {
+                                "xlink:href": "#thimbles-rules"
+                            })], -1)])
+                        }),
+                        _: 1
+                    }), (0,
+                    i.createVNode)(j, {
+                        onButtonSoundClick: t.toggleSound,
+                        disabled: "true",
+                        class: "thimbles-panel-control__btn thimbles-control-btn thimbles-control-btn--sound"
+                    }, {
+                        default: (0,
+                        i.withCtx)(function() {
+                            return [e[5] || (e[5] = (0,
+                            i.createElementVNode)("span", {
+                                class: "thimbles-control-btn__wrap"
+                            }, null, -1)), t.isSoundOn ? ((0,
+                            i.openBlock)(),
+                            (0,
+                            i.createElementBlock)("svg", g, e[3] || (e[3] = [(0,
+                            i.createElementVNode)("use", {
+                                "xlink:href": "#thimbles-sound-on"
+                            }, null, -1)]))) : ((0,
+                            i.openBlock)(),
+                            (0,
+                            i.createElementBlock)("svg", w, e[4] || (e[4] = [(0,
+                            i.createElementVNode)("use", {
+                                "xlink:href": "#thimbles-sound-off"
+                            }, null, -1)])))]
+                        }),
+                        _: 1
+                    }, 8, ["onButtonSoundClick"])]), (0,
+                    i.createElementVNode)("div", k, [(0,
+                    i.createVNode)(B, {
+                        class: "thimbles-panel-bets__container"
+                    }), (0,
+                    i.createVNode)(T, {
+                        onStartGame: t.onPlayClick,
+                        isDisabled: t.gameStarted,
+                        class: "thimbles-panel-bets__btn thimbles-panel-btn"
+                    }, {
+                        default: (0,
+                        i.withCtx)(function() {
+                            return e[6] || (e[6] = [(0,
+                            i.createElementVNode)("span", {
+                                class: "thimbles-panel-btn__wrap"
+                            }, null, -1)])
+                        }),
+                        _: 1
+                    }, 8, ["onStartGame", "isDisabled"])])])])])]
+                }),
+                _: 1
+            })])
+        }
+        ]]);
+        var z = [r, o]
+    }
+    ,
+    84253374: (t, e, n) => {
+        function r() {
+            var t, e, n = "function" == typeof Symbol ? Symbol : {}, i = n.iterator || "@@iterator", a = n.toStringTag || "@@toStringTag";
+            function s(n, r, i, a) {
+                var s = r && r.prototype instanceof u ? r : u
+                  , l = Object.create(s.prototype);
+                return o(l, "_invoke", function(n, r, o) {
+                    var i, a, s, u = 0, l = o || [], f = !1, p = {
+                        p: 0,
+                        n: 0,
+                        v: t,
+                        a: m,
+                        f: m.bind(t, 4),
+                        d: function(e, n) {
+                            return i = e,
+                            a = 0,
+                            s = t,
+                            p.n = n,
+                            c
+                        }
+                    };
+                    function m(n, r) {
+                        for (a = n,
+                        s = r,
+                        e = 0; !f && u && !o && e < l.length; e++) {
+                            var o, i = l[e], m = p.p, h = i[2];
+                            n > 3 ? (o = h === r) && (s = i[(a = i[4]) ? 5 : (a = 3,
+                            3)],
+                            i[4] = i[5] = t) : i[0] <= m && ((o = n < 2 && m < i[1]) ? (a = 0,
+                            p.v = r,
+                            p.n = i[1]) : m < h && (o = n < 3 || i[0] > r || r > h) && (i[4] = n,
+                            i[5] = r,
+                            p.n = h,
+                            a = 0))
+                        }
+                        if (o || n > 1)
+                            return c;
+                        throw f = !0,
+                        r
+                    }
+                    return function(o, l, h) {
+                        if (u > 1)
+                            throw TypeError("Generator is already running");
+                        for (f && 1 === l && m(l, h),
+                        a = l,
+                        s = h; (e = a < 2 ? t : s) || !f; ) {
+                            i || (a ? a < 3 ? (a > 1 && (p.n = -1),
+                            m(a, s)) : p.n = s : p.v = s);
+                            try {
+                                if (u = 2,
+                                i) {
+                                    if (a || (o = "next"),
+                                    e = i[o]) {
+                                        if (!(e = e.call(i, s)))
+                                            throw TypeError("iterator result is not an object");
+                                        if (!e.done)
+                                            return e;
+                                        s = e.value,
+                                        a < 2 && (a = 0)
+                                    } else
+                                        1 === a && (e = i.return) && e.call(i),
+                                        a < 2 && (s = TypeError("The iterator does not provide a '" + o + "' method"),
+                                        a = 1);
+                                    i = t
+                                } else if ((e = (f = p.n < 0) ? s : n.call(r, p)) !== c)
+                                    break
+                            } catch (e) {
+                                i = t,
+                                a = 1,
+                                s = e
+                            } finally {
+                                u = 1
+                            }
+                        }
+                        return {
+                            value: e,
+                            done: f
+                        }
+                    }
+                }(n, i, a), !0),
+                l
+            }
+            var c = {};
+            function u() {}
+            function l() {}
+            function f() {}
+            e = Object.getPrototypeOf;
+            var p = [][i] ? e(e([][i]())) : (o(e = {}, i, function() {
+                return this
+            }),
+            e)
+              , m = f.prototype = u.prototype = Object.create(p);
+            function h(t) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(t, f) : (t.__proto__ = f,
+                o(t, a, "GeneratorFunction")),
+                t.prototype = Object.create(m),
+                t
+            }
+            return l.prototype = f,
+            o(m, "constructor", f),
+            o(f, "constructor", l),
+            l.displayName = "GeneratorFunction",
+            o(f, a, "GeneratorFunction"),
+            o(m),
+            o(m, a, "Generator"),
+            o(m, i, function() {
+                return this
+            }),
+            o(m, "toString", function() {
+                return "[object Generator]"
+            }),
+            (r = function() {
+                return {
+                    w: s,
+                    m: h
+                }
+            }
+            )()
+        }
+        function o(t, e, n, r) {
+            var i = Object.defineProperty;
+            try {
+                i({}, "", {})
+            } catch (t) {
+                i = 0
+            }
+            o = function(t, e, n, r) {
+                function a(e, n) {
+                    o(t, e, function(t) {
+                        return this._invoke(e, n, t)
+                    })
+                }
+                e ? i ? i(t, e, {
+                    value: n,
+                    enumerable: !r,
+                    configurable: !r,
+                    writable: !r
+                }) : t[e] = n : (a("next", 0),
+                a("throw", 1),
+                a("return", 2))
+            }
+            ,
+            o(t, e, n, r)
+        }
+        function i(t, e, n, r, o, i, a) {
+            try {
+                var s = t[i](a)
+                  , c = s.value
+            } catch (t) {
+                return void n(t)
+            }
+            s.done ? e(c) : Promise.resolve(c).then(r, o)
+        }
+        n.d(e, {
+            A: () => a
+        });
+        const a = function() {
+            var t, e = (t = r().m(function t(e) {
+                return r().w(function(t) {
+                    for (; ; )
+                        if (0 === t.n)
+                            return t.a(2, new Promise(function(t) {
+                                setTimeout(t, e)
+                            }
+                            ))
+                }, t)
+            }),
+            function() {
+                var e = this
+                  , n = arguments;
+                return new Promise(function(r, o) {
+                    var a = t.apply(e, n);
+                    function s(t) {
+                        i(a, r, o, s, c, "next", t)
+                    }
+                    function c(t) {
+                        i(a, r, o, s, c, "throw", t)
+                    }
+                    s(void 0)
+                }
+                )
+            }
+            );
+            return function(t) {
+                return e.apply(this, arguments)
+            }
+        }()
+    }
+    ,
+    82862849: (t, e, n) => {
+        n.d(e, {
+            yx: () => m
+        });
+        var r = n(27335873);
+        var o = n(3713828);
+        function i(t) {
+            return i = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(t) {
+                return typeof t
+            }
+            : function(t) {
+                return t && "function" == typeof Symbol && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t
+            }
+            ,
+            i(t)
+        }
+        function a(t, e) {
+            return function(t) {
+                if (Array.isArray(t))
+                    return t
+            }(t) || function(t, e) {
+                var n = null == t ? null : "undefined" != typeof Symbol && t[Symbol.iterator] || t["@@iterator"];
+                if (null != n) {
+                    var r, o, i, a, s = [], c = !0, u = !1;
+                    try {
+                        if (i = (n = n.call(t)).next,
+                        0 === e) {
+                            if (Object(n) !== n)
+                                return;
+                            c = !1
+                        } else
+                            for (; !(c = (r = i.call(n)).done) && (s.push(r.value),
+                            s.length !== e); c = !0)
+                                ;
+                    } catch (t) {
+                        u = !0,
+                        o = t
+                    } finally {
+                        try {
+                            if (!c && null != n.return && (a = n.return(),
+                            Object(a) !== a))
+                                return
+                        } finally {
+                            if (u)
+                                throw o
+                        }
+                    }
+                    return s
+                }
+            }(t, e) || function(t, e) {
+                if (t) {
+                    if ("string" == typeof t)
+                        return s(t, e);
+                    var n = {}.toString.call(t).slice(8, -1);
+                    return "Object" === n && t.constructor && (n = t.constructor.name),
+                    "Map" === n || "Set" === n ? Array.from(t) : "Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? s(t, e) : void 0
+                }
+            }(t, e) || function() {
+                throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }()
+        }
+        function s(t, e) {
+            (null == e || e > t.length) && (e = t.length);
+            for (var n = 0, r = Array(e); n < e; n++)
+                r[n] = t[n];
+            return r
+        }
+        function c(t, e) {
+            var n = Object.keys(t);
+            if (Object.getOwnPropertySymbols) {
+                var r = Object.getOwnPropertySymbols(t);
+                e && (r = r.filter(function(e) {
+                    return Object.getOwnPropertyDescriptor(t, e).enumerable
+                })),
+                n.push.apply(n, r)
+            }
+            return n
+        }
+        function u(t) {
+            for (var e = 1; e < arguments.length; e++) {
+                var n = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? c(Object(n), !0).forEach(function(e) {
+                    l(t, e, n[e])
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : c(Object(n)).forEach(function(e) {
+                    Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e))
+                })
+            }
+            return t
+        }
+        function l(t, e, n) {
+            return (e = function(t) {
+                var e = function(t, e) {
+                    if ("object" != i(t) || !t)
+                        return t;
+                    var n = t[Symbol.toPrimitive];
+                    if (void 0 !== n) {
+                        var r = n.call(t, e || "default");
+                        if ("object" != i(r))
+                            return r;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(t)
+                }(t, "string");
+                return "symbol" == i(e) ? e : e + ""
+            }(e))in t ? Object.defineProperty(t, e, {
+                value: n,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : t[e] = n,
+            t
+        }
+        const f = {
+            name: "AdaptiveContainer",
+            props: {
+                sourceArea: {
+                    default: function() {
+                        return {
+                            width: 200,
+                            height: 200
+                        }
+                    },
+                    type: Object
+                },
+                parentSee: {
+                    type: Boolean,
+                    default: !1
+                },
+                hasBlurBg: {
+                    type: Boolean,
+                    default: !1
+                },
+                ratioMap: {
+                    default: function() {
+                        return {
+                            0: {
+                                0: {
+                                    sourceArea: void 0,
+                                    targetArea: {
+                                        x: 0,
+                                        y: 0,
+                                        width: 1,
+                                        height: 1
+                                    },
+                                    zoomType: "upscale",
+                                    alignX: "center",
+                                    alignY: "middle",
+                                    elementsDescriptor: {},
+                                    enabledClasses: [],
+                                    disabledClasses: [],
+                                    visible: !0
+                                }
+                            }
+                        }
+                    },
+                    type: Object
+                }
+            },
+            emits: ["emitTransform"],
+            data: function() {
+                return {
+                    visible: !0
+                }
+            },
+            computed: u(u(u({}, (0,
+            o.mapGetters)("application", ["isMobileView", "isDesktopView"])), (0,
+            o.mapGetters)("bonuses", ["bonusId"])), {}, {
+                currentRatioMap: function() {
+                    var t = Object.keys(this.ratioMap)
+                      , e = t.includes("mobile") && this.isMobileView
+                      , n = t.includes("desktop") && this.isDesktopView;
+                    switch (!0) {
+                    case e:
+                        return this.ratioMap.mobile;
+                    case n:
+                        return this.ratioMap.desktop;
+                    case !t.includes("mobile") && !t.includes("desktop"):
+                        return this.ratioMap;
+                    default:
+                        return null
+                    }
+                },
+                containerClasses: function() {
+                    return {
+                        "adaptive-container--desktop": this.isDesktopView,
+                        "adaptive-container--mobile": this.isMobileView,
+                        "adaptive-container--has-blur": this.hasBlurBg
+                    }
+                }
+            }),
+            watch: {
+                bonusId: function() {
+                    var t = this;
+                    this.$nextTick(function() {
+                        t.adjust()
+                    })
+                }
+            },
+            mounted: function() {
+                this.currentRatioMap && (window.addEventListener("resize", this.adjust),
+                this.adjust())
+            },
+            updated: function() {
+                var t = this;
+                this.currentRatioMap && this.$nextTick().then(function() {
+                    return t.adjust()
+                })
+            },
+            beforeUnmount: function() {
+                this.currentRatioMap && window.removeEventListener("resize", this.adjust)
+            },
+            methods: {
+                getVisible: function(t) {
+                    var e;
+                    this.visible = null === (e = t.visible) || void 0 === e || e
+                },
+                adjust: function() {
+                    var t, e, n, r, o, i, s = this.$refs.sourceElement, c = this.parentSee ? this.$el.parentNode : document.body, u = c.clientWidth, l = c.clientHeight, f = u / l || 1, p = Object.keys(this.currentRatioMap);
+                    if (0 !== p.length) {
+                        for (var m = p[0], h = 0; h < p.length; h++) {
+                            var b = p[h];
+                            if (f > parseFloat(b)) {
+                                m = this.currentRatioMap[b];
+                                break
+                            }
+                        }
+                        var d = Object.keys(m).reduce(function(t, e, n) {
+                            if (0 === n)
+                                return +e;
+                            var r = +e;
+                            return null !== t && r < u && r > t ? r : t
+                        }, null)
+                          , y = m[d];
+                        if (this.hasBlurBg || (s.style.display = this.visible ? "grid" : "none"),
+                        this.getVisible(y),
+                        this.visible) {
+                            var v = y.targetArea
+                              , g = null !== (t = y.enabledClasses) && void 0 !== t ? t : []
+                              , w = null !== (e = y.disabledClasses) && void 0 !== e ? e : []
+                              , k = null !== (n = y.elementsDescriptor) && void 0 !== n ? n : {}
+                              , S = null !== (r = y.zoomType) && void 0 !== r ? r : "upscale"
+                              , O = null !== (o = y.alignX) && void 0 !== o ? o : "center"
+                              , P = null !== (i = y.alignY) && void 0 !== i ? i : "middle"
+                              , _ = u * v.width
+                              , j = l * v.height
+                              , B = y.sourceArea || this.$props.sourceArea
+                              , T = B.width
+                              , E = B.height;
+                            g.forEach(function(t) {
+                                s.classList.add(t)
+                            }),
+                            w.forEach(function(t) {
+                                s.classList.remove(t)
+                            }),
+                            Object.entries(k).forEach(function(t) {
+                                var e = a(t, 2)
+                                  , n = e[0]
+                                  , r = e[1]
+                                  , o = document.getElementById(n);
+                                Object.entries(r).forEach(function(t) {
+                                    var e = a(t, 2)
+                                      , n = e[0]
+                                      , r = e[1];
+                                    o.style[n] = r
+                                })
+                            });
+                            var C = "upscale" === S ? 1 / 0 : 1
+                              , I = Math.min(_ / T, C)
+                              , G = Math.min(j / E, C);
+                            I = "distortion" === S ? I : Math.min(I, G),
+                            G = "distortion" === S ? G : I;
+                            var x = (u * v.width - T * I) / I
+                              , A = (l * v.height - E * G) / G
+                              , M = Math.trunc(v.x * u / I)
+                              , N = Math.trunc(v.y * l / G);
+                            switch (O) {
+                            case "center":
+                                M += x / 2;
+                                break;
+                            case "right":
+                                M += x
+                            }
+                            switch (P) {
+                            case "middle":
+                                N += A / 2;
+                                break;
+                            case "bottom":
+                                N += A
+                            }
+                            this.$emit("emitTransform", {
+                                scaleX: I,
+                                scaleY: G,
+                                translateX: M,
+                                translateY: N
+                            }),
+                            s.style.transform = "scaleX(" + I + ")scaleY(" + G + ")translateX(" + M + "px)translateY(" + N + "px)",
+                            s.style.width = B.width + "px",
+                            s.style.height = B.height + "px",
+                            this.debug = {
+                                sourceWidth: T,
+                                sourceHeight: E,
+                                targetHeight: j,
+                                targetWidth: _,
+                                scaleX: I,
+                                scaleY: G,
+                                parentWidth: u,
+                                parentHeight: l
+                            }
+                        }
+                    }
+                }
+            }
+        };
+        var p = n(58896881);
+        const m = (0,
+        p.A)(f, [["render", function(t, e, n, o, i, a) {
+            return i.visible ? ((0,
+            r.openBlock)(),
+            (0,
+            r.createElementBlock)("div", {
+                key: 0,
+                ref: "sourceElement",
+                class: (0,
+                r.normalizeClass)([a.containerClasses, "adaptive-container"])
+            }, [(0,
+            r.renderSlot)(t.$slots, "default", {}, void 0, !0)], 2)) : (0,
+            r.createCommentVNode)("", !0)
+        }
+        ], ["__scopeId", "data-v-717b01bc"]]);
+        const h = n.p + "hand-hint.67d2aaa21045.png";
+        Boolean
+    }
+    ,
+    97319341: t => {
+        t.exports = JSON.parse('{"images":{"arrow-sprite.png":"arrow-sprite.fcc08a58ab65.png","icons-sprite-thimbles.svg":"icons-sprite-thimbles.c69289f3499c.svg"}}')
+    }
+}]);
