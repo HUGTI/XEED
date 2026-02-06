@@ -1,0 +1,34 @@
+VM293:3 [NETWORK AUTOPSY] Starting complete capture
+VM293:71 [NETWORK AUTOPSY] Complete interception active
+undefined
+VM293:10 [FETCH 1770354233682.6497] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":698,"sh":730,"u":1535355583,"ev":[{"ts":1770354230985989,"e":2035,"m":{"i1":443,"i2":434,"i3":57118}}]}
+VM293:19 [FETCH 1770354233682.6497 RESPONSE 1042ms] {ts: 1770354232656485}
+VM293:36 [XHR 1770354274716.0466] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55
+VM293:40 [XHR 1770354274716.0466 BODY] {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"BAC":1535355583,"BC":0,"BN":0,"GFI":2,"BS":200}
+VM293:42 [XHR 1770354274716.0466 RESPONSE] {"SB":1,"CF":0,"SW":0,"AB":815.5,"RS":{"GID":"698576614120b26ed1150a9f","GFI":2},"AN":1,"BS":200,"AI":1535355583}
+VM293:10 [FETCH 1770354275679.1257] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":754,"sh":730,"u":1535355583,"ev":[{"ts":1770354272624535,"e":2035,"m":{"i1":523,"i2":507,"i3":98762}},{"ts":1770354272625320,"e":2015,"m":{"i1":62,"s1":"нет"}},{"ts":1770354273580180,"e":2014,"m":{"i1":62,"s1":"нет"}}]}
+VM293:19 [FETCH 1770354275679.1257 RESPONSE 657ms] {ts: 1770354274265027}
+67107808.67107808.7d118c3a46c6.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM293:36 [XHR 1770354294190.335] GET https://localhost:3443/games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=fr&whence=55&currencyId=27
+VM293:42 [XHR 1770354294190.335 RESPONSE] {"Success":true,"Value":{"HT":3308,"DT":68108,"WT":154508,"MT":1968907,"JS":{"HY":3343.26,"DY":4817468.94,"WY":62588978.72,"MY":77030543.52},"C":27}}
+VM293:10 [FETCH 1770354296680.6003] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":754,"sh":730,"u":1535355583,"ev":[{"ts":1770354292156687,"e":10816,"m":{"i1":62,"i2":54,"i3":60}}]}
+VM293:19 [FETCH 1770354296680.6003 RESPONSE 983ms] {ts: 1770354295588531}
+VM293:36 [XHR 1770354339579.189] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55
+VM293:40 [XHR 1770354339579.189 BODY] {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"AN":1,"ST":2}
+VM293:42 [XHR 1770354339579.189 RESPONSE] {"SB":3,"CF":0,"SW":0,"RS":{"FC":[2.91,1.45],"GM":{"GID":"698576614120b26ed1150a9f","GFI":2,"TRC":[1,0,1]}},"AN":2,"BS":200,"AI":1535355583}
+VM293:10 [FETCH 1770354341673.903] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":754,"sh":730,"u":1535355583,"ev":[{"ts":1770354337076476,"e":2035,"m":{"i1":413,"i2":307,"i3":163210}},{"ts":1770354337620101,"e":2035,"m":{"i1":394,"i2":365,"i3":163753}}]}
+VM293:19 [FETCH 1770354341673.903 RESPONSE 1030ms] {ts: 1770354340638748}
+VM293:10 [FETCH 1770354356303.7776] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":754,"sh":730,"u":1535355583,"ev":[{"ts":1770354352160613,"e":10816,"m":{"i1":62,"i2":9,"i3":59}}]}
+VM293:19 [FETCH 1770354356303.7776 RESPONSE 719ms] {ts: 1770354354946781}
+VM293:36 [XHR 1770354363157.9714] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55
+VM293:40 [XHR 1770354363157.9714 BODY] {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"BAC":1535355583,"BC":0,"BN":0,"GFI":2,"BS":200}
+VM293:42 [XHR 1770354363157.9714 RESPONSE] {"SB":1,"CF":0,"SW":0,"AB":615.5,"RS":{"GID":"698576b94120b26ed1150ac3","GFI":2},"AN":1,"BS":200,"AI":1535355583}
+VM293:10 [FETCH 1770354365314.3967] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":754,"sh":730,"u":1535355583,"ev":[{"ts":1770354361076796,"e":2035,"m":{"i1":523,"i2":510,"i3":182999}},{"ts":1770354361076971,"e":2015,"m":{"i1":62,"s1":"нет"}},{"ts":1770354361790066,"e":2014,"m":{"i1":62,"s1":"нет"}}]}
+VM293:19 [FETCH 1770354365314.3967 RESPONSE 1265ms] {ts: 1770354364515951}
+VM293:36 [XHR 1770354366859.4722] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55
+VM293:40 [XHR 1770354366859.4722 BODY] {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"AN":1,"ST":1}
+VM293:42 [XHR 1770354366859.4722 RESPONSE] {"SB":2,"CF":1.45,"SW":290,"AB":905.5,"RS":{"FC":[2.91,1.45],"GM":{"GID":"698576b94120b26ed1150ac3","GFI":2,"TRC":[1,0,1]}},"AN":2,"BS":200,"AI":1535355583}
+VM293:10 [FETCH 1770354368303.9385] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":754,"sh":730,"u":1535355583,"ev":[{"ts":1770354364895051,"e":2035,"m":{"i1":281,"i2":355,"i3":186805}}]}
+VM293:19 [FETCH 1770354368303.9385 RESPONSE 920ms] {ts: 1770354366881547}
+VM293:10 [FETCH 1770354416302.189] https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json {"w":55,"sw":350,"sh":730,"u":1535355583,"ev":[{"ts":1770354411882437,"e":10816,"m":{"i1":62,"i2":56,"i3":60}}]}
+VM293:19 [FETCH 1770354416302.189 RESPONSE 1075ms] {ts: 1770354415306320}
