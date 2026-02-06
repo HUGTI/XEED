@@ -1,0 +1,92 @@
+VM736:7 [PRÉDICTEUR V2] Initialisation...
+VM736:433 [PRÉDICTEUR V2] Prêt! Toutes les communications sont surveillées.
+VM736:434 Commandes disponibles:
+VM736:435   rgsDebug.showHistory() - Voir l'historique
+VM736:436   rgsDebug.testRGS(1503235) - Tester un RGS
+VM736:437   rgsDebug.predictNext() - Forcer une prédiction
+VM736:438   rgsDebug.reset() - Réinitialiser
+VM736:442 
+⚠️  Jouez au moins un round pour initialiser le système.
+VM736:443 Le prédicteur analysera automatiquement les communications.
+undefined
+VM736:72 🔍 XHR REQUEST
+VM736:73 URL: https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55
+VM736:74 Method: POST
+VM736:75 Body: {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"BAC":1535355583,"BC":0,"BN":0,"GFI":2,"BS":200}
+VM736:76 Response: {"SB":1,"CF":0,"SW":0,"AB":1525.5,"RS":{"GID":"698557c44120b26ed114fffc","GFI":2},"AN":1,"BS":200,"AI":1535355583}
+VM736:127 🔬 Analyse des données (xhr)
+VM736:130 Structure complète: {
+  "SB": 1,
+  "CF": 0,
+  "SW": 0,
+  "AB": 1525.5,
+  "RS": {
+    "GID": "698557c44120b26ed114fffc",
+    "GFI": 2
+  },
+  "AN": 1,
+  "BS": 200,
+  "AI": 1535355583
+}
+VM736:149 ❌ RGS non trouvé dans cette réponse
+VM736:27 🔍 FETCH REQUEST
+VM736:28 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM736:29 Method: POST
+VM736:30 Body: {"w":55,"sw":770,"sh":731,"u":1535355583,"ev":[{"ts":1770346435077712,"e":2035,"m":{"i1":544,"i2":511,"i3":279478}},{"ts":1770346435077837,"e":2015,"m":{"i1":62,"s1":"нет"}},{"ts":1770346436174057,"e":2014,"m":{"i1":62,"s1":"нет"}}]}
+VM736:38 📦 JSON Response: {ts: 1770346437750684}
+VM736:127 🔬 Analyse des données (fetch)
+VM736:130 Structure complète: {
+  "ts": 1770346437750684
+}
+VM736:149 ❌ RGS non trouvé dans cette réponse
+VM736:27 🔍 FETCH REQUEST
+VM736:28 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM736:29 Method: POST
+VM736:30 Body: {"w":55,"sw":770,"sh":731,"u":1535355583,"ev":[{"ts":1770346467607589,"e":10816,"m":{"i1":62,"i3":59}}]}
+VM736:38 📦 JSON Response: {ts: 1770346470752750}
+VM736:127 🔬 Analyse des données (fetch)
+VM736:130 Structure complète: {
+  "ts": 1770346470752750
+}
+VM736:149 ❌ RGS non trouvé dans cette réponse
+VM736:72 🔍 XHR REQUEST
+VM736:73 URL: https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55
+VM736:74 Method: POST
+VM736:75 Body: {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"AN":1,"ST":3}
+VM736:76 Response: {"SB":3,"CF":0,"SW":0,"RS":{"FC":[2.91,1.45],"GM":{"GID":"698557c44120b26ed114fffc","GFI":2,"TRC":[1,1,0]}},"AN":2,"BS":200,"AI":1535355583}
+VM736:127 🔬 Analyse des données (xhr)
+VM736:130 Structure complète: {
+  "SB": 3,
+  "CF": 0,
+  "SW": 0,
+  "RS": {
+    "FC": [
+      2.91,
+      1.45
+    ],
+    "GM": {
+      "GID": "698557c44120b26ed114fffc",
+      "GFI": 2,
+      "TRC": [
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "AN": 2,
+  "BS": 200,
+  "AI": 1535355583
+}
+VM736:149 ❌ RGS non trouvé dans cette réponse
+VM736:153 📊 Résultats sans RGS: (3) [1, 1, 0]
+VM736:27 🔍 FETCH REQUEST
+VM736:28 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM736:29 Method: POST
+VM736:30 Body: {"w":55,"sw":770,"sh":731,"u":1535355583,"ev":[{"ts":1770346491880125,"e":2035,"m":{"i1":473,"i2":397,"i3":336279}}]}
+VM736:38 📦 JSON Response: {ts: 1770346494664648}
+VM736:127 🔬 Analyse des données (fetch)
+VM736:130 Structure complète: {
+  "ts": 1770346494664648
+}
+VM736:149 ❌ RGS non trouvé dans cette réponse
