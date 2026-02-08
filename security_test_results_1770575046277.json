@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-02-08T18:19:27.455Z",
+  "tests": {
+    "param_tamper_1770574829369": {
+      "name": "Parameter Tampering",
+      "description": "Modify BS (bet amount) parameter",
+      "steps": [
+        {
+          "step": "Legitimate request",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 0,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 200
+          },
+          "response": {},
+          "status": "success"
+        },
+        {
+          "step": "Tampered request (BS: 20)",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 0,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 20
+          },
+          "response": {},
+          "status": "secure"
+        },
+        {
+          "step": "Extreme tampering (BS: 20000)",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 0,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 20000
+          },
+          "response": {},
+          "status": "secure"
+        }
+      ],
+      "result": "SECURE",
+      "vulnerability": "Bet amount is protected"
+    },
+    "race_condition_1770574900062": {
+      "name": "Race Condition",
+      "description": "Send two MakeBet requests within 1ms",
+      "steps": [
+        {
+          "step": "Request 1",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 1770574900062,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 200
+          },
+          "response": {},
+          "status": "rejected"
+        },
+        {
+          "step": "Request 2",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 1770574900063,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 200
+          },
+          "response": {},
+          "status": "rejected"
+        }
+      ],
+      "analysis": {
+        "bothProcessed": false,
+        "timeDifference": "723ms",
+        "balancesMatch": true
+      },
+      "vulnerability": "Both requests rejected, race condition protected",
+      "result": "SECURE"
+    },
+    "replay_1770574940065": {
+      "name": "Replay Attack",
+      "description": "Send same MakeBet request multiple times",
+      "steps": [
+        {
+          "step": "Original request",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 0,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 200,
+            "timestamp": 1770574940065,
+            "testId": "replay_1770574940065"
+          },
+          "response": {},
+          "status": "rejected"
+        },
+        {
+          "step": "First replay (identical)",
+          "request": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 0,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 200,
+            "timestamp": 1770574940065,
+            "testId": "replay_1770574940065"
+          },
+          "response": {},
+          "status": "secure"
+        }
+      ],
+      "analysis": {
+        "balancesMatch": true,
+        "gameIdsMatch": true
+      },
+      "vulnerability": "Replay rejected - secure",
+      "result": "SECURE"
+    },
+    "response_mod_1770574985916": {
+      "name": "Response Modification",
+      "description": "Intercept and modify server response",
+      "steps": [],
+      "result": "SECURE",
+      "vulnerability": "Response integrity protected"
+    }
+  },
+  "summary": {
+    "passed": 0,
+    "failed": 0,
+    "critical": 0
+  }
+}
