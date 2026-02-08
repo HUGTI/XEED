@@ -1,0 +1,72 @@
+VM361:9 🔓 SECURITY EXPLOIT TESTING SCRIPT
+VM361:11 WARNING: Use only in controlled testing environment!
+VM361:574 🔧 SECURITY TESTING TOOLS LOADED
+VM361:576 Available commands:
+VM361:577 • securityTests.runAll() - Run all security tests
+VM361:578 • securityTests.runTamperingTest() - Test parameter tampering
+VM361:579 • securityTests.runRaceConditionTest() - Test simultaneous requests
+VM361:580 • securityTests.runReplayTest() - Test replay attacks
+VM361:581 • securityTests.runResponseModTest() - Test response modification
+VM361:582 • securityTests.exportResults() - Export test results
+undefined
+securityTests.runTamperingTest()
+VM361:73 🧪 TEST 1: Parameter Tampering (Bet Amount)
+VM361:84 Step 1: Sending legitimate bet (BS: 200)...
+Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: Object
+VM361:94 Step 2: Sending tampered bet (BS: 20)...
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 422 (Unprocessable Entity)
+sendMakeBetRequest @ VM361:461
+testParameterTampering @ VM361:96
+await in testParameterTampering
+(anonymous) @ VM369:1
+VM361:106 Step 3: Sending extremely tampered bet (BS: 20000)...
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 422 (Unprocessable Entity)
+sendMakeBetRequest @ VM361:461
+testParameterTampering @ VM361:108
+await in testParameterTampering
+(anonymous) @ VM369:1
+VM361:127 Result: SECURE
+securityTests.runRaceConditionTest()
+VM361:144 🧪 TEST 2: Simultaneous Requests (Race Condition)
+VM361:154 Sending two identical requests simultaneously...
+Promise {<pending>}
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 422 (Unprocessable Entity)
+sendMakeBetRequest @ VM361:461
+testSimultaneousRequests @ VM361:163
+(anonymous) @ VM373:1
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 net::ERR_ABORTED 429 (Too Many Requests)
+sendMakeBetRequest @ VM361:461
+testSimultaneousRequests @ VM361:164
+(anonymous) @ VM373:1
+VM361:219 Result: SECURE
+VM361:222 Time difference: 723ms
+VM361:223 Both processed: false
+VM361:224 Balances match: true
+securityTests.runReplayTest()
+VM361:240 🧪 TEST 3: Replay Attack
+VM361:257 Step 1: Sending original request...
+Promise {<pending>}
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 422 (Unprocessable Entity)
+sendMakeBetRequest @ VM361:461
+testReplayAttack @ VM361:258
+(anonymous) @ VM378:1
+VM361:269 Step 2: Replaying exact same request...
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 422 (Unprocessable Entity)
+sendMakeBetRequest @ VM361:461
+testReplayAttack @ VM361:270
+await in testReplayAttack
+(anonymous) @ VM378:1
+VM361:312 Result: SECURE
+securityTests.runResponseModTest()
+VM361:330 🧪 TEST 4: Response Modification (MITM Simulation)
+VM361:340 Step 1: Setting up response interception...
+VM361:420 Step 2: Sending request to trigger interception...
+Promise {<pending>}
+VM361:461  POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 422 (Unprocessable Entity)
+sendMakeBetRequest @ VM361:461
+testResponseModification @ VM361:421
+(anonymous) @ VM382:1
+VM361:435 Result: SECURE
+securityTests.exportResults()
+VM361:560 Test results exported!
+undefined
