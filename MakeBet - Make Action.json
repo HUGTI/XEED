@@ -1,0 +1,208 @@
+{
+  "log": {
+    "sessionId": 1770571331486,
+    "metadata": {
+      "startTime": "2026-02-08T17:22:11.486Z",
+      "url": "https://localhost:3443/games-frame/games/62?ai=1535355583&co=25&cu=27&lg=fr&wh=55&ut=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC8zZGE3ZWIwODBhMmRmOTIyNjE1NGRjYjNiOGVjNWFmZDZlZGM0OTBjMTFmNmRjYmRlNDRjNmQ0YTJhYTJmNzMxIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3NzA1Njk5MTEsImV4cCI6MTc3MDU4NDMxMSwiaWF0IjoxNzcwNTY5OTExfQ.m3kou6MPAB5Hc--8OLRuvROIZ-mHS9MjbIKvxxtbWw_CXoa6Ooys0fInCDiAmq-a3LqAyWydS-1bh53X2pi_Qw&tzo=1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+    },
+    "bets": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "Accept-Language": "fr",
+            "X-Auth": "Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC8zZGE3ZWIwODBhMmRmOTIyNjE1NGRjYjNiOGVjNWFmZDZlZGM0OTBjMTFmNmRjYmRlNDRjNmQ0YTJhYTJmNzMxIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3NzA1Njk5MTEsImV4cCI6MTc3MDU4NDMxMSwiaWF0IjoxNzcwNTY5OTExfQ.m3kou6MPAB5Hc--8OLRuvROIZ-mHS9MjbIKvxxtbWw_CXoa6Ooys0fInCDiAmq-a3LqAyWydS-1bh53X2pi_Qw"
+          },
+          "startTime": 1770571341788,
+          "isTarget": true,
+          "async": true,
+          "id": "1770571341788-ujtyoqatf",
+          "body": "{\"WH\":55,\"LG\":\"fr\",\"GT\":62,\"UI\":1535355583,\"BAC\":1535355583,\"BC\":0,\"BN\":0,\"GFI\":2,\"BS\":200}",
+          "parsedBody": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "BAC": 1535355583,
+            "BC": 0,
+            "BN": 0,
+            "GFI": 2,
+            "BS": 200
+          }
+        },
+        "response": {
+          "interactionId": "1770571341788-ujtyoqatf",
+          "type": "response",
+          "endpoint": "MakeBet",
+          "timestamp": "2026-02-08T17:22:22.428Z",
+          "status": 200,
+          "statusText": "OK",
+          "headers": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, Range, Content-Range, X-Unity-Version",
+            "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD",
+            "access-control-allow-origin": "*",
+            "access-control-expose-headers": "Content-Length, Content-Range, Accept-Ranges, Content-Disposition",
+            "access-control-max-age": "86400",
+            "connection": "close",
+            "content-type": "application/json; charset=utf-8",
+            "cross-origin-embedder-policy": "require-corp",
+            "cross-origin-opener-policy": "same-origin",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sun, 08 Feb 2026 17:22:22 GMT",
+            "server": "Angie",
+            "server-timing": "dt_total;dur=0.008, wf-uht;dur=0.046",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "transfer-encoding": "chunked",
+            "vary": "Accept-Encoding",
+            "x-content-encoding-over-network": "br",
+            "x-dt": "2375",
+            "x-powered-by": "Express",
+            "x-time-ng": "0.029, 0.031"
+          },
+          "rawBody": "{\"SB\":1,\"CF\":0,\"SW\":0,\"AB\":865.5,\"RS\":{\"GID\":\"6988c64eef2ce63659dec8ed\",\"GFI\":2},\"AN\":1,\"BS\":200,\"AI\":1535355583}",
+          "responseTime": "640ms",
+          "parsedBody": {
+            "SB": 1,
+            "CF": 0,
+            "SW": 0,
+            "AB": 865.5,
+            "RS": {
+              "GID": "6988c64eef2ce63659dec8ed",
+              "GFI": 2
+            },
+            "AN": 1,
+            "BS": 200,
+            "AI": 1535355583
+          }
+        }
+      }
+    ],
+    "actions": [
+      {
+        "request": {
+          "method": "POST",
+          "url": "https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "Accept-Language": "fr",
+            "X-Auth": "Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC8zZGE3ZWIwODBhMmRmOTIyNjE1NGRjYjNiOGVjNWFmZDZlZGM0OTBjMTFmNmRjYmRlNDRjNmQ0YTJhYTJmNzMxIiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJuYmYiOjE3NzA1Njk5MTEsImV4cCI6MTc3MDU4NDMxMSwiaWF0IjoxNzcwNTY5OTExfQ.m3kou6MPAB5Hc--8OLRuvROIZ-mHS9MjbIKvxxtbWw_CXoa6Ooys0fInCDiAmq-a3LqAyWydS-1bh53X2pi_Qw"
+          },
+          "startTime": 1770573096062,
+          "isTarget": true,
+          "async": true,
+          "id": "1770573096062-golddqb8e",
+          "body": "{\"WH\":55,\"LG\":\"fr\",\"GT\":62,\"UI\":1535355583,\"AN\":1,\"ST\":3}",
+          "parsedBody": {
+            "WH": 55,
+            "LG": "fr",
+            "GT": 62,
+            "UI": 1535355583,
+            "AN": 1,
+            "ST": 3
+          }
+        },
+        "response": {
+          "interactionId": "1770573096062-golddqb8e",
+          "type": "response",
+          "endpoint": "MakeAction",
+          "timestamp": "2026-02-08T17:51:36.809Z",
+          "status": 200,
+          "statusText": "OK",
+          "headers": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, Range, Content-Range, X-Unity-Version",
+            "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD",
+            "access-control-allow-origin": "*",
+            "access-control-expose-headers": "Content-Length, Content-Range, Accept-Ranges, Content-Disposition",
+            "access-control-max-age": "86400",
+            "connection": "close",
+            "content-type": "application/json; charset=utf-8",
+            "cross-origin-embedder-policy": "require-corp",
+            "cross-origin-opener-policy": "same-origin",
+            "cross-origin-resource-policy": "cross-origin",
+            "date": "Sun, 08 Feb 2026 17:51:36 GMT",
+            "server": "Angie",
+            "server-timing": "dt_total;dur=0.105, wf-uht;dur=0.028",
+            "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+            "transfer-encoding": "chunked",
+            "vary": "Accept-Encoding",
+            "x-content-encoding-over-network": "br",
+            "x-dt": "2375",
+            "x-powered-by": "Express",
+            "x-time-ng": "0.018, 0.020"
+          },
+          "rawBody": "{\"SB\":2,\"CF\":1.45,\"SW\":290,\"AB\":1155.5,\"RS\":{\"FC\":[2.91,1.45],\"GM\":{\"GID\":\"6988c64eef2ce63659dec8ed\",\"GFI\":2,\"TRC\":[0,1,1]}},\"AN\":2,\"BS\":200,\"AI\":1535355583}",
+          "responseTime": "747ms",
+          "parsedBody": {
+            "SB": 2,
+            "CF": 1.45,
+            "SW": 290,
+            "AB": 1155.5,
+            "RS": {
+              "FC": [
+                2.91,
+                1.45
+              ],
+              "GM": {
+                "GID": "6988c64eef2ce63659dec8ed",
+                "GFI": 2,
+                "TRC": [
+                  0,
+                  1,
+                  1
+                ]
+              }
+            },
+            "AN": 2,
+            "BS": 200,
+            "AI": 1535355583
+          }
+        }
+      }
+    ]
+  },
+  "summary": {
+    "totalBets": 1,
+    "totalActions": 1,
+    "totalInteractions": 2,
+    "captureDuration": "1805144ms"
+  },
+  "securityAnalysis": {
+    "risks": [
+      {
+        "severity": "HIGH",
+        "type": "REQUEST_TAMPERING",
+        "description": "MakeBet requests lack cryptographic signatures. Bet amounts can be modified.",
+        "evidence": "No signature/hash fields found in request body"
+      },
+      {
+        "severity": "CRITICAL",
+        "type": "GAME_SOLUTION_EXPOSURE",
+        "description": "Server exposes TRC (game solution) to client, enabling choice tampering attacks.",
+        "evidence": "TRC array found in MakeAction responses"
+      },
+      {
+        "severity": "HIGH",
+        "type": "RESPONSE_TAMPERING",
+        "description": "Server sends sensitive financial data (balance, winnings) without integrity protection.",
+        "evidence": "Balance (AB) and winnings (SW) exposed in responses"
+      }
+    ],
+    "recommendations": [
+      "Add HMAC signatures to all MakeBet requests",
+      "Implement commit-reveal scheme to hide game solution from client",
+      "Add digital signatures to all server responses containing financial data"
+    ],
+    "statistics": {
+      "averageBetTime": "N/A",
+      "averageActionTime": "N/A",
+      "averageBetToActionTime": "NaNms"
+    }
+  }
+}
