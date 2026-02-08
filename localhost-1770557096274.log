@@ -1,0 +1,35 @@
+VM368:9 [NETWORK INTERCEPTOR] Injecting traffic monitor...
+VM368:350 [NETWORK INTERCEPTOR] Ready! Available functions:
+VM368:353 • getNetworkLog() - Get all captured traffic
+VM368:354 • clearNetworkLog() - Clear the log
+VM368:355 • exportNetworkLog() - Export as JSON file
+VM368:356 • window.networkLog - Direct access to log object
+undefined
+VM368:146 [Fetch Request] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM368:114 [XHR Request] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55
+VM368:117 Details: {method: 'POST', url: 'https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55', headers: {…}, startTime: 1770556932413, async: true, …}
+VM368:180 [Fetch Response] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - 200
+VM368:183 Request: {url: 'https://localhost:3443/games-frame/service-api/ana…fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json', method: 'POST', headers: {…}, body: '{"w":55,"sw":843,"sh":735,"u":1535355583,"ev":[{"t…04,"e":2035,"m":{"i1":534,"i2":448,"i3":70417}}]}', startTime: 1770556932182}
+VM368:184 Response: {status: 200, statusText: 'OK', headers: {…}, body: '{"ts":1770556929518462}', responseTime: '711ms'}
+VM368:83 [XHR Response] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55 - 200
+VM368:86 Request: {method: 'POST', url: 'https://localhost:3443/games-frame/service-api/games-thimbles/MakeBet?language=fr&whence=55', headers: {…}, startTime: 1770556932413, async: true, …}
+VM368:87 Response: {status: 200, statusText: 'OK', headers: 'access-control-allow-credentials: true\r\naccess-con…\nx-powered-by: Express\r\nx-time-ng: 0.027, 0.028\r\n', body: '{"SB":1,"CF":0,"SW":0,"AB":705.5,"RS":{"GID":"6988…de9b2d","GFI":2},"AN":1,"BS":200,"AI":1535355583}', responseTime: '674ms'}
+VM368:146 [Fetch Request] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+83168834.83168834.e35648a7d122.js:1 PixiJS Deprecation Warning: Setting interactive is deprecated, use eventMode = 'none'/'passive'/'auto'/'static'/'dynamic' instead.Deprecated since v7.2.0
+VM368:180 [Fetch Response] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - 200
+VM368:146 [Fetch Request] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM368:180 [Fetch Response] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - 200
+VM368:183 Request: {url: 'https://localhost:3443/games-frame/service-api/ana…fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json', method: 'POST', headers: {…}, body: '{"w":55,"sw":843,"sh":735,"u":1535355583,"ev":[{"t…6572137,"e":10816,"m":{"i1":62,"i2":2,"i3":59}}]}', startTime: 1770556962177}body: "{\"w\":55,\"sw\":843,\"sh\":735,\"u\":1535355583,\"ev\":[{\"ts\":1770556956572137,\"e\":10816,\"m\":{\"i1\":62,\"i2\":2,\"i3\":59}}]}"headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'd1a380b0-2070-4e49-8bc7-8d1cf69e910d'}method: "POST"startTime: 1770556962177url: "https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json"[[Prototype]]: Object
+VM368:184 Response: {status: 200, statusText: 'OK', headers: {…}, body: '{"ts":1770556959551614}', responseTime: '743ms'}
+VM368:146 [Fetch Request] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM368:180 [Fetch Response] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - 200
+VM368:114 [XHR Request] GET https://localhost:3443/games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=fr&whence=55&currencyId=27
+VM368:83 [XHR Response] GET https://localhost:3443/games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=fr&whence=55&currencyId=27 - 200
+VM368:114 [XHR Request] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55
+VM368:83 [XHR Response] POST https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55 - 200
+VM368:86 Request: {method: 'POST', url: 'https://localhost:3443/games-frame/service-api/games-thimbles/MakeAction?language=fr&whence=55', headers: {…}, startTime: 1770557044051, async: true, …}
+VM368:87 Response: {status: 200, statusText: 'OK', headers: 'access-control-allow-credentials: true\r\naccess-con…\nx-powered-by: Express\r\nx-time-ng: 0.018, 0.018\r\n', body: '{"SB":2,"CF":1.45,"SW":290,"AB":995.5,"RS":{"FC":[…,"TRC":[1,0,1]}},"AN":2,"BS":200,"AI":1535355583}', responseTime: '1131ms'}
+VM368:146 [Fetch Request] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM368:180 [Fetch Response] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - 200
+VM368:146 [Fetch Request] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM368:180 [Fetch Response] POST https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json - 200
