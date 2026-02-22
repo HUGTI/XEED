@@ -1,0 +1,55 @@
+undefined
+testMakeBet('BS', 200):
+VM1449:1 Uncaught SyntaxError: Unexpected token ':'
+testMakeBet('BS', 200);
+VM1443:20 Testing BS on URL: /fr/games-thimbles/makebet?language=fr&whence=55
+Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "pending"[[PromiseResult]]: undefined
+VM1443:22  POST https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+testMakeBet @ VM1443:22
+(anonymous) @ VM1467:1
+VM1443:28 Test on BS=200 -> Status: 404
+VM1443:33 Response (text): <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(
+testMakeBet('UI', "1535355583'");
+VM1443:20 Testing UI on URL: /fr/games-thimbles/makebet?language=fr&whence=55
+Promise {<pending>}
+testMakeBet('LG', "fr' --");
+VM1443:20 Testing LG on URL: /fr/games-thimbles/makebet?language=fr&whence=55
+Promise {<pending>}
+VM1443:22  POST https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+testMakeBet @ VM1443:22
+(anonymous) @ VM1479:1
+VM1443:28 Test on LG=fr' -- -> Status: 404
+VM1443:33 Response (text): <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(
+VM1443:22  POST https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+testMakeBet @ VM1443:22
+(anonymous) @ VM1475:1
+VM1443:28 Test on UI=1535355583' -> Status: 404
+VM1443:33 Response (text): <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(
+testMakeBet('BS', "200 UNION SELECT null,null,null,null--");
+VM1443:20 Testing BS on URL: /fr/games-thimbles/makebet?language=fr&whence=55
+Promise {<pending>}
+VM1443:22  POST https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+testMakeBet @ VM1443:22
+(anonymous) @ VM1485:1
+VM1443:28 Test on BS=200 UNION SELECT null,null,null,null-- -> Status: 404
+VM1443:33 Response (text): <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(
+71504097.71504097.1c726666000d.js:1 WebSocket connection to 'wss://localhost:3443/games-frame/sockets/notification-service?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC9hN2ZkN2ZhZDVhMTdmODU2NzI3Y2RlNDZjYmYzZjFmNDM1MDBmNDkwM2MwODMzZWQwODIyNjEzMDEyNDkyMWY5IiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJ3dCI6InRydWUiLCJuYmYiOjE3NzE3ODEyODEsImV4cCI6MTc3MTc5NTY4MSwiaWF0IjoxNzcxNzgxMjgxfQ.mFb5PAt6SE-AvSH8rr_MFdesHzv7WCNTMk48kXHwWHwFioCgzXm8EnBqgNyn1-u7b-tKuaKowTFR0qsItK0RTQ' failed: 
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+yn @ 71504097.71504097.1c726666000d.js:1
+c @ 71504097.71504097.1c726666000d.js:1
+71504097.71504097.1c726666000d.js:1 [2026-02-22T19:33:52.942Z] Information: (WebSockets transport) There was an error with the transport.
+71504097.71504097.1c726666000d.js:1 [2026-02-22T19:33:52.948Z] Error: Failed to start the connection: Error: WebSocket failed to connect. The connection could not be found on the server, either the endpoint may not be a SignalR endpoint, the connection ID is not present on the server, or there is a proxy blocking WebSockets. If you have multiple servers check that sticky sessions are enabled.
+value @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+Tn @ 71504097.71504097.1c726666000d.js:1
+a @ 71504097.71504097.1c726666000d.js:1
+testMakeAction('ST', "1 OR 1=1");
+VM1443:44 Error: You must provide a valid GID from a previous MakeBet response.
+testMakeAction @ VM1443:44
+(anonymous) @ VM1490:1
+Promise {<fulfilled>: undefined}
