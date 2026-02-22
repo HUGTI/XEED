@@ -1,0 +1,316 @@
+console.log('Fetch override installed. All game requests will be logged.');
+VM409:31 Fetch override installed. All game requests will be logged.
+undefined
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771783670794765,"e":2035,"m":{"i1":301,"i2":420,"i3":63076}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771783672011871}
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771783706609361,"e":10816,"m":{"i1":62,"i2":4,"i3":59}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771783708288929}
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771783766601574,"e":10816,"m":{"i1":62,"i2":60,"i3":60}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771783768121183}
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771783826590688,"e":10816,"m":{"i1":62,"i2":60,"i3":60}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771783827981382}
+71504097.71504097.1c726666000d.js:1 WebSocket connection to 'wss://localhost:3443/games-frame/sockets/notification-service?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC9hN2ZkN2ZhZDVhMTdmODU2NzI3Y2RlNDZjYmYzZjFmNDM1MDBmNDkwM2MwODMzZWQwODIyNjEzMDEyNDkyMWY5IiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJ3dCI6InRydWUiLCJuYmYiOjE3NzE3ODEyODEsImV4cCI6MTc3MTc5NTY4MSwiaWF0IjoxNzcxNzgxMjgxfQ.mFb5PAt6SE-AvSH8rr_MFdesHzv7WCNTMk48kXHwWHwFioCgzXm8EnBqgNyn1-u7b-tKuaKowTFR0qsItK0RTQ' failed: 
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+yn @ 71504097.71504097.1c726666000d.js:1
+c @ 71504097.71504097.1c726666000d.js:1
+71504097.71504097.1c726666000d.js:1 [2026-02-22T18:11:26.603Z] Information: (WebSockets transport) There was an error with the transport.
+71504097.71504097.1c726666000d.js:1 [2026-02-22T18:11:26.609Z] Error: Failed to start the connection: Error: WebSocket failed to connect. The connection could not be found on the server, either the endpoint may not be a SignalR endpoint, the connection ID is not present on the server, or there is a proxy blocking WebSockets. If you have multiple servers check that sticky sessions are enabled.
+value @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+Tn @ 71504097.71504097.1c726666000d.js:1
+a @ 71504097.71504097.1c726666000d.js:1
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771783886598842,"e":10816,"m":{"i1":62,"i2":60,"i3":60}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771783888272419}
+
+
+undefined
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771784036237719,"e":2035,"m":{"i1":224,"i2":467,"i3":332473}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771784037628339}
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":508,"sh":735,"u":1535355583,"ev":[{"ts":1771784038103134,"e":2035,"m":{"i1":245,"i2":459,"i3":334340}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771784040633471}
+testMakeBet('UI', "1535355583'");
+VM409:10 Intercepted Request
+VM409:11 URL: /games-thimbles/MakeBet?language=fr&whence=55
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json'}
+VM409:14 Body: {"WH":55,"LG":"fr","GT":62,"UI":"1535355583'","BAC":1535355583,"BC":0,"BN":0,"GFI":2,"BS":200}
+Promise {<pending>}
+VM409:18  GET https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+window.fetch @ VM409:18
+testMakeBet @ VM416:22
+(anonymous) @ VM610:1
+VM416:28 Test on UI=1535355583' -> Status: 404
+VM416:29 Response: <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(()=>r(e),1e4);const t=c.querySelectorAll('link[rel="stylesheet"]');let o=0;const u=()=>{o++,o===t.length&&r(e)};t.forEach(d=>{try{d.sheet?u():(d.addEventListener("load",u),d.addEventListener("error",()=>r(e)))}catch(y){r(e)}}),t.length===0&&r(e)}),h=e=>{const t=c.createElement("script");for(const o in e)t.setAttribute(o,e[o]);c.body.appendChild(t)};Promise.race([fetch(`${n}/version.json`,{cache:"no-store"}).then(e=>e.text()),new Promise((e,t)=>setTimeout(t,4e3))]).then(()=>{i().then(()=>{l.forEach(e=>{e.src=n+e.src,h(e)})})}).catch(()=>{s.failed=s.cdnURL,s.cdnURL="",i().then(()=>l.forEach(h)),c.querySelectorAll(`link[href^="${n}"][rel="stylesheet"]`).forEach(e=>e.setAttribute("href",e.href.replace(n,""))),c.querySelectorAll(`img[src^="${n}"]`).forEach(e=>e.setAttribute("src",e.src.replace(n,"")))})})();
+</script>
+<title>404</title>
+<meta data-head-key="og:title" property="og:title" content="404">
+<meta data-head-key="og:type" property="og:type" content="website">
+<meta data-head-key="og:url" property="og:url" content="https://1xcasino-42769.pro/fr/games-thimbles/makebet">
+<meta data-head-key="twitter:card" name="twitter:card" content="summary">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/colors/edb71dbce190e71e8c73cce45418b32b.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/css_vars/d47c7051b33fd4cf012dd1ba88ca9381.css">
+<link href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css" rel="stylesheet" type="text/css">
+<style type="text/css" title="brand-book">:root {  }</style>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/578507d663.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/3a97e1670e.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/db2f6176b1.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css" crossorigin>
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="icon" type="image/x-icon" data-head-key="icon">
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="shortcut icon" data-head-key="shortcut_icon">
+<meta data-head-key="og:image" property="og:image" content="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png">
+<script no-cdn async onerror="window.ADBLOCKED=1" src="/check-ob.js"></script><link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/non-embedded.css" /></head><body><div id="__V3_HOST_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><!--[--><div class="empty" data-v-24dbc229><!--[--><div id="remote-view" class="microfront-content" data-v-961d9b79><div id="__TECHNICAL_PAGES_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><div class="ui-skeleton--theme-gray-100 ui-skeleton error-loader" data-v-5bd88651 data-v-754b5846 data-v-1e4058a0 data-v-c0c94c54 data-v-44e5783e><!--[--><!--[--><section class="error-loader__section" data-v-44e5783e><div class="error-loader__block" data-v-44e5783e><div class="error-loader__title" data-v-44e5783e></div><div class="error-loader__text" data-v-44e5783e></div><div class="error-loader__btn" data-v-44e5783e></div><ul class="error-loader__list" data-v-44e5783e><!--[--><li class="error-loader__item" data-v-44e5783e></li><li class="error-loader__item" data-v-44e5783e></li><li
+VM409:22 Response
+VM409:23 Status: 404
+VM409:24 Body: <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(()=>r(e),1e4);const t=c.querySelectorAll('link[rel="stylesheet"]');let o=0;const u=()=>{o++,o===t.length&&r(e)};t.forEach(d=>{try{d.sheet?u():(d.addEventListener("load",u),d.addEventListener("error",()=>r(e)))}catch(y){r(e)}}),t.length===0&&r(e)}),h=e=>{const t=c.createElement("script");for(const o in e)t.setAttribute(o,e[o]);c.body.appendChild(t)};Promise.race([fetch(`${n}/version.json`,{cache:"no-store"}).then(e=>e.text()),new Promise((e,t)=>setTimeout(t,4e3))]).then(()=>{i().then(()=>{l.forEach(e=>{e.src=n+e.src,h(e)})})}).catch(()=>{s.failed=s.cdnURL,s.cdnURL="",i().then(()=>l.forEach(h)),c.querySelectorAll(`link[href^="${n}"][rel="stylesheet"]`).forEach(e=>e.setAttribute("href",e.href.replace(n,""))),c.querySelectorAll(`img[src^="${n}"]`).forEach(e=>e.setAttribute("src",e.src.replace(n,"")))})})();
+</script>
+<title>404</title>
+<meta data-head-key="og:title" property="og:title" content="404">
+<meta data-head-key="og:type" property="og:type" content="website">
+<meta data-head-key="og:url" property="og:url" content="https://1xcasino-42769.pro/fr/games-thimbles/makebet">
+<meta data-head-key="twitter:card" name="twitter:card" content="summary">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/colors/edb71dbce190e71e8c73cce45418b32b.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/css_vars/d47c7051b33fd4cf012dd1ba88ca9381.css">
+<link href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css" rel="stylesheet" type="text/css">
+<style type="text/css" title="brand-book">:root {  }</style>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/578507d663.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/3a97e1670e.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/db2f6176b1.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css" crossorigin>
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="icon" type="image/x-icon" data-head-key="icon">
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="shortcut icon" data-head-key="shortcut_icon">
+<meta data-head-key="og:image" property="og:image" content="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png">
+<script no-cdn async onerror="window.ADBLOCKED=1" src="/check-ob.js"></script><link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/non-embedded.css" /></head><body><div id="__V3_HOST_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><!--[--><div class="empty" data-v-24dbc229><!--[--><div id="remote-view" class="microfront-content" data-v-961d9b79><div id="__TECHNICAL_PAGES_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><div class="ui-skeleton--theme-gray-100 ui-skeleton error-loader" data-v-5bd88651 data-v-754b5846 data-v-1e4058a0 data-v-c0c94c54 data-v-44e5783e><!--[--><!--[--><section class="error-loader__section" data-v-44e5783e><div class="error-loader__block" data-v-44e5783e><div class="error-loader__title" data-v-44e5783e></div><div class="error-loader__text" data-v-44e5783e></div><div class="error-loader__btn" data-v-44e5783e></div><ul class="error-loader__list" data-v-44e5783e><!--[--><li class="error-loader__item" data-v-44e5783e></li><li class="error-loader__item" data-v-44e5783e></li><li
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":655,"sh":735,"u":1535355583,"ev":[{"ts":1771784066607636,"e":10816,"m":{"i1":62,"i2":1,"i3":58}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771784067614482}
+testMakeBet('LG', "fr' --");
+VM409:10 Intercepted Request
+VM409:11 URL: /games-thimbles/MakeBet?language=fr&whence=55
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json'}
+VM409:14 Body: {"WH":55,"LG":"fr' --","GT":62,"UI":1535355583,"BAC":1535355583,"BC":0,"BN":0,"GFI":2,"BS":200}
+Promise {<pending>}
+VM409:18  GET https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+window.fetch @ VM409:18
+testMakeBet @ VM416:22
+(anonymous) @ VM614:1
+VM416:28 Test on LG=fr' -- -> Status: 404
+VM416:29 Response: <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(()=>r(e),1e4);const t=c.querySelectorAll('link[rel="stylesheet"]');let o=0;const u=()=>{o++,o===t.length&&r(e)};t.forEach(d=>{try{d.sheet?u():(d.addEventListener("load",u),d.addEventListener("error",()=>r(e)))}catch(y){r(e)}}),t.length===0&&r(e)}),h=e=>{const t=c.createElement("script");for(const o in e)t.setAttribute(o,e[o]);c.body.appendChild(t)};Promise.race([fetch(`${n}/version.json`,{cache:"no-store"}).then(e=>e.text()),new Promise((e,t)=>setTimeout(t,4e3))]).then(()=>{i().then(()=>{l.forEach(e=>{e.src=n+e.src,h(e)})})}).catch(()=>{s.failed=s.cdnURL,s.cdnURL="",i().then(()=>l.forEach(h)),c.querySelectorAll(`link[href^="${n}"][rel="stylesheet"]`).forEach(e=>e.setAttribute("href",e.href.replace(n,""))),c.querySelectorAll(`img[src^="${n}"]`).forEach(e=>e.setAttribute("src",e.src.replace(n,"")))})})();
+</script>
+<title>404</title>
+<meta data-head-key="og:title" property="og:title" content="404">
+<meta data-head-key="og:type" property="og:type" content="website">
+<meta data-head-key="og:url" property="og:url" content="https://1xcasino-42769.pro/fr/games-thimbles/makebet">
+<meta data-head-key="twitter:card" name="twitter:card" content="summary">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/colors/edb71dbce190e71e8c73cce45418b32b.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/css_vars/d47c7051b33fd4cf012dd1ba88ca9381.css">
+<link href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css" rel="stylesheet" type="text/css">
+<style type="text/css" title="brand-book">:root {  }</style>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/578507d663.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/3a97e1670e.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/db2f6176b1.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css" crossorigin>
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="icon" type="image/x-icon" data-head-key="icon">
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="shortcut icon" data-head-key="shortcut_icon">
+<meta data-head-key="og:image" property="og:image" content="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png">
+<script no-cdn async onerror="window.ADBLOCKED=1" src="/check-ob.js"></script><link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/non-embedded.css" /></head><body><div id="__V3_HOST_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><!--[--><div class="empty" data-v-24dbc229><!--[--><div id="remote-view" class="microfront-content" data-v-961d9b79><div id="__TECHNICAL_PAGES_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><div class="ui-skeleton--theme-gray-100 ui-skeleton error-loader" data-v-5bd88651 data-v-754b5846 data-v-1e4058a0 data-v-c0c94c54 data-v-44e5783e><!--[--><!--[--><section class="error-loader__section" data-v-44e5783e><div class="error-loader__block" data-v-44e5783e><div class="error-loader__title" data-v-44e5783e></div><div class="error-loader__text" data-v-44e5783e></div><div class="error-loader__btn" data-v-44e5783e></div><ul class="error-loader__list" data-v-44e5783e><!--[--><li class="error-loader__item" data-v-44e5783e></li><li class="error-loader__item" data-v-44e5783e></li><li
+VM409:22 Response
+VM409:23 Status: 404
+VM409:24 Body: <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(()=>r(e),1e4);const t=c.querySelectorAll('link[rel="stylesheet"]');let o=0;const u=()=>{o++,o===t.length&&r(e)};t.forEach(d=>{try{d.sheet?u():(d.addEventListener("load",u),d.addEventListener("error",()=>r(e)))}catch(y){r(e)}}),t.length===0&&r(e)}),h=e=>{const t=c.createElement("script");for(const o in e)t.setAttribute(o,e[o]);c.body.appendChild(t)};Promise.race([fetch(`${n}/version.json`,{cache:"no-store"}).then(e=>e.text()),new Promise((e,t)=>setTimeout(t,4e3))]).then(()=>{i().then(()=>{l.forEach(e=>{e.src=n+e.src,h(e)})})}).catch(()=>{s.failed=s.cdnURL,s.cdnURL="",i().then(()=>l.forEach(h)),c.querySelectorAll(`link[href^="${n}"][rel="stylesheet"]`).forEach(e=>e.setAttribute("href",e.href.replace(n,""))),c.querySelectorAll(`img[src^="${n}"]`).forEach(e=>e.setAttribute("src",e.src.replace(n,"")))})})();
+</script>
+<title>404</title>
+<meta data-head-key="og:title" property="og:title" content="404">
+<meta data-head-key="og:type" property="og:type" content="website">
+<meta data-head-key="og:url" property="og:url" content="https://1xcasino-42769.pro/fr/games-thimbles/makebet">
+<meta data-head-key="twitter:card" name="twitter:card" content="summary">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/colors/edb71dbce190e71e8c73cce45418b32b.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/css_vars/d47c7051b33fd4cf012dd1ba88ca9381.css">
+<link href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css" rel="stylesheet" type="text/css">
+<style type="text/css" title="brand-book">:root {  }</style>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/578507d663.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/3a97e1670e.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/db2f6176b1.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css" crossorigin>
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="icon" type="image/x-icon" data-head-key="icon">
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="shortcut icon" data-head-key="shortcut_icon">
+<meta data-head-key="og:image" property="og:image" content="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png">
+<script no-cdn async onerror="window.ADBLOCKED=1" src="/check-ob.js"></script><link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/non-embedded.css" /></head><body><div id="__V3_HOST_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><!--[--><div class="empty" data-v-24dbc229><!--[--><div id="remote-view" class="microfront-content" data-v-961d9b79><div id="__TECHNICAL_PAGES_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><div class="ui-skeleton--theme-gray-100 ui-skeleton error-loader" data-v-5bd88651 data-v-754b5846 data-v-1e4058a0 data-v-c0c94c54 data-v-44e5783e><!--[--><!--[--><section class="error-loader__section" data-v-44e5783e><div class="error-loader__block" data-v-44e5783e><div class="error-loader__title" data-v-44e5783e></div><div class="error-loader__text" data-v-44e5783e></div><div class="error-loader__btn" data-v-44e5783e></div><ul class="error-loader__list" data-v-44e5783e><!--[--><li class="error-loader__item" data-v-44e5783e></li><li class="error-loader__item" data-v-44e5783e></li><li
+testMakeBet('BS', "200 UNION SELECT null,null,null,null--");
+VM409:10 Intercepted Request
+VM409:11 URL: /games-thimbles/MakeBet?language=fr&whence=55
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json'}
+VM409:14 Body: {"WH":55,"LG":"fr","GT":62,"UI":1535355583,"BAC":1535355583,"BC":0,"BN":0,"GFI":2,"BS":"200 UNION SELECT null,null,null,null--"}
+Promise {<pending>}
+VM409:18  GET https://localhost:3443/fr/games-thimbles/makebet?language=fr&whence=55 404 (Not Found)
+window.fetch @ VM409:18
+testMakeBet @ VM416:22
+(anonymous) @ VM618:1
+VM416:28 Test on BS=200 UNION SELECT null,null,null,null-- -> Status: 404
+VM416:29 Response: <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(()=>r(e),1e4);const t=c.querySelectorAll('link[rel="stylesheet"]');let o=0;const u=()=>{o++,o===t.length&&r(e)};t.forEach(d=>{try{d.sheet?u():(d.addEventListener("load",u),d.addEventListener("error",()=>r(e)))}catch(y){r(e)}}),t.length===0&&r(e)}),h=e=>{const t=c.createElement("script");for(const o in e)t.setAttribute(o,e[o]);c.body.appendChild(t)};Promise.race([fetch(`${n}/version.json`,{cache:"no-store"}).then(e=>e.text()),new Promise((e,t)=>setTimeout(t,4e3))]).then(()=>{i().then(()=>{l.forEach(e=>{e.src=n+e.src,h(e)})})}).catch(()=>{s.failed=s.cdnURL,s.cdnURL="",i().then(()=>l.forEach(h)),c.querySelectorAll(`link[href^="${n}"][rel="stylesheet"]`).forEach(e=>e.setAttribute("href",e.href.replace(n,""))),c.querySelectorAll(`img[src^="${n}"]`).forEach(e=>e.setAttribute("src",e.src.replace(n,"")))})})();
+</script>
+<title>404</title>
+<meta data-head-key="og:title" property="og:title" content="404">
+<meta data-head-key="og:type" property="og:type" content="website">
+<meta data-head-key="og:url" property="og:url" content="https://1xcasino-42769.pro/fr/games-thimbles/makebet">
+<meta data-head-key="twitter:card" name="twitter:card" content="summary">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/colors/edb71dbce190e71e8c73cce45418b32b.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/css_vars/d47c7051b33fd4cf012dd1ba88ca9381.css">
+<link href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css" rel="stylesheet" type="text/css">
+<style type="text/css" title="brand-book">:root {  }</style>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/578507d663.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/3a97e1670e.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/db2f6176b1.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css" crossorigin>
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="icon" type="image/x-icon" data-head-key="icon">
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="shortcut icon" data-head-key="shortcut_icon">
+<meta data-head-key="og:image" property="og:image" content="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png">
+<script no-cdn async onerror="window.ADBLOCKED=1" src="/check-ob.js"></script><link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/non-embedded.css" /></head><body><div id="__V3_HOST_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><!--[--><div class="empty" data-v-24dbc229><!--[--><div id="remote-view" class="microfront-content" data-v-961d9b79><div id="__TECHNICAL_PAGES_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><div class="ui-skeleton--theme-gray-100 ui-skeleton error-loader" data-v-5bd88651 data-v-754b5846 data-v-1e4058a0 data-v-c0c94c54 data-v-44e5783e><!--[--><!--[--><section class="error-loader__section" data-v-44e5783e><div class="error-loader__block" data-v-44e5783e><div class="error-loader__title" data-v-44e5783e></div><div class="error-loader__text" data-v-44e5783e></div><div class="error-loader__btn" data-v-44e5783e></div><ul class="error-loader__list" data-v-44e5783e><!--[--><li class="error-loader__item" data-v-44e5783e></li><li class="error-loader__item" data-v-44e5783e></li><li
+VM409:22 Response
+VM409:23 Status: 404
+VM409:24 Body: <!DOCTYPE html><html  dir="ltr" xlang="fr" data-capo="" lang="fr"><head><script>window.cdn={cdnURL:"https://v3.traincdn.com",scripts:[{"type":"module","src":"/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/entry-f6055515f8.js","crossorigin":true}]};(()=>{var f;const c=document,s=(f=window.cdn)!=null?f:window.cdn={},{cdnURL:n="",scripts:l=[]}=s;if(!n)return;let a=!1;const r=e=>{a?e():c.addEventListener("DOMContentLoaded",e,{once:!0})};r(()=>{a=!0});const i=()=>new Promise(e=>{setTimeout(()=>r(e),1e4);const t=c.querySelectorAll('link[rel="stylesheet"]');let o=0;const u=()=>{o++,o===t.length&&r(e)};t.forEach(d=>{try{d.sheet?u():(d.addEventListener("load",u),d.addEventListener("error",()=>r(e)))}catch(y){r(e)}}),t.length===0&&r(e)}),h=e=>{const t=c.createElement("script");for(const o in e)t.setAttribute(o,e[o]);c.body.appendChild(t)};Promise.race([fetch(`${n}/version.json`,{cache:"no-store"}).then(e=>e.text()),new Promise((e,t)=>setTimeout(t,4e3))]).then(()=>{i().then(()=>{l.forEach(e=>{e.src=n+e.src,h(e)})})}).catch(()=>{s.failed=s.cdnURL,s.cdnURL="",i().then(()=>l.forEach(h)),c.querySelectorAll(`link[href^="${n}"][rel="stylesheet"]`).forEach(e=>e.setAttribute("href",e.href.replace(n,""))),c.querySelectorAll(`img[src^="${n}"]`).forEach(e=>e.setAttribute("src",e.src.replace(n,"")))})})();
+</script>
+<title>404</title>
+<meta data-head-key="og:title" property="og:title" content="404">
+<meta data-head-key="og:type" property="og:type" content="website">
+<meta data-head-key="og:url" property="og:url" content="https://1xcasino-42769.pro/fr/games-thimbles/makebet">
+<meta data-head-key="twitter:card" name="twitter:card" content="summary">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/colors/edb71dbce190e71e8c73cce45418b32b.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/genfiles/site-admin/css_vars/d47c7051b33fd4cf012dd1ba88ca9381.css">
+<link href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css" rel="stylesheet" type="text/css">
+<style type="text/css" title="brand-book">:root {  }</style>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-ui/3.3.595/Desktop/Default/client.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/578507d663.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-technical-pages-app-static/Desktop/DefaultCasino/3a97e1670e.css">
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/db2f6176b1.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_css_542ed6.css" crossorigin>
+<link rel="stylesheet" href="https://v3.traincdn.com/sys-static/shared-assets/Desktop/__shared_bcf9069007.css" crossorigin>
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="icon" type="image/x-icon" data-head-key="icon">
+<link href="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png" rel="shortcut icon" data-head-key="shortcut_icon">
+<meta data-head-key="og:image" property="og:image" content="https://v3.traincdn.com/genfiles/cms/292-648/desktop/media_asset/3fe4bf01745c9ac8e88f116ccb5a899d.png">
+<script no-cdn async onerror="window.ADBLOCKED=1" src="/check-ob.js"></script><link rel="stylesheet" href="https://v3.traincdn.com/sys-static/sys-v3-host-app-static/Desktop/DefaultCasino/non-embedded.css" /></head><body><div id="__V3_HOST_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><!--[--><div class="empty" data-v-24dbc229><!--[--><div id="remote-view" class="microfront-content" data-v-961d9b79><div id="__TECHNICAL_PAGES_APP__"><!--[--><span data-v-754b5846></span><!--[--><div class="default-layout-container" data-v-754b5846><div class="default-layout-container__inner" data-v-754b5846><!--[--><!--]--><div class="ui-skeleton--theme-gray-100 ui-skeleton error-loader" data-v-5bd88651 data-v-754b5846 data-v-1e4058a0 data-v-c0c94c54 data-v-44e5783e><!--[--><!--[--><section class="error-loader__section" data-v-44e5783e><div class="error-loader__block" data-v-44e5783e><div class="error-loader__title" data-v-44e5783e></div><div class="error-loader__text" data-v-44e5783e></div><div class="error-loader__btn" data-v-44e5783e></div><ul class="error-loader__list" data-v-44e5783e><!--[--><li class="error-loader__item" data-v-44e5783e></li><li class="error-loader__item" data-v-44e5783e></li><li
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":655,"sh":735,"u":1535355583,"ev":[{"ts":1771784126584097,"e":10816,"m":{"i1":62,"i2":1,"i3":58}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771784129356262}
+71504097.71504097.1c726666000d.js:1 WebSocket connection to 'wss://localhost:3443/games-frame/sockets/notification-service?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI1MC8xNTM1MzU1NTgzIiwicGlkIjoiMjkyIiwianRpIjoiMC9hN2ZkN2ZhZDVhMTdmODU2NzI3Y2RlNDZjYmYzZjFmNDM1MDBmNDkwM2MwODMzZWQwODIyNjEzMDEyNDkyMWY5IiwiYXBwIjoiTkEiLCJpbm5lciI6InRydWUiLCJ3dCI6InRydWUiLCJuYmYiOjE3NzE3ODEyODEsImV4cCI6MTc3MTc5NTY4MSwiaWF0IjoxNzcxNzgxMjgxfQ.mFb5PAt6SE-AvSH8rr_MFdesHzv7WCNTMk48kXHwWHwFioCgzXm8EnBqgNyn1-u7b-tKuaKowTFR0qsItK0RTQ' failed: 
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+yn @ 71504097.71504097.1c726666000d.js:1
+c @ 71504097.71504097.1c726666000d.js:1
+71504097.71504097.1c726666000d.js:1 [2026-02-22T18:15:30.145Z] Information: (WebSockets transport) There was an error with the transport.
+71504097.71504097.1c726666000d.js:1 [2026-02-22T18:15:30.146Z] Error: Failed to start the connection: Error: WebSocket failed to connect. The connection could not be found on the server, either the endpoint may not be a SignalR endpoint, the connection ID is not present on the server, or there is a proxy blocking WebSockets. If you have multiple servers check that sticky sessions are enabled.
+value @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+(anonymous) @ 71504097.71504097.1c726666000d.js:1
+Tn @ 71504097.71504097.1c726666000d.js:1
+a @ 71504097.71504097.1c726666000d.js:1
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":655,"sh":735,"u":1535355583,"ev":[{"ts":1771784186594052,"e":10816,"m":{"i1":62,"i2":1,"i3":59}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771784188916610}
+VM409:10 Intercepted Request
+VM409:11 URL: https://localhost:3443/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+VM409:12 Method: POST
+VM409:13 Headers: {Content-Type: 'application/json', X-Lang: 'fr', X-Uuid: 'a788b60b-4c98-4a1b-9117-04ddc2b01515'}
+VM409:14 Body: {"w":55,"sw":655,"sh":735,"u":1535355583,"ev":[{"ts":1771784246591395,"e":10816,"m":{"i1":62,"i2":60,"i3":60}}]}
+VM409:22 Response
+VM409:23 Status: 200
+VM409:24 Body: {"ts":1771784248634821}
